@@ -21,7 +21,7 @@ Do you know <a href="http://visor.binaryage.com">Visor</a>? TotalFinder is also 
 h4. TotalFinder 0.2 ALPHA
 
 Here you can download alpha version:
-"https://dl.getdropbox.com/u/559047/TotalFinder-0.2.dmg":https://dl.getdropbox.com/u/559047/TotalFinder-0.2.dmg
+"https://dl.getdropbox.com/u/559047/TotalFinder-0.2.1.dmg":https://dl.getdropbox.com/u/559047/TotalFinder-0.2.1.dmg
 
 It was tested on my MacBook Pro 17" with 10.6.2 OSX running 32-bit kernel.
 
@@ -31,6 +31,8 @@ rm -rf "/Library/Application Support/SIMBL/Plugins/TotalFinder.bundle"
 There is a chance that during startup TotalFinder crashes and brings down whole Finder.app. The problem is that there is a process continuously starting Finder.app if it is not running somewhere in OSX. So it ends as infinite loop of Finder.app starts and crashes until you remove TotalFinder SIMBL. 
 
 You got warned! Stay sharp!
+
+Note: The bug should be fixed in 0.2.1
 
 h4. Features
 
