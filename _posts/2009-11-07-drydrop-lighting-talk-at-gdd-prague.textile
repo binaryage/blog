@@ -2,7 +2,7 @@
 layout: post
 title: DryDrop Lighting Talk at Google Developer Day Prague
 tags: [drydrop]
-author_name: Darwin
+author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 

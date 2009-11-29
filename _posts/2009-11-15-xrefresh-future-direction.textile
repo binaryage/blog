@@ -2,7 +2,7 @@
 layout: post
 title: What should be the future direction of XRefresh?
 tags: [xrefresh, ideas]
-author_name: Darwin
+author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 

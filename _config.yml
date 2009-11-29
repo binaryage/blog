@@ -1,5 +1,5 @@
 server: true
 auto: true
 permalink: /:title
-paginate: 5
+paginate: 20
 pygments: true

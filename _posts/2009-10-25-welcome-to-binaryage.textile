@@ -2,7 +2,7 @@
 layout: post
 title: Welcome to BinaryAge
 tags: [general, announcements]
-author_name: Darwin
+author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
