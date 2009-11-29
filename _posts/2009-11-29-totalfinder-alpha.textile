@@ -25,6 +25,13 @@ Here you can download alpha version:
 
 It was tested on my MacBook Pro 17" with 10.6.2 OSX running 32-bit kernel.
 
+Before you install it, open terminal and prepare this command:
+rm -rf "/Library/Application Support/SIMBL/Plugins/TotalFinder.bundle"
+
+There is a chance that during startup TotalFinder crashes and brings down whole Finder.app. The problem is that there is a process continuously starting Finder.app if it is not running somewhere in OSX. So it ends as infinite loop of Finder.app starts and crashes until you remove TotalFinder SIMBL. 
+
+You got warned! Stay sharp!
+
 h4. Features
 
 OK, let's see some screenshots:
