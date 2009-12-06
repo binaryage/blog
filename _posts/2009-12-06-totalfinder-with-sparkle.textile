@@ -10,6 +10,8 @@ author_uri: http://hildebrand.cz
 
 I have done some progress on "TotalFinder":http://totalfinder.binaryage.com during the weekend. This is mostly a maintenance release. I wanted to make stable install/uninstall experience and fix bugs reported by early adopters. Thank you guys! I've added a new feature of updating TotalFinder via "Sparkle":http://sparkle.andymatuschak.org/. It was really easy to integrate. Kudos Andy!
 
+h3. "Download v0.3":https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.3.dmg
+
 <div style="clear:both"></div>
 
 h4. ALPHA v0.3 changes
