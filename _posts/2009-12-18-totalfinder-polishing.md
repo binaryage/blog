@@ -25,7 +25,7 @@ Next expiration is set to January 11, 2010 and this gives me some time to work o
 
 #### TotalFinder is pretty stable
 
-I'm using TotalFinder for more than month and I have no crash-related issues so far. Even system restarting is peaceful (since version 0.3).
+I have been using TotalFinder for more than month now and I have no crash-related issues so far. Even system restarting is peaceful (since version 0.3).
 There are maybe some window activation issues. For example when you do CMD+TAB, TotalFinder's main window should slide up in my opinion. 
 Or when some app wants to open folder in Finder, it should not open brand new window, but reuse TotalFinder 
 and slide up instead. But these are details I will work out during next month(s).
@@ -42,8 +42,8 @@ I like the idea of tabs in the title bar because it does not interfere with exis
 Finder UI, I'm concerned especially about the toolbar of course. Also it is perfect fit for TotalFinder sliding from bottom.
 
 I'm looking for some open source implementation of Cocoa app tweaking title bar section of the main window. 
-Haven't found any implementation with safari-like tabs. 
-But I'm going to look at Chromium project. Mac version of Chrome browser has nice tabs and does some kind of custom window titlebar rendering.
+Haven't found any implementation with safari-like tabs yet, but I'm going to look at Chromium project. 
+Mac version of Chrome browser has nice tabs and does some kind of custom window titlebar rendering.
 
 ---
 
