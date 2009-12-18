@@ -11,6 +11,8 @@ author_uri: http://hildebrand.cz
 This is just maintenance release of [TotalFinder](http://totalfinder.binaryage.com). Christmas time is busy and I really didn't manage to save few evenings to dig deeper into Finder internals.
 Next expiration is set to January 11, 2010 and this gives me some time to work on dual-panel browser during holidays.
 
+### [https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.5.dmg](https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.5.dmg)
+
 #### ALPHA v0.5 changes
 
 <ul class="changes">
