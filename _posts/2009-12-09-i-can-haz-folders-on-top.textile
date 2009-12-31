@@ -35,7 +35,7 @@ h4. Toggling hidden files
 
 Right now you have to restart Finder to make "Show Hidden Files" toggle effective. This is annoying, especially because I want to make this toggle available on keyboard shortcut in the future.
 
-Unfortunately Finder.app author reads related plist settings in the beginning after program launches and stores the value in-memory. Unfortunately the method for reloading this toggle is not exposed. I was at least able to detect the exact position in-memory for the current version and successfully refresh the browser view, but this would very fragile solution. The problem is that this may change for every binary and any Finder update could break it. I'm looking for better solution. Ideas?
+Unfortunately Finder.app author reads related plist settings in the beginning after program launches and stores the value in-memory. Unfortunately the method for reloading this toggle is not exposed. I was at least able to detect the exact position in-memory for the current version and successfully refresh the browser view, but this would be very fragile solution. The problem is that this may change for every binary and any Finder update could break it. I'm looking for better solution. Ideas?
 
 h4. Sparkle experience
 
