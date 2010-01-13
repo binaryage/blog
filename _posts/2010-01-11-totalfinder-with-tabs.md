@@ -24,7 +24,20 @@ I'm proud to announce a new version of [TotalFinder](http://totalfinder.binaryag
    <li><b>REMOVED:</b> Dropped ppc architecture support.</li> 
 </ul>
 
-### DOWNLOAD: [https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.dmg](https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.dmg)
+#### ALPHA v0.6.1 changes (updated Jan 13)
+
+<ul class="changes"> 
+     <li><b>NEW:</b> Disabled Visor mode by default. Many newcomers were confused by default Visor behavior. Visor veterans from Terminal.app may always enable Visor mode in preferences.</li> 
+     <li><b>NEW:</b> You may force Visor window to appear on top of Dock (<a href="http://getsatisfaction.com/binaryage/topics/visor_positioning_should_take_into_account_dock">read more</a>).</li> 
+     <li><b>NEW:</b> You may resize Visor window and keep it's dimensions in free-form mode (<a href="http://getsatisfaction.com/binaryage/topics/visor_positioning_should_take_into_account_dock">read more</a>).</li> 
+     <li><b>FIXED:</b> Fixed broken TotalFinder when running on top of localized Finder.</li> 
+     <li><b>FIXED:</b> Clicking on Finder Dock icon toggles Visor if available.</li> 
+     <li><b>FIXED:</b> CMD+TAB activation activates Visor if available.</li> 
+     <li><b>FIXED:</b> Corrected behavior in crash-recovery mode (<a href="http://getsatisfaction.com/binaryage/topics/tf_crashed_prefs_could_not_be_deleted_and_changed">read more</a>).</li> 
+     <li><b>REMOVED:</b> Removed "Show on Reopen" obsolete option from Visor for Terminal.app.</li> 
+</ul>
+ 
+#### **DOWNLOAD: [https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.1.dmg](https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.1.dmg)**
 
 The next expiration date is set to January 25, 2010 and it will be probably maintenance release to iron out all problems introduced in this ground breaking update.
 
