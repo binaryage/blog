@@ -43,7 +43,13 @@ I'm proud to announce a new version of [TotalFinder](http://totalfinder.binaryag
     <li><b>FIXED:</b> Regression introduced by CMD+TAB activation. Clicking on Desktop caused Visor to slide up.</li>
 </ul>
 
-#### **DOWNLOAD: [https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.2.dmg](https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.2.dmg)**
+#### ALPHA v0.6.3 changes (updated Jan 13)
+
+<ul class="changes">
+    <li><b>FIXED:</b> CMD+TAB activation must be more strict. Activating Visor only in the case there is no other classic Finder window.</li>
+</ul>
+
+#### **DOWNLOAD: [https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.3.dmg](https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.3.dmg)**
 
 The next expiration date is set to January 25, 2010 and it will be probably maintenance release to iron out all problems introduced in this ground breaking update.
 
