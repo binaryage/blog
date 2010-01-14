@@ -49,7 +49,16 @@ I'm proud to announce a new version of [TotalFinder](http://totalfinder.binaryag
     <li><b>FIXED:</b> CMD+TAB activation must be more strict. Activating Visor only in the case there is no other classic Finder window.</li>
 </ul>
 
-#### **DOWNLOAD: [https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.3.dmg](https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.3.dmg)**
+#### ALPHA v0.6.4 changes (updated Jan 14)
+
+<ul class="changes">
+    <li><b>NEW:</b> Finder window keeps main status. Originally I was setting tab-browser window as main and Finder window as key. TotalFinder should be more stable now.</li>
+    <li><b>FIXED:</b> Labels via right click context-menu work again (<a href="http://getsatisfaction.com/binaryage/topics/labels_not_working">read more</a>).</li>
+    <li><b>FIXED:</b> TotalFinder remembers position of last closed window, new window is reopened on the same position (<a href="http://getsatisfaction.com/binaryage/topics/totalfinder_finder_like_default_window_position">read more</a>).</li>
+    <li><b>IMPROVED:</b> Returning focus to previously active app should be a little bit faster.</li>
+</ul>
+
+#### **DOWNLOAD: [https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.4.dmg](https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.4.dmg)**
 
 The next expiration date is set to January 25, 2010 and it will be probably maintenance release to iron out all problems introduced in this ground breaking update.
 
