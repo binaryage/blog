@@ -10,7 +10,7 @@ I'm proud to announce a new version of [TotalFinder](http://totalfinder.binaryag
 
 <a href="http://totalfinder.binaryage.com/shared/img/totalfinder-mainshot-full.png"><img src="http://totalfinder.binaryage.com/shared/img/totalfinder-mainshot.png"></a>
 
-#### **DOWNLOAD: [https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.4.dmg](https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.4.dmg)**
+#### **DOWNLOAD: [https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.5.dmg](https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.5.dmg)**
 
 #### ALPHA v0.6 changes
 
@@ -58,6 +58,23 @@ I'm proud to announce a new version of [TotalFinder](http://totalfinder.binaryag
     <li><b>FIXED:</b> Labels via right click context-menu work again (<a href="http://getsatisfaction.com/binaryage/topics/labels_not_working">read more</a>).</li>
     <li><b>FIXED:</b> TotalFinder remembers position of last closed window, new window is reopened on the same position (<a href="http://getsatisfaction.com/binaryage/topics/totalfinder_finder_like_default_window_position">read more</a>).</li>
     <li><b>IMPROVED:</b> Returning focus to previously active app should be a little bit faster.</li>
+</ul>
+
+#### ALPHA v0.6.5 changes (updated Jan 18)
+
+<ul class="changes">
+    <li><b>NEW:</b> CMD+SHIFT+ARROWS or CMD+OPT+ARROWS keyboard shortcuts to move between tabs (<a href="http://getsatisfaction.com/binaryage/topics/modify_shortcut_for_next_tab">read more</a>).</li>
+    <li><b>NEW:</b> Right-click on tab title displays original titlebar context menu (<a href="http://getsatisfaction.com/binaryage/topics/add_right_click_hierarchy_menu_to_each_tab">read more</a>).</li>
+    <li><b>NEW:</b> Full UNIX path is presented as a tooltip when hovering over tab title.</li>
+    <li><b>FIXED:</b> Uninstall script is more robust and works in the case Echelon was uninstalled independently.</li>
+    <li><b>FIXED:</b> Last created/selected window become default for new Finder child windows being opened by the system or other apps.</li>
+    <li><b>FIXED:</b> Plays nice with resizing utilities like SizeUp, FinderSize or BetterTouchTool (<a href="http://getsatisfaction.com/binaryage/topics/totalfinder_window_moving_applescript_sizeup">more info</a>).</li>
+    <li><b>FIXED:</b> Fixed visual glitches after changing resolution or reconfiguring displays.</li>
+    <li><b>FIXED:</b> Fixed quirks when activating Visor by clicking on Dock icon.</li>
+    <li><b>IMPROVED:</b> Echelon KEXT is not being installed by default (users should opt-in).</li>
+    <li><b>IMPROVED:</b> Dock icon brings Visor only if there is no other tabs window.</li>
+    <li><b>IMPROVED:</b> After sliding Visor window down, in case TotalFinder has still main status, next visible window gets focus (Visor window does not keep it anymore).</li>
+    <li><b>IMPROVED:</b> Installed clearly states that current version is ALPHA and final version will be paid (<a href="http://getsatisfaction.com/binaryage/topics/payware">more info</a>).</li>
 </ul>
 
 The next expiration date is set to January 25, 2010 and it will be probably maintenance release to iron out all problems introduced in this ground breaking update.
