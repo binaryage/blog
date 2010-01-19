@@ -10,7 +10,7 @@ I'm proud to announce a new version of [TotalFinder](http://totalfinder.binaryag
 
 <a href="http://totalfinder.binaryage.com/shared/img/totalfinder-mainshot-full.png"><img src="http://totalfinder.binaryage.com/shared/img/totalfinder-mainshot.png"></a>
 
-#### **DOWNLOAD: [https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.5.dmg](https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.5.dmg)**
+#### **DOWNLOAD: [https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.6.dmg](https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.6.dmg)**
 
 #### ALPHA v0.6 changes
 
@@ -75,6 +75,13 @@ I'm proud to announce a new version of [TotalFinder](http://totalfinder.binaryag
     <li><b>IMPROVED:</b> Dock icon brings Visor only if there is no other tabs window.</li>
     <li><b>IMPROVED:</b> After sliding Visor window down, in case TotalFinder has still main status, next visible window gets focus (Visor window does not keep it anymore).</li>
     <li><b>IMPROVED:</b> Installed clearly states that current version is ALPHA and final version will be paid (<a href="http://getsatisfaction.com/binaryage/topics/payware">more info</a>).</li>
+</ul>
+
+#### ALPHA v0.6.6 changes (updated Jan 19)
+
+<ul class="changes">
+    <li><b>FIXED:</b> Fixed crashing during tab dragging (<a href="http://getsatisfaction.com/binaryage/topics/finder_crashes_while_dragging_tab_with_0_6_5">read more</a>).</li>
+    <li><b>FIXED:</b> Tab background color is consistent with Finder window during dragging.</li>
 </ul>
 
 The next expiration date is set to January 25, 2010 and it will be probably maintenance release to iron out all problems introduced in this ground breaking update.
