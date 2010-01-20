@@ -6,13 +6,14 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="http://localhost:4000/shared/img/firequery-icon.png" style="float:left;margin-right: 20px; margin-bottom:10px">
+<img src="/shared/img/firequery-icon.png" style="float:left;margin-right: 20px; margin-bottom:10px">
 
 **Firebug 1.5 [is out](http://blog.getfirebug.com/2010/01/19/please-update-firebug-extensions-with-1-5-0)** and I've just updated most of my Firebug extensions to play nice with this release.
 
 <div style="clear:both"></div>
 
 ### The list of updates for today
+
   * **[FireQuery 0.5](http://firequery.binaryage.com)**
   * **[XRefresh 1.4](http://xrefresh.binaryage.com)**
   * **[FireRainbow 1.1](http://firerainbow.binaryage.com)**
