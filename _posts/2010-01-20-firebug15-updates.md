@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="/shared/img/firequery-icon.png" style="float:left;margin-right: 20px; margin-bottom:10px">
+<img src="/shared/img/firequery-icon.png" style="float:left;margin-right: 20px; margin-bottom:10px;position:relative; top:-6px">
 
 **Firebug 1.5 [is out](http://blog.getfirebug.com/2010/01/19/please-update-firebug-extensions-with-1-5-0)** and I've just updated most of my Firebug extensions to play nice with this release.
 
