@@ -10,13 +10,11 @@ author_uri: http://hildebrand.cz
 
 **Firebug 1.5 [is out](http://blog.getfirebug.com/2010/01/19/please-update-firebug-extensions-with-1-5-0)** and I've just updated most of my Firebug extensions to play nice with this release.
 
-<div style="clear:both"></div>
+<div style="clear:both">&nbsp;</div>
 
 ### The list of updates for today
 
-  * **[FireQuery 0.5](http://firequery.binaryage.com)**
-  * **[XRefresh 1.4](http://xrefresh.binaryage.com)**
-  * **[FireRainbow 1.1](http://firerainbow.binaryage.com)**
+**[FireQuery 0.5](http://firequery.binaryage.com)** | **[XRefresh 1.4](http://xrefresh.binaryage.com)** | **[FireRainbow 1.1](http://firerainbow.binaryage.com)**
 
 Unfortunately Firefox auto-updating does not work becuase all my extensions are marked as experimental on <a href="https://addons.mozilla.org/en-US/firefox/users/info/50466">AMO</a>. Personally I did not see any benefits 
 of going through their approval process for my addons. This is the first one I can see.
