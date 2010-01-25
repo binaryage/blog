@@ -8,7 +8,7 @@ author_uri: http://hildebrand.cz
 
 I've just released TotalFinder 0.6.7 which is identical to 0.6.6. It has just the expiration date set to February 8, 2010. My original goal was to release 0.7 today, but I simply didn't make it. Instead of releasing half-baked version and dealing with complains I've decided to postpone 0.7 release. Software is hard :-/
 
-#### **DOWNLOAD: [https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.7.dmg](https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.7.dmg)**
+#### **DOWNLOAD: [http://totalfinder.binaryage.com/temp/TotalFinder-0.6.7.dmg](http://totalfinder.binaryage.com/temp/TotalFinder-0.6.7.dmg)**
 
 ---
 
