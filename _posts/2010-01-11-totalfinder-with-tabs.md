@@ -10,7 +10,7 @@ I'm proud to announce a new version of [TotalFinder](http://totalfinder.binaryag
 
 <a href="http://totalfinder.binaryage.com/shared/img/totalfinder-mainshot-full.png"><img src="http://totalfinder.binaryage.com/shared/img/totalfinder-mainshot.png"></a>
 
-#### **DOWNLOAD: [https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.6.dmg](https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.6.dmg)**
+#### **DOWNLOAD: [https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.7.dmg](https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.7.dmg)**
 
 #### ALPHA v0.6 changes
 
@@ -82,6 +82,12 @@ I'm proud to announce a new version of [TotalFinder](http://totalfinder.binaryag
 <ul class="changes">
     <li><b>FIXED:</b> Fixed crashing during tab dragging (<a href="http://getsatisfaction.com/binaryage/topics/finder_crashes_while_dragging_tab_with_0_6_5">read more</a>).</li>
     <li><b>FIXED:</b> Tab background color is consistent with Finder window during dragging.</li>
+</ul>
+
+#### ALPHA v0.6.7 changes (updated Jan 25)
+
+<ul class="changes">
+    <li>This is just dummy release identical to 0.6.6. I need to extend expiration period. Working hard on dual-panel feature, but didn't make it on time.</li>
 </ul>
 
 The next expiration date is set to January 25, 2010 and it will be probably maintenance release to iron out all problems introduced in this ground breaking update.
