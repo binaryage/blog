@@ -50,9 +50,9 @@ I have to catch this annoyance. I'll probably replace whole installer with custo
 
 At this moment my roadmap looks like this:
 
-   * Continue fixing quirks and improve stability
-   * Add drag-and-drop tabs, cut and paste, and keyboard shortcuts for sidebar items for v0.8
-   * Terminal.app co-operation for v0.9, open beta period?
-   * Hacking NASA satellites? ;)
+* Continue fixing quirks and improve stability
+* Add drag-and-drop tabs, cut and paste, and keyboard shortcuts for sidebar items for v0.8
+* Terminal.app co-operation for v0.9, open beta period?
+* Hacking NASA satellites? ;)
 
 These features should be much easier compared to tabs and dual-pane mode. I'm optimistic. Stay tuned!
