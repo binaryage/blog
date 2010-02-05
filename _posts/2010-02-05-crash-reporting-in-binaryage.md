@@ -68,7 +68,7 @@ I did some bold experiments and this is what I ended doing. In Breakpad's crash 
 
 Ok, now I forced crash report file to be silently generated somewhere on the disk. The last step was just waiting for it to get generated and finding it. At this point I enable "Send Report ..." button. When user clicks it, I grab the file and upload it to [gist.github.com](http://gist.github.com). Again I'm so uncool for reinventing the wheel so I use Chris Wanstrath's [gist.rb uploader](http://github.com/defunkt/gist). Jaaaaay it's Ruby code! Much better than hanging myself trying to do a HTTP call using Cocoa.
 
-And how does one open mail client with message? I tried to access email APIs from Objective-C and it was like getting back into 80's. I kinda like the music, but those bearded men with strong glasses suck at making APIs. You may wonder but the easiest way is to generate mailto link and simulate click on it. Browsers already know how to open your system email client - whatever it is. And it will work in the future because nobody wants to break the web, right?
+And how does one open a mail client with a message? I tried to access the email APIs from Objective-C and it was like getting back into 80's. I kinda like the music, but those bearded men with strong glasses suck at making APIs. You may wonder but the easiest way is to generate mailto link and simulate click on it. Browsers already know how to open your system email client - whatever it is. And it will work in the future because nobody wants to break the web, right?
 
 The web has won again. And that is the end of my story. 
 
