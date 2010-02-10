@@ -32,7 +32,7 @@ Visor mode users should be happy with this release. I've paid special attention 
 
 #### Fixed some crashes
 
-Thank you all who sent me some crash reports. I'm really reading them.
+Thank you all who sent me some crash reports. I really read them.
 
 I've solved @DSStore, @RestoreFocus, @placeWindow and @AEOverride crashes in 0.7.1. As you can see, this should reduce crash rate by 90% or so.
 
