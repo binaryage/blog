@@ -20,7 +20,7 @@ TotalFinder 0.7.1 update is ready for download.
 
 #### Fixed tab animation quirks
 
-Opening and closing tab animations were jumpy. I've revisited the code and made sure they are going smooth again.
+Opening and closing tab animations was jumpy. I've revisited the code and made sure they are going smooth again.
 
 #### Fixed display quirks
 
