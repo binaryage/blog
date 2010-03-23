@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Awesome products deserve awesome website
+title: Awesome products deserve an awesome website
 tags: [general, announcements]
 author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
