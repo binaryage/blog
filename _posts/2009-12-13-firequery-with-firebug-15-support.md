@@ -6,10 +6,9 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="/shared/img/firequery-icon.png" style="float: left; margin-right: 20px"> 
+<img src="{{site.url}}/shared/img/icons/firequery-64.png" class="intro-icon"/>
 
-Did not much real work during weekend because of pre-christmas drinking with friends :-) But I've at least released a new version of [FireQuery](http://firequery.binaryage.com) which finally supports [Firebug 1.5](http://getfirebug.com) (in beta right now).
-
+**Did not much real work during weekend because of pre-christmas drinking with friends :-) But I've at least released a new version of [FireQuery](http://firequery.binaryage.com) which finally supports [Firebug 1.5](http://getfirebug.com) (in beta right now).**
 
 #### Firebug 1.5 support
 
@@ -19,6 +18,6 @@ Many thanks to [Steven Roussey](http://twitter.com/sroussey) who [implemented ch
 
 You may specify alternative jQuery version by typing `about:config` into browser URL:
 
-<img src="/images/about-config-jquery-url.png" width="600">
+<img src="{{site.url}}/images/about-config-jquery-url.png" width="600" title="advanced FireQuery configuration via about:config">
 
 Search for `extensions.firebug.firequery.jQueryURL` key and change it to fit your needs. For example you may specify one of Google-hosted [jQuery versions](http://code.google.com/apis/ajaxlibs/documentation/index.html#jquery).

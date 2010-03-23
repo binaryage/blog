@@ -1,60 +1,43 @@
 ---
-title: BinaryAge - tools for developers
 layout: blog
 ---
 
-<style>
-
-.posts {
-    list-style-type: none;
-    list-style-position: inside;
-    padding-left: 0px;
-}
-
-.posts li {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-
-.posts li a {
-    text-decoration: none;
-}
-
-.posts span {
-    display: block;
-    font-size: 12px;
-    color: #999;
-}
-
-h1 {
-    margin-top: 20px;
-    font-size: 28px;
-    font-weight: bold;
-    color: #999;
-}
-
-</style>
-
-<h1>The ideas from Binary Age</h1>
+<h1>The ideas from BinaryAge</h1>
 
 <ul class="posts">
 {% for post in paginator.posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> <span><!--by <a href="{{ post.author_uri }}">{{ post.author_name }}</a> on -->{{ post.date | date:"%B %d, %Y" }}</span></li>
+    <li>
+        <a href="{{ post.url }}" class="post-title">{{ post.title }}</a> 
+        <span class="post-date">on {{ post.date | date:"%B %d, %Y" }}</span>
+    </li>
 {% endfor %}
 </ul>
 
+<script>
+Cufon.replace('#blog h1', {
+    textShadow: '#eee 0px 2px'
+});
+Cufon.replace('.post-title', {
+    hover: true
+});
+Cufon.replace('.post-date');
+</script>
+
 <div class='paging'>
-  {% if paginator.next_page %}
-    <a href='/page{{paginator.next_page}}' class='older'>Older Posts</a>
-  {% endif %}
 {% if paginator.previous_page %}
   {% if paginator.previous_page == 1 %}
-    <a href='/' class='newer'>Newer Posts</a>
+    <a href='/' class='newer'>&lt;&lt; newer posts</a>
   {% else %}
-    <a href='/page{{paginator.previous_page}}' class='newer'>Newer Posts</a>
+    <a href='/page{{paginator.previous_page}}' class='newer'>&lt;&lt; newer posts</a>
   {% endif %}
+{% endif %}
+
+{% if paginator.previous_page and paginator.next_page %}
+&nbsp;&nbsp;|&nbsp;&nbsp;
+{% endif %}
+
+{% if paginator.next_page %}
+  <a href='/page{{paginator.next_page}}' class='older'>older posts &gt;&gt;</a>
 {% endif %}
   <div class='clear'></div>
 </div>

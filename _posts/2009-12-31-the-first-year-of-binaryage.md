@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-I'm just sitting in the train on the way back to Prague. This gives me precious few hours to look back and think about the last year...
+**I'm just sitting in the train on the way back to Prague. This gives me precious few hours to look back and think about the last year...**
 
 #### Worked on HashPage
 

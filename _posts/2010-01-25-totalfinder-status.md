@@ -6,11 +6,16 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-I've just released TotalFinder 0.6.7 which is identical to 0.6.6. It has just the expiration date set to February 8, 2010. My original goal was to release 0.7 today, but I simply didn't make it. Instead of releasing half-baked version and dealing with complains I've decided to postpone 0.7 release. Software is hard :-/
+<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
-#### **[http://downloads.binaryage.com/TotalFinder-0.6.7.dmg](http://downloads.binaryage.com/TotalFinder-0.6.7.dmg)**
+**I've just released TotalFinder 0.6.7 which is identical to 0.6.6. It has just the expiration date set to February 8, 2010. **
 
----
+<div class="blog-download">
+    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.6.7.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><span>http://downloads.binaryage.com/TotalFinder-0.6.7.dmg</span></a>
+    <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
+</div>
+
+My original goal was to release 0.7 today, but I simply didn't make it. Instead of releasing half-baked version and dealing with complains I've decided to postpone 0.7 release. Software is hard :-/
 
 #### Good news for the next release
 
@@ -20,7 +25,7 @@ Also I've spent whole weekend on implementing dual-panel mode. I got it working 
 
 And by the way, I've implemented custom crash report dialog. Hope you will not see it very often:
 
-<img src="/images/new-crash-report-dialog.png" width="400">
+<img class="blog-image" src="{{site.url}}/images/new-crash-report-dialog.png" width="400" title="The crash reporting dialog">
 
 #### Overwhelmed with great responses
 

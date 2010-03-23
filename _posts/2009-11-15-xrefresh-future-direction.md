@@ -1,27 +1,27 @@
 ---
 layout: post
-title: What should be the future direction of XRefresh?
+title: Future direction of XRefresh
 tags: [xrefresh, ideas]
 author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="http://xrefresh.binaryage.com/images/howto.png" width="200" style="float: left; margin-right: 20px"> 
+<img src="{{site.url}}/shared/img/icons/xrefresh-64.png" class="intro-icon"/>
 
-"XRefresh":http://xrefresh.binaryage.com is a simple tool which is able to refresh a web page in the browser in reaction to a file modification.
+**[XRefresh](http://xrefresh.binaryage.com) is a simple tool which is able to refresh a web page in the browser in reaction to a file modification.**
 
-The fundamental problem it tries to solve is:
+#### Here is the problem
 
-bq. I want to prototype HTML and CSS changes on live page (Firebug), but I don't want to manually sync the changes back to my original sources.
-
+> I want to prototype HTML and CSS changes on live page (Firebug), but I don't want to manually sync the changes back to my original sources.
 
 XRefresh is especially useful on dual monitor system. You can stay in your favorite editor and as you type it will preview the page automatically on a secondary monitor in open browser window.
 
-h4. The implementation
+#### The implementation
 
 XRefresh is implemented as a browser extension and a filesystem monitor. These two components talk to each other using TCP connection. Whenever something changes, the monitor notifies the extension which then instructs browser to do full refresh of the page.
 
 This solution has some advantages:
+
 * it is independent on text editor or IDE you are using for web development
 * is is independent on server-side stack (you can run locally any server technology you want)
 * it is possible to use XRefresh over a network (in case you are editing files on a remote box)
@@ -32,7 +32,7 @@ The first idea was to use some kind of macro recorder and replay user actions af
 
 The second idea was to solve this just for CSS prototyping. In case the page uses externally linked CSS files, it is easily possible to refresh just external CSS file and let browser do the hard work of updating styles without full refresh. This worked surprisingly well. With TextMate on OSX I was able to get to Firebug-like CSS prototyping experience. The only drawback is that it puts constraints on XRefresh user: it works only for CSS, you have to reference CSS files externally, no CSS dependencies via @import and you have to keep simple URL mapping schema (I'm using fuzzy filename&lt;-&gt;url matcher to decide what CSS references to update).
 
-h4. But what about live HTML update? 
+#### But what about live HTML update? 
 
 This is still an open problem and much harder. I'm thinking about solution for this. It is not robust but I believe it should be useful for 99% cases (at least when user learns safe editing patterns).
 
@@ -40,30 +40,29 @@ The idea is to have some kind of smart diff algorithm. Whenever file changes don
 
 Of course, this is far from a robust solution. But we don't need a robust one, we need __good enough solution__(tm). Smart diff encoding which maps well on DOM is one important task. The other difficult problem is having these changes not interfere with dynamic page functionality. As you can see obvious complication is event handlers attached to existing DOM nodes. Less obvious is javascript expando properties on DOM nodes. With replacing whole DOM subtrees we are going to lose them. But this may be not as bad as it seems. Updater can be smart enough to reuse existing nodes whenever possible. Or Firefox 3.6 has a new API for iterating event handlers on nodes. Theoretically we can collect important expando javascript properties and event handlers and re-apply them on new nodes. Yeah, sounds like a lot of troubles and there are probably more I quite don't see right now. But the problem is really challenging (at least for me).
 
----
-
 I'm thinking about proof-of-concept project where we can test this idea.
 
-h4. The idea
+#### The idea
 
-bq. Create a web-based editor for HTML and CSS with live-update feature.
+**Create a web-based editor for HTML and CSS with live-update feature**
 
-# Create a bookmarklet which enables user to inject 'updater.js' javascript file into any HTML page.
-# Implement updater.js
-## it opens new browser window and embeds there Bespin code editor (they've released standalone embeddable version a few days ago), put parent page's HTML in there
-## it implements protocol for incrementally changing live page by accepting and applying
-### CSS "patches"
-### HTML "patches"
-# In the code window implement watcher.js, which watches changes in the code editor, continuously making diffs and translates them into series of patches (if applicable)
-# Implement simple communication channel between parent window and code window (as simple as window.opener.update(jsonMessage) ). Wire watcher.js to send messages to updater.js.
+* Create a bookmarklet which enables user to inject 'updater.js' javascript file into any HTML page.
+* Implement updater.js
+  * it opens new browser window and embeds there Bespin code editor (they've released standalone embeddable version a few days ago), put parent page's HTML in there
+  * it implements protocol for incrementally changing live page by accepting and applying
+    * CSS "patches"
+    * HTML "patches"
+* In the code window implement watcher.js, which watches changes in the code editor, continuously making diffs and translates them into series of patches (if applicable)
+* Implement simple communication channel between parent window and code window (as simple as window.opener.update(jsonMessage) ). 
+  Wire watcher.js to send messages to updater.js.
 
-h4. The challenging parts:
+#### The challenging parts:
 
 * design protocol for communication between watcher and updater
 * implement smart diff analyzer or maybe full HTML/CSS parser on watcher side
 * implement efficient updater (use DOM APIs for incrementally update HTML and CSS or some suitable library)
 
-h4. Keep in mind:
+#### Keep in mind:
 
 * by "patches" I don't necessarily mean unified patches but rather
 high-level JSON descriptions of what to change (a good granularity for
@@ -75,13 +74,13 @@ intelligence should be shifted more towards watcher.js side (imagine
 watcher implementation server-side)
 * the protocol should possibly work well over the network
 
-h4. Possible applications I see right now:
+#### Possible applications I see right now:
 
-# the next version of XRefresh of course :-)
-# web-based HTML code editors (there are plenty of them in the wild and to be honest I'm also working on one of them)
-# replacement for Firebug's feature for rewriting pieces of HTML or live Bespin-based CSS editor in Firebug
-# development tool for PhoneGap based mobile applications (watcher sends updates directly into running page in webkit in the iPhone simulator)
+* the next version of XRefresh of course :-)
+* web-based HTML code editors (there are plenty of them in the wild and to be honest I'm also working on one of them)
+* replacement for Firebug's feature for rewriting pieces of HTML or live Bespin-based CSS editor in Firebug
+* development tool for PhoneGap based mobile applications (watcher sends updates directly into running page in webkit in the iPhone simulator)
 
-h4. Is this viable?
+#### Is this viable?
 
 I'm not going to write such a thing right away. It definitely does not look as a weekend project. I'd like to validate this idea and ideally gather like-minded hackers to evaluate it. What do you think?

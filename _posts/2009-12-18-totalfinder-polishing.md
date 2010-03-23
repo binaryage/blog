@@ -6,12 +6,16 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="/shared/img/totalfinder-logo.png" width="80" style="float: left; margin-right: 20px"> 
+<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
-This is just maintenance release of [TotalFinder](http://totalfinder.binaryage.com). Christmas time is busy and I really didn't manage to save few evenings to dig deeper into Finder internals.
-Next expiration is set to January 11, 2010 and this gives me some time to work on dual-panel browser during holidays.
+**This is just maintenance release of [TotalFinder](http://totalfinder.binaryage.com). Christmas time is busy and I really didn't manage to save few evenings to dig deeper into Finder internals.**
 
-### [https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.5.dmg](https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.5.dmg)
+<div class="blog-download">
+    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.5.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><span>http://downloads.binaryage.com/TotalFinder-0.5.dmg</span></a>
+    <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
+</div>
+
+The next expiration is set to January 11, 2010 and this gives me some time to work on dual-panel browser during holidays.
 
 #### ALPHA v0.5 changes
 
@@ -34,7 +38,7 @@ and slide up instead. But these are details I will work out during next month(s)
 
 Do you remember tabs in a title bar from Safari 4 beta?
 
-<img src="/images/safari-beta-tabs.jpg"> 
+<img class="blog-image" src="{{site.url}}/images/safari-beta-tabs.jpg" title="Safari 4 (beta) tabs - removed in final version"> 
 
 I know it is against usability, but Visor and TotalFinder are special case apps. These are system-wide windows sliding from "nowhere". 
 So they couldn't be treated as apps following usability guidelines anyway. 

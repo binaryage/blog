@@ -6,89 +6,16 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-I'm proud to announce a new version of [TotalFinder](http://totalfinder.binaryage.com) which includes the tabs feature.
+<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
-<a href="http://totalfinder.binaryage.com/shared/img/totalfinder-mainshot-full.png"><img src="http://totalfinder.binaryage.com/shared/img/totalfinder-mainshot.png"></a>
+**I'm proud to announce a new version of [TotalFinder](http://totalfinder.binaryage.com) which introduces the tabs feature.**
 
-#### **DOWNLOAD: [https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.7.dmg](https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.6.7.dmg)**
+<div class="blog-download">
+    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.6.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><span>http://downloads.binaryage.com/TotalFinder-0.6.dmg</span></a>
+    <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
+</div>
 
-#### ALPHA v0.6 changes
-
-<ul class="changes"> 
-   <li><b>NEW:</b> Tabs! thanks to Chromium codebase, love you Google.</li> 
-   <li><b>NEW:</b> Visor mode window could be avoided by unchecking both activation options.</li> 
-   <li><b>FIXED:</b> Better stability.</li> 
-   <li><b>FIXED:</b> Visor window remembers it's height during restarts.</li> 
-   <li><b>FIXED:</b> Visor window does not show up during expose.</li> 
-   <li><b>FIXED:</b> Fixed quirks related to sliding visor window.</li> 
-   <li><b>FIXED:</b> Visor window stays up until there is no window with main status within Finder.app.</li> 
-   <li><b>REMOVED:</b> Visor window can slide only from bottom of the screen. Removed "Position" selector.</li> 
-   <li><b>REMOVED:</b> Dropped ppc architecture support.</li> 
-</ul>
-
-#### ALPHA v0.6.1 changes (updated Jan 13)
-
-<ul class="changes"> 
-     <li><b>NEW:</b> Disabled Visor mode by default. Many newcomers were confused by default Visor behavior. Visor veterans from Terminal.app may always enable Visor mode in preferences.</li> 
-     <li><b>NEW:</b> You may force Visor window to appear on top of Dock (<a href="http://getsatisfaction.com/binaryage/topics/visor_positioning_should_take_into_account_dock">read more</a>).</li> 
-     <li><b>NEW:</b> You may resize Visor window and keep it's dimensions in free-form mode (<a href="http://getsatisfaction.com/binaryage/topics/visor_positioning_should_take_into_account_dock">read more</a>).</li> 
-     <li><b>FIXED:</b> Fixed broken TotalFinder when running on top of localized Finder.</li> 
-     <li><b>FIXED:</b> Clicking on Finder Dock icon toggles Visor if available.</li> 
-     <li><b>FIXED:</b> CMD+TAB activation activates Visor if available.</li> 
-     <li><b>FIXED:</b> Corrected behavior in crash-recovery mode (<a href="http://getsatisfaction.com/binaryage/topics/tf_crashed_prefs_could_not_be_deleted_and_changed">read more</a>).</li> 
-     <li><b>REMOVED:</b> Removed "Show on Reopen" obsolete option from Visor for Terminal.app.</li> 
-</ul>
-
-#### ALPHA v0.6.2 changes (updated Jan 13)
-
-<ul class="changes">
-    <li><b>FIXED:</b> Regression introduced by CMD+TAB activation. Clicking on Desktop caused Visor to slide up.</li>
-</ul>
-
-#### ALPHA v0.6.3 changes (updated Jan 13)
-
-<ul class="changes">
-    <li><b>FIXED:</b> CMD+TAB activation must be more strict. Activating Visor only in the case there is no other classic Finder window.</li>
-</ul>
-
-#### ALPHA v0.6.4 changes (updated Jan 14)
-
-<ul class="changes">
-    <li><b>NEW:</b> Finder window keeps main status. Originally I was setting tab-browser window as main and Finder window as key. TotalFinder should be more stable now.</li>
-    <li><b>FIXED:</b> Labels via right click context-menu work again (<a href="http://getsatisfaction.com/binaryage/topics/labels_not_working">read more</a>).</li>
-    <li><b>FIXED:</b> TotalFinder remembers position of last closed window, new window is reopened on the same position (<a href="http://getsatisfaction.com/binaryage/topics/totalfinder_finder_like_default_window_position">read more</a>).</li>
-    <li><b>IMPROVED:</b> Returning focus to previously active app should be a little bit faster.</li>
-</ul>
-
-#### ALPHA v0.6.5 changes (updated Jan 18)
-
-<ul class="changes">
-    <li><b>NEW:</b> CMD+SHIFT+ARROWS or CMD+OPT+ARROWS keyboard shortcuts to move between tabs (<a href="http://getsatisfaction.com/binaryage/topics/modify_shortcut_for_next_tab">read more</a>).</li>
-    <li><b>NEW:</b> Right-click on tab title displays original titlebar context menu (<a href="http://getsatisfaction.com/binaryage/topics/add_right_click_hierarchy_menu_to_each_tab">read more</a>).</li>
-    <li><b>NEW:</b> Full UNIX path is presented as a tooltip when hovering over tab title.</li>
-    <li><b>FIXED:</b> Uninstall script is more robust and works in the case Echelon was uninstalled independently.</li>
-    <li><b>FIXED:</b> Last created/selected window become default for new Finder child windows being opened by the system or other apps.</li>
-    <li><b>FIXED:</b> Plays nice with resizing utilities like SizeUp, FinderSize or BetterTouchTool (<a href="http://getsatisfaction.com/binaryage/topics/totalfinder_window_moving_applescript_sizeup">more info</a>).</li>
-    <li><b>FIXED:</b> Fixed visual glitches after changing resolution or reconfiguring displays.</li>
-    <li><b>FIXED:</b> Fixed quirks when activating Visor by clicking on Dock icon.</li>
-    <li><b>IMPROVED:</b> Echelon KEXT is not being installed by default (users should opt-in).</li>
-    <li><b>IMPROVED:</b> Dock icon brings Visor only if there is no other tabs window.</li>
-    <li><b>IMPROVED:</b> After sliding Visor window down, in case TotalFinder has still main status, next visible window gets focus (Visor window does not keep it anymore).</li>
-    <li><b>IMPROVED:</b> Installed clearly states that current version is ALPHA and final version will be paid (<a href="http://getsatisfaction.com/binaryage/topics/payware">more info</a>).</li>
-</ul>
-
-#### ALPHA v0.6.6 changes (updated Jan 19)
-
-<ul class="changes">
-    <li><b>FIXED:</b> Fixed crashing during tab dragging (<a href="http://getsatisfaction.com/binaryage/topics/finder_crashes_while_dragging_tab_with_0_6_5">read more</a>).</li>
-    <li><b>FIXED:</b> Tab background color is consistent with Finder window during dragging.</li>
-</ul>
-
-#### ALPHA v0.6.7 changes (updated Jan 25)
-
-<ul class="changes">
-    <li>This is just dummy release identical to 0.6.6. I need to extend expiration period. Working hard on dual-panel feature, but didn't make it on time.</li>
-</ul>
+<img class="blog-image-full" src="{{site.url}}/shared/img/totalfinder-mainshot.png" title="TotalFinder has Chromium tabs!">
 
 The next expiration date is set to January 25, 2010 and it will be probably maintenance release to iron out all problems introduced in this ground breaking update.
 
@@ -119,7 +46,5 @@ I'm pretty excited about this solution. It works better than I anticipated. In a
 I'm pretty confident I can make dual-panel working using similar technique. I have a semi-working prototype with relocating NSViews. In this case it was easier, because NSView transplantation takes place between two finder windows which is obviously not that destructive.
 
 But with this new technique I have another path I can possibly follow and I believe child-window technique is generally a better way to go. Cross your fingers.
-
----
 
 Please test v0.6 with your workflows and [share](http://getsatisfaction.com/binaryage) your experiences with me.

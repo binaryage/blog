@@ -6,37 +6,27 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="/shared/img/totalfinder-logo.png" width="80" style="float: left; margin-right: 20px"> 
+<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
-Yes, the new version of "TotalFinder":http://totalfinder.binaryage.com supports <a href="http://getsatisfaction.com/binaryage/topics/show_folders_always_on_top">Folders on Top feature</a>.
+**Yes, the new version of "TotalFinder":http://totalfinder.binaryage.com supports <a href="http://getsatisfaction.com/binaryage/topics/show_folders_always_on_top">Folders on Top feature</a>.**
 
-h3. "Download v0.4":https://dl.getdropbox.com/u/559047/tf/TotalFinder-0.4.dmg
+<div class="blog-download">
+    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.4.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><span>http://downloads.binaryage.com/TotalFinder-0.4.dmg</span></a>
+    <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
+</div>
 
-<div style="clear:both"></div>
-
-h4. ALPHA v0.4 changes
-
-<ul class="changes">
-    <li><b>NEW:</b> Added option to force "Folders on Top".</li>
-    <li><b>FIXED:</b> TotalFinder should work for users with 32-bit hardware (folks running i386 binary of Finder).</li>
-</ul>
-
-You can see <a href="https://dl.getdropbox.com/u/559047/tf/changelog.html">full changelog here</a>.
-
-h4. Folders on Top
+#### Folders on Top
 
 Go to Tweaks section in TotalFinder preferences.
 
-<img src="/images/folders-on-top.png" style="float: left; margin-right: 20px"> 
+<img class="blog-image" src="{{site.url}}/images/folders-on-top.png" style="float: left; margin-right: 20px" title="'Folders on Top' preferences"> 
 
-<div style="clear:both"></div>
-
-h4. Toggling hidden files
+#### Toggling hidden files
 
 Right now you have to restart Finder to make "Show Hidden Files" toggle effective. This is annoying, especially because I want to make this toggle available on keyboard shortcut in the future.
 
 Unfortunately Finder.app author reads related plist settings in the beginning after program launches and stores the value in-memory. Unfortunately the method for reloading this toggle is not exposed. I was at least able to detect the exact position in-memory for the current version and successfully refresh the browser view, but this would be very fragile solution. The problem is that this may change for every binary and any Finder update could break it. I'm looking for better solution. Ideas?
 
-h4. Sparkle experience
+#### Sparkle experience
 
 Installing update via Sparkle has one problem. I expect Finder to quit during install. But this is not the case when you run installer via Sparkle update screen. Sparkle keeps Finder alive and relaunches it after installer finish. Need to find some solution how to initiate installer "from outside" and let Finder quit before install gracefully.

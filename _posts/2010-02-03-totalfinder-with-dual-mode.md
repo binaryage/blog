@@ -6,9 +6,14 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-TotalFinder 0.7 is finally out! Grab it while it is hot.
+<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
-#### **[http://downloads.binaryage.com/TotalFinder-0.7.dmg](http://downloads.binaryage.com/TotalFinder-0.7.dmg)**
+**TotalFinder 0.7 is finally out! Grab it while it is hot.**
+
+<div class="blog-download">
+    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.7.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><span>http://downloads.binaryage.com/TotalFinder-0.7.dmg</span></a>
+    <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
+</div>
 
 ---
 
@@ -16,7 +21,7 @@ TotalFinder 0.7 is finally out! Grab it while it is hot.
 
 You may activate dual panels by **double-clicking tab** or pressing **CMD+U**. It simply glues currently selected tab with the next one (or the previous one). Clicking again makes them separate again. Easy and unobtrusive!
 
-<a target="_blank" href="/images/totalfinder-dual-pane-mode.png"><img src="/images/totalfinder-dual-pane-mode.png" width="700"></a>
+<img class="blog-image-full-border" src="{{site.url}}/images/totalfinder-dual-pane-mode.png" title="The dual mode applied to two left-most tabs">
 
 As you can see I've decided to use the power of tabs to implement this feature. This way you may organize your dual-tabs with same ease as dealing with ordinary tabs. I'm already using it for few days and I'm really happy with this solution. We just need to agree on some keyboard shortcuts for copying/moving files between panels.
 
@@ -28,13 +33,13 @@ This hacking is more like archeology than anything else. One thing is reverse-en
 
 Maybe you remember my early screenshot of dual pane prototype back from October. I've used there the technique of [relocating NSViews from hidden Finder window](http://blog.binaryage.com/totalfinder-with-tabs) for right-side list view. The solution was very fragile and unstable. I've never managed to make it fully working. I would probably need to pull much more of my hair off to get it into good shape. I'm really glad I've followed the tabs-path instead.
 
-<a target="_blank" href="/images/totalfinder-old-dual-approach.png"><img src="/images/totalfinder-old-dual-approach.png" width="700"></a>
+<img class="blog-image-full" src="{{site.url}}/images/totalfinder-old-dual-approach.png" title="The original dual mode approach">
 
 #### Custom crash reporting
 
 You will get chance to upload crash report as a gist and send me an email. Hope you will never have to see this dialog :-)
 
-<a target="_blank" href="/images/new-crash-report-dialog.png"><img src="/images/new-crash-report-dialog.png" width="400"></a>
+<img class="blog-image" src="{{site.url}}/images/new-crash-report-dialog.png" width="400" title="The crash reporting dialog">
 
 #### Locked dock? "killall Finder" for rescue 
 
