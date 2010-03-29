@@ -10,6 +10,8 @@ author_uri: http://hildebrand.cz
 
 **Real quick today. I want to show you a new icon for TotalFinder. I want to roll it into the next release.**
 
+<img class="clear blog-image" src="{{site.url}}/images/dock-with-totalfinder-icon.png" title="The Dock with the new TotalFinder icon.">
+
 TotalFinder is growing slowly from hacker-style geek guy into a very nice and friendly Mac citizen. I think it's the time to put off the shades! I believe the new icon reflects it perfectly. Again credit goes for <a href="http://raist.cz">Raist</a> who has created it. Thanks!
 
 #### How do you like it?
