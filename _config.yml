@@ -3,3 +3,5 @@ paginate: 10
 pygments: true
 url: http://blog.binaryage.com
 markdown: rdiscount
+auto: true
+server: true
