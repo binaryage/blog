@@ -32,11 +32,11 @@ Good question, Shane. Here are my reasons:
   - To sleep well in night I wanted to implement [future compatibility check](http://github.com/darwin/simbl/commit/c95557a49b52aa6a26a5390e30e90364b17b38e1) for Finder
   - I don't really need SIMBL's Agent functionality. Actually it does no good with Finder's auto-restart and it complicated my life in the past (I needed to [prevent continuos crashing scenario](http://blog.binaryage.com/totalfinder-with-sparkle/) for example)
 
-So I decided to roll my own solution. It does not need Agent and it is a Snow Leopard only so it turned to be a really easy (the plugin injector has less than 100LOC). I was able to implement future Finder version check like this:
+So I decided to roll my own solution. It does not need Agent and it is Snow Leopard only so it turned to be a really easy (the [plugin injector](http://github.com/binaryage/totalfinder-osax/blob/master/TotalFinderInjector.m) has less than 100LOC). I was able to implement future Finder version check like this:
 
 <img class="clear blog-image-border" src="{{site.url}}/images/totalfinder-future-compatibility-check.png" title="TotalFinder warns you when running with unknown Finder version (from future)">
 
-Ok, to wrap it up. TotalFinder.bundle is still a SIMBL plugin and you can run it with SIMBL if you want to play with `Info.plist`. But I'm using my own OSAX to do the Finder injection by default. Don't worry I will open-source my solution in a few days [on GitHub](http://github.com/binaryage). Of course I will be glad to get some feedback/code reviews on this. 
+Ok, to wrap it up. TotalFinder.bundle is still a SIMBL plugin and you can run it with SIMBL if you want to play with `Info.plist`. But I'm using my own OSAX to do the Finder injection by default. Don't worry I will open-source my solution in a few days [on GitHub](http://github.com/binaryage/totalfinder-osax). Of course I will be glad to get some feedback/code reviews on this. 
 
 And as a side-effect I've learned how to rule the world with my own Scripting Additions. Wait for the next release .-)
 
@@ -44,11 +44,11 @@ And as a side-effect I've learned how to rule the world with my own Scripting Ad
 
 Echelon scares people too. So I decided to rename it simply to TotalFinder.kext. This way when you happen to look into `/System/Library/Extensions` you don't scare yourself to death by simply forgetting Echelon is something related to the peaceful TotalFinder.
 
-And by the way, if you are still scared please note that TotalFinder.kext is going to be also an open-source in a few days. You may then compile it on your own in case you want to be 100% sure about your kernel extensions in your system. I understand the geek inside of you so I will write a separate technical article about how it works in the future :-)
+And by the way, if you are still scared please note that TotalFinder.kext is going to be also an open-source in a few days [on GitHub](http://github.com/binaryage/totalfinder-kext). You may then compile it on your own in case you want to be 100% sure about your kernel extensions in your system. I understand the geek inside of you so I will write a separate technical article about how it works in the future :-)
 
-This was also good excuse to refactor the whole XCode project into several smaller projects, solve dependencies, improve build scripts and clean things up. Unfortunately I cannot present any visible progress here, but I personally feel much better now. You know I hate a [cruft](http://en.wikipedia.org/wiki/Cruft), especially in my own baby projects.
+This was also good excuse to refactor the whole XCode project into several smaller projects, solve dependencies, improve build scripts and clean things up. Unfortunately I cannot present any visible progress here, but I personally feel much better now. You know I hate [cruft](http://en.wikipedia.org/wiki/Cruft), especially in my own baby projects.
 
-Oh, maybe I should have add that the installer's footprint is 3.4MB now, which is ~30% less than the previous 4.8MB. Yeah, faster downloads for you and smaller S3 bills for me :-)
+Oh, maybe I should have added that the installer's footprint is 3.4MB now, which is ~30% less than the previous 4.8MB. Yeah, faster downloads for you and cheaper S3 bills for me :-)
 
 #### Want new windows always as tabs?
 
