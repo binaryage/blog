@@ -32,11 +32,11 @@ This is the new look of TotalFinder preferences. New mini tab buttons give room 
 
 The root of all evil was my extensive usage of performSelector:withObject:afterDelay: calls to make things smooth and sane. This was used for example when animating tabs. The problem is that target object with scheduled method call does not go away until the timer fires (performSelector calls retain on target). Cocoa system uses autorelease which does deallocation at some point in the future after the timer fired. The problem were weak references the target has to other objects. These objects may die in the meantime when the target is waiting for animation to finish.
 
-As you can imagine this was the source of all sudden crashes when dealing with tabs. For example 100% repro case for tabs related crash was:
+As you can imagine this was the source of all sudden crashes when dealing with tabs. For example 100% repro case for one tabs related crash was:
 
 - open window with two tabs
-- with mouse click on close button of second tab to initiate tab closing animation
-- use CMD+Q to close whole browser window (you may be fast and close it with mouse or pressing CMD+W to close second tab quickly after first one)
+- with mouse click on close button of the second tab to initiate a tab closing animation
+- use CMD+Q to close the whole browser window (you may be fast and close it with mouse or pressing CMD+W to close second tab quickly after first one)
 
 I believe I've solved all these nasty issues by reviewing all performSelector calls and fixing object dependencies.
 
