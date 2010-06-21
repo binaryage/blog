@@ -11,7 +11,7 @@ author_uri: http://hildebrand.cz
 **Yes, the new version of [TotalFinder](http://totalfinder.binaryage.com) supports <a href="http://getsatisfaction.com/binaryage/topics/show_folders_always_on_top">Folders on Top feature</a>.**
 
 <div class="blog-download">
-    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.4.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><span>http://downloads.binaryage.com/TotalFinder-0.4.dmg</span></a>
+    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.4.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.4.dmg</div></a>
     <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 

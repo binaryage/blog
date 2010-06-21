@@ -7,22 +7,21 @@ meta_description: Sharing ideas about software, products and cool stuff from Bin
 meta_image: http://www.binaryage.com/shared/img/icons/binaryage-badge-256.png
 ---
 
-<h1>The ideas from BinaryAge</h1>
+<h1 style="visibility:hidden">The ideas from BinaryAge</h1>
 
 <ul class="posts">
 {% for post in paginator.posts %}
     <li>
+        <div class="calendar">
+            <div class="month">{{ post.date | date:"%b" }}</div>
+            <div class="day">{{ post.date | date:"%d" }}</div>
+            <div class="year">{{ post.date | date:"%Y" }}</div>
+        </div>
         <a href="{{ post.url }}" class="post-title">{{ post.title }}</a> 
-        <span class="post-date">on {{ post.date | date:"%B %d, %Y" }}</span>
+        <div class="clear"></div>
     </li>
 {% endfor %}
 </ul>
-
-<script>
-Cufon.replace('#blog h1', {
-    textShadow: '#eee 0px 2px'
-});
-</script>
 
 <div class='paging'>
 {% if paginator.previous_page %}

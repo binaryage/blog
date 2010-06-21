@@ -11,11 +11,11 @@ author_uri: http://hildebrand.cz
 **TotalFinder 0.8.3 does not rely on SIMBL anymore. It plugs into Finder.app on its own.**
 
 <div class="blog-download">
-    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.8.3.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><span>http://downloads.binaryage.com/TotalFinder-0.8.3.dmg</span></a>
+    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.8.3.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.8.3.dmg</div></a>
     <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
-#### TotalFinder loves SIMBL, but SIMBL scares people on the streets (even during the daytime)
+#### TotalFinder loves SIMBL, but SIMBL scares people on the streets
 
 The [SIMBL](http://www.culater.net/software/SIMBL/SIMBL.php) is a great and well maintained software. All kudos to **Mike Solomon** who has been doing an awesome job on it for so many years.  TotalFinder probably would not be here today without the SIMBL.
 

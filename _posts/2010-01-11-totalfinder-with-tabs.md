@@ -11,7 +11,7 @@ author_uri: http://hildebrand.cz
 **I'm proud to announce a new version of [TotalFinder](http://totalfinder.binaryage.com) which introduces the tabs feature.**
 
 <div class="blog-download">
-    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.6.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><span>http://downloads.binaryage.com/TotalFinder-0.6.dmg</span></a>
+    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.6.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.6.dmg</div></a>
     <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
