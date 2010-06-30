@@ -23,6 +23,10 @@ You know that already, the [guys behind the GitHub](http://github.com/github) ar
 
 Ehmm, all right, I'm a big believer in the [GitHub](http://github.com/binaryage) concept. The transparency it offers when looking at versioning and collaboration is breath-taking. I didn't even announce localization support here on the blog and some folks already 'got it' and [have forked my repo](http://github.com/binaryage/totalfinder-i18n/network/members). I understand that not everyone is familiar with git and other tools I'm forcing you into, but if you are a techie I guarantee you [learning git](http://progit.org) and GitHub is damn well invested time. Take it as a good opportunity to learn something new. Now you have a reason and my full support.
 
+For your information, this is my experience when collecting localizations, easy as pie! :-)
+<img class="clear blog-image-full-border" src="{{site.url}}/images/github-totalfinder-localization-fork-queue.png" title="GitHub fork queue">
+
+
 Please look at this repo and read the instructions:
 [http://github.com/binaryage/totalfinder-i18n](http://github.com/binaryage/totalfinder-i18n)
 
