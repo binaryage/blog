@@ -26,7 +26,6 @@ Ehmm, all right, I'm a big believer in the [GitHub](http://github.com/binaryage)
 For your information, this is my experience when collecting localizations, easy as pie! :-)
 <img class="clear blog-image-full-border" src="{{site.url}}/images/github-totalfinder-localization-fork-queue.png" title="GitHub fork queue">
 
-
 Please look at this repo and read the instructions:
 [http://github.com/binaryage/totalfinder-i18n](http://github.com/binaryage/totalfinder-i18n)
 
@@ -45,7 +44,7 @@ Maybe you remember that I slaughtered Google Chrome codebase and extracted the t
 
 Now I'm slowly learning how rendering of the tabs really works and trying to tame Cocoa rendering on the pixel level. This version got pretty good progress on this. 
 
-Another news is that Google is (probably!) planning slightly different tabs look in upcoming version. It looks gorgeous in my opinion. TotalFinder will definitely keep up and I want to know every pixel by name.
+Another news is that Google is (probably!) planning [slightly different tabs look](http://blog.chromium.org/2010/06/fresh-coat-of-chrome.html) in an upcoming version. It looks gorgeous in my opinion. TotalFinder will definitely keep up and I want to know every pixel by name.
 
 <img class="clear blog-image" src="{{site.url}}/images/new-chrome-tabs-mockup.png" title="Upcoming Chrome tabs?">
 
