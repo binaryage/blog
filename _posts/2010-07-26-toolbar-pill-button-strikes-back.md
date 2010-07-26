@@ -8,7 +8,7 @@ author_uri: http://hildebrand.cz
 
 <img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
-**It it finally here, TotalFinder 0.9.6 adds toolbar pill button and got also bunch of fresh new localizations.**
+**It is finally here, TotalFinder 0.9.6 adds toolbar pill button and got also bunch of fresh new localizations.**
 
 <div class="blog-download">
     <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.9.6.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.9.6.dmg</div></a>
