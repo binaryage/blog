@@ -29,7 +29,7 @@ I've updated the tabs rendering code from latest Chromium sources. Kudos to Goog
 
 <img class="clear blog-image-border" src="{{site.url}}/images/new-chrome-tabs.png" title="Updated tabs rendering to match latest Chrome">
 
-#### TotalFinder after expiration
+#### TotalFinder still runs after expiration
 
 I've added small reminder that this software will become a paid software soon. I'm pretty sure you know it already. But over the internets I saw some discussions of people who do not read or they expect to stick with an alpha forever. So I wanted to make it clear this way. You can dismiss that small gray sticker in the top-right corner by clicking on it. I quite like this solution. This may be my future way how to communicate important things to all TotalFinder users.
 
@@ -41,6 +41,6 @@ To force people to upgrade I've added a little annoyance. Every 10 tab switches 
 
 <img class="clear blog-image-full-border" src="{{site.url}}/images/totalfinder-expired.png" title="Expired version has annoying limitation">
 
-#### Spent time on mastering XCode4
+#### Spent some time on mastering XCode4
 
-I was so excited about XCode4 that I've converted TotalFinder projects into XCode4 and used it for development. This slowed me down quite a bit, because it is still buggy alpha software with many flaws. It has also completely new UI to learn. But I couldn't help myself. I need to live dangerously on the bleeding edge. I think you guys who are using TotalFinder since early versions you know exactly what I mean :-)
+I was so excited about XCode4 that I've converted TotalFinder projects and used it for development. This slowed me down quite a bit, because it is still buggy alpha software with many flaws. It has also completely new UI to learn. But I couldn't help myself. I need to live dangerously on the bleeding edge. I think you guys who are using TotalFinder since early versions you know exactly what I mean :-)
