@@ -8,7 +8,7 @@ author_uri: http://hildebrand.cz
 
 <img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
-** Today is it one year since I started hacking on TotalFinder. And today it is the first day when you may buy a license if you want to support the next years of development. **
+** Today is it one year since I <a href="http://blog.binaryage.org/totalfinder-launch-date">started hacking on TotalFinder</a>. And today it is the first day when you may buy a license if you want to support the next years of development. **
 
 <div class="blog-download">
     <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-1.0.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-1.0.dmg</div></a>
@@ -27,7 +27,7 @@ I want to thank you all who have supported my work and helped with the project.
 
 People were asking for discounts for beta testers. But I think $15 is already a great price. Later with more features TotalFinder will probably climb to $20 price-point. So you may look at $15 as an introductory price.
 
-I will give away $1000 worth of licenses in a few hours. I will do a small lottery and pick from people who sent crash reports. Also all translators and people who helped a lot may expect a happy email soon. I have all you guys on my list of free-give-away-licenses. Stay tuned!
+I will give away $1000 worth of licenses in a few hours. I will do a small lottery and pick from people who sent crash reports. Also all translators and people who helped a lot may expect a happy email soon. I have you all guys on my list of free-give-away-licenses. Stay tuned!
 
 #### New documentation
 
