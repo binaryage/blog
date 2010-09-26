@@ -31,6 +31,6 @@ I will give away $1000 worth of licenses in a few hours. I will do a small lotte
 
 #### New documentation
 
-There is a new <a href="http://totalfinder.binaryage.com">documentation section</a> on the site which should answer your questions about new release and licensing options.
+There is a new <a href="http://totalfinder.binaryage.com/documentation">documentation section</a> on the site which should answer your questions about the new release and licensing options.
 
-And please report any troubles and annoyances with the site, payment system and such. You know, I'm doing a commercial launch for the first time and as you can imagine my last few days were pretty busy.
+And please report here any troubles and annoyances with the site, payment system and such. You know, I'm doing a commercial launch for the first time and as you can imagine my last few days were pretty busy.
