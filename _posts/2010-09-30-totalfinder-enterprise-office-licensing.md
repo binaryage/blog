@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TotalFinder goes Enterprise!
+title: TotalFinder in Enterprise!
 tags: [totalfinder]
 author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
