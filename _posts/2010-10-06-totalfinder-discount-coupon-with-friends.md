@@ -8,7 +8,7 @@ author_uri: http://hildebrand.cz
 
 <img src="{{site.url}}/shared/img/totalfinder-icon.png" class="intro-icon"/>
 
-** I have been giving <a href="http://totalfinder.binaryage.com/free-licenses">free licenses</a> to people who contributed their time to TotalFinder.<br>As a side effect I've got also tons of emails from students <a href="">asking for a free license or discount</a>. Their reason is mostly "because I'm poor" or something similar. **
+** I have been giving <a href="http://totalfinder.binaryage.com/free-licenses">free licenses</a> to people who contributed their time to TotalFinder.<br>As a side effect I've got also tons of emails from students <a href="http://getsatisfaction.com/binaryage/topics/student_discount-457pf">asking for a free license or discount</a>. Their reason is mostly "because I'm poor" or something similar. **
 
 #### I had been also a student big part of my life
 
