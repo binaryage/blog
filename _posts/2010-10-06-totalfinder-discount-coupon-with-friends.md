@@ -8,7 +8,7 @@ author_uri: http://hildebrand.cz
 
 <img src="{{site.url}}/shared/img/totalfinder-icon.png" class="intro-icon"/>
 
-** I have been giving <a href="http://totalfinder.binaryage.com/free-licenses">free licenses</a> to people who contributed their time to TotalFinder.<br>As a side effect I've got also tons of emails from students <a href="">asking for a free license or discount</a>. Their reason is mainly "because I'm poor" or something similar. **
+** I have been giving <a href="http://totalfinder.binaryage.com/free-licenses">free licenses</a> to people who contributed their time to TotalFinder.<br>As a side effect I've got also tons of emails from students <a href="">asking for a free license or discount</a>. Their reason is mostly "because I'm poor" or something similar. **
 
 #### I had been also a student big part of my life
 
@@ -16,7 +16,7 @@ But asking for something because I was poor seemed always as a bad idea to me. N
 
 #### Asking how you can help? Good!
 
-You can help me sell more TotalFinder licenses and earn $5 discount for yourself and 2 of your friends. You have some friends, right? Doing something for your friends for free is always a good idea.
+You can help me sell more TotalFinder licenses and earn $5 discount for yourself and 2 other friends.<br>You have some friends, right? Doing something for your friends for free is always a good idea.
 
 <img src="{{site.url}}/images/totalfinder-discount-for-friends.gif" style="border:1px solid #888;">
 
@@ -30,7 +30,7 @@ You buy <a href="https://sites.fastspring.com/binaryage/instant/totalfinder-frie
 
 #### What if I have a multi-license already?
 
-<a href="mailto:antonin@binaryage.com">Send me a request</a> and I will re-license your multi-license for you. The discount is the same.
+<a href="mailto:antonin@binaryage.com">Send me a request</a> and I will re-license multi-license for you. The discount is the same.
 
 #### What's next?
 
