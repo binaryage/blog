@@ -12,9 +12,9 @@ author_uri: http://hildebrand.cz
 
 #### After expiration TotalFinder wants to say something...
 
-But my localization function crashes for some reason in Russian, Japanese and Chinese versions. And maybe in others too! <strike>I would guess translators didn't use localization string placeholders correctly or something on my side.</strike>
+But my localization function crashes for some reason in Russian, Japanese and Chinese versions. And maybe in others too! <strike>I would guess translators haven't used localization string placeholders correctly or it's something on my side.</strike>
 
-The reason was much simpler. I just used plain C string instead of Objective-C NSString at one place when printing expiration info. This caused the crash in all versions regardless of localization state. This bug affects both 0.9.5 and 0.9.6. 
+The reason was much simpler. I just used a plain C string instead of Objective-C NSString at one place when printing expiration info. This caused the crash in all versions regardless of localization state. This bug affects both 0.9.5 and 0.9.6. 
 
 #### The rescue: Please upgrade to TotalFinder 0.9.9 manually
 
@@ -23,4 +23,4 @@ The reason was much simpler. I just used plain C string instead of Objective-C N
     <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
-I'm sorry for the inconvenience. The bug has been fixed since 0.9.7.
+I'm sorry for the inconvenience. The bug has been fixed from 0.9.7.

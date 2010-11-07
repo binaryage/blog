@@ -8,11 +8,11 @@ author_uri: http://hildebrand.cz
 
 <img src="{{site.url}}/shared/img/icons/drydrop-64.png" class="intro-icon"/>
 
-**Yesterday, I've attended Google Developer Day in Prague. It was a great occasion to meet Googlers, Google fans and other fellow developers. I had a great time there.**
+**Yesterday I attended Google Developer Day in Prague. It was a great occasion to meet Googlers, Google fans and other fellow developers. I had a great time there.**
 
 #### Lighting talks
 
-The <a href="http://gug.cz/">Czech Google User Group</a> had organized series of Lighting Talks about interesting projects using Google technologies. I took this opportunity and presented the <a href="http://drydrop.binaryage.com">DryDrop</a> project. Thanks!
+The <a href="http://gug.cz/">Czech Google User Group</a> had organized series of Lightning Talks about interesting projects using Google technologies. I took this opportunity and presented the <a href="http://drydrop.binaryage.com">DryDrop</a> project. Thanks!
 
 Here are <a href="http://www.scribd.com/doc/22254506/DryDrop">my slides</a>:
 

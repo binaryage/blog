@@ -8,7 +8,7 @@ author_uri: http://hildebrand.cz
 
 <img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
-**This is just maintenance release of [TotalFinder](http://totalfinder.binaryage.com). Christmas time is busy and I really didn't manage to save few evenings to dig deeper into Finder internals.**
+**This is just a maintenance release of [TotalFinder](http://totalfinder.binaryage.com). Christmas time is busy and I really didn't manage to save a few evenings to dig deeper into Finder internals.**
 
 <div class="blog-download">
     <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.5.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.5.dmg</div></a>
@@ -22,7 +22,7 @@ The next expiration is set to January 11, 2010 and this gives me some time to wo
 <ul class="changes">
     <li><b>NEW:</b> Added tweak option "Don't customize Dock Icon".</li>
     <li><b>NEW:</b> Installer displays warning if SIMBL is not detected.</li>
-    <li><b>NEW:</b> Archive contains compatible SIMBL package (for case TotalFinder.dmg is found on Planet of the Apes).</li>
+    <li><b>NEW:</b> Archive contains compatible SIMBL package (for the case where TotalFinder.dmg is found on Planet of the Apes).</li>
     <li><b>FIXED:</b> Quick TotalFinder restart from Preferences Pane is not counted as a crash.</li>
     <li><b>FIXED:</b> Using latest Sparkle which supports asynchronous package installation. This fixes installer choking when updating via Sparkle's "Install and Relaunch" button.</li>
 </ul>
@@ -43,10 +43,10 @@ Do you remember tabs in a title bar from Safari 4 beta?
 I know it is against usability, but Visor and TotalFinder are special case apps. These are system-wide windows sliding from "nowhere". 
 So they couldn't be treated as apps following usability guidelines anyway. 
 I like the idea of tabs in the title bar because it does not interfere with existing
-Finder UI, I'm concerned especially about the toolbar of course. Also it is perfect fit for TotalFinder sliding from bottom.
+Finder UI, I'm concerned especially about the toolbar of course. Also it is perfect fit for TotalFinder sliding from the bottom.
 
 I'm looking for some open source implementation of Cocoa app tweaking title bar section of the main window. 
-Haven't found any implementation with safari-like tabs yet, but I'm going to look at Chromium project. 
+Haven't found any implementation with safari-like tabs yet, but I'm going to look at the Chromium project. 
 Mac version of Chrome browser has nice tabs and does some kind of custom window titlebar rendering.
 
 ---

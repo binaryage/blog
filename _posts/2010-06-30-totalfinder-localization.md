@@ -17,7 +17,7 @@ author_uri: http://hildebrand.cz
 
 #### Translate TotalFinder and get a free license
 
-I'm pretty sure that you understand that translation must be an ongoing process. TotalFinder will be getting new features over the time and of course I want to be free to tweak and possibly change anything. I don't want to spend my time swapping text files in emails and micro-managing translators. I want rather focus on TotalFinder improvements and features. That's why I'm looking for a good solution of this localization problem.
+I'm pretty sure that you understand that translation must be an ongoing process. TotalFinder will be getting new features over time and of course I want to be free to tweak and possibly change anything. I don't want to spend my time swapping text files in emails and micro-managing translators. Instead I want to focus on TotalFinder improvements and features. That's why I'm looking for a good solution to this localization problem.
 
 You know that already, the [guys behind the GitHub](http://github.com/github) are my rock stars. Quite frankly, if I were a young lady I would want to have babies with all of them.
 
@@ -29,23 +29,23 @@ For your information, this is my experience when collecting localizations, easy 
 Please look at this repo and read the instructions:
 [http://github.com/binaryage/totalfinder-i18n](http://github.com/binaryage/totalfinder-i18n)
 
-I will be improving those instructions during the time by answering your actual questions. There is a [sample Czech translation](http://github.com/binaryage/totalfinder-i18n/tree/master/plugin/Resources/Czech.lproj). All I needed was to provide translations of
-several [strings files](http://github.com/binaryage/totalfinder-i18n/blob/master/plugin/Resources/Czech.lproj/Localizable.strings).
+I will be improving those instructions over time by answering your actual questions. There is a [sample Czech translation](http://github.com/binaryage/totalfinder-i18n/tree/master/plugin/Resources/Czech.lproj). All I needed to provide was translations of
+several [string files](http://github.com/binaryage/totalfinder-i18n/blob/master/plugin/Resources/Czech.lproj/Localizable.strings).
 
-#### Solved headaches with switching exotic keyboard layouts
+#### Headaches solved with switching exotic keyboard layouts
 
-Some Asian guys got into big troubles when updated to 0.9.3. Switching complex keyboard layouts might cause whole Mac to hang for a few seconds. 
+Some Asian guys got into big troubles when they updated to 0.9.3. Switching complex keyboard layouts might cause the whole Mac to hang for a few seconds. 
 
-This wasn't quite my bug but some hidden problem in the ShortcutRecorder library. All has been solved by now and the world is better [by one patch](http://code.google.com/p/shortcutrecorder/issues/detail?id=40).
+This wasn't quite my bug but some hidden problem in the ShortcutRecorder library. All has been solved now and the world is better [by one patch](http://code.google.com/p/shortcutrecorder/issues/detail?id=40).
 
 #### My fight for pixel perfection
 
-Maybe you remember that I slaughtered Google Chrome codebase and extracted the tabs implementation out of it. Some pixels got lost during this dirty process and some eagle-eyed UI designers are poking me to fix it (thanks Steve!).
+You might remember that I slaughtered the Google Chrome codebase and extracted the tabs implementation out of it. Some pixels got lost during this dirty process and some eagle-eyed UI designers are poking me to fix it (thanks Steve!).
 
-Now I'm slowly learning how rendering of the tabs really works and trying to tame Cocoa rendering on the pixel level. This version got pretty good progress on this. 
+Now I'm slowly learning how rendering the tabs really works and trying to tame Cocoa rendering on the pixel level. This version made pretty good progress on this. 
 
-Another news is that Google is (probably!) planning [slightly different tabs look](http://blog.chromium.org/2010/06/fresh-coat-of-chrome.html) in an upcoming version. It looks gorgeous in my opinion. TotalFinder will definitely keep up and I want to know every pixel by name.
+Other news is that Google is (probably!) planning [a slightly different tab look](http://blog.chromium.org/2010/06/fresh-coat-of-chrome.html) in an upcoming version. It looks gorgeous in my opinion. TotalFinder will definitely keep up and I want to know every pixel by name.
 
 <img class="clear blog-image" src="{{site.url}}/images/new-chrome-tabs-mockup.png" title="Upcoming Chrome tabs?">
 
-Also one of the most requested features is [Safari-style tabs](http://getsatisfaction.com/binaryage/topics/allow_safari_style_tabs_or_unique_a_style_chrome_tabs_me_not_like). I hear you! I will put these newly acquired skills towards this ultimate goal (sometimes after 1.0 release).
+Also one of the most requested features is [Safari-style tabs](http://getsatisfaction.com/binaryage/topics/allow_safari_style_tabs_or_unique_a_style_chrome_tabs_me_not_like). I hear you! I will put these newly acquired skills towards this ultimate goal (sometime after the 1.0 release).

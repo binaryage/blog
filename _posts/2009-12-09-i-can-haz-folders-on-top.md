@@ -23,10 +23,10 @@ Go to Tweaks section in TotalFinder preferences.
 
 #### Toggling hidden files
 
-Right now you have to restart Finder to make "Show Hidden Files" toggle effective. This is annoying, especially because I want to make this toggle available on keyboard shortcut in the future.
+Right now you have to restart Finder to make "Show Hidden Files" toggle effective. This is annoying, especially because I want to make this toggle available on a keyboard shortcut in the future.
 
-Unfortunately Finder.app author reads related plist settings in the beginning after program launches and stores the value in-memory. Unfortunately the method for reloading this toggle is not exposed. I was at least able to detect the exact position in-memory for the current version and successfully refresh the browser view, but this would be very fragile solution. The problem is that this may change for every binary and any Finder update could break it. I'm looking for better solution. Ideas?
+Unfortunately the Finder.app author reads related plist settings in the beginning after program launches and stores the value in-memory. Unfortunately the method for reloading this toggle is not exposed. I was at least able to detect the exact position in-memory for the current version and successfully refresh the browser view, but this would be very fragile solution. The problem is that this may change for every binary and any Finder update could break it. I'm looking for better solution. Ideas?
 
 #### Sparkle experience
 
-Installing update via Sparkle has one problem. I expect Finder to quit during install. But this is not the case when you run installer via Sparkle update screen. Sparkle keeps Finder alive and relaunches it after installer finish. Need to find some solution how to initiate installer "from outside" and let Finder quit before install gracefully.
+Installing update via Sparkle has one problem. I expect Finder to quit during install. But this is not the case when you run installer via Sparkle update screen. Sparkle keeps Finder alive and relaunches it after installer finish. Need to find some solution to initiate the installer "from outside" and let Finder quit gracefuly before install.

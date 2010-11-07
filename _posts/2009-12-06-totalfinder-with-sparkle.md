@@ -8,7 +8,7 @@ author_uri: http://hildebrand.cz
 
 <img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
-**I have done some progress on [TotalFinder](http://totalfinder.binaryage.com) during the weekend. This is mostly a maintenance release.** 
+**I have made some progress on [TotalFinder](http://totalfinder.binaryage.com) during the weekend. This is mostly a maintenance release.** 
 
 <div class="blog-download">
     <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.3.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.3.dmg</div></a>
@@ -30,11 +30,11 @@ I wanted to make stable install/uninstall experience and fix bugs reported by ea
 
 #### Unhappy red face
 
-The Finder is being automatically restarted after crash by launchd process. This is usually a good thing. The user is not confused that her Finder is missing.
+The Finder is being automatically restarted after a crash by the launchd process. This is usually a good thing. The user is not confused that her Finder is missing.
 
 <img class="blog-image" src="{{site.url}}/images/sad-red-face.png" style="float: left; margin-right: 20px" title="Sad red face in status menu area">
 
-The problem with TotalFinder is that it may be unstable and crash on some machines during Finder startup. This would lead to infinitive cycle of restarts and crashes. I've implemented sad red face, which appears as menu item if Finder crashes during first ten seconds after launch. If you feel lucky, you may try to re-launch it again. Anyway, don't forget to "send me":mailto:antonin@hildebrand.cz your crash report.
+The problem with TotalFinder is that it may be unstable and crash on some machines during Finder startup. This would lead to infinite cycle of restarts and crashes. I've implemented sad red face, which appears as menu item if Finder crashes during the first ten seconds after launch. If you feel lucky, you may try to re-launch it again. Anyway, don't forget to "send me":mailto:antonin@hildebrand.cz your crash report.
 
 #### Persistent desktop settings
 

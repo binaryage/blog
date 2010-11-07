@@ -15,21 +15,21 @@ author_uri: http://hildebrand.cz
     <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
-My original goal was to release 0.7 today, but I simply didn't make it. Instead of releasing half-baked version and dealing with complains I've decided to postpone 0.7 release. Software is hard :-/
+My original goal was to release 0.7 today, but I simply didn't make it. Instead of releasing half-baked version and dealing with complaints I've decided to postpone 0.7 release. Software is hard :-/
 
 #### Good news for the next release
 
-I have quite a nice progress. I have more stable version of TotalFinder and solved many of remaining display quirks. I've also removed great chunks of experimental code, so TotalFinder should be also somewhat lighter.
+I have had quite good progress. I have a more stable version of TotalFinder and solved many remaining display quirks. I've also removed great chunks of experimental code, so TotalFinder should be also somewhat lighter.
 
-Also I've spent whole weekend on implementing dual-panel mode. I got it working but it is still not ready for prime time.
+Also I've spent the whole weekend on implementing dual-panel mode. I got it working but it is still not ready for prime time.
 
-And by the way, I've implemented custom crash report dialog. Hope you will not see it very often:
+zAnd by the way, I've implemented a custom crash report dialog. Hope you will not see it very often:
 
 <img class="blog-image" src="{{site.url}}/images/new-crash-report-dialog.png" width="400" title="The crash reporting dialog">
 
 #### Overwhelmed with great responses
 
-I want to thank you all for great responses. TotalFinder has been really hot [on Twitter](http://search.twitter.com/search?q=totalfinder) and got a great coverage in Mac media and blogosphere. I wasn't prepared for such an explosion of interest.<br>But it is GREAT! Yooohoooo! :-)
+I want to thank you all for great responses. TotalFinder has been really hot [on Twitter](http://search.twitter.com/search?q=totalfinder) and got great coverage in Mac media and blogosphere. I wasn't prepared for such an explosion of interest.<br>But it is GREAT! Yooohoooo! :-)
 
 * lifehacker.com: [TotalFinder Adds Tabs, Hotkeys, and Other Tweaks to OS X's Finder](http://lifehacker.com/5449240/totalfinder-adds-tabs-hotkeys-and-other-tweaks-to-os-xs-finder)
 * cultofmac.com: [Interview: TotalFinder Developer Talks About Bringing Tabs to Mac OS X Finder](http://www.cultofmac.com/interview-totalfinder-developer-talks-about-bringing-tabs-to-mac-os-x-finder)

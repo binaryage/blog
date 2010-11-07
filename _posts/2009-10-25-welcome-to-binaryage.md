@@ -12,8 +12,8 @@ author_uri: http://hildebrand.cz
 
 #### This is just the beginning
 
-I rather spend my time writing actual code than writing articles, so please don't expect this to be a frequent blog. I'm going to announce here all major binaryage releases. This will be also best place to explain and discuss new features. I want also share here general ideas, cool tools I find online and productivity tips I'm practicing during my development.
+I prefer to spend my time writing actual code than writing articles, so please don't expect this to be a frequent blog. I'm going to announce here all major binaryage releases. This will also be the best place to explain and discuss new features. I want also share here general ideas, cool tools I find online and productivity tips I'm practicing during my development.
 
 If you prefer short realtime updates about what I'm working on, please consider subscribing <a href="http://twitter.com/binaryage">on twitter</a>.
 
-I look forward to meet here people passionate about development tools and open-source in general.
+I look forward to meeting people here, who are passionate about development tools and open-source in general.

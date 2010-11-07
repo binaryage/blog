@@ -12,7 +12,7 @@ author_uri: http://hildebrand.cz
 
 #### The Story
 
-I use Finder as my primary file manager and I have many small ideas how could I make it better. But my ultimate goal is quite ambitious. The goal is to extend Finder to support dual-panel mode like Total Commander. People around me are leaving Windows for Macs and asking for Total Commander replacement. Need to hurry! :-)
+I use Finder as my primary file manager and I have many small ideas how could I make it better. But my ultimate goal is quite ambitious. The goal is to extend Finder to support dual-panel mode like Total Commander. People around me are leaving Windows for Macs and asking for a Total Commander replacement. Need to hurry! :-)
 
 Do you know <a href="http://visor.binaryage.com">Visor</a>? TotalFinder is also implemented as a [SIMBL](http://en.wikipedia.org/wiki/SIMBL) plugin which extends Finder.app functionality. TotalFinder works in Snow Leopard only. The reason is that Finder.app has been rewritten into Cocoa in Snow Leopard which finally made this hacking possible.
 
@@ -29,9 +29,9 @@ Before you install it, open terminal and prepare this command:
 
 `rm -rf "/Library/Application Support/SIMBL/Plugins/TotalFinder.bundle"`
 
-There is a chance that during startup TotalFinder crashes and brings down whole Finder.app. The problem is that there is a process continuously starting Finder.app if it is not running somewhere in OSX. So it ends as infinite loop of Finder.app starts and crashes until you remove TotalFinder SIMBL.
+There is a chance that during startup TotalFinder crashes and brings down whole Finder.app. The problem is that there is a process continuously starting Finder.app if it is not running somewhere in OSX. So it ends as an infinite loop of Finder.app starts and crashes until you remove TotalFinder SIMBL.
 
-You got warned! Stay sharp!
+You were warned! Stay sharp!
 
 Note: The bug should be fixed in 0.2.1
 
@@ -68,9 +68,9 @@ Here is what I did in TotalFinder:
 * I've implemented kernel extension Echelon, which monitors folder renames (and deletes) and sends them to TotalFinder
   * You see why. This is important to keep DS_Store folder structure in prefix directory mirroring actual structure on the disk
 
-Yeah, kernel extension sounds scary. But I didn't find a better solution in user-space. FSEvents are not precious enough (it just reports "something was changed"). BSD kqueues must be registered on per-file basis, so it is not usable in this scenario. In the end of the day that kernel extension turned out to be really light-weight solution. I use KAUTH API to monitor kernel filesystem events. I do it only if TotalFinder is connected and only for renames and deletes. Testing is simple C-string comparison and sending notification via socket.
+Yeah, kernel extension sounds scary. But I didn't find a better solution in user-space. FSEvents are not precise enough (it just reports "something was changed"). BSD kqueues must be registered on per-file basis, so it is not usable in this scenario. At the end of the day that kernel extension turned out to be a really light-weight solution. I use KAUTH API to monitor kernel filesystem events. I do it only if TotalFinder is connected and only for renames and deletes. Testing is a simple C-string comparison and sending notification via socket.
 
-I'm using TotalFinder with this redirection enabled for a while and it works pretty well. I've noticed only two drawbacks so far:
+I've been using TotalFinder with this redirection enabled for a while and it works pretty well. I've noticed only two drawbacks so far:
 
 * .DS_Store file is created on Desktop during OSX restart, Finder crash or TotalFinder reinstallation
   The reason is that SIMBL plugin gets injected too late and Finder manages to write this .DS_Store file

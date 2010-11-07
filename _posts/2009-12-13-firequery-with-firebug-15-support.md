@@ -8,7 +8,7 @@ author_uri: http://hildebrand.cz
 
 <img src="{{site.url}}/shared/img/icons/firequery-64.png" class="intro-icon"/>
 
-**Did not much real work during weekend because of pre-christmas drinking with friends :-) But I've at least released a new version of [FireQuery](http://firequery.binaryage.com) which finally supports [Firebug 1.5](http://getfirebug.com) (in beta right now).**
+**Did not do much real work during the weekend because of pre-christmas drinking with friends :-) But I've at least released a new version of [FireQuery](http://firequery.binaryage.com) which finally supports [Firebug 1.5](http://getfirebug.com) (in beta right now).**
 
 #### Firebug 1.5 support
 

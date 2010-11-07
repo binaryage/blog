@@ -15,7 +15,7 @@ author_uri: http://hildebrand.cz
     <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
-**Warning:** When updating via Sparkle, the Finder usually gets into strange state and you are not able quit apps in the Dock. They stay as zombies there and you cannot even Force Quit them. Please restart the Finder again and the problem goes away. You may use new restart option in the status menu item.
+**Warning:** When updating via Sparkle, Finder usually gets into a strange state and you are not able quit apps in the Dock. They stay as zombies there and you cannot even Force Quit them. Please restart the Finder again and the problem goes away. You can use the new restart option in the status menu item.
 
 #### Fixed tab animation quirks
 

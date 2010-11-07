@@ -8,25 +8,25 @@ author_uri: http://hildebrand.cz
 
 <img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
-** [I promised some fun here](/totalfinder-birthday-launch) and here is the announcement of the lottery winners.<br>I've here almost $1000 worth of licenses for lucky crash reporters. **
+** [I promised some fun here](/totalfinder-birthday-launch) and here is the announcement of the lottery winners.<br>I have here almost $1000 worth of licenses for lucky crash reporters. **
 
-#### How the lottery works?
+#### How does the lottery work?
 
-I've got over 11000 crash reports during this year. That is a scary number. But the big portion of them were infamous crashes of [the broken expiration code in 0.9.5](http://blog.binaryage.com/localized-totalfinder-keeps-crashing). That is fair, everyone had a chance to send a crash report at some point although it caused some sleepless nights to me ;-) Maybe you wonder how I managed to process so many reports. They are just emails and I did a smart decision to [use gmail as a crash-report database](http://blog.binaryage.com/crash-reporting-in-binaryage/) it has the best search on the planet.
+I've had over 11000 crash reports during this year. That is a scary number. But the big portion of them were infamous crashes of [the broken expiration code in 0.9.5](http://blog.binaryage.com/localized-totalfinder-keeps-crashing). That is fair, everyone had a chance to send a crash report at some point although it caused some sleepless nights to me ;-) Maybe you wonder how I managed to process so many reports. They are just emails and I made a smart decision to [use gmail as a crash-report database](http://blog.binaryage.com/crash-reporting-in-binaryage/) because it has the best search on the planet.
 
-I decided to draw 64 winners who are unique. So nobody can win two or more licenses. Also I decided to honor number of crash reports you've sent. Every email counts as a new ticket in the lottery.
+I decided to draw 64 uniqu winners, so nobody can win two or more licenses. Also I decided to honor the number of crash reports you've sent so every email counts as a new ticket in the lottery.
 
 Here is [the script](http://gist.github.com/599631) if you are interested.
 
 #### But wait, we need a random seed
 
-[@blubalu](http://twitter.com/blubalu/status/25711610348) was the fastest random notary in [@binaryage](http://twitter.com/binaryage). Note that he uses TweedDeck :-)
+[@blubalu](http://twitter.com/blubalu/status/25711610348) was the fastest random notary in [@binaryage](http://twitter.com/binaryage). Note that he uses TweetDeck :-)
 
 <a href="http://twitter.com/blubalu/status/25711610348"><img src="{{site.url}}/images/randseed-lottery-1.png"/></a>
 
 #### And the winners are...
 
-Those guys should have their email already. **Congratulations!!!** 
+These guys should have their email already. **Congratulations!!!** 
 
         ruby 1.8.7 (2010-06-23 patchlevel 299) [i686-darwin10]
         total 11380 crash reports (Mon Sep 27 19:05:40 UTC 2010)

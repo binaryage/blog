@@ -8,7 +8,7 @@ author_uri: http://hildebrand.cz
 
 <img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
-** Today is it one year since I <a href="http://blog.binaryage.org/totalfinder-launch-date">started hacking on TotalFinder</a>. And today it is the first day when you may buy a license if you want to support the next years of development. **
+** Today is one year since I <a href="http://blog.binaryage.org/totalfinder-launch-date">started hacking on TotalFinder</a>. And today is the first day you can buy a license if you want to support the next years of development. **
 
 <div class="blog-download">
     <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-1.0.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-1.0.dmg</div></a>
@@ -25,9 +25,9 @@ Not everything is perfect of course, but... just hit it!
 
 I want to thank you all who have supported my work and helped with the project. 
 
-People were asking for discounts for alpha testers. But I think $15 is already a great price. Later with more features TotalFinder will probably climb to $20 price-point. So you may look at $15 as an introductory price. Also please note that there is a volume pricing available, when you buy 3 or more licenses, you get one license for $10. That's a steal! Buy one TotalFinder for yourself and give two licenses as a gift to some Mac friends. Starting from 1st October I will be re-licensing them for you if you send me an email. I will write a separate blog post about it soon. There will be also a special license for a boss who wants to buy a mass license for his company. It will be one-time per-company fee without the headaches of keeping track of headcount. [Let me know](mailto:antonin@binaryage.com) if you have other thoughts.
+People have asked for discounts for alpha testers. But I think $15 is already a great price. Later with more features TotalFinder will probably climb to $20 price-point, so you may look at $15 as an introductory price. Also please note that there is volume pricing available, when you buy 3 or more licenses, you get one license for $10. That's a steal! Buy one TotalFinder license for yourself and give two licenses as a gift to some Mac friends. Starting from 1st October I will be re-licensing them for you if you send me an email. I will write a separate blog post about it soon. There will also be a special license for a boss who wants to buy a mass license for his company. It will be one-time per-company fee without the headaches of keeping track of the headcount. [Let me know](mailto:antonin@binaryage.com) if you have other thoughts.
 
-I will give away $1000 worth of licenses in a few hours. I will do a small lottery and pick from people who sent crash reports. Also all translators and people who helped a lot may expect a happy email soon. I have you all guys on my list of free-give-away-licenses. Stay tuned!
+I will also give away $1000 worth of licenses in a few hours. I will do a small lottery and pick from people who have sent crash reports. Also all translators and people who helped a lot may expect a happy email soon. I have all you guys on my list of free-give-away-licenses. Stay tuned!
 
 #### New documentation
 

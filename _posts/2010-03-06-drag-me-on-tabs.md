@@ -15,6 +15,6 @@ author_uri: http://hildebrand.cz
     <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
-You may drag and drop files on tabs. Tabs get spring loaded after hovering. You may event drag folders out into new tabs. I've also fixed many crashes and quirks. Enjoy this release!
+You can drag and drop files on tabs. Tabs get spring loaded after hovering. You can even drag folders out into new tabs. I've also fixed many crashes and quirks. Enjoy this release!
 
 <img class="blog-image-full-border" src="{{site.url}}/images/totalfinder-dragontab.png" title="You may drag files and folders onto tabs!">

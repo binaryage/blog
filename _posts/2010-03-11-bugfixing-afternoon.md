@@ -19,7 +19,7 @@ author_uri: http://hildebrand.cz
 
 <img class="blog-image-full-border" src="{{site.url}}/images/totalfinder-bugs-in-08.png" title="The crash situation here">
 
-This is a list of crashes I got during last 48 hours. I'm happy to announce I have just squashed [@askForNewFileBrowser], [@NumberOfDualTabs] and [@TabStripController dealloc].
+This is a list of crashes I got during the last 48 hours. I'm happy to announce I have just squashed [@askForNewFileBrowser], [@NumberOfDualTabs] and [@TabStripController dealloc].
 
 Thank you all who care about TotalFinder and sending me crash reports. 
 
