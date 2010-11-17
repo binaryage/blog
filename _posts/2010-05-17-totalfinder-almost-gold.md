@@ -30,7 +30,7 @@ This is the new look of TotalFinder preferences. New mini tab buttons give more 
 
 #### Fixed several crash situations
 
-The root of all evil was my extensive usage of performSelector:withObject:afterDelay: calls to make things smooth and sane. for example, this was used when animating tabs. The problem is that the target object on which the scheduled method is called does not go away until the timer fires (performSelector calls retain on target) (MELDA: Not sure what this sentence means). Cocoa uses autorelease which does deallocation at some point after the timer has fired. The problem was that the target had weak references to other objects. These objects may die in the meantime while the target is waiting for the animation to finish.
+The root of all evil was my extensive usage of performSelector:withObject:afterDelay: calls to make things smooth and sane. For example, this was used when animating tabs. The problem is that the target object on which the scheduled method is called does not go away until the timer fires (performSelector calls [retain] on target object). Cocoa uses autorelease which does deallocation at some point after the timer has fired. The problem was that the target had weak references to other objects. These objects may die in the meantime while the target is waiting for the animation to finish.
 
 As you can imagine this was the source of all sudden crashes when dealing with tabs. For example a 100% reproducible case for one tabs-related crash was:
 
