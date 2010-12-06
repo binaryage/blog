@@ -20,13 +20,13 @@ This feature was implemented by [Roman Yusufkhanov](https://github.com/akahan) w
 
 #### Check out products at [Kapeli.com](http://kapeli.com)
 
-Maybe you know the other utility called [MoveAddict](http://kapeli.com) by **Bogdan Popescu** which aims to solve the same problem. I'm a bit sad to compete with Bogdan, because he definitely put a lot of good work into his app and this release will harm his sales I guess. But I feel strongly that Cut&Paste should be integral part of TotalFinder and as a most requested feature this is the best thing for my users.
+Maybe you know the other utility called [MoveAddict](http://kapeli.com) by **Bogdan Popescu** which aims to solve the same problem. I'm a bit sad to compete with Bogdan, because he definitely put a lot of good work into his app and this release will harm his sales I guess. But I feel strongly that Cut&Paste should be an integral part of TotalFinder and as the most requested feature this is the best thing for my users.
 
 Please do me a favor. Visit his site and [check out some other products](http://kapeli.com/switche) he has created. Much appreciated, thanks!
 
 #### TotalFinder is on sale via [MacUpdate Promo](http://mupromo.com) today!
 
-The price is set to $9 which is 40% discount. Given that Cut&Paste feature alone has a price tag $8 (MoveAddict). You will get great value for really budget price. I hope you like my aggressive pricing.
+The price is set to $9 which is 40% discount. Given that Cut&Paste feature alone has the price tag $8 (MoveAddict). You will get great value for really budget price. I hope you like my aggressive pricing.
 
 #### What's next?
 
