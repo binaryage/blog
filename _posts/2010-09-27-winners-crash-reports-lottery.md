@@ -14,7 +14,7 @@ author_uri: http://hildebrand.cz
 
 I've had over 11000 crash reports during this year. That is a scary number. But the big portion of them were infamous crashes of [the broken expiration code in 0.9.5](http://blog.binaryage.com/localized-totalfinder-keeps-crashing). That is fair, everyone had a chance to send a crash report at some point although it caused some sleepless nights to me ;-) Maybe you wonder how I managed to process so many reports. They are just emails and I made a smart decision to [use gmail as a crash-report database](http://blog.binaryage.com/crash-reporting-in-binaryage/) because it has the best search on the planet.
 
-I decided to draw 64 uniqu winners, so nobody can win two or more licenses. Also I decided to honor the number of crash reports you've sent so every email counts as a new ticket in the lottery.
+I decided to draw 64 unique winners, so nobody can win two or more licenses. Also I decided to honor the number of crash reports you've sent so every email counts as a new ticket in the lottery.
 
 Here is [the script](http://gist.github.com/599631) if you are interested.
 
