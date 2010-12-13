@@ -8,7 +8,7 @@ author_uri: http://hildebrand.cz
 
 <img src="{{site.url}}/shared/img/totalfinder-icon-lock.png" class="intro-icon"/>
 
-<div class="blog-update">UPDATE: After two months since I started selling TotalFinder I've decided to remove this option. This experiment had zero traction. I will rather simplify licensing and better focus more on making the product awesome. If you have special licensing needs, please contact me at <a href="mailto:antonin@binaryage.com">antonin@binaryage.com</a>. Thanks!</div>
+<div class="blog-update">UPDATE: Two months after I started selling TotalFinder I've decided to remove this option. This experiment had zero traction. I would rather simplify licensing and instead focus more on making the product awesome. If you have any special licensing needs, please contact me at <a href="mailto:antonin@binaryage.com">antonin@binaryage.com</a>. Thanks!</div>
 
 ** Captain Kirk just called me. He wants to buy a multi-license for his crew. But the problem is that even Spock is unable to tell how many licenses they will need to operate. Luckily enough, they at least know how many people use Macs on USS Enterprise today. **
 
