@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The first year of BinaryAge
+title: "The first year of BinaryAge: Inception"
 tags: [thoughts]
 author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
