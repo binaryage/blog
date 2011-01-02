@@ -6,6 +6,8 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
+<img src="{{site.url}}/shared/img/icons/binaryage-badge-64.png" class="intro-icon"/>
+
 **It was a wonderfully busy year. Today I had few moments to sit down and look back.<br>Prior to reading you may want to read about [the first year of BinaryAge](http://blog.binaryage.com/the-first-year-of-binaryage).**
 
 #### TotalFinder with Tabs!
