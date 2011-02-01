@@ -40,6 +40,6 @@ But also I've produced my own independent games just for fun. And some unfinishe
 
 #### Interested in javascript games?
 
-Show us what are you working on. Maybe we can join our efforts together on something interesting.
+Show us what are you working on. Maybe we can work together and make something interesting.
 
 *Google Chrome is becoming a new game engine. And people have it already at homes!*
