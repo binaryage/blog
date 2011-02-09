@@ -8,15 +8,15 @@ author_uri: http://hildebrand.cz
 
 <img src="{{site.url}}/shared/img/icons/binaryage-badge-64.png" class="intro-icon"/>
 
-**This is a little schizophrenic situation, but I just agreed with myself to spend 20% time on projects which are not related to TotalFinder. Yes, inspired by [Google's idea](http://lifehacker.com/5497057/set-up-your-own-google+style-20+percent-time-to-try-new-projects).**
+**This is a bit of a schizophrenic situation, but I just agreed with myself to spend 20% time on projects which are not related to TotalFinder. Yes, inspired by [Google's idea](http://lifehacker.com/5497057/set-up-your-own-google+style-20+percent-time-to-try-new-projects).**
 
 #### It has to be fun!
 
-Working on TotalFinder is still fun. But the time I spend on emails is greater than time spent programming new features. Nobody can do support better than me. Sad, but true.
+Working on TotalFinder is still fun. But the time I spend on emails is greater than the time spent programming new features. Nobody can do support better than me. Sad, but true.
 
-Last weekend I've spent with friends and other folks at [GameJam Prague](http://gamejamprague.org). The goal was to create a game in 48 hours. A classic hackathlon-style event, part of the [Global GameJam](http://globalgamejam.org).
+I spent last weekend with friends and other folks at [GameJam Prague](http://gamejamprague.org). The goal was to create a game in 48 hours. A classic hackathlon-style event, part of the [Global GameJam](http://globalgamejam.org).
 
-I'm a big believer in new browser technologies, javascript and related things. I took [ImpactJS](http://impactjs.com) game engine and I tried to build a simple game on top of it. I've had this on my list for a while, but never managed to save some time to really sit on it.
+I'm a big believer in new browser technologies, JavaScript and related things. I took the [ImpactJS](http://impactjs.com) game engine and I tried to build a simple game on top of it. I've had this on my list for a while, but never managed to save some time to really get on it.
 
 #### Dino needs love
 
@@ -28,7 +28,7 @@ It is a really short game with a nice twist at the end. It should take you 5 min
 
 #### I'm still in love with game making
 
-In my past life I made living by working on big games. I spent 3 years working on tools for [Mafia2](http://www.mafia2game.com).
+In my past life I made a living by working on big games. I spent 3 years working on tools for [Mafia2](http://www.mafia2game.com).
 
 But also I've produced my own independent games just for fun. And some unfinished of course...
 
@@ -42,4 +42,4 @@ But also I've produced my own independent games just for fun. And some unfinishe
 
 Show us what are you working on. Maybe we can work together and make something interesting.
 
-*Google Chrome is becoming a new game engine. And people have it already at homes!*
+*Google Chrome is becoming a new game engine. And people have it already at home!*
