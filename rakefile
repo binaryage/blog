@@ -1,3 +1,4 @@
+# coding: utf-8
 ROOT = File.expand_path('.')
 WWW = File.join(ROOT, 'www')
 BLOG = File.join(ROOT, 'blog')
@@ -9,33 +10,18 @@ FIRELOGGER = File.join(ROOT, 'firelogger')
 DRYDROP = File.join(ROOT, 'drydrop')
 XREFRESH = File.join(ROOT, 'xrefresh')
 
-unless defined? OSX then
-  OSX = PLATFORM =~ /darwin/
-  WIN = PLATFORM =~ /win32/
-  NIX = !(OSX || WIN)
-end
-
 begin
   require 'term/ansicolor'
   include Term::ANSIColor
 rescue LoadError
   raise 'Run "gem install term-ansicolor"'
 end
-# http://kpumuk.info/ruby-on-rails/colorizing-console-ruby-script-output/
-if WIN then
-  begin
-    require 'win32console'
-    include Win32::Console::ANSI
-  rescue LoadError
-    raise 'Run "gem install win32console" to use terminal colors on Windows'
-  end
-end
 
 begin
-  require 'appscript' if OSX
-  include Appscript if OSX
+  require 'appscript'
+  include Appscript
 rescue LoadError
-  raise 'You must "sudo gem install rb-appscript"'
+  raise 'You must "gem install rb-appscript"'
 end
 
 def file_color(text); yellow(text); end
@@ -48,7 +34,6 @@ def sys(cmd)
 end
 
 def run_in_terminal(cmd, title, background=[0,0,0])
-  if OSX
     # see http://www.nach-vorne.de/2007/11/22/terminal-trick
     # and http://onrails.org/articles/2007/11/28/scripting-the-leopard-terminal
     # and http://blog.cbciweb.com/articles/2008/05/02/scripting-mac-terminal-using-ruby
@@ -73,15 +58,9 @@ def run_in_terminal(cmd, title, background=[0,0,0])
     rescue
       die "OSX command failed"
     end
-  else
-    # toto je min pohodlne, spustim server v aktualni konzoli
-    system(cmd)
-  end
 end
 
 def find_terminal_tab(color)
-  return unless OSX # umime zatim jen pro OSX
-
   term = app('Terminal')
   term.windows.get.each do |win|
     begin
