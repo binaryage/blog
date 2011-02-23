@@ -19,6 +19,8 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
 
 The goal was to assemble a team and present a viable product to judges at the end of the day.
 
+<img class="clear blog-image-full" src="{{site.url}}/images/presenting-sixthsense.jpg" title="Me pitching the SixthSense project">
+
 I've had quite a bit of experience with similar events. Back in the day I was active on [demoscene](http://en.wikipedia.org/wiki/Demoscene) which is famous for its "demoparties". The structure of the event is similar but instead of building products or services, the teams build demos (graphical visualizations) and present them on the big screen to the audience. Or as another example, two weeks ago I was at a hackathon called [GameJam Prague](http://www.gamejamprague.org). The goal was to build a computer [game in 48 hours](http://www.gamejamprague.org/hry).
 
 For me it makes sense because conferences and similar competitions accelerate the "culture of making stuff". It is important for the ecosystem to work, for new people to get attracted to the scene. Be it a demo, a game or a consumer product. Also it gives the participants valuable feedback after they get back home, get bit of sleep and think about their performance and failures. Not to mention networking opportunities.
