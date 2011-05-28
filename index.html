@@ -1,13 +1,9 @@
 ---
-layout: blog
+layout: blog2
 title: The blog from BinaryAge
-meta_title: The blog from BinaryAge
-meta_keywords: blog,ideas,antonin hildebrand,binaryage,productivity,software,web,development
-meta_description: Sharing ideas about software, products and cool stuff from BinaryAge
-meta_image: http://www.binaryage.com/shared/img/icons/binaryage-badge-256.png
 ---
 
-<h1 style="visibility:hidden">Ideas from BinaryAge</h1>
+<div class="ideas-separator"></div>
 <ul class="posts">
 {% for post in paginator.posts %}
     <li>
@@ -17,26 +13,22 @@ meta_image: http://www.binaryage.com/shared/img/icons/binaryage-badge-256.png
             <div class="year">{{ post.date | date:"%Y" }}</div>
         </div>
         <a href="{{ post.url }}" class="post-title">{{ post.title }}</a> 
-        <div class="clear"></div>
+        <div class="post-separator"></div>
     </li>
 {% endfor %}
 </ul>
 
 <div class='paging'>
-{% if paginator.previous_page %}
-  {% if paginator.previous_page == 1 %}
-    <a href='/' class='newer'>&lt;&lt; newer posts</a>
-  {% else %}
-    <a href='/page{{paginator.previous_page}}' class='newer'>&lt;&lt; newer posts</a>
-  {% endif %}
-{% endif %}
-
-{% if paginator.previous_page and paginator.next_page %}
-&nbsp;&nbsp;|&nbsp;&nbsp;
-{% endif %}
-
 {% if paginator.next_page %}
-  <a href='/page{{paginator.next_page}}' class='older'>older posts &gt;&gt;</a>
+    <a href='/page{{paginator.next_page}}' class='older'>« Older Posts</a>
 {% endif %}
-  <div class='clear'></div>
+
+{% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+        <a href='/' class='newer'>Newer Posts »</a>
+    {% else %}
+        <a href='/page{{paginator.previous_page}}' class='newer'>Newer Posts »</a>
+    {% endif %}
+{% endif %}
+
 </div>

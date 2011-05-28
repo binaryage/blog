@@ -1,7 +1,4 @@
 permalink: /:title
 paginate: 6
-pygments: true
 url: http://blog.binaryage.com
 markdown: rdiscount
-auto: true
-server: true
