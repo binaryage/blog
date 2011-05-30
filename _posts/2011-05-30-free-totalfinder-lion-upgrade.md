@@ -8,7 +8,7 @@ author_uri: http://hildebrand.cz
 
 <img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
-**Good news! I'm happy to announce that all existing users will get TotalFinder Lion upgrade for free. Also I will increase TotalFinder price for new customers the same day when Apple releases Lion. Please read the details below.**
+**Good news! I'm happy to announce that all existing users will get TotalFinder Lion upgrade for free. On the other hand I will increase TotalFinder price for new customers the same day when Apple releases Lion. Please read the details below.**
 
 ### The summary
 
@@ -39,18 +39,18 @@ TotalFinder is definitely getting better. It is still not perfect, but we are ge
 But I have different arguments why TotalFinder price should go up:
 
 1. I believe that early adopters should get a better price
-2. I have been overwhelmed with user support lately, by increasing price I get less people jumping in, which gives me some time for real development, instead of sitting in gmail all day long
-3. I live in Czech Republic and [the dollar lost ~20% against Czech currency during last year](http://www.google.com//finance?chdnp=1&chdd=1&chds=1&chdv=1&chvs=Linear&chdeh=0&chfdeh=0&chdet=1306772121487&chddm=359060&q=CURRENCY:USDCZK&ntsp=0)
+2. I have been overwhelmed with user support lately, by increasing the price I get less people jumping in, which gives me more time for real development, instead of sitting in gmail all day long
+3. I live in the Czech Republic and [the dollar lost ~20% against Czech currency during last year](http://www.google.com//finance?chdnp=1&chdd=1&chds=1&chdv=1&chvs=Linear&chdeh=0&chfdeh=0&chdet=1306772121487&chddm=359060&q=CURRENCY:USDCZK&ntsp=0)
 
 #### I will stop paying taxes for EU customers
 
-When opening [the store](http://sites.fastspring.com/binaryage/product/store) via [FastSpring](http://fastspring.com) I've selected option to hide VAT in the price. The [VAT](http://en.wikipedia.org/wiki/Value_added_tax) is similar to sales taxes in the U.S.
+Last year when I was opening [the store](http://sites.fastspring.com/binaryage/product/store) via [FastSpring](http://fastspring.com) I've selected option to hide VAT in the price. The [VAT](http://en.wikipedia.org/wiki/Value_added_tax) is similar to sales taxes in the U.S.
 
 Why did I do that? Well, here in Europe, it is common that end-user prices in stores are displayed including VAT and people don't think about it (what a great social hack, isn't it?). I wanted my ordering process to be as seamless as possible and I didn't want to spend time explaining people why they should pay 20% more than is advertised on the homepage.
 
 Why it was a mistake? Simply it is not fair. It creates inequality between customers. Some pay more than others. For example from U.S. citizens I get full $15, while for example from German guys I get roughly $12.5. I have to collect the remaining $2.5 for German government (as a VAT).
 
-I'm libertarian by hart and I have to fix this. The day Apple releases Lion and I will flip the switch which will make TotalFinder more expensive for EU customers.
+I'm libertarian by hart and I have to fix this. The day Apple releases Lion I will flip the switch. This will make TotalFinder more expensive for EU customers (according to their country's VAT rate).
 
 ### The bottom line
 
