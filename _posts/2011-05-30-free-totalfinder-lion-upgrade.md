@@ -8,7 +8,7 @@ author_uri: http://hildebrand.cz
 
 <img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
-**Good news! I'm happy to announce that all existing users will get TotalFinder Lion upgrade for free. On the other hand I will increase TotalFinder price for new customers the same day when Apple releases Lion. Please read the details below.**
+**Good news! I'm happy to announce that all existing users will get TotalFinder Lion upgrade for free. On the other hand I will increase TotalFinder price for new customers the same day Apple releases Lion. Please read the details below.**
 
 ### The summary
 
@@ -19,7 +19,7 @@ author_uri: http://hildebrand.cz
 
 #### Single TotalFinder executable
 
-I did some nice progress on [Lion compatibility](http://totalfinder.binaryage.com/lion). I'm pretty confident that I will be able to provide all TotalFinder features under Lion. The bonus is that I was able to implement it in a single binary, so there should be no headaches with maintaing two separate plugins.
+I made some nice progress on [Lion compatibility](http://totalfinder.binaryage.com/lion). I'm pretty confident that I will be able to provide all TotalFinder features under Lion. The bonus is that I was able to implement it in a single binary, so there should be no headaches with maintaing two separate plugins.
 
 #### You get a TotalFinder upgrade for free
 
@@ -50,13 +50,13 @@ Why did I do that? Well, here in Europe, it is common that end-user prices in st
 
 Why it was a mistake? Simply it is not fair. It creates inequality between customers. Some pay more than others. For example from U.S. citizens I get full $15, while for example from German guys I get roughly $12.5. I have to collect the remaining $2.5 for German government (as a VAT).
 
-I'm libertarian by hart and I have to fix this. The day Apple releases Lion I will flip the switch. This will make TotalFinder more expensive for EU customers (according to their country's VAT rate).
+I'm libertarian by heart and I have to fix this. The day Apple releases Lion I will flip the switch. This will make TotalFinder more expensive for EU customers (according to their country's VAT rate).
 
 ### The bottom line
 
 Ok, those changes won't be popular but I believe they are the right thing to do. Complain to your governments, not me.
 
-If you've already bought your TotalFinder copy you did a good investment. It helps you every day with Finder and the value is increasing over time (hopefully). And I will do my best to keep it that way!
+If you've already bought your TotalFinder copy you made a good investment. It helps you every day with Finder and the value is increasing over time (hopefully). And I will do my best to keep it that way!
 
 ---
 
