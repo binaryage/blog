@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TotalFinder upgrade for Lion will be free of charge
+title: TotalFinder upgrade for Lion will be at no extra charge
 tags: [general]
 author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
