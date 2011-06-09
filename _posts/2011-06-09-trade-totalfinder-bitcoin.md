@@ -12,7 +12,7 @@ author_uri: http://hildebrand.cz
 
 ### Trade TotalFinder for bitcoins (50% price off)
 
-Interested? Please send me an [email](mailto:antonin@binaryage.com?subject=TotalFinder+for+bitcoins). I will reply with current quote in BTC and my address where I accept your payment. I will send a free license link back when I get 10+ confirmations of the payment.
+Interested? Please send me an [email](mailto:antonin@binaryage.com?subject=TotalFinder%20for%20bitcoins). I will reply with current quote in BTC and my address where I accept your payment. I will send a free license link back when I get 10+ confirmations of the payment.
 
 The price will be 50% of the usual price denominated in BTC <- [previous close on MtGox exchange](http://www.bitcoincharts.com/markets/mtgoxUSD.html).
 
@@ -22,7 +22,7 @@ You may refer people to my site by giving them urls with your bitcoin address as
 
     http://totalfinder.binaryage.com?referrer=BITCOINADDRESS
     http://sites.fastspring.com/binaryage/product/store?referrer=BITCOINADDRESS
-    or any other similar link to my site or fastspring shop
+    or any other similar link to my site or FastSpring e-shop
 
 Technically that referrer parameter will be [stored in cookie for 14 days](https://github.com/binaryage/layouts/blob/master/default2.html#L511-516) and passed to my e-commerce provider if the user purchases something. Then I will do manual bitcoin transfers (not later than on sunday).
 
@@ -32,8 +32,8 @@ Note: This way you may get 10% of your own money back in bitcoins. This may be a
 
 ### Asking why am I doing it?
 
-* I'm super excited about bitcoin idea and design.
-* I'm a geek and early adopter. I like to try new technology. Also this is a novel marketing approach.
+* I'm a hacker who is super excited about bitcoin idea and design.
+* I'm a geek and early adopter. I like to try new technology. Also this is a novel marketing experiment.
 * I'm curious and want to support bitcoin economy by offering my products and services on bitcoin market.
 
 Please note that this is an experimental offer. I may discontinue it anytime for any reason.
