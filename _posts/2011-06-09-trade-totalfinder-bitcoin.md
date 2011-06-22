@@ -24,7 +24,7 @@ You may refer people to my site by giving them urls with your bitcoin address as
     http://sites.fastspring.com/binaryage/product/store?referrer=BITCOINADDRESS
     or any other similar link to my site or FastSpring e-shop
 
-Technically that referrer parameter will be [stored in cookie for 14 days](https://github.com/binaryage/layouts/blob/master/default2.html#L511-516) and passed to my e-commerce provider if the user purchases something. Then I will do manual bitcoin transfers (not later than on sunday).
+Technically that referrer parameter will be [stored in a cookie for 14 days](https://github.com/binaryage/layouts/blob/master/default2.html#L511-516) and passed to my e-commerce provider if the user purchases something. Then I will do manual bitcoin transfers (not later than on sunday).
 
 I've just setup a fund of 300BTC for this purpose - which should be enough to get it going until I earn first bitcoins myself :-)
 
