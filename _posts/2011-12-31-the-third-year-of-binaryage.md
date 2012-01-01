@@ -8,7 +8,7 @@ author_uri: http://hildebrand.cz
 
 <img src="{{site.url}}/shared/img/icons/binaryage-badge-64.png" class="intro-icon"/>
 
-**It was a successful year. BinaryAge has became a serious business in 2011.<br>This is my traditional summary of the year for people who follow this story.<br>Last year I wrote about [the second year of BinaryAge](http://blog.binaryage.com/the-second-year-of-binaryage).**
+**It was a successful year. BinaryAge has become a serious business in 2011.<br>This is my traditional summary of the year for people who follow this story.<br>Last year I wrote about [the second year of BinaryAge](http://blog.binaryage.com/the-second-year-of-binaryage).**
 
 #### Rescue my Time!
 
