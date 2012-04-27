@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TotalSpaces brings back grid Spaces from Snow Leopard"
+title: "TotalSpaces brings back grid Spaces to OS X Lion"
 tags: [totalspaces]
 author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
@@ -16,7 +16,7 @@ TotalSpaces provides several handy features for heavy Spaces users. In a way it 
 
 #### Meet Stephen from Helsinki
 
-TotalSpaces has been developed by **[Stephen Sykes](https://twitter.com/sdsykes)** - a Mac developer, hacker and radio electronics guru. He is a computer veteran, an englishman living in Finland. TotalSpaces is his idea to improve his daily window management tasks. He is really quick at switchin' Spaces!
+<img src="{{site.url}}/images/stephen.png" style="width:70px;float:left; margin-top: -2px; margin-right: 10px; padding:2px; border:1px #999 solid;"/> TotalSpaces has been developed by **[Stephen Sykes](https://twitter.com/sdsykes)** - a Mac and iOS developer, hacker and radio electronics guru. He is a computer veteran, an englishman living in Finland. TotalSpaces is his idea to improve his daily desktop and window management tasks. He sure is really quick at switchin' Spaces!
 
 #### The story behind TotalSpaces
 
