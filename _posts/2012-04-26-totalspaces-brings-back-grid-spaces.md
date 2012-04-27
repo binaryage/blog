@@ -12,7 +12,7 @@ author_uri: http://hildebrand.cz
 
 <img class="clear blog-image-full-border" src="{{site.url}}/images/totalspaces-overview-grid.png" title="Grid overview in TotalSpaces">
 
-TotalSpaces provides several handy features for heavy Spaces users. In a way it brings back the old grid-based Spaces behavior we loved in Snow Leopard. It offers custom transitions when switching Spaces. For example featuring the famous Cube transition. And of course you may customize hotkeys, hotcorners and the way circulation through the grid works. Sounds good? Look into [the documentation](http://totalspaces.binaryage.com/documentation) to get more info on individual features in the current version.
+**[TotalSpaces](http://totalspaces.binaryage.com)** provides several handy features for heavy Spaces users. In a way it brings back the old grid-based Spaces behavior we loved in Snow Leopard. It offers custom transitions when switching Spaces. For example featuring the famous Cube transition. And of course you may customize hotkeys, hotcorners and the way circulation through the grid works. Sounds good? Look into [the documentation](http://totalspaces.binaryage.com/documentation) to get more info on individual features in the current version.
 
 #### Meet Stephen from Helsinki
 
