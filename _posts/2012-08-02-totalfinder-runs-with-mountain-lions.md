@@ -26,7 +26,7 @@ I need more time for development. I decided to support just one OS version back.
 
 Hard feelings? [Blame me here](https://getsatisfaction.com/binaryage/topics/snow_leopard_not_supported_1_3_6).
 
-#### TotalFinder's future
+#### TotalFinder has a bright future
 
 I'm still here and dedicated to TotalFinder development. Right now I have whole TotalFinder source code loaded back in my head. So I hope I will be able to implement some hard but [highly requested features on the list](https://getsatisfaction.com/binaryage/ideas/popular). 
 
