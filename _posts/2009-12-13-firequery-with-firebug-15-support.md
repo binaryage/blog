@@ -12,7 +12,7 @@ author_uri: http://hildebrand.cz
 
 #### Firebug 1.5 support
 
-Many thanks to [Steven Roussey](http://twitter.com/sroussey) who [implemented changes](http://github.com/darwin/firequery/commits/master) needed for new Firebug.
+Many thanks to [Steven Roussey](http://twitter.com/sroussey) who [implemented changes](http://github.com/binaryage/firequery/commits/master) needed for new Firebug.
 
 #### Alternative jQuery version
 

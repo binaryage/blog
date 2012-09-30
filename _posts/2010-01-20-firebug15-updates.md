@@ -19,7 +19,7 @@ of going through their approval process for my addons. This is the first one I c
 
 Warning: The old version of FireQuery (0.3) breaks the HTML panel in Firebug 1.5. You have to disable the extension or update to the latest version to fix the issues.
 
-Note: **FireLogger** (FirePython) will be updated later. I still have it on my TODO list but the new release needs more work and I didn't manage to find time to make it happen (I'm sorry Guido). Folks interested in bleeding edge versions may always run the latest and greatest from [sources at github](http://github.com/darwin/firelogger).
+Note: **FireLogger** (FirePython) will be updated later. I still have it on my TODO list but the new release needs more work and I didn't manage to find time to make it happen (I'm sorry Guido). Folks interested in bleeding edge versions may always run the latest and greatest from [sources at github](http://github.com/binaryage/firelogger).
 
 #### Don't miss other cool Firebug plugins
 

@@ -44,7 +44,7 @@ Of course I do eat my own dog food, so I used XRefresh, FireQuery, Visor and Tot
 
 Actually I did more than that! I even contributed a few fixes to XRefresh and Jekyll:
 
-* [http://github.com/darwin/xrefresh/commit/0f0050f69fb841df7e42266a274313b948b206d9](http://github.com/darwin/xrefresh/commit/0f0050f69fb841df7e42266a274313b948b206d9)
+* [http://github.com/binaryage/xrefresh/commit/0f0050f69fb841df7e42266a274313b948b206d9](http://github.com/binaryage/xrefresh/commit/0f0050f69fb841df7e42266a274313b948b206d9)
 * [http://github.com/darwin/jekyll/tree/optimize_static_files](http://github.com/darwin/jekyll/tree/optimize_static_files)
 * [http://github.com/darwin/jekyll/tree/site_url_from_cmdline](http://github.com/darwin/jekyll/tree/site_url_from_cmdline)
 
