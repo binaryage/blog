@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="{{site.url}}/base/img/icons/totalfinder-64.png" class="intro-icon"/>
 
 ** Good news! [TotalFinder 1.4](http://totalfinder.binaryage.com/changes#1.4) works fine under new OS X 10.8 - Mountain Lion.<br>And it got even better. **
 

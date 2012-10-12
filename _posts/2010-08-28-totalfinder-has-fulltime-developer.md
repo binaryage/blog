@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="{{site.url}}/base/img/icons/totalfinder-64.png" class="intro-icon"/>
 
 ** I have been overwhelmed by the positive reactions and growing user count.<br/>So I decided to quit my job and start working on TotalFinder full time. **
 

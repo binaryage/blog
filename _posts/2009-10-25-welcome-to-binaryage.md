@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/shared/img/icons/binaryage-badge-64.png" class="intro-icon"/>
+<img src="{{site.url}}/base/img/icons/binaryage-badge-64.png" class="intro-icon"/>
 
 **Hello! I'm <a href="http://hildebrand.cz">Darwin</a> from BinaryAge<br/>and you are probably a software developer interested in some of <a href="http://binaryage.com">my tools</a>.**
 

@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/shared/img/icons/firequery-64.png" class="intro-icon"/>
+<img src="{{site.url}}/base/img/icons/firequery-64.png" class="intro-icon"/>
 
 **[Firebug 1.5 is out](http://blog.getfirebug.com/2010/01/19/please-update-firebug-extensions-with-1-5-0) and I've just updated most of my Firebug extensions to play nice with this release.**
 

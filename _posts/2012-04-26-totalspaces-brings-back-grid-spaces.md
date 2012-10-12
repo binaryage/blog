@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/shared/img/icons/totalspaces-64.png" class="intro-icon"/>
+<img src="{{site.url}}/base/img/icons/totalspaces-64.png" class="intro-icon"/>
 
 ** I'm excited to announce a new product from BinaryAge. TotalSpaces is a productivity tool for Mac. You guess right, it taps into the system and improves Spaces experience. **
 

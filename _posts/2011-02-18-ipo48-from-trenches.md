@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/shared/img/icons/binaryage-badge-64.png" class="intro-icon"/>
+<img src="{{site.url}}/base/img/icons/binaryage-badge-64.png" class="intro-icon"/>
 
 **I have been a bit silent recently because of my preparations for [IPO48](http://ipo48.org). IPO48 is a weekend event that's a cross between a startup bootcamp and a hackathon.**
 

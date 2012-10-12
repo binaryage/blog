@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="{{site.url}}/base/img/icons/totalfinder-64.png" class="intro-icon"/>
 
 ** [I promised some fun here](/totalfinder-birthday-launch) and here is the announcement of the lottery winners.<br>I have here almost $1000 worth of licenses for lucky crash reporters. **
 
