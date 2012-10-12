@@ -1,4 +1,0 @@
-permalink: /:title
-paginate: 6
-url: http://blog.binaryage.com
-markdown: rdiscount
