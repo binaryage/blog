@@ -6,12 +6,12 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/base/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
 **This is just a maintenance release of [TotalFinder](http://totalfinder.binaryage.com). Christmas time is busy and I really didn't manage to save a few evenings to dig deeper into Finder internals.**
 
 <div class="blog-download">
-    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.5.dmg"><img src="{{site.url}}/base/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.5.dmg</div></a>
+    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.5.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.5.dmg</div></a>
     <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 

@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/base/img/totalfinder-icon-lock.png" class="intro-icon"/>
+<img src="{{site.url}}/shared/img/totalfinder-icon-lock.png" class="intro-icon"/>
 
 <div class="blog-update">UPDATE: Two months after I started selling TotalFinder I've decided to remove this option. This experiment had zero traction. I would rather simplify licensing and instead focus more on making the product awesome. If you have any special licensing needs, please contact me at <a href="mailto:antonin@binaryage.com">antonin@binaryage.com</a>. Thanks!</div>
 

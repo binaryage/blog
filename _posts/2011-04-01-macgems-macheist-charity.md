@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/base/img/icons/binaryage-badge-64.png" class="intro-icon"/>
+<img src="{{site.url}}/shared/img/icons/binaryage-badge-64.png" class="intro-icon"/>
 
 **I was lucky. TotalFinder is a pretty hot deal. I'm getting quite some emails from promo sites and bundle creators with offers to include TotalFinder. Thank you, maybe later.**
 

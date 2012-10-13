@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/base/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
 **Good news! I'm happy to announce that all existing users will get TotalFinder Lion upgrade for free. On the other hand I will increase TotalFinder price for new customers the same day Apple releases Lion. Please read the details below.**
 

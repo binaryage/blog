@@ -6,12 +6,12 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/base/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
 ** Today is one year since I <a href="http://blog.binaryage.org/totalfinder-launch-date">started hacking on TotalFinder</a>. And today is the first day you can buy a license if you want to support the next years of development. **
 
 <div class="blog-download">
-    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-1.0.dmg"><img src="{{site.url}}/base/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-1.0.dmg</div></a>
+    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-1.0.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-1.0.dmg</div></a>
     <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changes">http://totalfinder.binaryage.com/changes</a></div>
 </div>
 

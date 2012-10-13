@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/base/img/icons/binaryage-badge-64.png" class="intro-icon"/>
+<img src="{{site.url}}/shared/img/icons/binaryage-badge-64.png" class="intro-icon"/>
 
 **I'm happy to announce that BinaryAge just got a new design!<br/>Big kudos to <a href="http://raist.cz">Raist</a> who redesigned [the site](http://binaryage.com) for me.**
 

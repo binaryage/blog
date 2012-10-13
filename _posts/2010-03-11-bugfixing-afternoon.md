@@ -6,12 +6,12 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/base/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
 **I've just released TotalFinder 0.8.1. I don't have any new exciting features for you today. This is a pure bugfix release.**
 
 <div class="blog-download">
-    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.8.1.dmg"><img src="{{site.url}}/base/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.8.1.dmg</div></a>
+    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.8.1.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.8.1.dmg</div></a>
     <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 

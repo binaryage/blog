@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/base/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
 **Real quick today. I want to show you a new icon for TotalFinder. I want to roll it into the next release.**
 

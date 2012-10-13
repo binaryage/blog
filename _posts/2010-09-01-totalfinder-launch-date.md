@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/base/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
 ** I'm in [better control of my time](/totalfinder-has-fulltime-developer) now, so I can set the launch date to Sep 27, 2010.<br>I have almost a whole month to polish the product, write docs and open the store. **
 

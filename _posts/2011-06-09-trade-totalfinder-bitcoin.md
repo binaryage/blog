@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/base/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
 **[Bitcoin](http://bitcoin.org) is the [next big thing](http://arstechnica.com/tech-policy/news/2011/06/bitcoin-inside-the-encrypted-peer-to-peer-currency.ars) and I want to support the emerging economy around this new currency. Today I start offering TotalFinder for bitcoins and let people earn some bitcoins by referring TotalFinder to friends.**
 
