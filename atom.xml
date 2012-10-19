@@ -3,9 +3,73 @@
     <title>The ideas from BinaryAge</title>
     <link href="http://blog.binaryage.com/atom.xml" rel="self"/>
     <link href="http://blog.binaryage.com"/>
-    <updated>2012-10-15T12:52:33-04:00</updated>
+    <updated>2012-10-19T15:08:36-04:00</updated>
     <id>http://blog.binaryage.com/</id>
     
+    
+    <entry>
+        <title><![CDATA[TotalSpaces finally reaches 1.0]]></title>
+        
+        <link href="http://blog.binaryage.com//totalspaces-finally-reaches-1.0"/>
+        <updated>2012-10-19T00:00:00-04:00</updated>
+        <id>jduff.github.com:/totalspaces-finally-reaches-1.0</id>
+        <content type="html"><![CDATA[<p><img src="http://blog.binaryage.com/shared/img/icons/totalspaces-64.png" class="intro-icon"/></p>
+
+<p><strong> <a href="http://totalspaces.binaryage.com">TotalSpaces</a> &mdash; the indispensable utility for managing and navigating your spaces in a grid </strong></p>
+
+<h4>We are launching on Tuesday!</h4>
+
+<p>Hi, Stephen here... I am excited to make an announcement: Yes, TotalSpaces v1.0 is ready for release and <strong>will be available on Tuesday October 23rd</strong>. I feel we have come far enough for it to be a truly useful piece of software, that is stable and well tested by thousands of users.</p>
+
+<p>All in all, we're really happy with TotalSpaces, and we're not alone; we've had many nice comments from our users who either missed the old OSX grid layout, or discovered how useful a grid of spaces is for the first time.</p>
+
+<h4>It was a long road</h4>
+
+<p>TotalSpaces was born at the end of August 2011 as Change Space App, something I wrote in my spare time to get back my well loved spaces grid. Change Space worked, but it had some deficiencies and I could see that it was going to require a significant change in the way the app worked in order to improve it. I was going to need to write a plugin for the OSX Dock app in order to do everything I wanted.</p>
+
+<p><img src="http://blog.binaryage.com/images/totalspaces-overview-grid.png" style="width:200px;float:left; margin-top: -2px; margin-right: 10px; padding:2px; border:1px #999 solid;" alt="ReSpaceApp overview grid" title="ReSpaceApp overview grid" />
+The first incarnation of this was called ReSpaceApp, which was initially released on 1st February 2012. Development proceeded well, and by April you could pull up an overview grid, with the ability to drag and drop windows between desktops.</p>
+
+<p>At the end of April I teamed up with Antonin, and ReSpaceApp took its place in the <a href="http://binaryage.com">BinaryAge portfolio</a> as TotalSpaces.</p>
+
+<p><img src="http://blog.binaryage.com/images/totalspaces-new-overview-grid.png" style="width:200px;float:right; margin-top: -2px; margin-right: 10px; padding:2px; border:1px #999 solid;" alt="TotalSpaces overview grid" title="TotalSpaces overview grid" />
+June brought a much improved full-screen overview grid, with an exposé type feature to enable you to get a good view of all your windows.</p>
+
+<p>During the summer and autumn we continued to improve and refine the app, whilst adding some of the most requested features.</p>
+
+<h4>A full feature grid spaces manager</h4>
+
+<p>So finally TotalSpaces is ready to be called version 1.0. And along the way it has gained many capabilities:</p>
+
+<ul>
+<li>Grid layout of <strong>up to 16 desktops</strong> built on top of Mission Control's native OSX desktops</li>
+<li>Switching desktops via <strong>hotkeys</strong> and <strong>swiping</strong> with <strong>full circulation control</strong></li>
+<li><strong>Transitions</strong>: Choose from 4 different animation effects or you can <strong>turn transitions off altogether</strong></li>
+<li>An easily accessible <strong>Overview grid</strong> with the ability to <strong>drag windows between desktops</strong></li>
+<li>Full support for <strong>Full screen apps</strong></li>
+<li><strong>Hotcorners</strong> to trigger the overview grid, and exposé mode once in the overview grid</li>
+<li>Configuration for <strong>assigning apps to particular spaces</strong></li>
+<li><strong>Multiple monitor support</strong></li>
+</ul>
+
+
+<p>You can read about these features and more in <a href="http://totalspaces.binaryage.com/documentation">the documentation</a>. Oh, and actually we are going to squeeze one or two extra features into version 1.0, including desktop naming.</p>
+
+<h4>Pricing</h4>
+
+<p>TotalSpaces has been on sale whilst it has been in beta at a price of $12. This is the introductory price - <strong>You can still purchase TotalSpaces at this price until v1.0 is released, after which the price goes up to $15.</strong> So <a href="https://sites.fastspring.com/switchstep/instant/totalspaces">buy now</a> :)</p>
+
+<p>All licenses are valid for all upgrades to TotalSpaces in the v1.x series.</p>
+
+<h4>Finally</h4>
+
+<p>Thanks to everyone who has provided feedback and suggestions for TotalSpaces. We haven't been able to do every feature yet, but there is more coming - we are going to continue to work hard on TotalSpaces making it better, faster, easier and more delightful to use.</p>
+]]></content>
+        <author>
+            <name>Stephen Sykes</name>
+            <uri>http://binaryage.com</uri>
+        </author>
+    </entry>
     
     <entry>
         <title><![CDATA[TotalFinder runs with Mountain Lions]]></title>
