@@ -1,694 +1,316 @@
 <!DOCTYPE html>
-<html xmlns:og="http://opengraphprotocol.org/schema/"
-      xmlns:fb="http://developers.facebook.com/schema/"
-      class="/the-second-year-of-binaryage"
->
-    <head>
-        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-        <title>The second year of BinaryAge: Independence</title>
-        
-<link rel="canonical" href="http://blog.binaryage.com/the-second-year-of-binaryage">
-
-
-
-        
-<meta name="title" content="The second year of BinaryAge: Independence" />
-
-
-<meta name="description" content="Sharing ideas about software, products and cool stuff from BinaryAge" />
-
-
-<meta name="keywords" content="blog,ideas,antonin hildebrand,binaryage,productivity,software,web,development" />
-
-
-<link rel="image_src" href="http://www.binaryage.com/shared/img/icons/binaryage-badge-256.png" />
-
-<meta name="google-site-verification" content="N_xzdr6ymSUQFhAEvQg7f-sp1JAeJCdW2JuaRg-da0w" />
-<meta property="fb:admins" content="antonin.hildebrand" />
-
-
-        <link href="http://feeds.feedburner.com/binaryage-blog" type="application/atom+xml" rel="alternate" title="Ideas from BinaryAge" />
-
-
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
-
-
-        
-<script type="text/javascript" charset="utf-8">
-    // give the custom font some time to load, otherwise enable simple font visibility
-    setTimeout(function() {
-        $('html').addClass('wf-fake-active');
-    }, 2000);
-</script>
-<style type="text/css">
-    /* prevent visible font switching */
-    .js .wf {
-        opacity: 0 !important;
-        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0) !important;
-        -webkit-transition: opacity 0.5s ease 0s;
-        -moz-transition: opacity 0.5s ease 0s;
-        -o-transition: opacity 0.5s ease 0s;
-        transition: opacity 0.5s ease 0s;
-    }
-    .wf-active .wf,
-    .wf-fake-active .wf {
-        opacity: 1 !important;
-        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100) !important;
-    }
-</style>
-
-
-        
-
-
-        <link rel="stylesheet" href="/shared/css/site.css" type="text/css">
-    
-
-
-
-        <script type="text/javascript" charset="utf-8">
-    /*
-    CSS Browser Selector v0.4.0 (Nov 02, 2010)
-    Rafael Lima (http://rafael.adm.br)
-    http://rafael.adm.br/css_browser_selector
-    License: http://creativecommons.org/licenses/by/2.5/
-    Contributors: http://rafael.adm.br/css_browser_selector#contributors
-    */
-    function css_browser_selector(u){var ua=u.toLowerCase(),is=function(t){return ua.indexOf(t)>-1},g='gecko',w='webkit',s='safari',o='opera',m='mobile',h=document.documentElement,b=[(!(/opera|webtv/i.test(ua))&&/msie\s(\d)/.test(ua))?('ie ie'+RegExp.$1):is('firefox/2')?g+' ff2':is('firefox/3.5')?g+' ff3 ff3_5':is('firefox/3.6')?g+' ff3 ff3_6':is('firefox/3')?g+' ff3':is('gecko/')?g:is('opera')?o+(/version\/(\d+)/.test(ua)?' '+o+RegExp.$1:(/opera(\s|\/)(\d+)/.test(ua)?' '+o+RegExp.$2:'')):is('konqueror')?'konqueror':is('blackberry')?m+' blackberry':is('android')?m+' android':is('chrome')?w+' chrome':is('iron')?w+' iron':is('applewebkit/')?w+' '+s+(/version\/(\d+)/.test(ua)?' '+s+RegExp.$1:''):is('mozilla/')?g:'',is('j2me')?m+' j2me':is('iphone')?m+' iphone':is('ipod')?m+' ipod':is('ipad')?m+' ipad':is('mac')?'mac':is('darwin')?'mac':is('webtv')?'webtv':is('win')?'win'+(is('windows nt 6.0')?' vista':''):is('freebsd')?'freebsd':(is('x11')||is('linux'))?'linux':'','js']; c = b.join(' '); h.className += ' '+c; return c;}; css_browser_selector(navigator.userAgent);
-</script>
-<script type="text/javascript" charset="utf-8">
-    // define dummy replacements for firebug functionality (needed for Opera)
-    if (!window.console) {
-        window.console = {};
-        function fn() {
-            opera.postError(arguments);
-        };
-        ['log', 'debug', 'info', 'warn', 'error', 'assert', 'dir', 'dirxml', 'group', 'groupEnd', 
-        'time', 'timeEnd', 'count', 'trace', 'profile', 'profileEnd'].forEach(function(name) {
-            window.console[name] = fn;
-        });
-    }            
-    (function() {
-            var names = ["log", "debug", "info", "warn", "error", "assert", "dir", "dirxml", "group", "groupEnd", "time", "timeEnd", "count", "trace", "profile", "profileEnd"];
-            if(!window.console){
-                window.console = {};
-            }
-            for (var i in names) {
-                window.console[names[i]] = window.console[names[i]] || function(){
-                    return;
-                };
-            }
-    })();
-</script>
-
-
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-
-
-        <script type="text/javascript" charset="utf-8">
-    // https://github.com/carhartl/jquery-cookie
-    function bacookie(key, value, options) {
-        // key and at least value given, set cookie...
-        if (arguments.length > 1 && String(value) !== "[object Object]") {
-            options = options || {};
-
-            if (value === null || value === undefined) {
-                options.expires = -1;
-            }
-
-            if (typeof options.expires === 'number') {
-                var days = options.expires, t = options.expires = new Date();
-                t.setDate(t.getDate() + days);
-            }
-
-            value = String(value);
-
-            return (document.cookie = [
-                encodeURIComponent(key), '=',
-                options.raw ? value : encodeURIComponent(value),
-                options.expires ? '; expires=' + options.expires.toUTCString() : '', // use expires attribute, max-age is not supported by IE
-                options.path ? '; path=' + options.path : '',
-                options.domain ? '; domain=' + options.domain : '',
-                options.secure ? '; secure' : ''
-            ].join(''));
-        }
-
-        // key and possibly options given, get cookie...
-        options = value || {};
-        var result, decode = options.raw ? function (s) { return s; } : decodeURIComponent;
-        return (result = new RegExp('(?:^|; )' + encodeURIComponent(key) + '=([^;]*)').exec(document.cookie)) ? decode(result[1]) : null;
-    };
-</script>
-
-
-        <script type="text/javascript" charset="utf-8">
-    // parseUri 1.2.2
-    // (c) Steven Levithan <stevenlevithan.com>
-    // MIT License
-
-    function parseUri (str) {
-        var o   = parseUri.options,
-            m   = o.parser[o.strictMode ? "strict" : "loose"].exec(str),
-            uri = {},
-            i   = 14;
-
-        while (i--) uri[o.key[i]] = m[i] || "";
-
-        uri[o.q.name] = {};
-        uri[o.key[12]].replace(o.q.parser, function ($0, $1, $2) {
-            if ($1) uri[o.q.name][$1] = $2;
-        });
-
-        return uri;
-    };
-
-    parseUri.options = {
-        strictMode: false,
-        key: ["source","protocol","authority","userInfo","user","password","host","port","relative","path","directory","file","query","anchor"],
-        q:   {
-            name:   "queryKey",
-            parser: /(?:^|&)([^&=]*)=?([^&]*)/g
-        },
-        parser: {
-            strict: /^(?:([^:\/?#]+):)?(?:\/\/((?:(([^:@]*)(?::([^:@]*))?)?@)?([^:\/?#]*)(?::(\d*))?))?((((?:[^?#\/]*\/)*)([^?#]*))(?:\?([^#]*))?(?:#(.*))?)/,
-            loose:  /^(?:(?![^:@]+:[^:@\/]*@)([^:\/?#.]+):)?(?:\/\/)?((?:(([^:@]*)(?::([^:@]*))?)?@)?([^:\/?#]*)(?::(\d*))?)(((\/(?:[^?#](?![^?#\/]*\.[^?#\/.]+(?:[?#]|$)))*\/?)?([^?#\/]*))(?:\?([^#]*))?(?:#(.*))?)/
-        }
-    };            
-</script>
-
-
-        
-
-
-        <script type="text/javascript">
-    WebFontConfig = { 
-        google: { families: [ 'Play:regular,bold' ] }
-    };
-    (function() {
-        var wf = document.createElement('script');
-        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-        wf.type = 'text/javascript';
-        wf.async = 'true';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(wf, s);
-    })();
-</script>
-
-
-        <script src="/shared/js/code.js"></script>
-
-
-        <script type="text/javascript">
-    var _gaq = _gaq || [];
-</script>
-
-  <script type="text/javascript">
-      _gaq.push(['_setAccount', 'UA-8404259-1']);
-      _gaq.push(['_addIgnoredRef', '.binaryage.com']); // do not count subdomains as referrer trafic
-      _gaq.push(['_setDomainName', '.binaryage.com']); // track all subdomains with shared cookie
-      _gaq.push(['_setAllowLinker', true]); // important for cross domain user tracking (the session may be passed in URL params)
-      _gaq.push(['_setAllowHash', false]); // do not use url-hash check
-      _gaq.push(['_trackPageview']);
-      (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-  </script>
-
-
-
-        
-
-
-        
-
-
-    </head>
-    <body id="page-blog-the-second-year-of-binaryage">
-        <div id="topbar">
-    <div class="container topbar">
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://developers.facebook.com/schema/" class="/the-second-year-of-binaryage">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+    <title>The second year of BinaryAge: Independence</title>
+    <link rel="canonical" href="http://blog.binaryage.com/the-second-year-of-binaryage"/>
+    <meta name="title" content="The second year of BinaryAge: Independence"/>
+    <meta name="description" content="Sharing ideas about software, products and cool stuff from BinaryAge"/>
+    <meta name="keywords" content="blog,ideas,antonin hildebrand,binaryage,productivity,software,web,development"/>
+    <link rel="image_src" href="http://www.binaryage.com/shared/img/icons/binaryage-badge-256.png"/>
+    <meta name="google-site-verification" content="N_xzdr6ymSUQFhAEvQg7f-sp1JAeJCdW2JuaRg-da0w"/>
+    <meta property="fb:admins" content="antonin.hildebrand"/>
+    <link href="http://feeds.feedburner.com/binaryage-blog" type="application/atom+xml" rel="alternate" title="Ideas from BinaryAge"/>
+    <link rel="shortcut icon" href="/favicon.ico?5604bda0" type="image/x-icon"/>
+    <link rel="icon" href="/favicon.ico?5604bda0" type="image/x-icon"/>
+    <script type="text/javascript" charset="utf-8">
+      // give the custom font some time to load, otherwise enable simple font visibility
+      setTimeout(function(){$("html").addClass("wf-fake-active")},2e3)
+    </script>
+    <style type="text/css">
+      .js .wf{opacity:0!important;filter:alpha(opacity=0)!important;-webkit-transition:opacity .5s ease 0s;-moz-transition:opacity .5s ease 0s;-o-transition:opacity .5s ease 0s;transition:opacity .5s ease 0s}.wf-active .wf,.wf-fake-active .wf{opacity:1!important;filter:alpha(opacity=100)!important}
+    </style>
+    <link rel="stylesheet" href="/shared/css/site.css?2264ca85" type="text/css"/>
+    <script type="text/javascript" charset="utf-8">
+      /*
+      CSS Browser Selector v0.4.0 (Nov 02, 2010)
+      Rafael Lima (http://rafael.adm.br)
+      http://rafael.adm.br/css_browser_selector
+      License: http://creativecommons.org/licenses/by/2.5/
+      Contributors: http://rafael.adm.br/css_browser_selector#contributors
+      */
+      function css_browser_selector(e){var t=e.toLowerCase(),n=function(e){return t.indexOf(e)>-1},r="gecko",i="webkit",s="safari",o="opera",u="mobile",a=document.documentElement,f=[!/opera|webtv/i.test(t)&&/msie\s(\d)/.test(t)?"ie ie"+RegExp.$1:n("firefox/2")?r+" ff2":n("firefox/3.5")?r+" ff3 ff3_5":n("firefox/3.6")?r+" ff3 ff3_6":n("firefox/3")?r+" ff3":n("gecko/")?r:n("opera")?o+(/version\/(\d+)/.test(t)?" "+o+RegExp.$1:/opera(\s|\/)(\d+)/.test(t)?" "+o+RegExp.$2:""):n("konqueror")?"konqueror":n("blackberry")?u+" blackberry":n("android")?u+" android":n("chrome")?i+" chrome":n("iron")?i+" iron":n("applewebkit/")?i+" "+s+(/version\/(\d+)/.test(t)?" "+s+RegExp.$1:""):n("mozilla/")?r:"",n("j2me")?u+" j2me":n("iphone")?u+" iphone":n("ipod")?u+" ipod":n("ipad")?u+" ipad":n("mac")?"mac":n("darwin")?"mac":n("webtv")?"webtv":n("win")?"win"+(n("windows nt 6.0")?" vista":""):n("freebsd")?"freebsd":n("x11")||n("linux")?"linux":"","js"];c=f.join(" ");a.className+=" "+c;return c}css_browser_selector(navigator.userAgent)
+    </script>
+    <script type="text/javascript" charset="utf-8">
+      // define dummy replacements for firebug functionality (needed for Opera)
+      if(!window.console){window.console={};function fn(){opera.postError(arguments)}["log","debug","info","warn","error","assert","dir","dirxml","group","groupEnd","time","timeEnd","count","trace","profile","profileEnd"].forEach(function(e){window.console[e]=fn})}(function(){var e=["log","debug","info","warn","error","assert","dir","dirxml","group","groupEnd","time","timeEnd","count","trace","profile","profileEnd"];if(!window.console){window.console={}}for(var t in e){window.console[e[t]]=window.console[e[t]]||function(){return}}})()
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      // https://github.com/carhartl/jquery-cookie
+      function bacookie(e,t,n){if(arguments.length>1&&String(t)!=="[object Object]"){n=n||{};if(t===null||t===undefined){n.expires=-1}if(typeof n.expires==="number"){var r=n.expires,i=n.expires=new Date;i.setDate(i.getDate()+r)}t=String(t);return document.cookie=[encodeURIComponent(e),"=",n.raw?t:encodeURIComponent(t),n.expires?"; expires="+n.expires.toUTCString():"",n.path?"; path="+n.path:"",n.domain?"; domain="+n.domain:"",n.secure?"; secure":""].join("")}n=t||{};var s,o=n.raw?function(e){return e}:decodeURIComponent;return(s=(new RegExp("(?:^|; )"+encodeURIComponent(e)+"=([^;]*)")).exec(document.cookie))?o(s[1]):null}
+    </script>
+    <script type="text/javascript" charset="utf-8">
+      // parseUri 1.2.2
+      // (c) Steven Levithan <stevenlevithan.com>
+      // MIT License
+      function parseUri(e){var t=parseUri.options,n=t.parser[t.strictMode?"strict":"loose"].exec(e),r={},i=14;while(i--)r[t.key[i]]=n[i]||"";r[t.q.name]={};r[t.key[12]].replace(t.q.parser,function(e,n,i){if(n)r[t.q.name][n]=i});return r}parseUri.options={strictMode:false,key:["source","protocol","authority","userInfo","user","password","host","port","relative","path","directory","file","query","anchor"],q:{name:"queryKey",parser:/(?:^|&)([^&=]*)=?([^&]*)/g},parser:{strict:/^(?:([^:\/?#]+):)?(?:\/\/((?:(([^:@]*)(?::([^:@]*))?)?@)?([^:\/?#]*)(?::(\d*))?))?((((?:[^?#\/]*\/)*)([^?#]*))(?:\?([^#]*))?(?:#(.*))?)/,loose:/^(?:(?![^:@]+:[^:@\/]*@)([^:\/?#.]+):)?(?:\/\/)?((?:(([^:@]*)(?::([^:@]*))?)?@)?([^:\/?#]*)(?::(\d*))?)(((\/(?:[^?#](?![^?#\/]*\.[^?#\/.]+(?:[?#]|$)))*\/?)?([^?#\/]*))(?:\?([^#]*))?(?:#(.*))?)/}}
+    </script>
+    <script type="text/javascript">
+      WebFontConfig={google:{families:["Play:regular,bold"]}};(function(){var e=document.createElement("script");e.src=("https:"==document.location.protocol?"https":"http")+"://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js";e.type="text/javascript";e.async="true";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+    </script>
+    <script src="/shared/js/code.js?6f0fd7bb"></script>
+    <script type="text/javascript">
+      var _gaq=_gaq||[]
+    </script>
+    <script type="text/javascript">
+      _gaq.push(["_setAccount","UA-8404259-1"]);_gaq.push(["_addIgnoredRef",".binaryage.com"]);_gaq.push(["_setDomainName",".binaryage.com"]);_gaq.push(["_setAllowLinker",true]);_gaq.push(["_setAllowHash",false]);_gaq.push(["_trackPageview"]);(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+    </script>
+  </head>
+  <body id="page-blog-the-second-year-of-binaryage">
+    <div id="topbar">
+      <div class="container topbar">
         <div class="topbar-buttons">
-            <div class="topbar-labs wf">
-                labs
-            </div>
-            <div class="topbar-testimonials wf">
-                testimonials
-            </div>
+          <div class="topbar-labs wf">
+            labs
+          </div>
+          <div class="topbar-testimonials wf">
+            testimonials
+          </div>
         </div>
+      </div>
     </div>
-</div>
-
-
-        <div id="header" class="menu-blog">
-    <div class="container header">
+    <div id="header" class="menu-blog">
+      <div class="container header">
         <a href="http://www.binaryage.com" title="BinaryAge Software">
-            <div class="header-logo">
-                <div class="header-logo-hover"></div>
-            </div>
+          <div class="header-logo">
+            <div class="header-logo-hover"></div>
+          </div>
         </a>
-        
         <div class="header-motto arrow"></div>
         <div class="header-selector"></div>
         <ul class="header-menu">
-            <li class="menu-item-store wf"><a href="http://www.binaryage.com/store"><span>store</span></a></li>
-            <li class="menu-item-products wf"><a href="http://www.binaryage.com"><span>products</span></a></li>
-            <li class="menu-item-blog wf"><a href="http://blog.binaryage.com"><span>blog</span></a></li>  
-            <li class="menu-item-hints wf"><a href="http://hints.binaryage.com"><span>hints</span></a></li>
-            <li class="menu-item-support wf"><a href="http://support.binaryage.com"><span>support</span></a></li>
+          <li class="menu-item-store wf"><a href="http://www.binaryage.com/store"><span>store</span></a></li>
+          <li class="menu-item-products wf"><a href="http://www.binaryage.com"><span>products</span></a></li>
+          <li class="menu-item-blog wf"><a href="http://blog.binaryage.com"><span>blog</span></a></li>
+          <li class="menu-item-hints wf"><a href="http://hints.binaryage.com"><span>hints</span></a></li>
+          <li class="menu-item-support wf"><a href="http://support.binaryage.com"><span>support</span></a></li>
         </ul>
+      </div>
     </div>
-</div>
-
-        <div id="main">
-    
-    <div class="wf">
-    <div id="blog">
-    <div class="container">
-        <div class="blog-body">
-            <div class="blog-content">
+    <div id="main">
+      <div class="wf">
+        <div id="blog">
+          <div class="container">
+            <div class="blog-body">
+              <div class="blog-content">
                 <div class="blog-articles">
-    <a href="/">« Read more articles</a>
-</div>
-<div id="post">
-    <div class="post-titlebar">
-        <div class="calendar">
-            <div class="month">Dec</div>
-            <div class="day">31</div>
-            <div class="year">2010</div>
-        </div>
-        <h1 class="post-title">The second year of BinaryAge: Independence</h1>
-        <div class="clear"></div>
-    </div>
-    <div class="post-content"><p><img src="http://blog.binaryage.com/shared/img/icons/binaryage-badge-64.png" class="intro-icon"/></p>
-
-<p><strong>It was a wonderfully busy year. Today I had a few moments to sit down and look back.<br>Prior to reading you may want to read about <a href="http://blog.binaryage.com/the-first-year-of-binaryage">the first year of BinaryAge</a>.</strong></p>
-
-<h4>TotalFinder with Tabs!</h4>
-
-<p>I found out that really <strong>the tabs</strong> is what people want. And later I realized they are also willing to pay for it. This is my site's traffic after publishing the article <a href="http://blog.binaryage.com/totalfinder-with-tabs">TotalFinder with Tabs</a> on Jan 11:</p>
-
-<p><img class="clear blog-image-border" src="http://blog.binaryage.com/images/tabs-announcement-traffic.png" title="The traffic generated by tabs announcement on Jan 11"></p>
-
-<h4>Transpond acquired by Webtrends</h4>
-
-<p>Maybe you remember I was working on TotalFinder on the side. My day-job was a web-development for Transpond. We were building "The Wizard" product which allows non-programmers to create applications from pre-defined templates and publish them on Facebook, microsites or mobile devices.</p>
-
-<p><a href="http://transpond.com"><img class="clear blog-image-clear" src="http://blog.binaryage.com/images/webtrends-apps-banner.png" title="Transpond's DYI builder for Facebook Apps acquired by Webtrends"></a></p>
-
-<p>Transpond was a VC-backed startup based in San Francisco. Luckily enough we <a href="http://www.readwriteweb.com/archives/facebook_app_developer_shortage_webtrends_apps.php">were acquired</a> by great folks at <a href="http://webtrends.com">Webtrends</a> in August 2010. It was a nice validation of the concept of a web-based app builder, but for me it was the right time to leave and start working in <a href="http://www.binaryage.com">BinaryAge</a> fulltime.</p>
-
-<h4>TotalFinder's glorious launch</h4>
-
-<p>During September I prepared version 1.0 and <a href="http://blog.binaryage.com/totalfinder-birthday-launch">launched it</a> on September 27th. It was a huge success. I wish every product to have such a great revenue curve during the launch. See the shape:</p>
-
-<p><img class="clear blog-image-border" src="http://blog.binaryage.com/images/perfect-launch.png" title="This is what the revenue curve should look like!"></p>
-
-<p>I couldn't have wished for a better launch. People love the product and most prior beta users purchased a license on day #1 or shortly after.</p>
-
-<p>The only problem which comes with a success is a support burden. With tons of emails landing in my inbox I had to move from an active coding role to become an emailing machine. Luckily enough I found nice people who were helping me with the overload. <strong>Roman</strong> did some programming and implemented Folders On Top and Cut&amp;Paste. <strong>Lorenzo</strong> and <strong>Sebastian</strong> helped with user support. And many <a href="https://github.com/binaryage/totalfinder-i18n/contributors">other folks</a> helped with translations, graphics and other random tasks. Thank you very much!</p>
-
-<h4>I'm a free man, finally!</h4>
-
-<p>Good news! I've earned enough money to support myself for at least one year of future development.</p>
-
-<p>It is hard to describe my feelings using words. Launching a first profitable product on the side was like finding The Atlantean Sword and beating wild dogs that were chasing me.</p>
-
-<object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/RlBcDnRzmM0?fs=1&amp;hl=en_US&amp;start=160"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/RlBcDnRzmM0?fs=1&amp;hl=en_US&amp;start=160" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object>
-
-
-<p>Did he say "Chrome"? That cannot be a coincidence. The Chromium creators are my helping gods ;)</p>
-
-<h4>What's next in 2011?</h4>
-
-<p>TotalFinder is my product number one. I'm aware that it is not perfect and still has a beta quality to it. It is good enough to be usable, but it has plenty of bugs and compatibility/performance issues. Besides improving it I will continue to spend time doing good user support. Maybe I will ask for more help from <a href="http://be-yellow.com">other folks</a> but still I feel that it is important to stay in touch with my users although it may slow down the pace of development. If something hurts my users, it must hurt me in my inbox. This year I will turn TotalFinder into a great polished product which makes you happy.</p>
-
-<p>I have also some ideas for new Mac apps and web services. I will be actively looking for reliable well-rounded programmers to outsource it. I have already started with one guy. We've been building TotalTranslate - a simple system-wide utility for translating texts available on a keyboard shortcut. I was planning it for Mac App Store launch, but unfortunately we didn't make it on time. Anyway, if you are an entrepreneurial hacker who wants to build an awesome stuff with me, please <a href="mailto:antonin@binaryage.com">drop me a line</a>.</p>
-
-<p>I'm a big fan of open-source projects and I'd like to help fund more of them and help the ecosystem. I have one charitable project in my mind. I won't tell you any details at this point because it is really in early stage and it depends on other people more than myself.</p>
-
-<p>Also I'm planning to move to San Francisco in the second half of the year.<br>Prague was great, but it is time to move to some place where <strong>the luck is happening to hackers</strong>.</p>
-
-<object type="application/x-shockwave-flash" height="385" width="640" id="clip_embed_player_flash" data="http://www.justin.tv/widgets/archive_embed_player.swf" bgcolor="#000000"><param name="movie" value="http://www.justin.tv/widgets/archive_embed_player.swf" /><param name="allowScriptAccess" value="always" /><param name="allowNetworking" value="all" /><param name="allowFullScreen" value="true" /><param name="flashvars" value="auto_play=false&start_volume=25&title=Tom Preston-Werner at Startup School 2010: Optimizing for happiness&channel=c3oorg&archive_id=272031754" /></object>
-
-
-<p><a href="http://www.justin.tv/c3oorg/b/272031754" class="trk" style="padding:2px 0px 4px; display:block; width: 320px; font-weight:normal; font-size:10px; text-decoration:underline; text-align:center;">Watch video <b>Optimizing for happiness</b> on Justin.tv</a></p>
-
-<p>At this point I want to thank two great companies which helped me tremendously in 2010. <a href="http://github.com">GitHub</a> and <a href="http://fastspring.com">FastSpring</a>. Seriously friends, they have been changing hackers' lives.</p>
-
-<hr />
-
-<p>Thanks for your support and I wish you all the best in the new year.</p>
-
-<div style="font-size: 8pt; color: #666">I'd like to also thank my family, friends and all contributors who helped to make this real.</div>
-
-</div>
-</div>
-
-<div class="simple_overlay" id="overlay-gallery" style="display:none"> 
-    <a class="overlay-prev">prev</a> 
-    <a class="overlay-next">next</a> 
-    <div class="overlay-info"></div>
-    <img class="overlay-progress" src="http://blog.binaryage.com/shared/img/twitter-loader.gif" /> 
-</div>
-
-<script>
-(function() {
-    var postContent = $('.post-content');
-    var images = $('.blog-image', postContent).add('.blog-image-full', postContent).add('.blog-image-border', postContent).add('.blog-image-full-border', postContent);
-    if (!images.length) return;
-    
-    var anchors = [];
-    images.each(function() {
-        var el = $(this);
-        var wrapper = $('<a/>').attr('href', el.attr('src'));
-        var origTitle = el.attr('title');
-        if (origTitle) wrapper.attr('title', origTitle);
-        el.wrap(wrapper);
-    });
-
-    images.parent().overlay({
-        effect: 'apple',
-        expose: '#f1f1f1',
-        target: '#overlay-gallery'
-    }).gallery({
-        disabledClass: 'disabled-overlay',
-        prev: '.overlay-prev',
-        next: '.overlay-next',
-        info: '.overlay-info',
-        progress: '.overlay-progress',
-        opacity: 1,
-        speed: 200, 
-        template: '[${index}/${total}] ${title}'
-    });
-})();
-</script>
-
-<div class="master-separator"></div>
-<div id="comments">
-    <div id="disqus_thread"></div>
-    <div id="disqus_script"></div>
-    <script type="text/javascript" charset="utf-8">
-      var disqus_url = "http://blog.binaryage.com/the-second-year-of-binaryage/";
-      $("#disqus_script").html(writeCapture.sanitize('<scr'+'ipt type="text/javascript" src="http://disqus.com/forums/binaryage/embed.js"></sc'+'ript>')); // async
-    </script>
-    <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-</div>
-            </div>
-            <div class="blog-side">
-                <div class="vseparator-top"></div>
-                <div class="vseparator-body"></div>
-                <div class="vseparator-bottom"></div>
-                <div class="blog-side-box blog-side-about">
-                    <div class="blog-side-about-left"><a href="http://www.binaryage.com/about"><img src="http://www.gravatar.com/avatar/79322c2ed80c2d722de8c9d0475198a0?s=76" width="76" height="76"></a></div>
-                    <div class="blog-side-about-right"><h4>About Antonin</h4>I'm a software developer passionate about the Mac, the web, 3d graphics and software tools.<br/><a href="http://www.binaryage.com/about.html">Read More »</a></div>
-                    <div class="thats-me arrow"></div>
+                  <a href="/">« Read more articles</a>
                 </div>
-                <div class="blog-side-box blog-side-follow">
-                    <a href="http://twitter.com/binaryage" class="twitter-follow-button" data-show-count="true">Follow @binaryage</a>
-                    <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-                </div>
-                <div class="blog-side-box blog-side-subscribe">
-                    <a href="http://feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml"><div class="blog-side-icon blog-rss-icon"/></div></a>
-                    <a href="http://feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml">Subscribe</a>
-                    <div class="subscribe-button">
-                        <a href="http://feeds.feedburner.com/binaryage-blog"><img src="http://feeds.feedburner.com/~fc/binaryage-blog?bg=dddddd&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a>
+                <div id="post">
+                  <div class="post-titlebar">
+                    <div class="calendar">
+                      <div class="month">Dec</div>
+                      <div class="day">31</div>
+                      <div class="year">2010</div>
                     </div>
-                </div>
-                <div class="blog-side-box blog-side-products">
-                    
-                    <div class="blog-side-separator-top totalfinder"></div>
-                    <div class="blog-side-product">
-                        <a href="http://totalfinder.binaryage.com">
-                            <img src="/shared/img/icons/totalfinder-64.png" width="38" height="38"/>
-                            <div class="title">TotalFinder</div>
-                            <div class="info">Adds tabs to your Finder.app!</div>
-                        </a>
-                    </div>
-                    <div class="blog-side-separator-bottom totalfinder"></div>
-                    
-                    <div class="blog-side-separator-top totalspaces"></div>
-                    <div class="blog-side-product">
-                        <a href="http://totalspaces.binaryage.com">
-                            <img src="/shared/img/icons/totalspaces-64.png" width="38" height="38"/>
-                            <div class="title">TotalSpaces</div>
-                            <div class="info">The ultimate desktop manager</div>
-                        </a>
-                    </div>
-                    <div class="blog-side-separator-bottom totalspaces"></div>
-                    
-                    <div class="blog-side-separator-top totalterminal"></div>
-                    <div class="blog-side-product">
-                        <a href="http://totalterminal.binaryage.com">
-                            <img src="/shared/img/icons/totalterminal-64.png" width="38" height="38"/>
-                            <div class="title">TotalTerminal</div>
-                            <div class="info">A Quake-style Terminal window</div>
-                        </a>
-                    </div>
-                    <div class="blog-side-separator-bottom totalterminal"></div>
-                    
-                    <div class="blog-side-separator-top firequery"></div>
-                    <div class="blog-side-product">
-                        <a href="http://firequery.binaryage.com">
-                            <img src="/shared/img/icons/firequery-64.png" width="38" height="38"/>
-                            <div class="title">FireQuery</div>
-                            <div class="info">jQuery development in Firebug</div>
-                        </a>
-                    </div>
-                    <div class="blog-side-separator-bottom firequery"></div>
-                    
-                    <div class="blog-side-separator-top firelogger"></div>
-                    <div class="blog-side-product">
-                        <a href="http://firelogger.binaryage.com">
-                            <img src="/shared/img/icons/firelogger-64.png" width="38" height="38"/>
-                            <div class="title">FireLogger</div>
-                            <div class="info">Realtime logging into Firebug</div>
-                        </a>
-                    </div>
-                    <div class="blog-side-separator-bottom firelogger"></div>
-                    
-                    <div class="blog-side-separator-top firerainbow"></div>
-                    <div class="blog-side-product">
-                        <a href="http://firerainbow.binaryage.com">
-                            <img src="/shared/img/icons/firerainbow-64.png" width="38" height="38"/>
-                            <div class="title">FireRainbow</div>
-                            <div class="info">A syntax highlighting for Firebug</div>
-                        </a>
-                    </div>
-                    <div class="blog-side-separator-bottom firerainbow"></div>
-                    
-                    <div class="blog-side-separator-top xrefresh"></div>
-                    <div class="blog-side-product">
-                        <a href="http://xrefresh.binaryage.com">
-                            <img src="/shared/img/icons/xrefresh-64.png" width="38" height="38"/>
-                            <div class="title">XRefresh</div>
-                            <div class="info">Reload your browsers after save</div>
-                        </a>
-                    </div>
-                    <div class="blog-side-separator-bottom xrefresh"></div>
-                    
-                </div>
-            </div>
+                    <h1 class="post-title">The second year of BinaryAge: Independence</h1>
+                    <div class="clear"></div>
+                  </div>
+                  <div class="post-content"><p><img src="http://blog.binaryage.com/shared/img/icons/binaryage-badge-64.png" class="intro-icon"/></p>
+                    <p><strong>It was a wonderfully busy year. Today I had a few moments to sit down and look back.<br/>Prior to reading you may want to read about <a href="http://blog.binaryage.com/the-first-year-of-binaryage">the first year of BinaryAge</a>.</strong></p>
+                    <h4>TotalFinder with Tabs!</h4>
+                    <p>I found out that really <strong>the tabs</strong> is what people want. And later I realized they are also willing to pay for it. This is my site's traffic after publishing the article <a href="http://blog.binaryage.com/totalfinder-with-tabs">TotalFinder with Tabs</a> on Jan 11:</p>
+                    <p><img class="clear blog-image-border" src="http://blog.binaryage.com/images/tabs-announcement-traffic.png" title="The traffic generated by tabs announcement on Jan 11"/></p>
+                    <h4>Transpond acquired by Webtrends</h4>
+                    <p>Maybe you remember I was working on TotalFinder on the side. My day-job was a web-development for Transpond. We were building "The Wizard" product which allows non-programmers to create applications from pre-defined templates and publish them on Facebook, microsites or mobile devices.</p>
+                    <p><a href="http://transpond.com"><img class="clear blog-image-clear" src="http://blog.binaryage.com/images/webtrends-apps-banner.png" title="Transpond's DYI builder for Facebook Apps acquired by Webtrends"/></a></p>
+                    <p>Transpond was a VC-backed startup based in San Francisco. Luckily enough we <a href="http://www.readwriteweb.com/archives/facebook_app_developer_shortage_webtrends_apps.php">were acquired</a> by great folks at <a href="http://webtrends.com">Webtrends</a> in August 2010. It was a nice validation of the concept of a web-based app builder, but for me it was the right time to leave and start working in <a href="http://www.binaryage.com">BinaryAge</a> fulltime.</p>
+                    <h4>TotalFinder's glorious launch</h4>
+                    <p>During September I prepared version 1.0 and <a href="http://blog.binaryage.com/totalfinder-birthday-launch">launched it</a> on September 27th. It was a huge success. I wish every product to have such a great revenue curve during the launch. See the shape:</p>
+                    <p><img class="clear blog-image-border" src="http://blog.binaryage.com/images/perfect-launch.png" title="This is what the revenue curve should look like!"/></p>
+                    <p>I couldn't have wished for a better launch. People love the product and most prior beta users purchased a license on day #1 or shortly after.</p>
+                    <p>The only problem which comes with a success is a support burden. With tons of emails landing in my inbox I had to move from an active coding role to become an emailing machine. Luckily enough I found nice people who were helping me with the overload. <strong>Roman</strong> did some programming and implemented Folders On Top and Cut&amp;Paste. <strong>Lorenzo</strong> and <strong>Sebastian</strong> helped with user support. And many <a href="https://github.com/binaryage/totalfinder-i18n/contributors">other folks</a> helped with translations, graphics and other random tasks. Thank you very much!</p>
+                    <h4>I'm a free man, finally!</h4>
+                    <p>Good news! I've earned enough money to support myself for at least one year of future development.</p>
+                    <p>It is hard to describe my feelings using words. Launching a first profitable product on the side was like finding The Atlantean Sword and beating wild dogs that were chasing me.</p>
+            <object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/RlBcDnRzmM0?fs=1&amp;hl=en_US&amp;start=160"/></param><param name="allowFullScreen" value="true"/></param><param name="allowscriptaccess" value="always"/></param><embed src="http://www.youtube.com/v/RlBcDnRzmM0?fs=1&amp;hl=en_US&amp;start=160" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"/></embed></object>
+            <p>Did he say "Chrome"? That cannot be a coincidence. The Chromium creators are my helping gods ;)</p>
+            <h4>What's next in 2011?</h4>
+            <p>TotalFinder is my product number one. I'm aware that it is not perfect and still has a beta quality to it. It is good enough to be usable, but it has plenty of bugs and compatibility/performance issues. Besides improving it I will continue to spend time doing good user support. Maybe I will ask for more help from <a href="http://be-yellow.com">other folks</a> but still I feel that it is important to stay in touch with my users although it may slow down the pace of development. If something hurts my users, it must hurt me in my inbox. This year I will turn TotalFinder into a great polished product which makes you happy.</p>
+            <p>I have also some ideas for new Mac apps and web services. I will be actively looking for reliable well-rounded programmers to outsource it. I have already started with one guy. We've been building TotalTranslate - a simple system-wide utility for translating texts available on a keyboard shortcut. I was planning it for Mac App Store launch, but unfortunately we didn't make it on time. Anyway, if you are an entrepreneurial hacker who wants to build an awesome stuff with me, please <a href="mailto:antonin@binaryage.com">drop me a line</a>.</p>
+            <p>I'm a big fan of open-source projects and I'd like to help fund more of them and help the ecosystem. I have one charitable project in my mind. I won't tell you any details at this point because it is really in early stage and it depends on other people more than myself.</p>
+            <p>Also I'm planning to move to San Francisco in the second half of the year.<br/>Prague was great, but it is time to move to some place where <strong>the luck is happening to hackers</strong>.</p>
+            <object type="application/x-shockwave-flash" height="385" width="640" id="clip_embed_player_flash" data="http://www.justin.tv/widgets/archive_embed_player.swf" bgcolor="#000000"><param name="movie" value="http://www.justin.tv/widgets/archive_embed_player.swf"/><param name="allowScriptAccess" value="always"/><param name="allowNetworking" value="all"/><param name="allowFullScreen" value="true"/><param name="flashvars" value="auto_play=false&start_volume=25&title=Tom Preston-Werner at Startup School 2010: Optimizing for happiness&channel=c3oorg&archive_id=272031754"/></object>
+            <p><a href="http://www.justin.tv/c3oorg/b/272031754" class="trk" style="padding:2px 0px 4px; display:block; width: 320px; font-weight:normal; font-size:10px; text-decoration:underline; text-align:center;">Watch video <b>Optimizing for happiness</b> on Justin.tv</a></p>
+            <p>At this point I want to thank two great companies which helped me tremendously in 2010. <a href="http://github.com">GitHub</a> and <a href="http://fastspring.com">FastSpring</a>. Seriously friends, they have been changing hackers' lives.</p>
+            <hr/>
+            <p>Thanks for your support and I wish you all the best in the new year.</p>
+            <div style="font-size: 8pt; color: #666">I'd like to also thank my family, friends and all contributors who helped to make this real.</div>
+          </div>
         </div>
-    </div>
-</div>
-    </div>
-    
-    <div class="clear"></div>
-</div>
-
-
-        <div id="tweets-section">
-    <div class="container" style="position: relative">
-        <ol id="tweets" class="statuses"></ol>
-    </div>
-</div>
-
-
-        
-
-
-        <div id="footer">
-    <div class="container">
-        <div class="footer-separator"></div>
-        <div class="footerbox">
-            
-            <div class="copyright">
-                <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="/shared/img/byccnd.png" /></a>
-            </div>
-            
-            <div class="footer-links wf">
-                
-                
-                <a href="http://www.binaryage.com/about.html">contact</a>
-            </div>
+        <div class="simple_overlay" id="overlay-gallery" style="display:none">
+          <a class="overlay-prev">prev</a>
+          <a class="overlay-next">next</a>
+          <div class="overlay-info"></div>
+          <img class="overlay-progress" src="http://blog.binaryage.com/shared/img/twitter-loader.gif"/>
         </div>
-    </div>
-</div>
-
-
-
-        
-
-
-        
-
-        
-
-        
-
-        <script type="text/javascript" charset="utf-8">
-    $(function() {
-        var initialized;
-        $('.topbar-testimonials').bind('click', function() {
-            if (window.SSTracker) {
-                SSTracker.pushState('praise');
-            }
-            
-            if (!initialized) {
-                $("#tweets").tweet({
-                    user: "binaryage"
-                });
-                initialized = true;
-            }
-        });
-    });
-</script>
-
-
-        <script type="text/javascript" charset="utf-8">
-   $(function() {
-        // trigger page states
-        setTimeout(function() { // give other code some time to init
-            var hash = location.hash.substring(1);
-            if (hash.substring(0,2)=="o-") {
-                $('#'+hash).trigger('click');
-            }
-        }, 500);
-    });
-</script>
-
-
-        <script type="text/javascript" charset="utf-8">
-$(function() {
-    var host = document.location.host;
-    if (host.substring(host.length-3)=='org') {
-        $('a').each(function() {
-            var el = $(this);
-            var href = el.attr('href');
-            if (href) {
-                if (href.match('binaryage.com')) {
-                    href = href.replace('binaryage.com', 'binaryage.org');
-                }
-                var loc = document.location+"";
-                if (href.substring(0, 4)!="http" && href.match(/\/[^.]+$/i)) { 
-                    // this is for local jekyll server inconsistency
-                    if (host.substring(loc.length-1)=="2") { 
-                        // next website version
-                        href += "2";
-                    }
-                    if (loc.substring(loc.length-6)=="2.html") { 
-                        // next website version
-                        href += "2";
-                    }
-                    href += ".html";
-                }
-                el.attr('href', href);
-            }
-        });
-    }
-});
-</script>
-
-        <script type="text/javascript" charset="utf-8">
-  (function(){
-      // store the referrer in cookie for later reuse
-      var parts = parseUri(document.location+"");
-      var referrer = parts.queryKey["referrer"];
-      if (referrer) {
-          bacookie("bareferrer", referrer, {path: '/', expires: 14});
-      }
-  })();
-  
-  // cross-domain tracking
-  // http://code.google.com/apis/analytics/docs/tracking/gaTrackingSite.html
-  $('a').live('click', function() {
-      var href = $(this).attr("href")+"";
-      // pass referrer if available, FastSpring will report it on final order
-      var referrer = bacookie("bareferrer");
-      if (referrer) {
-          href += (href.indexOf("?")==-1?"?":"&")+"referrer="+encodeURIComponent(referrer);
-      }
-      var current = document.location+"";
-      // just for switching domains between binaryage.com <-> fastspring.com
-      if ((current.match(/fastspring\.com/) && href.match(/binaryage\.com/)) || 
-          (current.match(/binaryage\.com/) && href.match(/fastspring\.com/))) {
-          _gaq.push(['_link', href]);
-          return false;
-      }
-  });
-</script>
-
-        
-
-
-        
-
-
-        
-<script type="text/javascript">
-  var _gauges = _gauges || [];
-  (function() {
-    var t   = document.createElement('script');
-    t.type  = 'text/javascript';
-    t.async = true;
-    t.id    = 'gauges-tracker';
-    
-    t.setAttribute('data-site-id', '4f10d65d844d52139500000b');
-    
-    t.src = '//secure.gaug.es/track.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(t, s);
-  })();
-</script>
-
-
-
-        
-<div class="suck-area">
-    <div class="container">
-        <div class="fixed-wrapper">
-            <div class="suck-dialog suck-ie5" style="display:none">
-                This page is using the latest HTML5 techniques. You are using old Internet Explorer 5. Please <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home">upgrade to Internet Explorer 9</a> for pixel-perfect experience. Thanks!
-                <div class="suck-close" onclick="$(this).parent().addClass('suck-closed'); bacookie('suck-closed', '1', {path: '/'})"></div>
-                <div class="suck-icon"></div>
-            </div>
-            <div class="suck-dialog suck-ie6" style="display:none">
-                This page is using the latest HTML5 techniques. You are using old Internet Explorer 6. Please <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home">upgrade to Internet Explorer 9</a> for pixel-perfect experience. Thanks!
-                <div class="suck-close" onclick="$(this).parent().addClass('suck-closed'); bacookie('suck-closed', '1', {path: '/'})"></div>
-                <div class="suck-icon"></div>
-            </div>
-            <div class="suck-dialog suck-ie7" style="display:none">
-                This page is using the latest HTML5 techniques. You are using old Internet Explorer 7. Please <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home">upgrade to Internet Explorer 9</a> for pixel-perfect experience. Thanks!
-                <div class="suck-close" onclick="$(this).parent().addClass('suck-closed'); bacookie('suck-closed', '1', {path: '/'})"></div>
-                <div class="suck-icon"></div>
-            </div>
-            <div class="suck-dialog suck-ie8" style="display:none">
-                This page is using the latest HTML5 techniques. You are using old Internet Explorer 8. Please <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home">upgrade to Internet Explorer 9</a> for pixel-perfect experience. Thanks!
-                <div class="suck-close" onclick="$(this).parent().addClass('suck-closed'); bacookie('suck-closed', '1', {path: '/'})"></div>
-                <div class="suck-icon"></div>
-            </div>
+        <script>
+          (function(){var e=$(".post-content");var t=$(".blog-image",e).add(".blog-image-full",e).add(".blog-image-border",e).add(".blog-image-full-border",e);if(!t.length)return;var n=[];t.each(function(){var e=$(this);var t=$("<a>").attr("href",e.attr("src"));var n=e.attr("title");if(n)t.attr("title",n);e.wrap(t)});t.parent().overlay({effect:"apple",expose:"#f1f1f1",target:"#overlay-gallery"}).gallery({disabledClass:"disabled-overlay",prev:".overlay-prev",next:".overlay-next",info:".overlay-info",progress:".overlay-progress",opacity:1,speed:200,template:"[${index}/${total}] ${title}"})})()
+        </script>
+        <div class="master-separator"></div>
+        <div id="comments">
+          <div id="disqus_thread"></div>
+          <div id="disqus_script"></div>
+          <script type="text/javascript" charset="utf-8">
+            var disqus_url="http://blog.binaryage.com/the-second-year-of-binaryage/";$("#disqus_script").html(writeCapture.sanitize("<scr"+'ipt type="text/javascript" src="http://disqus.com/forums/binaryage/embed.js"></sc'+"ript>"))
+          </script>
+          <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
         </div>
+      </div>
+      <div class="blog-side">
+        <div class="vseparator-top"></div>
+        <div class="vseparator-body"></div>
+        <div class="vseparator-bottom"></div>
+        <div class="blog-side-box blog-side-about">
+          <div class="blog-side-about-left"><a href="http://www.binaryage.com/about"><img src="http://www.gravatar.com/avatar/79322c2ed80c2d722de8c9d0475198a0?s=76" width="76" height="76"/></a></div>
+          <div class="blog-side-about-right"><h4>About Antonin</h4>I'm a software developer passionate about the Mac, the web, 3d graphics and software tools.<br/><a href="http://www.binaryage.com/about.html">Read More »</a></div>
+          <div class="thats-me arrow"></div>
+        </div>
+        <div class="blog-side-box blog-side-follow">
+          <a href="http://twitter.com/binaryage" class="twitter-follow-button" data-show-count="true">Follow @binaryage</a>
+          <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+        </div>
+        <div class="blog-side-box blog-side-subscribe">
+          <a href="http://feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml"><div class="blog-side-icon blog-rss-icon"></div></a>
+          <a href="http://feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml">Subscribe</a>
+          <div class="subscribe-button">
+            <a href="http://feeds.feedburner.com/binaryage-blog"><img src="http://feeds.feedburner.com/~fc/binaryage-blog?bg=dddddd&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt=""/></a>
+          </div>
+        </div>
+        <div class="blog-side-box blog-side-products">
+          <div class="blog-side-separator-top totalfinder"></div>
+          <div class="blog-side-product">
+            <a href="http://totalfinder.binaryage.com">
+              <img src="/shared/img/icons/totalfinder-64.png?57f6fb3b" width="38" height="38"/>
+              <div class="title">TotalFinder</div>
+              <div class="info">Adds tabs to your Finder.app!</div>
+            </a>
+          </div>
+          <div class="blog-side-separator-bottom totalfinder"></div>
+          <div class="blog-side-separator-top totalspaces"></div>
+          <div class="blog-side-product">
+            <a href="http://totalspaces.binaryage.com">
+              <img src="/shared/img/icons/totalspaces-64.png?52792a5d" width="38" height="38"/>
+              <div class="title">TotalSpaces</div>
+              <div class="info">The ultimate desktop manager</div>
+            </a>
+          </div>
+          <div class="blog-side-separator-bottom totalspaces"></div>
+          <div class="blog-side-separator-top totalterminal"></div>
+          <div class="blog-side-product">
+            <a href="http://totalterminal.binaryage.com">
+              <img src="/shared/img/icons/totalterminal-64.png?af5e5355" width="38" height="38"/>
+              <div class="title">TotalTerminal</div>
+              <div class="info">A Quake-style Terminal window</div>
+            </a>
+          </div>
+          <div class="blog-side-separator-bottom totalterminal"></div>
+          <div class="blog-side-separator-top firequery"></div>
+          <div class="blog-side-product">
+            <a href="http://firequery.binaryage.com">
+              <img src="/shared/img/icons/firequery-64.png?e506cf2d" width="38" height="38"/>
+              <div class="title">FireQuery</div>
+              <div class="info">jQuery development in Firebug</div>
+            </a>
+          </div>
+          <div class="blog-side-separator-bottom firequery"></div>
+          <div class="blog-side-separator-top firelogger"></div>
+          <div class="blog-side-product">
+            <a href="http://firelogger.binaryage.com">
+              <img src="/shared/img/icons/firelogger-64.png?dff2e903" width="38" height="38"/>
+              <div class="title">FireLogger</div>
+              <div class="info">Realtime logging into Firebug</div>
+            </a>
+          </div>
+          <div class="blog-side-separator-bottom firelogger"></div>
+          <div class="blog-side-separator-top firerainbow"></div>
+          <div class="blog-side-product">
+            <a href="http://firerainbow.binaryage.com">
+              <img src="/shared/img/icons/firerainbow-64.png?b424aa93" width="38" height="38"/>
+              <div class="title">FireRainbow</div>
+              <div class="info">A syntax highlighting for Firebug</div>
+            </a>
+          </div>
+          <div class="blog-side-separator-bottom firerainbow"></div>
+          <div class="blog-side-separator-top xrefresh"></div>
+          <div class="blog-side-product">
+            <a href="http://xrefresh.binaryage.com">
+              <img src="/shared/img/icons/xrefresh-64.png?317ba4d5" width="38" height="38"/>
+              <div class="title">XRefresh</div>
+              <div class="info">Reload your browsers after save</div>
+            </a>
+          </div>
+          <div class="blog-side-separator-bottom xrefresh"></div>
+        </div>
+      </div>
     </div>
+  </div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div id="tweets-section">
+  <div class="container" style="position: relative">
+    <ol id="tweets" class="statuses"></ol>
+  </div>
+</div>
+<div id="footer">
+  <div class="container">
+    <div class="footer-separator"></div>
+    <div class="footerbox">
+      <div class="copyright">
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="/shared/img/byccnd.png?69a4ba35"/></a>
+      </div>
+      <div class="footer-links wf">
+        <a href="http://www.binaryage.com/about.html">contact</a>
+      </div>
+    </div>
+  </div>
 </div>
 <script type="text/javascript" charset="utf-8">
-    if (bacookie('suck-closed')) {
-        $('.suck-dialog').addClass('suck-closed');
-    }
+  $(function(){var e;$(".topbar-testimonials").bind("click",function(){if(window.SSTracker){SSTracker.pushState("praise")}if(!e){$("#tweets").tweet({user:"binaryage"});e=true}})})
 </script>
-
-
-
-    </body>
+<script type="text/javascript" charset="utf-8">
+  $(function(){setTimeout(function(){var e=location.hash.substring(1);if(e.substring(0,2)=="o-"){$("#"+e).trigger("click")}},500)})
+</script>
+<script type="text/javascript" charset="utf-8">
+  $(function(){var e=document.location.host;if(e.substring(e.length-3)=="org"){$("a").each(function(){var t=$(this);var n=t.attr("href");if(n){if(n.match("binaryage.com")){n=n.replace("binaryage.com","binaryage.org")}var r=document.location+"";if(n.substring(0,4)!="http"&&n.match(/\/[^.]+$/i)){if(e.substring(r.length-1)=="2"){n+="2"}if(r.substring(r.length-6)=="2.html"){n+="2"}n+=".html"}t.attr("href",n)}})}})
+</script>
+<script type="text/javascript" charset="utf-8">
+  (function(){var e=parseUri(document.location+"");var t=e.queryKey["referrer"];if(t){bacookie("bareferrer",t,{path:"/",expires:14})}})();$("a").live("click",function(){var e=$(this).attr("href")+"";var t=bacookie("bareferrer");if(t){e+=(e.indexOf("?")==-1?"?":"&")+"referrer="+encodeURIComponent(t)}var n=document.location+"";if(n.match(/fastspring\.com/)&&e.match(/binaryage\.com/)||n.match(/binaryage\.com/)&&e.match(/fastspring\.com/)){_gaq.push(["_link",e]);return false}})
+</script>
+<script type="text/javascript">
+  var _gauges=_gauges||[];(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.id="gauges-tracker";e.setAttribute("data-site-id","4f10d65d844d52139500000b");e.src="//secure.gaug.es/track.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+</script>
+<div class="suck-area">
+  <div class="container">
+    <div class="fixed-wrapper">
+      <div class="suck-dialog suck-ie5" style="display:none">
+        This page is using the latest HTML5 techniques. You are using old Internet Explorer 5. Please <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home">upgrade to Internet Explorer 9</a> for pixel-perfect experience. Thanks!
+        <div class="suck-close" onclick="$(this).parent().addClass('suck-closed'); bacookie('suck-closed', '1', {path: '/'})"></div>
+        <div class="suck-icon"></div>
+      </div>
+      <div class="suck-dialog suck-ie6" style="display:none">
+        This page is using the latest HTML5 techniques. You are using old Internet Explorer 6. Please <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home">upgrade to Internet Explorer 9</a> for pixel-perfect experience. Thanks!
+        <div class="suck-close" onclick="$(this).parent().addClass('suck-closed'); bacookie('suck-closed', '1', {path: '/'})"></div>
+        <div class="suck-icon"></div>
+      </div>
+      <div class="suck-dialog suck-ie7" style="display:none">
+        This page is using the latest HTML5 techniques. You are using old Internet Explorer 7. Please <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home">upgrade to Internet Explorer 9</a> for pixel-perfect experience. Thanks!
+        <div class="suck-close" onclick="$(this).parent().addClass('suck-closed'); bacookie('suck-closed', '1', {path: '/'})"></div>
+        <div class="suck-icon"></div>
+      </div>
+      <div class="suck-dialog suck-ie8" style="display:none">
+        This page is using the latest HTML5 techniques. You are using old Internet Explorer 8. Please <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home">upgrade to Internet Explorer 9</a> for pixel-perfect experience. Thanks!
+        <div class="suck-close" onclick="$(this).parent().addClass('suck-closed'); bacookie('suck-closed', '1', {path: '/'})"></div>
+        <div class="suck-icon"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" charset="utf-8">
+  if(bacookie("suck-closed")){$(".suck-dialog").addClass("suck-closed")}
+</script>
+</body>
 </html>
