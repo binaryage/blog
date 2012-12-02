@@ -109,25 +109,25 @@
                   </div>
                   <div class="post-content"><p><strong>I decided to share some of my development stories. It looks like some folks enjoy this technical reading.</strong></p>
                     <h4>Is it possible to build decent crash reporting system during Saturday?</h4>
-                    <p><img class="blog-image-full-border" src="http://blog.binaryage.com/images/crash-development.png" title="Commit logs as seen in GitX"/></p>
+                    <p><img class="blog-image-full-border" src="http://static.binaryage.com/52caa2c4_images_crash-development.png" title="Commit logs as seen in GitX"/></p>
                     <div class="small" style="text-align:right">image taken from <a href="http://gitx.frim.nl/"><b>GitX - free OSX git client</b></a></div>
                     <p>As you can see, the answer is YES, even if you wake up at 1pm.</p>
                     <p>The trick is to take existing tools and make them play together. I took Google's Breakpad, Apple's OSX crash reporting system, GitHub's gist, User's email client and Google's Gmail. Btw, if you don't have much imagination try <a href="http://www.cookmateapp.com">CookMate</a>, an iPhone app by Czech folks I've met recently.</p>
                     <h4>Google already runs realtime crash reporting system, it's called Gmail</h4>
                     <p>This is how my crash reporting system looks for me as a developer.
-                      <img class="blog-image-full-border" src="http://blog.binaryage.com/images/gmail-based-crash-reporting.png" title="The filtered crash reports in gmail"/>
+                      <img class="blog-image-full-border" src="http://static.binaryage.com/30d36aab_images_gmail-based-crash-reporting.png" title="The filtered crash reports in gmail"/>
                       The best part is I didn't have to learn anything new and I can use all Gmail goodness for managing my crash reports.
                       The killer feature is that I can communicate the crash directly with the reporting user just by doing a reply.
                     I could imagine many "serious" crash reporting systems really suck at it.</p>
                     <h4>User gets a pre-generated email</h4>
                     <p>When TotalFinder crashes the user a gets custom dialog with explanations:
-                      <img class="blog-image" src="http://blog.binaryage.com/images/crash-dialog1.png" width="310" style="float:left" title="The crash reporting dialog - generating"/>
-                    <img class="blog-image" src="http://blog.binaryage.com/images/crash-dialog2.png" width="310" style="float:left" title="The crash reporting dialog - send report ..."/></p>
+                      <img class="blog-image" src="http://static.binaryage.com/b9616535_images_crash-dialog1.png" width="310" style="float:left" title="The crash reporting dialog - generating"/>
+                    <img class="blog-image" src="http://static.binaryage.com/d3a14132_images_crash-dialog2.png" width="310" style="float:left" title="The crash reporting dialog - send report ..."/></p>
                     <br clear="all"/>
                     <p>When clicking "Send Report ..." I upload the crash report anonymously to Gist and open pre-generated email with a link:</p>
-                    <p><img src="http://blog.binaryage.com/images/crash-reporting-mail.png" class="blog-image-full" title="The crash report email template"/></p>
+                    <p><img src="http://static.binaryage.com/370c905e_images_crash-reporting-mail.png" class="blog-image-full" title="The crash report email template"/></p>
                     <p>User can check the link if there is no confidential information. It's exactly the standard Apple's crash report you would find in their dialog:
-                    <img src="http://blog.binaryage.com/images/crash-reporting-gist.png" class="blog-image-full" title="The crash report uploaded to gist.github.com"/></p>
+                    <img src="http://static.binaryage.com/f68964ec_images_crash-reporting-gist.png" class="blog-image-full" title="The crash report uploaded to gist.github.com"/></p>
                     <p>This is no rocket social engineering surgery. This is just a system I would like to use as a user.
                       There is a pretty good chance the user is able and willing to send an email.
                       There is also explanatory text which looks like a message they are replying to with personal note that all crashes are being read by the author and not some black hole.
@@ -156,7 +156,7 @@
                   <a class="overlay-prev">prev</a>
                   <a class="overlay-next">next</a>
                   <div class="overlay-info"></div>
-                  <img class="overlay-progress" src="http://blog.binaryage.com/shared/img/twitter-loader.gif"/>
+                  <img class="overlay-progress" src="http://static.binaryage.com/32e8f83d_shared_img_twitter-loader.gif"/>
                 </div>
                 <script>
                   (function(){var e=$(".post-content");var t=$(".blog-image",e).add(".blog-image-full",e).add(".blog-image-border",e).add(".blog-image-full-border",e);if(!t.length)return;var n=[];t.each(function(){var e=$(this);var t=$("<a>").attr("href",e.attr("src"));var n=e.attr("title");if(n)t.attr("title",n);e.wrap(t)});t.parent().overlay({effect:"apple",expose:"#f1f1f1",target:"#overlay-gallery"}).gallery({disabledClass:"disabled-overlay",prev:".overlay-prev",next:".overlay-next",info:".overlay-info",progress:".overlay-progress",opacity:1,speed:200,template:"[${index}/${total}] ${title}"})})()

@@ -107,17 +107,17 @@
                     <h1 class="post-title">TotalFinder now works without SIMBL</h1>
                     <div class="clear"></div>
                   </div>
-                  <div class="post-content"><p><img src="http://blog.binaryage.com/shared/img/icons/totalfinder-64.png" class="intro-icon"/></p>
+                  <div class="post-content"><p><img src="http://static.binaryage.com/57f6fb3b_shared_img_icons_totalfinder-64.png" class="intro-icon"/></p>
                     <p><strong>TotalFinder 0.8.3 does not rely on SIMBL anymore. It plugs into Finder.app on its own.</strong></p>
                     <div class="blog-download">
-                      <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.8.3.dmg"><img src="http://blog.binaryage.com/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.8.3.dmg</div></a>
+                      <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.8.3.dmg"><img src="http://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.8.3.dmg</div></a>
                       <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
                     </div>
                     <h4>TotalFinder loves SIMBL, but SIMBL scares people on the streets</h4>
                     <p><a href="http://www.culater.net/software/SIMBL/SIMBL.php">SIMBL</a> is a great and well maintained software. All kudos to <strong>Mike Solomon</strong> who has been doing an awesome job on it for so many years. TotalFinder probably would not be here today without SIMBL.</p>
                     <p>The current version of SIMBL has one fundamental problem related to TotalFinder. <strong>It requires people to do something.</strong> Running an installer is not much work, I know. But there is still a dependency. A user needs to install a separate program prior to TotalFinder. They have to keep it up-to-date. They will probably want to look at it and understand what it is. And let's be honest, the <a href="http://www.culater.net/software/SIMBL/SIMBL.php">SIMBL homepage</a> is not very welcoming to non-programmers.</p>
                     <p>There are also some technical questions. Is it really worth it to replace SIMBL with my own homebrew solution?</p>
-                    <p><img class="clear blog-image" src="http://blog.binaryage.com/images/simbl-replacement-questioning.png" title="Good question, Shane. It is worth it to make my own SIMBL?"/></p>
+                    <p><img class="clear blog-image" src="http://static.binaryage.com/f46a245e_images_simbl-replacement-questioning.png" title="Good question, Shane. It is worth it to make my own SIMBL?"/></p>
                     <p>Good question, Shane. Here are my reasons:</p>
                     <ul>
                       <li>I want TotalFinder installation and uninstallation to be as seamless as possible. It should be ideally one-click experience. No brainer!</li>
@@ -126,7 +126,7 @@
                       <li>I don't really need SIMBL's Agent functionality. Actually it does no good with Finder's auto-restart and it has complicated my life in the past (I needed to <a href="http://blog.binaryage.com/totalfinder-with-sparkle/">prevent a continuous crashing scenario</a>, for example)</li>
                     </ul>
                     <p>So I decided to roll my own solution. It does not need Agent and it is Snow Leopard only, so it turned out to be really easy (the <a href="http://github.com/binaryage/totalfinder-osax/blob/master/TotalFinderInjector.m">plugin injector</a> has less than 100LOC). I was able to implement a future Finder version check like this:</p>
-                    <p><img class="clear blog-image-border" src="http://blog.binaryage.com/images/totalfinder-future-compatibility-check.png" title="TotalFinder warns you when running with an unknown Finder version (from the future)"/></p>
+                    <p><img class="clear blog-image-border" src="http://static.binaryage.com/d332e4a4_images_totalfinder-future-compatibility-check.png" title="TotalFinder warns you when running with an unknown Finder version (from the future)"/></p>
                     <p>Ok, to wrap it up. TotalFinder.bundle is still a SIMBL plugin and you can run it with SIMBL if you want to play with <code>Info.plist</code>. But I'm using my own OSAX to do the Finder injection by default. Don't worry, I will open-source my solution in a few days <a href="http://github.com/binaryage/totalfinder-osax">on GitHub</a>. Of course I will be glad to get some feedback/code reviews on this.</p>
                     <p>And as a side-effect I've learned how to rule the world with my own Scripting Additions. Wait for the next release .-)</p>
                     <h4>A general project refactoring and Echelon rename</h4>
@@ -145,7 +145,7 @@
                 <a class="overlay-prev">prev</a>
                 <a class="overlay-next">next</a>
                 <div class="overlay-info"></div>
-                <img class="overlay-progress" src="http://blog.binaryage.com/shared/img/twitter-loader.gif"/>
+                <img class="overlay-progress" src="http://static.binaryage.com/32e8f83d_shared_img_twitter-loader.gif"/>
               </div>
               <script>
                 (function(){var e=$(".post-content");var t=$(".blog-image",e).add(".blog-image-full",e).add(".blog-image-border",e).add(".blog-image-full-border",e);if(!t.length)return;var n=[];t.each(function(){var e=$(this);var t=$("<a>").attr("href",e.attr("src"));var n=e.attr("title");if(n)t.attr("title",n);e.wrap(t)});t.parent().overlay({effect:"apple",expose:"#f1f1f1",target:"#overlay-gallery"}).gallery({disabledClass:"disabled-overlay",prev:".overlay-prev",next:".overlay-next",info:".overlay-info",progress:".overlay-progress",opacity:1,speed:200,template:"[${index}/${total}] ${title}"})})()
