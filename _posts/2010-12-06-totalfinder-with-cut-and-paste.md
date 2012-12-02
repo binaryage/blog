@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/shared/img/totalfinder-icon.png" class="intro-icon"/>
+<img src="/shared/img/totalfinder-icon.png" class="intro-icon"/>
 
 ** Today, I'm happy to announce a new major release of TotalFinder. The new version [includes Cut&Paste and many small improvements and fixes](http://totalfinder.binaryage.com/changes). You may grab TotalFinder 1.1 today [for just $9 via MacUpdate Promo](http://mupromo.com/TotalFinder). **
 

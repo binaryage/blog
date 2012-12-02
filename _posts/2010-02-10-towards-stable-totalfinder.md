@@ -6,12 +6,12 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
 **TotalFinder 0.7.1 update is ready for download.**
 
 <div class="blog-download">
-    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.7.1.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.7.1.dmg</div></a>
+    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.7.1.dmg"><img src="/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.7.1.dmg</div></a>
     <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
@@ -35,4 +35,4 @@ Thank you all who sent me some crash reports. I really read them.
 
 I've solved @DSStore, @RestoreFocus, @placeWindow and @AEOverride crashes in 0.7.1. As you can see, this should reduce crash rate by 90% or so.
 
-<img class="blog-image-full-border" src="{{site.url}}/images/crash-distribution.png" title="The distribution of crash reports">
+<img class="blog-image-full-border" src="/images/crash-distribution.png" title="The distribution of crash reports">

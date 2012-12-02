@@ -6,16 +6,16 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
 **I'm proud to announce a new version of [TotalFinder](http://totalfinder.binaryage.com) which introduces the tabs feature.**
 
 <div class="blog-download">
-    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.6.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.6.dmg</div></a>
+    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.6.dmg"><img src="/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.6.dmg</div></a>
     <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
-<img class="blog-image-full" src="{{site.url}}/shared/img/totalfinder-mainshot.png" title="TotalFinder has Chromium tabs!">
+<img class="blog-image-full" src="/shared/img/totalfinder-mainshot.png" title="TotalFinder has Chromium tabs!">
 
 The next expiration date is set to January 25, 2010 and it will be probably maintenance release to iron out all problems introduced in this ground breaking update.
 

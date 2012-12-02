@@ -6,11 +6,11 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
 **I'm working hard on the TotalFinder 1.0 release. Today I want to show you an exclusive screenshot from the upcoming version.**
 
-<img class="clear blog-image-full-border" src="{{site.url}}/images/totalfinder-sneak-peek-10.png" title="BinaryAge is dedicated to bringing the Windows experience to the Mac.">
+<img class="clear blog-image-full-border" src="/images/totalfinder-sneak-peek-10.png" title="BinaryAge is dedicated to bringing the Windows experience to the Mac.">
 
 #### Pricing
 

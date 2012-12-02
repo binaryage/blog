@@ -25,7 +25,7 @@ shelf. In contrast to a shelf made out of metal and wood, a desktop shelf has a
 nice Cover Flow-like effect to zoom in to the file under the cursor to make it easy
 to find the file you are looking for.
 
-<a href="http://kitestack.com/desktopshelves/" title="DesktopShelves - Organize your desktop" target="_blank"><img src="{{site.url}}/images/desktopshelves.jpg" alt="DesktopShelves screenshot"/></a>
+<a href="http://kitestack.com/desktopshelves/" title="DesktopShelves - Organize your desktop" target="_blank"><img src="/images/desktopshelves.jpg" alt="DesktopShelves screenshot"/></a>
 
 You can open any folder on your Mac as a shelf on the desktop. Let's say you
 are working on a project for a client. In Finder, you can just right-click the

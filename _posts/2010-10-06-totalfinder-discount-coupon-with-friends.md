@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/shared/img/totalfinder-icon.png" class="intro-icon"/>
+<img src="/shared/img/totalfinder-icon.png" class="intro-icon"/>
 
 ** I have been giving <a href="http://totalfinder.binaryage.com/free-licenses">free licenses</a> to people who contributed their time to TotalFinder.<br>As a side effect I've also had tons of emails from students <a href="http://getsatisfaction.com/binaryage/topics/student_discount-457pf">asking for a free license or discount</a>. Their reason is mostly "because I'm poor" or something similar. **
 
@@ -18,13 +18,13 @@ But asking for something just because I was poor always seemed like a bad idea t
 
 You can help me sell more TotalFinder licenses and earn a $5 discount for yourself and 2 other friends.<br>You have some friends, right? Doing something for your friends for free is always a good idea.
 
-<img src="{{site.url}}/images/totalfinder-discount-for-friends.gif" style="border:1px solid #888;">
+<img src="/images/totalfinder-discount-for-friends.gif" style="border:1px solid #888;">
 
 You may want to [visit this page](http://totalfinder.binaryage.com/licenses-for-friends) which will help you send a message to your friends.
 
 #### How does it work?
 
-<img src="{{site.url}}/images/totalfinder-buy-30.png">
+<img src="/images/totalfinder-buy-30.png">
 
 You buy <a href="https://sites.fastspring.com/binaryage/instant/totalfinder-friends">TotalFinder Friends</a> for $30 and I will send you a classic license plus two coupons as URLs. You can then send the coupon links to your friends. Either as a gift or they can give you $10 back.
 

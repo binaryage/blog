@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
 ** [I promised some fun here](/totalfinder-birthday-launch) and here is the announcement of the lottery winners.<br>I have here almost $1000 worth of licenses for lucky crash reporters. **
 
@@ -22,7 +22,7 @@ Here is [the script](http://gist.github.com/599631) if you are interested.
 
 [@blubalu](http://twitter.com/blubalu/status/25711610348) was the fastest random notary in [@binaryage](http://twitter.com/binaryage). Note that he uses TweetDeck :-)
 
-<a href="http://twitter.com/blubalu/status/25711610348"><img src="{{site.url}}/images/randseed-lottery-1.png"/></a>
+<a href="http://twitter.com/blubalu/status/25711610348"><img src="/images/randseed-lottery-1.png"/></a>
 
 #### And the winners are...
 

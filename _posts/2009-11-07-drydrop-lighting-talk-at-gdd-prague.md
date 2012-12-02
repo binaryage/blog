@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/shared/img/icons/drydrop-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/drydrop-64.png" class="intro-icon"/>
 
 **Yesterday I attended Google Developer Day in Prague. It was a great occasion to meet Googlers, Google fans and other fellow developers. I had a great time there.**
 

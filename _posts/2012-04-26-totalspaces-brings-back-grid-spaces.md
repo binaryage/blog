@@ -6,17 +6,17 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/shared/img/icons/totalspaces-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/totalspaces-64.png" class="intro-icon"/>
 
 ** I'm excited to announce a new product from BinaryAge. TotalSpaces is a productivity tool for Mac. You guess right, it taps into the system and improves Spaces experience. **
 
-<img class="clear blog-image-full-border" src="{{site.url}}/images/totalspaces-overview-grid.png" title="Grid overview in TotalSpaces">
+<img class="clear blog-image-full-border" src="/images/totalspaces-overview-grid.png" title="Grid overview in TotalSpaces">
 
 **[TotalSpaces](http://totalspaces.binaryage.com)** provides several handy features for heavy Spaces users. In a way it brings back the old grid-based Spaces behavior we loved in Snow Leopard. It offers custom transitions when switching Spaces. For example featuring the famous Cube transition. And of course you may customize hotkeys, hotcorners and the way circulation through the grid works. Sounds good? Look into [the documentation](http://totalspaces.binaryage.com/documentation) to get more info on individual features in the current version.
 
 #### Meet Stephen from Helsinki
 
-<img src="{{site.url}}/images/stephen.png" style="width:70px;float:left; margin-top: -2px; margin-right: 10px; padding:2px; border:1px #999 solid;"/> TotalSpaces has been developed by **[Stephen Sykes](https://twitter.com/sdsykes)** - a Mac and iOS developer, hacker and radio electronics guru. He is a computer veteran, an englishman living in Finland. TotalSpaces is his idea to improve his daily desktop and window management tasks. He sure is really quick at switchin' Spaces!
+<img src="/images/stephen.png" style="width:70px;float:left; margin-top: -2px; margin-right: 10px; padding:2px; border:1px #999 solid;"/> TotalSpaces has been developed by **[Stephen Sykes](https://twitter.com/sdsykes)** - a Mac and iOS developer, hacker and radio electronics guru. He is a computer veteran, an englishman living in Finland. TotalSpaces is his idea to improve his daily desktop and window management tasks. He sure is really quick at switchin' Spaces!
 
 #### The story behind TotalSpaces
 

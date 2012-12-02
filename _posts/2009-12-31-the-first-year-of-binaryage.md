@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/shared/img/icons/binaryage-badge-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/binaryage-badge-64.png" class="intro-icon"/>
 
 **I'm just sitting in the train on the way back to Prague. This gives me precious few hours to look back and think about the last year...**
 

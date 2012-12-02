@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/shared/img/icons/binaryage-badge-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/binaryage-badge-64.png" class="intro-icon"/>
 
 **It was a successful year. BinaryAge has become a serious business in 2011.<br>This is my traditional summary of the year for people who follow this story.<br>Last year I wrote about [the second year of BinaryAge](http://blog.binaryage.com/the-second-year-of-binaryage).**
 
@@ -16,7 +16,7 @@ While looking back, I wonder where did I spend all my time. I haven't completed 
 
 I'm into analytics and I have been using [RescueTime](http://rescuetime.com) to track my behavior. When looking back this gives us good insights how much time did I spend on what.
 
-<img class="clear blog-image-full-border" src="{{site.url}}/images/my-time-in-2011.png" title="Where did my time go?">
+<img class="clear blog-image-full-border" src="/images/my-time-in-2011.png" title="Where did my time go?">
 
 This graph is plotted by week. Particulary interesting is the purple area, which is real development time.
 
@@ -41,7 +41,7 @@ I had to re-implement most of TotalFinder features for Lion version of Finder. I
 
 Originally I thought I will spend few months in San Francisco by the end of the year. But instead I have joined my best friend and followed him to Russia. We had a lot of fun in Saint Petersburg together. It is a nice historic city with friendly girls and cool bars. Maybe we drank too much vodka there :-)
 
-<img class="clear blog-image-full-border" src="{{site.url}}/images/antonin-and-aurora.png" title="Me and Aurora :-)">
+<img class="clear blog-image-full-border" src="/images/antonin-and-aurora.png" title="Me and Aurora :-)">
 
 #### What's next in 2012?
 

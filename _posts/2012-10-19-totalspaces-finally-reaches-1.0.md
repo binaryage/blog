@@ -6,7 +6,7 @@ author_name: Stephen Sykes
 author_uri: http://binaryage.com
 ---
 
-<img src="{{site.url}}/shared/img/icons/totalspaces-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/totalspaces-64.png" class="intro-icon"/>
 
 ** [TotalSpaces](http://totalspaces.binaryage.com) &mdash; the indispensable utility for managing and navigating your spaces in a grid **
 
@@ -20,12 +20,12 @@ All in all, we're really happy with TotalSpaces, and we're not alone; we've had 
 
 TotalSpaces was born at the end of August 2011 as Change Space App, something I wrote in my spare time to get back my well loved spaces grid. Change Space worked, but it had some deficiencies and I could see that it was going to require a significant change in the way the app worked in order to improve it. I was going to need to write a plugin for the OSX Dock app in order to do everything I wanted.
 
-<img src="{{site.url}}/images/totalspaces-overview-grid.png" style="width:200px;float:left; margin-top: -2px; margin-right: 10px; padding:2px; border:1px #999 solid;" alt="ReSpaceApp overview grid" title="ReSpaceApp overview grid" />
+<img src="/images/totalspaces-overview-grid.png" style="width:200px;float:left; margin-top: -2px; margin-right: 10px; padding:2px; border:1px #999 solid;" alt="ReSpaceApp overview grid" title="ReSpaceApp overview grid" />
 The first incarnation of this was called ReSpaceApp, which was initially released on 1st February 2012. Development proceeded well, and by April you could pull up an overview grid, with the ability to drag and drop windows between desktops.
 
 At the end of April I teamed up with Antonin, and ReSpaceApp took its place in the [BinaryAge portfolio](http://binaryage.com) as TotalSpaces.
 
-<img src="{{site.url}}/images/totalspaces-new-overview-grid.png" style="width:200px;float:right; margin-top: -2px; margin-right: 10px; padding:2px; border:1px #999 solid;" alt="TotalSpaces overview grid" title="TotalSpaces overview grid" />
+<img src="/images/totalspaces-new-overview-grid.png" style="width:200px;float:right; margin-top: -2px; margin-right: 10px; padding:2px; border:1px #999 solid;" alt="TotalSpaces overview grid" title="TotalSpaces overview grid" />
 June brought a much improved full-screen overview grid, with an exposé type feature to enable you to get a good view of all your windows.
 
 During the summer and autumn we continued to improve and refine the app, whilst adding some of the most requested features.

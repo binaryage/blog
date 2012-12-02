@@ -6,12 +6,12 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
 **TotalFinder 0.9.1 is out with many improvements and some stability fixes.<br/>Maybe I should start calling it a beta?! What do you think? :-)**
 
 <div class="blog-download">
-    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.9.1.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.9.1.dmg</div></a>
+    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.9.1.dmg"><img src="/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.9.1.dmg</div></a>
     <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
@@ -24,7 +24,7 @@ One thing is clear to me. TotalFinder must not turn into bloat-ware. On the othe
 
 For example some people are not that interested in .DS_Store redirection, while for others it is an essential feature. By the way, I renamed this feature "Asepsis" which is kind of a cool name for real system surgeons ;-)
 
-<img class="clear blog-image" width="300" src="{{site.url}}/images/new-preferences-panel.png" title="TotalFinder provides distinct features which may be enabled at once">
+<img class="clear blog-image" width="300" src="/images/new-preferences-panel.png" title="TotalFinder provides distinct features which may be enabled at once">
 
 This is the new look of TotalFinder preferences. New mini tab buttons give more room for new feature panels in the future :-)
 
@@ -44,7 +44,7 @@ I believe I've solved all of these nasty issues by reviewing all performSelector
 
 I've replaced the Visor close button with pin button. The Visor window may be also pinned by pressing the keyboard shortcut `CMD+SHIFT+P`. You can also drag the tabs bar to resize Visor vertically. Sweet!
 
-<img class="clear blog-image-border" src="{{site.url}}/images/totalfinder-pinned-visor-window.png" title="The Visor window may be also pinned by pressing the keyboard shortcut `CMD+SHIFT+P`">
+<img class="clear blog-image-border" src="/images/totalfinder-pinned-visor-window.png" title="The Visor window may be also pinned by pressing the keyboard shortcut `CMD+SHIFT+P`">
 
 I've also improved the free-form mode of the Visor window and implemented seamless switching between these modes.
 
@@ -52,7 +52,7 @@ I've also improved the free-form mode of the Visor window and implemented seamle
 
 This is just the cherry on the top. It was easy enough so I decided to make some folks with small screens happy. You have a keyboard shortcut for this too: `CMD+SHIFT+B`.
 
-<img class="clear blog-image-border" src="{{site.url}}/images/totalfinder-narrow-tabs-bar.png" title="Narrow Tabs Bar">
+<img class="clear blog-image-border" src="/images/totalfinder-narrow-tabs-bar.png" title="Narrow Tabs Bar">
 
 #### Display hidden files without restarting Finder!
 
@@ -62,7 +62,7 @@ So I've followed the hard path again. I've searched the memory where Finder stor
 
 As of the 0.9.1 release, this feature works for Finder 10.6.3 and 10.6.4. Apple is probably going to release Finder 10.6.5 soon, so I will release a TotalFinder update for it shortly. If you encounter the future compatibility warning you will lose this functionality for a while (a Finder restart will always work, of course).
 
-<img class="clear blog-image-border" width="300" src="{{site.url}}/images/totalfinder-future-compatibility-check.png" title="TotalFinder warns you when running with unknown Finder version (from the future)">
+<img class="clear blog-image-border" width="300" src="/images/totalfinder-future-compatibility-check.png" title="TotalFinder warns you when running with unknown Finder version (from the future)">
 
 Note: Finder's minor version number is advanced by +1 compared to the OS X system update numbering.
 

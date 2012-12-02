@@ -6,12 +6,12 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
 **TotalFinder 0.9.5 is here. This release added localization support and a few fixes.**
 
 <div class="blog-download">
-    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.9.5.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.9.5.dmg</div></a>
+    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.9.5.dmg"><img src="/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.9.5.dmg</div></a>
     <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
@@ -24,7 +24,7 @@ You know that already, the [guys behind the GitHub](http://github.com/github) ar
 Ehmm, all right, I'm a big believer in the [GitHub](http://github.com/binaryage) concept. The transparency it offers when looking at versioning and collaboration is breath-taking. I didn't even announce localization support here on the blog and some folks already 'got it' and [have forked my repo](http://github.com/binaryage/totalfinder-i18n/network/members). I understand that not everyone is familiar with git and other tools I'm forcing you into, but if you are a techie I guarantee you [learning git](http://progit.org) and GitHub is damn well invested time. Take it as a good opportunity to learn something new. Now you have a reason and my full support.
 
 For your information, this is my experience when collecting localizations, easy as pie! :-)
-<img class="clear blog-image-full-border" src="{{site.url}}/images/github-totalfinder-localization-fork-queue.png" title="GitHub fork queue">
+<img class="clear blog-image-full-border" src="/images/github-totalfinder-localization-fork-queue.png" title="GitHub fork queue">
 
 Please look at this repo and read the instructions:
 [http://github.com/binaryage/totalfinder-i18n](http://github.com/binaryage/totalfinder-i18n)
@@ -46,6 +46,6 @@ Now I'm slowly learning how rendering the tabs really works and trying to tame C
 
 Other news is that Google is (probably!) planning [a slightly different tab look](http://blog.chromium.org/2010/06/fresh-coat-of-chrome.html) in an upcoming version. It looks gorgeous in my opinion. TotalFinder will definitely keep up and I want to know every pixel by name.
 
-<img class="clear blog-image" src="{{site.url}}/images/new-chrome-tabs-mockup.png" title="Upcoming Chrome tabs?">
+<img class="clear blog-image" src="/images/new-chrome-tabs-mockup.png" title="Upcoming Chrome tabs?">
 
 Also one of the most requested features is [Safari-style tabs](http://getsatisfaction.com/binaryage/topics/allow_safari_style_tabs_or_unique_a_style_chrome_tabs_me_not_like). I hear you! I will put these newly acquired skills towards this ultimate goal (sometime after the 1.0 release).

@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/shared/img/icons/binaryage-badge-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/binaryage-badge-64.png" class="intro-icon"/>
 
 **I was lucky. TotalFinder is a pretty hot deal. I'm getting quite some emails from promo sites and bundle creators with offers to include TotalFinder. Thank you, maybe later.**
 
@@ -14,7 +14,7 @@ author_uri: http://hildebrand.cz
 
 ... I should launch yet another promo site called MacGems.org
 
-<img class="clear blog-image-full-border" src="{{site.url}}/images/macgems-mockup.png" title="Weekly deals on popular Mac software">
+<img class="clear blog-image-full-border" src="/images/macgems-mockup.png" title="Weekly deals on popular Mac software">
 
 Ok, for customers the only warm difference is that all profits would go to open-source projects. But I believe this should resonate with the developers who should pay this all and be super-happy about it :-)
 

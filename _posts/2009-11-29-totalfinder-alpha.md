@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
 **[TotalFinder](http://totalfinder.binaryage.com) is my attempt to make Finder.app better for programmers and Mac power users. I want it better for myself!**
 
@@ -19,7 +19,7 @@ Do you know <a href="http://visor.binaryage.com">Visor</a>? TotalFinder is also 
 #### TotalFinder 0.2 ALPHA
 
 <div class="blog-download">
-    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.2.1.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.2.1.dmg</div></a>
+    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.2.1.dmg"><img src="/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.2.1.dmg</div></a>
     <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
@@ -39,10 +39,10 @@ Note: The bug should be fixed in 0.2.1
 
 OK, let's see some screenshots:
 
-<img src="{{site.url}}/images/tf02-features.png" style="float:left; width: 49%" title="Preferences panel with Visor feature">
-<img src="{{site.url}}/images/tf02-dsstore.png" style="float:left; width: 49%" title="Preferences panel with .DS_Store redirection options">
-<img src="{{site.url}}/images/tf02-tweaks.png" style="float:left; width: 49%" title="Preferences panel with various tweaks">
-<img src="{{site.url}}/images/tf02-purchase.png" style="float:left; width: 49%" title="Preferences panel with info/purchase screen">
+<img src="/images/tf02-features.png" style="float:left; width: 49%" title="Preferences panel with Visor feature">
+<img src="/images/tf02-dsstore.png" style="float:left; width: 49%" title="Preferences panel with .DS_Store redirection options">
+<img src="/images/tf02-tweaks.png" style="float:left; width: 49%" title="Preferences panel with various tweaks">
+<img src="/images/tf02-purchase.png" style="float:left; width: 49%" title="Preferences panel with info/purchase screen">
 
 <div class="clear"> </div>
 

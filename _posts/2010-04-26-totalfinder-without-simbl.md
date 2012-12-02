@@ -6,12 +6,12 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="{{site.url}}/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
 
 **TotalFinder 0.8.3 does not rely on SIMBL anymore. It plugs into Finder.app on its own.**
 
 <div class="blog-download">
-    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.8.3.dmg"><img src="{{site.url}}/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.8.3.dmg</div></a>
+    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.8.3.dmg"><img src="/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.8.3.dmg</div></a>
     <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
@@ -23,7 +23,7 @@ The current version of SIMBL has one fundamental problem related to TotalFinder.
 
 There are also some technical questions. Is it really worth it to replace SIMBL with my own homebrew solution?
 
-<img class="clear blog-image" src="{{site.url}}/images/simbl-replacement-questioning.png" title="Good question, Shane. It is worth it to make my own SIMBL?">
+<img class="clear blog-image" src="/images/simbl-replacement-questioning.png" title="Good question, Shane. It is worth it to make my own SIMBL?">
 
 Good question, Shane. Here are my reasons:
 
@@ -34,7 +34,7 @@ Good question, Shane. Here are my reasons:
 
 So I decided to roll my own solution. It does not need Agent and it is Snow Leopard only, so it turned out to be really easy (the [plugin injector](http://github.com/binaryage/totalfinder-osax/blob/master/TotalFinderInjector.m) has less than 100LOC). I was able to implement a future Finder version check like this:
 
-<img class="clear blog-image-border" src="{{site.url}}/images/totalfinder-future-compatibility-check.png" title="TotalFinder warns you when running with an unknown Finder version (from the future)">
+<img class="clear blog-image-border" src="/images/totalfinder-future-compatibility-check.png" title="TotalFinder warns you when running with an unknown Finder version (from the future)">
 
 Ok, to wrap it up. TotalFinder.bundle is still a SIMBL plugin and you can run it with SIMBL if you want to play with `Info.plist`. But I'm using my own OSAX to do the Finder injection by default. Don't worry, I will open-source my solution in a few days [on GitHub](http://github.com/binaryage/totalfinder-osax). Of course I will be glad to get some feedback/code reviews on this. 
 
