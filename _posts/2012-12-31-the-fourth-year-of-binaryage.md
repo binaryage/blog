@@ -32,15 +32,15 @@ When I got back to Prague I got busy with [Mountain Lion TotalFinder release](ht
 
 #### Experiments
 
-During the year I started several experimental projects with some devs I considered hiring. IMHO this is the best way to hire someone - work with them in the open:
+During the year I started several experimental projects with other developers:
 
    * **[leechgate](https://github.com/binaryage/leechgate)** - Google Analytics for your S3 bucket
    * **[restatic](http://restatic.binaryage.com)** - pumps spreadsheet data into your static site
    * **[terraform](https://github.com/darwin/terraform)** - my take on a concept of "editable web"
 
-Also I funded several unfinished pieces left in the dust on GitHub. That is the unavoidable risk of trying to build something new with people you don't know that well.
+Also [Mark](http://markmiyashita.com) did a nice job on editing the [Hints from BinaryAge](http://hints.binaryage.com). Thanks!
 
-On the other hand [Mark](http://markmiyashita.com) did a nice job on editing the [Hints from BinaryAge](http://hints.binaryage.com). Thanks!
+I believe collaborating on experimental open projects and ideas is a great way to try to work together.
 
 #### What's next in 2013?
 
