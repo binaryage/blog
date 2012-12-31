@@ -16,7 +16,7 @@ author_uri: http://hildebrand.cz
 
 #### BinaryAge Limited incorporated
 
-After last [year of stabilization](http://blog.binaryage.com/the-third-year-of-binaryage) I decided to decouple the business from my individual person. It is not "just me" anymore, it is a mindset shift. It is not just changing "the about page". You may think about this process as a solo-founder business refactoring. I would like to see BinaryAge as a _distributed cloud company_. No single "central" offices, just people collaborating remotely from different parts of the world. HipChat, GitHub and Hangouts shall be our offices.
+After the last [year of stabilization](http://blog.binaryage.com/the-third-year-of-binaryage) I decided to decouple the business from my individual person. It is not "just me" anymore, it is a mindset shift. It is not just changing "the about page". You may think about this process as a solo-founder business refactoring. I would like to see BinaryAge as a _distributed cloud company_. No single "central" offices, just people collaborating remotely from different parts of the world. HipChat, GitHub and Hangouts shall be our offices.
 
 I'm much more confident in the future. We have multiple products for offer now. We have multiple pairs of hands nurturing them. We have promising ideas and unique skills to make them a reality. Also we managed to accumulate some capital to be pretty confident we can carry on and support our users in the future.
 
@@ -28,7 +28,7 @@ We are also looking for some help. At this point we need some Mac addict who wou
 
 One dream came true. San Francisco is a great place. [I spent]() full three months there during spring and early summer. Stephen visited me there too.
 
-When I got back to Prague I got busy with [Mountain Lion TotalFinder release](http://blog.binaryage.com/totalfinder-runs-with-mountain-lions). It went quite ok. Mountain Lion did not bring that many changes compared to Lion.
+When I got back to Prague I got busy with [Mountain Lion TotalFinder release](http://blog.binaryage.com/totalfinder-runs-with-mountain-lions). It went quite well - Mountain Lion did not bring as many changes as Lion had.
 
 #### Experiments
 
@@ -44,9 +44,9 @@ On the other hand [Mark](http://markmiyashita.com) did a nice job on editing the
 
 #### What's next in 2013?
 
-I want to hire a new developer who would work on TotalFinder. Together with Stephen I would like to start working on a new product. Do you have any ideas what should we build next? We are eager to hear!
+I want to hire a new developer who would work on TotalFinder. Together with Stephen I would like to start working on a new product. Do you have any ideas what should we build next? We are eager to hear them!
 
-On personal level I'm going to do a rather dramatic change. I'm going to sell all my furniture/stuff and move out of my rented aparment in Prague. I will start traveling around the world with just a MacBook Pro. I can tell you that [Maccman's post](http://alexmaccaw.com/posts/how_to_travel_around_the_world) was a great inspiration here. But it won't be that romantic in my case :) By traveling I mean using [AirBnB](http://airbnb.com) to switch a city every three months or so. I want to do some work as well. Any tips what cities are worth visiting first? :)
+On personal level I'm planning a rather dramatic change: I'm going to sell all my furniture/stuff and move out of my rented aparment in Prague. I will start traveling around the world with just a MacBook Pro. I can tell you that [Maccman's post](http://alexmaccaw.com/posts/how_to_travel_around_the_world) was a great inspiration here, but it won't be that romantic in my case :) By traveling I mean using [AirBnB](http://airbnb.com) to switch a city every three months or so. I want to do some work as well. Any tips what cities are worth visiting first? :)
 
 Also personally I'm going to get involved in the bitcoin community.
 
