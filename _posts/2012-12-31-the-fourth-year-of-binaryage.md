@@ -44,7 +44,7 @@ On the other hand [Mark](http://markmiyashita.com) did a nice job on editing the
 
 #### What's next in 2013?
 
-I want to hire a new developer who would work on TotalFinder. Together with Stephen I would like to start working on a new product. Do you have any ideas what should we build next? We are eager to hear them!
+I want to hire a new developer who would work on TotalFinder. Together with Stephen I would like to start working on a new product. Do you have any ideas what we should build next? We are eager to hear them!
 
 On personal level I'm planning a rather dramatic change: I'm going to sell all my furniture/stuff and move out of my rented aparment in Prague. I will start traveling around the world with just a MacBook Pro. I can tell you that [Maccman's post](http://alexmaccaw.com/posts/how_to_travel_around_the_world) was a great inspiration here, but it won't be that romantic in my case :) By traveling I mean using [AirBnB](http://airbnb.com) to switch a city every three months or so. I want to do some work as well. Any tips what cities are worth visiting first? :)
 
