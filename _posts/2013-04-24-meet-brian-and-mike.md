@@ -20,7 +20,7 @@ Stephen is going to release a new version of <a href="http://totalspaces.binarya
 
 ##### Meet Brian, from Dallas
 
-<img src="/images/brian.png" style="width:70px;float:left; margin-top: -2px; margin-right: 10px; padding:2px; border:1px #999 solid;"/> I wanted to hire a new developer to help out with <a href="http://totalfinder.binaryage.com">TotalFinder</a> development. It has been always a challlenge to find skilled and reliable hackers. But communities like [Github](http://github.com) make it possible to meet and feel comfortable with like-minded people and that's how I met Brian Garrett. The open-source code he submitted in [TotalTerminal](http://totalterminal.binaryage.com) looked great and after reaching out, I realized his personality is great, too.
+<img src="/images/brian.jpg" style="width:72px;float:left; margin-top: 0px; margin-right: 10px; padding:2px; border:1px #999 solid;"/> I wanted to hire a new developer to help out with <a href="http://totalfinder.binaryage.com">TotalFinder</a> development. It has been always a challlenge to find skilled and reliable hackers. But communities like [Github](http://github.com) make it possible to meet and feel comfortable with like-minded people and that's how I met Brian Garrett. The open-source code he submitted in [TotalTerminal](http://totalterminal.binaryage.com) looked great and after reaching out, I realized his personality is great, too.
 
 Brian's been studying mechanical and energy engineering at the University of North Texas. That's where he found his passion for software development, when he built a command-line tool to reduce the amount of time it took to solve thermodynamic problems. Brian's drawn to the unique creative freedom that coding allows, unlike the physical laws he is limited to in school.
 
@@ -28,7 +28,7 @@ Brian's been studying mechanical and energy engineering at the University of Nor
 
 In the same December post, I asked for a Mac addict to help with building our community. Some of our best features have come from thousands of users in more than two dozen countries around the world.
 
-<img src="/images/mike.jpg" style="width:60px;float:left; margin-top: 2px; margin-right: 10px; padding:2px; border:1px #999 solid;"/> After reading the post, <a href="http://www.michaelmaturo.com/">Mike Maturo</a>, a public relations expert from New York started a conversation with me. His background in computer engineering and computer science from USC gives him a good understanding of our work and his former life as an elected official helps him be empathetic with our users. I'm excited about what we can do together, especially to get onto <a href="http://www.discourse.org">Discourse</a>, a cutting-edge community forum platform!
+<img src="/images/mike.jpg" style="width:56px;float:left; margin-top: 2px; margin-right: 10px; padding:2px; border:1px #999 solid;"/> After reading the post, <a href="http://www.michaelmaturo.com/">Mike Maturo</a>, a public relations expert from New York started a conversation with me. His background in computer engineering and computer science from USC gives him a good understanding of our work and his former life as an elected official helps him be empathetic with our users. I'm excited about what we can do together, especially to get onto <a href="http://www.discourse.org">Discourse</a>, a cutting-edge community forum platform!
 
 #### Working as a distributed team
 
