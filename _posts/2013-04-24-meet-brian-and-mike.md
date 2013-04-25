@@ -22,7 +22,7 @@ Stephen is going to release a new version of <a href="http://totalspaces.binarya
 
 <img src="/images/brian.png" style="width:70px;float:left; margin-top: -2px; margin-right: 10px; padding:2px; border:1px #999 solid;"/> I wanted to hire a new developer to help out with <a href="http://totalfinder.binaryage.com">TotalFinder</a> development. It has been always a challlenge to find skilled and reliable hackers. But communities like [Github](http://github.com) make it possible to meet and feel comfortable with like-minded people and that's how I met Brian Garrett. The open-source code he submitted in [TotalTerminal](http://totalterminal.binaryage.com) looked great and after reaching out, I realized his personality is great, too.
 
-Brian's been studying mechanical and energy engineering at the University of North Texas. That's where he found his passion for software development, when he built a command-line tool to reduce the amount of time it took to solve thermodynamics problems. Brian's drawn to the unique creative freedom that coding allows, unlike the physical laws he was limited to in school.
+Brian's been studying mechanical and energy engineering at the University of North Texas. That's where he found his passion for software development, when he built a command-line tool to reduce the amount of time it took to solve thermodynamic problems. Brian's drawn to the unique creative freedom that coding allows, unlike the physical laws he is limited to in school.
 
 ##### Meet Mike, the New Yorker
 
