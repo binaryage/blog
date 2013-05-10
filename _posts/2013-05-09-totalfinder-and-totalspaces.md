@@ -24,12 +24,12 @@ I want to give special thanks to <a href="https://github.com/shpakovski">Vadim S
 
 #### TotalSpaces intro video
 
-<object width="600" height="420" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab">
-<param name="src" value="http://cdn.binaryage.com/totalspaces-intro.mov">
-<param name="autoplay" value="false">
-<embed src="http://cdn.binaryage.com/totalspaces-intro.mov" width="600" height="420" autoplay="false" pluginspage="http://www.apple.com/quicktime/download/">
-</embed>
-</object>
+<OBJECT CLASSID="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" width="640" height="415" CODEBASE="http://www.apple.com/qtactivex/qtplugin.cab">
+  <PARAM name="SRC" VALUE="http://cdn.binaryage.com/totalspaces-intro.mov"/>
+  <PARAM name="AUTOPLAY" VALUE="false"/>
+  <EMBED SRC="http://cdn.binaryage.com/totalspaces-intro.mov" width="640" height="415" AUTOPLAY="false" PLUGINSPAGE="http://www.apple.com/quicktime/download/"/>
+  </EMBED>
+</OBJECT>  
 
 Stephen spent most of his time over the past few months on a number of improvements and brand-new features.
 
