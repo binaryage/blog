@@ -3,9 +3,37 @@
     <title>The ideas from BinaryAge</title>
     <link href="http://blog.binaryage.com/atom.xml" rel="self"/>
     <link href="http://blog.binaryage.com"/>
-    <updated>2013-05-17T14:06:27-04:00</updated>
+    <updated>2013-06-06T23:47:08-04:00</updated>
     <id>http://blog.binaryage.com/</id>
     
+    
+    <entry>
+        <title><![CDATA[Let's meet at WWDC 2013]]></title>
+        
+        <link href="http://blog.binaryage.com//wwdc-2013"/>
+        <updated>2013-06-03T00:00:00-04:00</updated>
+        <id>jduff.github.com:/wwdc-2013</id>
+        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/79ea8a31_shared_img_icons_binaryage-badge-64.png" class="intro-icon"/></p>
+
+<p><strong> I will be attending WWDC this year. Yes, I'm super excited that I won the ticket lottery this year :-) </strong></p>
+
+<h4>Tabs in OS X 10.9?</h4>
+
+<p>This will be my first WWDC ever. I've heard many good things about WWDC so I have pretty high expectations.</p>
+
+<p>I'm interested in all the dev stuff, but for us as a company the most important will be the revealing of OS X 10.9. There are <a href="http://www.theverge.com/2013/4/29/4281684/os-x-10-9-rumored-redesigned-finder-with-tabbed-browsing">rumors</a> that Apple is going to implement native tabs in Finder. If it's true, I believe TotalFinder's success helped shape their decision to finally include tabs in Finder. And without hacks! :-)</p>
+
+<p>Don't worry. We have some ideas for future products. I also look forward to new opportunities that the new OS may bring. But we want to hear also from the community. What would dramatically improve your daily computer life? Please <a href="mailto:ideas@binaryage.com">share it with us</a>.</p>
+
+<h4>Let's meet!</h4>
+
+<p>If you happen to be at WWDC, <a href="mailto:antonin@binaryage.com">let's meet</a>. You can always watch the sessions from recordings but networking can be done only in person.  Looking forward to see you there!</p>
+]]></content>
+        <author>
+            <name>Antonin Hildebrand</name>
+            <uri>http://hildebrand.cz</uri>
+        </author>
+    </entry>
     
     <entry>
         <title><![CDATA[Bitcoin 2013: The Future of Payments]]></title>
@@ -2035,10 +2063,8 @@ I could imagine many "serious" crash reporting systems really suck at it.</p>
 
 <p>When TotalFinder crashes the user a gets custom dialog with explanations:
 <img class="blog-image" src="http://static.binaryage.com/b9616535_images_crash-dialog1.png" width="310" style="float:left" title="The crash reporting dialog - generating">
-<img class="blog-image" src="http://static.binaryage.com/d3a14132_images_crash-dialog2.png" width="310" style="float:left" title="The crash reporting dialog - send report ..."></p>
-
-<br clear="all">
-
+<img class="blog-image" src="http://static.binaryage.com/d3a14132_images_crash-dialog2.png" width="310" style="float:left" title="The crash reporting dialog - send report ...">
+<br clear="all"></p>
 
 <p>When clicking "Send Report ..." I upload the crash report anonymously to Gist and open pre-generated email with a link:</p>
 
