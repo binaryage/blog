@@ -14,18 +14,20 @@ Apple did a great job on this release and we as users are quite happy with the n
 
 #### TotalFinder 1.5 is Mavericks ready
 
-Apple implemented tabs in Finder under Mavericks. That was the main TotalFinder feature, but we believe TotalFinder still makes good sense because of other features. Anyways over last 4 months we've worked hard to port existing TotalFinder features to Mavericks at least for current users. And we are happy to say that all Mountain Lion features are available under Mavericks as well including Chrome-style tabs.
+Apple implemented tabs in Finder under Mavericks. That was an important TotalFinder feature, but we believe TotalFinder still makes good sense because of other popular features including [dual mode](http://totalfinder.binaryage.com/dual-mode) and [Folders on top](http://totalfinder.binaryage.com/folders-on-top). Over last 4 months we've worked hard to port all the existing TotalFinder features to Mavericks at least for current users. And we are happy to say that all Mountain Lion features are available under Mavericks including Chrome-style tabs.
 
 You can download TotalFinder 1.5 here:
 [http://totalfinder.binaryage.com/changes#v1.5](http://totalfinder.binaryage.com/changes#v1.5)
 
-#### TotalSpaces 2 will be a paid upgrade
+#### TotalSpaces2 will be a paid upgrade
 
-TODO: Stephen
+TotalSpaces2 is in beta testing at the moment, and we hope to have it polished and ready by the time Mavericks is released. It has been an awful lot of work to do the port to Mavericks, so it will be a paid upgrade. But we feel it's fair that the upgrade will be free for anyone who purchased TotalSpaces after OSX Mavericks was announced.
+
+We will post more about the release of TotalSpaces2 soon.
 
 #### TotalTerminal fork goes closed-source
 
-TotalTerminal works under Mavericks, but needs some polish. We decided to cleanup the codebase and share some library code and tools with TotalFinder. This forced us to make the next release closed-source. Personally I'm sorry for that, but there are some Xtra-copy-cats out there and we don't want to share our secret sauce. We did this decision because maintainig two codebases eats too much time.
+TotalTerminal works under Mavericks, but needs some polish. We decided to cleanup the codebase and share some library code and tools with TotalFinder. This forced us to make the next release closed-source. Personally I'm sorry for that, but there are some Xtra-copy-cats out there and we don't want to share our secret sauce, and maintaining two codebases eats too much time.
 
 TotalTerminal 1.4 will be released next week.
 
