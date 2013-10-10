@@ -14,7 +14,7 @@ Apple did a great job on this release and we as users are quite happy with the n
 
 #### TotalFinder 1.5 is Mavericks ready
 
-Apple implemented tabs in Finder under Mavericks. That was an important TotalFinder feature, but we believe TotalFinder still makes good sense because of other popular features including [dual mode](http://totalfinder.binaryage.com/dual-mode) and [Folders on top](http://totalfinder.binaryage.com/folders-on-top). Over last 4 months we've worked hard to port all the existing TotalFinder features to Mavericks at least for current users. And we are happy to say that all Mountain Lion features are available under Mavericks including Chrome-style tabs.
+Apple implemented tabs in Finder under Mavericks. That was an important TotalFinder feature, but we believe TotalFinder still makes good sense because of other popular features including [dual mode](http://totalfinder.binaryage.com/dual-mode) and [folders on top](http://totalfinder.binaryage.com/folders-on-top). Over last 4 months we've worked hard to port all the existing TotalFinder features to Mavericks at least for current users. And we are happy to say that all Mountain Lion features are available under Mavericks including Chrome-style tabs.
 
 You can download TotalFinder 1.5 here:
 [http://totalfinder.binaryage.com/changes#v1.5](http://totalfinder.binaryage.com/changes#v1.5)
