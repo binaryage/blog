@@ -29,11 +29,16 @@ TotalSpaces2 works well with both major multi-monitor spaces modes, but the re-w
 
 #### Upgrading
 
-TotalSpaces2 was a significant effort, and it is a paid upgrade. However, we are giving a 40% discount on the full price for earlier users of TotalSpaces.
+TotalSpaces2 was a significant effort, and it is a paid upgrade. However, we are giving a **40% discount** on the full price for earlier users of TotalSpaces.
 
-Also we felt it fair to offer a free upgrade if you bought TotalSpaces after Mavericks was announced (10th June 2013).
+Also we felt it fair to offer a **free upgrade** if you bought TotalSpaces after Mavericks was announced (10th June 2013).
 
-TotalSpaces2 will detect your previous licence and offer you an upgrade, but if you have a clean install of OSX Mavericks, you can enter your old licence in the [upgrades page](http://totalspaces.binaryage.com/upgrade). Either way you will be able to register for a TotalSpaces2 licence with the appropriate discount.
+**To get your new licence, paste your TotalSpaces licence code here**
+
+<form class="upgrade-form" action="http://api.binaryage.com/license/totalspaces/upgrade2" style="margin-top:-20px;">
+  <input class="upgrade-input" style="width:590px;height:30px;border:1px solid #999999;padding:5px;font-size:24px;" id="lx" name="lx" type="text" placeholder="XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX">
+  <input type="submit" class="upgrade-submit" style="width:100px;font-size:24px;" value="Upgrade">
+</form>
 
 If you have any trouble, or have misplaced your original licence code, we are here to help - feel free to email us at support@binaryage.com
 
