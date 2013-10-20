@@ -26,7 +26,9 @@ And so TotalSpaces2 was born. It's not exactly the same as TotalSpaces (there ar
 You can download TotalSpaces2 here:
 [http://totalspaces.binaryage.com/changes2](http://totalspaces.binaryage.com/changes2)
 
-TotalSpaces2 works well with both major multi-monitor spaces modes, but the re-written code offers performance benefits for single screen users as well. We hope you like it!
+TotalSpaces2 works well with both major multi-monitor spaces modes, but the re-written code offers performance benefits and ease of use for single screen users as well.
+
+I hope you like it!
 
 #### Upgrading
 
