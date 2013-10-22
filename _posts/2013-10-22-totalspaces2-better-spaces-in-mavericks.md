@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TotalSpaces2"
+title: "TotalSpaces2 - better spaces in Mavericks"
 tags: [TotalSpaces]
 author_name: Stephen Sykes
 author_uri: http://binaryage.com
@@ -21,7 +21,7 @@ The very soul of TotalSpaces is the grid that enables you to keep a mental map o
 
 #### TotalSpaces2 is designed for Mavericks
 
-And so TotalSpaces2 was born. It's not exactly the same as TotalSpaces (there are [some differences](http://totalspaces.binaryage.com/differences2)), but it gives you the same grid and the same workflows as before.
+And so [TotalSpaces2](http://totalspaces.binaryage.com/index2) was born. It's not exactly the same as TotalSpaces (there are [some differences](http://totalspaces.binaryage.com/differences2)), but it gives you the same grid and the same workflows as before.
 
 You can download TotalSpaces2 here:
 [http://totalspaces.binaryage.com/changes2](http://totalspaces.binaryage.com/changes2)
