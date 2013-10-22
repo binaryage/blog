@@ -474,7 +474,7 @@ div#gsfn_list_widget span.time{color:#999;margin-left:3px}
 .changelogx h4 a{background:url("http://static.binaryage.com/117432b8_shared_img2_icon-download.png") no-repeat 6px 0;padding:0 6px 0 32px;position:relative;top:1px;}
 .changelogx h4 span{padding:0 6px 0 32px}
 .changelogx h5{margin:0;font-size:11px;color:#888;line-height:11px;font-weight:normal;padding-left:14px;float:left;padding-top:20px}
-.changelogx .blog-post-pointer{background-color:#fcffea;font-size:11px;padding:0 3px;margin-left:83px;margin-top:-44px;position:absolute;-webkit-border-radius:2px;-moz-border-radius:2px;-o-border-radius:2px;border-radius:2px}
+.changelogx .blog-post-pointer{background-color:#fcffea;font-size:11px;padding:0 3px;margin-left:93px;margin-top:-44px;position:absolute;-webkit-border-radius:2px;-moz-border-radius:2px;-o-border-radius:2px;border-radius:2px}
 .changelogx .sticker{float:left;width:80px;display:block;text-align:right;background:none}
 .changelogx .sticker b{color:#fff;font-weight:bold;padding:2px 6px 2px 6px;-webkit-border-radius:3px;-moz-border-radius:3px;-o-border-radius:3px;border-radius:3px;font-size:10px;position:relative;top:-1px}
 .changelogx .fixed b{background-color:#00a825}
@@ -955,7 +955,11 @@ div#gsfn_list_widget span.time{color:#999;margin-left:3px}
 .webkit #content-totalfinder .more-info .product-button-changes .trial-note,.gecko #content-totalfinder .more-info .product-button-changes .trial-note,.opera #content-totalfinder .more-info .product-button-changes .trial-note{display:block}
 #product-totalspaces .screenshot-box img{position:absolute;left:-24px;max-width:none}
 #product-totalspaces .screenshot-box .zoom-icon{position:absolute;top:40%;left:42%}
-#content-totalspaces{margin-top:100px;position:relative;}
+#ts2-notice{margin-top:30px;position:relative;font-size:20px}
+.upgrade-input{width:590px;height:30px;border:1px solid #999;padding:5px;font-size:24px}
+.upgrade-form{margin-top:-20px}
+.upgrade-submit{width:100px;font-size:24px}
+#content-totalspaces{margin-top:60px;position:relative;}
 #content-totalspaces .social-box{position:absolute;left:662px;top:260px}
 #content-totalspaces .features-separator{background:transparent url("http://static.binaryage.com/cbbb5804_shared_img2_assets.png") no-repeat 0 -430px !important;width:950px;height:30px;display:block;position:absolute;position:relative;}
 #content-totalspaces .highlights{margin-top:0;}
@@ -965,8 +969,10 @@ div#gsfn_list_widget span.time{color:#999;margin-left:3px}
 #content-totalspaces .highlights .highlight .highlight-icon.hoverable:hover{opacity:1;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);border-color:#0f56b3}
 #content-totalspaces .highlights .highlight .highlight-icon div{width:60px;height:60px}
 #content-totalspaces .highlights .highlight .highlight-icon .thumb-grid{background-image:url("/images/thumb-grid.png")}
+#content-totalspaces .highlights .highlight .highlight-icon .thumb-grid2{background-image:url("/images/thumb-grid2.png")}
 #content-totalspaces .highlights .highlight .highlight-icon .thumb-overview{background-image:url("/images/thumb-overview.png")}
 #content-totalspaces .highlights .highlight .highlight-icon .thumb-transitions{background-image:url("/images/thumb-transitions.png")}
+#content-totalspaces .highlights .highlight .highlight-icon .thumb-transitions2{background-image:url("/images/thumb-transitions2.png")}
 #content-totalspaces .highlights .highlight .highlight-icon .thumb-swipe{background-image:url("/images/thumb-swipe.png")}
 #content-totalspaces .highlights .highlight .highlight-icon .thumb-hotcorners{background-image:url("/images/thumb-hotcorners.png")}
 #content-totalspaces .highlights .highlight .highlight-icon .thumb-app-assignments{background-image:url("/images/thumb-app-assignments.png")}
