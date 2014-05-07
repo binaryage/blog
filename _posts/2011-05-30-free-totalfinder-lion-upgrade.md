@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/totalfinder-128.png" class="intro-icon"/>
 
 **Good news! I'm happy to announce that all existing users will get TotalFinder Lion upgrade for free. On the other hand I will increase TotalFinder price for new customers the same day Apple releases Lion. Please read the details below.**
 
@@ -60,4 +60,4 @@ If you've already bought your TotalFinder copy you made a good investment. It he
 
 ---
 
-<div style="font-size: 8pt; color: #666">And for all U.S. folks I wish you have a great Memorial Day 2011.</div>
+<div class="footnote">And for all U.S. folks I wish you have a great Memorial Day 2011.</div>

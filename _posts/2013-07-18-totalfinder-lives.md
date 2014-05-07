@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "TotalFinder Lives on in Mavericks"
+title: "TotalFinder lives on in Mavericks"
 tags: [TotalFinder]
 author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="/images/hero_wave.png"/>
+<img src="/images/hero_wave.png" class="blog-image" style="width:300px"/>
 
 As we mentioned in our <a href="http://totalfinder.binaryage.com/mavericks">Mavericks compatibility page</a>, we are continuing to port TotalFinder to Mavericks.  People are still talking about key features, like the <a href="http://totalfinder.binaryage.com/dual-mode">side-by-side window mode</a>, <a href="http://totalfinder.binaryage.com/folders-on-top">folders on top</a>, and the <a href="http://totalfinder.binaryage.com/browser">automatic resizing</a> of column widths when using column view.
 

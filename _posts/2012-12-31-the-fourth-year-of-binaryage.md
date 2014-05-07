@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="/shared/img/icons/binaryage-badge-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/binaryage-badge-128.png" class="intro-icon"/>
 
 ** 2012 is over. What a great year! Let's see what was important.<br>This is my traditional summary of past year for people who follow this story.<br>Last year I wrote about [the third year of BinaryAge](http://blog.binaryage.com/the-third-year-of-binaryage).**
 
@@ -24,7 +24,7 @@ We are also looking for some help. At this point we need some Mac addict who wou
 
 #### San Francisco and Mountain Lion
 
-<img style="width:100px; float: left; margin-right: 10px; margin-bottom:20px " class="clear blog-image-full-border" src="/images/vvsf.jpg" title="SF!">
+<img style="width:100px; float: left; margin-right: 10px; margin-bottom:20px " class="clear blog-image" src="/images/vvsf.jpg" title="SF!">
 
 One dream came true. San Francisco is a great place. [I spent]() full three months there during spring and early summer. Stephen visited me there too.
 
@@ -54,4 +54,4 @@ Also personally I'm going to get involved in the bitcoin community.
 
 Thanks for your care and I wish you all the best in the new year.
 
-<div style="font-size: 8pt; color: #666">I'd like to also thank my family, friends and all contributors who supported me.</div>
+<div class="footnote">I'd like to also thank my family, friends and all contributors who supported me.</div>

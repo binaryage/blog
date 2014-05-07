@@ -8,7 +8,7 @@ author_uri: http://hildebrand.cz
 
 **I have just moved to San Francisco for few months. Oh boy, it has always been my dream to visit and truly experience the city. Now I'm living it! TotalFinder customers made it possible. Thank you guys!**
 
-<img class="clear blog-image-full-border" src="/images/vvsf.jpg" title="SF!">
+<img class="clear blog-image" src="/images/vvsf.jpg" title="SF!">
 
 #### Looking for an inspiration
 
@@ -28,7 +28,7 @@ I would much rather hang out with hackers and discuss technical things like prog
 
 I'm staying at Oak St with a nice view into Panhandle Park. I see people running in the park from my window all day. It would be a sin not to move my fat ass. This is my 13km route. I belive one of the most beautiful running routes in the city:
 
-<img class="clear blog-image-full-border" src="/images/runsf.png" title="The best running route in the city!">
+<img class="clear blog-image" src="/images/runsf.png" title="The best running route in the city!">
 
 Getting better pretty quickly. Hope I will get into good half-marathon shape by the end of my visit :-)
 
@@ -38,4 +38,4 @@ Now when you know my mission a little bit more. Do you have any recommendations?
 
 ---
 
-<div style="font-size: 8pt; color: #666">I want to thank the guys from <a href="https://studentive.com">Studentive</a> and <a href="https://twitter.com/lujzabubanova">Lujza</a> for the invitation to <a href="http://www.startupism.org">Startupism</a>. It was cool to hang out there with you.</div>
+<div class="footnote">I want to thank the guys from <a href="https://studentive.com">Studentive</a> and <a href="https://twitter.com/lujzabubanova">Lujza</a> for the invitation to <a href="http://www.startupism.org">Startupism</a>. It was cool to hang out there with you.</div>

@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="/shared/img/icons/binaryage-badge-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/binaryage-badge-128.png" class="intro-icon"/>
 
 **This is a bit of a schizophrenic situation, but I just agreed with myself to spend 20% time on projects which are not related to TotalFinder. Yes, inspired by [Google's idea](http://lifehacker.com/5497057/set-up-your-own-google+style-20+percent-time-to-try-new-projects).**
 

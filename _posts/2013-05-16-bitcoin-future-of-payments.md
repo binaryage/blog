@@ -6,9 +6,11 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="/shared/img/icons/binaryage-badge-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/binaryage-badge-128.png" class="intro-icon"/>
 
 ** You know, I'm a Bitcoin enthustiast. I will be attending <a href="http://www.bitcoin2013.com">Bitcoin 2013: The Future of Payments</a> in San Jose this weekend. I have a talk about <a href="http://bitcointrezor.com">Trezor</a>, a promising Bitcoin harware wallet being developed by my friends at <a href="http://brmlab.cz">brmlab</a>. **
+
+#### Bitcoin is more than just a currency
 
 I've been interested in Bitcoin since 2011 when I first heard about it. I was sold on the idea immediatelly. I even started <a href="http://blog.binaryage.com/trade-totalfinder-bitcoin">trading TotalFinder for Bitcoins</a>.
 

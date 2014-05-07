@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="/shared/img/icons/xrefresh-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/xrefresh-128.png" class="intro-icon"/>
 
 **[XRefresh](http://xrefresh.binaryage.com) is a productivity tool for web developers.<br>It will continuously refresh a web page in a browser due to a local source file editing.**
 

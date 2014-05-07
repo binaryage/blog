@@ -20,6 +20,8 @@ The idea is that if you are a boss you can send me an additional $50 for the **[
 
 #### And do you want to know what he told me?
 
-<object width="620" height="490"><param name="movie" value="http://www.youtube.com/v/sghncnGkFAo?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/sghncnGkFAo?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="620" height="490"></embed></object>
+<div class="fluid-object">
+  <object><param name="movie" value="http://www.youtube.com/v/sghncnGkFAo?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/sghncnGkFAo?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+</div>
 
 But don't be over-excited. They're buying licenses only for officers in the command center...

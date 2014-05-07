@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/totalfinder-128.png" class="intro-icon"/>
 
 ** I have been overwhelmed by the positive reactions and growing user count.<br/>So I decided to quit my job and start working on TotalFinder full time. **
 
@@ -34,4 +34,4 @@ And that is why I'd love to build software for passionate users. The users like 
 
 It was never an easy decision to drop regular paychecks and bet on some possible future software sales. I would guess some readers of this blog are also developers who have their own pet projects or product ideas and may be thinking about something similar. Maybe today is not yet the right time to jump straight into it for you, but you may at least follow me on this roller-coaster path by reading this blog.
 
-<div style="font-size: 10px">Technical note: In the future I want to share more about internals of BinaryAge development on this blog. If you are just interested in new version announcements, you may consider subscribing to <a href="#" onclick="$('.subscribe-link').trigger('click'); return false">the news from BinaryAge mailing list</a> which will be a less frequent channel of updates without hairy thoughts like this blog post :-)</div>
+<div class="footnote">Technical note: In the future I want to share more about internals of BinaryAge development on this blog. If you are just interested in new version announcements, you may consider subscribing to <a href="#" onclick="$('.subscribe-link').trigger('click'); return false">the news from BinaryAge mailing list</a> which will be a less frequent channel of updates without hairy thoughts like this blog post :-)</div>

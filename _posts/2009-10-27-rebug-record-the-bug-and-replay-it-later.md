@@ -72,19 +72,19 @@ The technology of macro recorders was already developed by extensions like iMacr
 #### Possible setups:
 
 **Fully hosted solution:**
-<img class="blog-image" src="/images/drawing_sV0QB63mkDgRXGUKF-UyLZg_153.png" title="Fully hosted solution">
+<img class="blog-image no-shadow" src="/images/drawing_sV0QB63mkDgRXGUKF-UyLZg_153.png" title="Fully hosted solution">
 
 **Serviced solution:**
-<img class="blog-image" src="/images/drawing_sY_p-Pz7WbcM4w8OOXKaI3Q_51.png" title="Serviced solution">
+<img class="blog-image no-shadow" src="/images/drawing_sY_p-Pz7WbcM4w8OOXKaI3Q_51.png" title="Serviced solution">
 
 **Near proxy solution:**
-<img class="blog-image" src="/images/drawing_sPkzVArT9_K6tqbFWjwCWIg_48.png" title="Near proxy solution">
+<img class="blog-image no-shadow" src="/images/drawing_sPkzVArT9_K6tqbFWjwCWIg_48.png" title="Near proxy solution">
 
 **Decentralized solution:**
-<img class="blog-image" src="/images/drawing_s53VQRbszouhzGpRAnSMJ-g_119.png" title="Decentralized solution">
+<img class="blog-image no-shadow" src="/images/drawing_s53VQRbszouhzGpRAnSMJ-g_119.png" title="Decentralized solution">
 
 **Single machine setup:**
-<img class="blog-image" src="/images/drawing_sarVlC_ISonwxJB-Df3SmhQ_18.png" title="Single machine solution">
+<img class="blog-image no-shadow" src="/images/drawing_sarVlC_ISonwxJB-Df3SmhQ_18.png" title="Single machine solution">
 
 #### Implementation notes
 

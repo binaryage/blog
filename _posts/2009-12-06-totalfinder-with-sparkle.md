@@ -6,13 +6,13 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/totalfinder-128.png" class="intro-icon"/>
 
 **I have made some progress on [TotalFinder](http://totalfinder.binaryage.com) during the weekend. This is mostly a maintenance release.** 
 
 <div class="blog-download">
-    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.3.dmg"><img src="/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.3.dmg</div></a>
-    <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
+  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.3.dmg"><img src="/shared/img/small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.3.dmg</div></a>
+  <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
 I wanted to make stable install/uninstall experience and fix bugs reported by early adopters. Thank you guys! I've added a new feature of updating TotalFinder via [Sparkle](http://sparkle.andymatuschak.org). It was really easy to integrate. Kudos Andy!
@@ -32,7 +32,7 @@ I wanted to make stable install/uninstall experience and fix bugs reported by ea
 
 The Finder is being automatically restarted after a crash by the launchd process. This is usually a good thing. The user is not confused that her Finder is missing.
 
-<img class="blog-image" src="/images/sad-red-face.png" style="float: left; margin-right: 20px" title="Sad red face in status menu area">
+<img class="blog-image" style="width:300px" src="/images/sad-red-face.png" title="Sad red face in status menu area">
 
 The problem with TotalFinder is that it may be unstable and crash on some machines during Finder startup. This would lead to infinite cycle of restarts and crashes. I've implemented sad red face, which appears as menu item if Finder crashes during the first ten seconds after launch. If you feel lucky, you may try to re-launch it again. Anyway, don't forget to "send me":mailto:antonin@hildebrand.cz your crash report.
 

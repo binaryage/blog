@@ -6,11 +6,11 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="/shared/img/icons/binaryage-badge-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/binaryage-badge-128.png" class="intro-icon"/>
 
 **I have been a bit silent recently because of my preparations for [IPO48](http://ipo48.org). IPO48 is a weekend event that's a cross between a startup bootcamp and a hackathon.**
 
-<div class="clear" style="font-size: 8pt; color: #666">
+<div class="clear" class="footnote">
 First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48. It was a very well prepared and supported event. They did a great job.
 </div>
 
@@ -19,7 +19,7 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
 
 The goal was to assemble a team and present a viable product to judges at the end of the day.
 
-<img class="clear blog-image-full" src="/images/presenting-sixthsense.jpg" title="Me pitching the SixthSense project">
+<img class="clear blog-image" src="/images/presenting-sixthsense.jpg" title="Me pitching the SixthSense project">
 
 I've had quite a bit of experience with similar events. Back in the day I was active on [demoscene](http://en.wikipedia.org/wiki/Demoscene) which is famous for its "demoparties". The structure of the event is similar but instead of building products or services, the teams build demos (graphical visualizations) and present them on the big screen to the audience. Or as another example, two weeks ago I was at a hackathon called [GameJam Prague](http://www.gamejamprague.org). The goal was to build a computer [game in 48 hours](http://www.gamejamprague.org/hry).
 
@@ -53,7 +53,7 @@ Imagine it as a plugin into Google Analytics which will visualize your traffic i
   * [IPO48 project page](http://ipo48.org/project.php?id=549)
   * [sixthsense.binaryage.com landing page](http://sixthsense.binaryage.com)
 
-<img class="clear blog-image-full" src="/images/sixthsense-early-prototype.png" title="Animated traffic flow on binaryage.com - you should experience a mental orgasm right now if you are a web analyst">
+<img class="clear blog-image" src="/images/sixthsense-early-prototype.png" title="Animated traffic flow on binaryage.com - you should experience a mental orgasm right now if you are a web analyst">
 
 
 #### The project 21Days
@@ -67,7 +67,7 @@ The 21Days project helps you to be a better person every day. Nicely developed i
 * [IPO48 project page](http://ipo48.org/project.php?id=563)
 * [www.21dayshabit.com landing page](http://www.21dayshabit.com)
 
-<img class="clear blog-image-full" src="/images/21days-landing-page.png" title="Set better habits and stick with them!">
+<img class="clear blog-image" src="/images/21days-landing-page.png" title="Set better habits and stick with them!">
 
 I did a prototype of the front-end and took it as an opportunity to try some new technologies (yes I broke my own rule of not trying to learn new technologies at competitions like this). I've learned [backbone.js](http://documentcloud.github.com/backbone), bits of [underscore.js](http://documentcloud.github.com/underscore) and [CouchDB](http://couchdb.apache.org). Zdenek started working on an iPhone app and other [@21dayshabit guys](http://twitter.com/#!/21dayshabit) were busy working on other parts of the project. We started the code from scratch. Yes, it is far from complete, but the good news is that they are going to continue on it. Btw, they are looking for a javascript guy to pickup on my part, [give them a hand](mailto:tomas@21dayshabit.com) if you find this interesting.
 

@@ -6,7 +6,7 @@ author_name: Stephen Sykes
 author_uri: http://binaryage.com
 ---
 
-<img src="/shared/img/icons/totalspaces2-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/totalspaces2-128.png" class="intro-icon"/>
 
 ** OSX Mavericks public release is almost upon us. What of TotalSpaces? **
 
@@ -38,13 +38,11 @@ Also we felt it fair to offer a **free upgrade** if you bought TotalSpaces after
 
 **To get your new licence, paste your TotalSpaces licence code here**
 
-<form class="upgrade-form" action="http://api.binaryage.com/license/totalspaces/upgrade2" style="margin-top:-20px;">
-  <input class="upgrade-input" style="width:590px;height:30px;border:1px solid #999999;padding:5px;font-size:24px;" id="lx" name="lx" type="text" placeholder="XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX">
-  <input type="submit" class="upgrade-submit" style="width:100px;font-size:24px;" value="Upgrade">
+<form class="upgrade-form" action="http://api.binaryage.com/license/totalspaces/upgrade2">
+  <input class="upgrade-input" style="width:100%;height:30px;border:1px solid #999999;padding:5px;font-size:24px;" id="lx" name="lx" type="text" placeholder="XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX">
+  <input type="submit" class="upgrade-submit" value="Upgrade">
 </form>
 
 Please [download TotalSpaces2](http://totalspaces.binaryage.com/changes2) and try it before buying!
 
 If you have any trouble, or have misplaced your original licence code, we are here to help - feel free to email us at support@binaryage.com
-
-

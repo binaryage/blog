@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/totalfinder-128.png" class="intro-icon"/>
 
 **[TotalFinder](http://totalfinder.binaryage.com) is my attempt to make Finder.app better for programmers and Mac power users. I want it better for myself!**
 

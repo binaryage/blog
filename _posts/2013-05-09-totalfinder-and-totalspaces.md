@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="/shared/img/icons/binaryage-badge-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/binaryage-badge-128.png" class="intro-icon"/>
 
 **In the <a href="http://blog.binaryage.com/meet-brian-and-mike/">last post</a>, I introduced a couple new BinaryAge teammates and hinted that we'd have new TotalFinder and TotalSpaces releases.  <a href="http://totalfinder.binaryage.com">TotalFinder 1.4.9</a> has been in the wild for a month now and has been doing great.  <a href="http://totalspaces.binaryage.com">TotalSpaces 1.2.2</a> was released just last week and added a lot of new features!**
 
@@ -24,12 +24,14 @@ I want to give special thanks to <a href="https://github.com/shpakovski">Vadim S
 
 #### TotalSpaces intro video
 
-<OBJECT CLASSID="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" width="640" height="415" CODEBASE="http://www.apple.com/qtactivex/qtplugin.cab">
+<p>
+<OBJECT CLASSID="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" CODEBASE="http://www.apple.com/qtactivex/qtplugin.cab">
   <PARAM name="SRC" VALUE="http://cdn.binaryage.com/totalspaces-intro.mov"/>
   <PARAM name="AUTOPLAY" VALUE="false"/>
   <EMBED SRC="http://cdn.binaryage.com/totalspaces-intro.mov" width="640" height="415" AUTOPLAY="false" PLUGINSPAGE="http://www.apple.com/quicktime/download/"/>
   </EMBED>
-</OBJECT>  
+</OBJECT>
+</p>
 
 Stephen spent most of his time over the past few months on a number of improvements and brand-new features.
 

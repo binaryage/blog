@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/totalfinder-128.png" class="intro-icon"/>
 
 **This is just a maintenance release of [TotalFinder](http://totalfinder.binaryage.com). Christmas time is busy and I really didn't manage to save a few evenings to dig deeper into Finder internals.**
 

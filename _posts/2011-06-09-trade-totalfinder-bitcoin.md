@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="/shared/img/icons/totalfinder-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/totalfinder-128.png" class="intro-icon"/>
 
 **[Bitcoin](http://bitcoin.org) is the [next big thing](http://arstechnica.com/tech-policy/news/2011/06/bitcoin-inside-the-encrypted-peer-to-peer-currency.ars) and I want to support the emerging economy around this new currency. Today I start offering TotalFinder for bitcoins and let people earn some bitcoins by referring TotalFinder to friends.**
 
@@ -25,8 +25,6 @@ You may refer people to my site by giving them urls with your bitcoin address as
     or any other similar link to my site or FastSpring e-shop
 
 Technically that referrer parameter will be [stored in a cookie for 14 days](https://github.com/binaryage/layouts/blob/master/default2.html#L511-516) and passed to my e-commerce provider if the user purchases something. Then I will do manual bitcoin transfers (not later than on sunday).
-
-I've just setup a fund of 300BTC for this purpose - which should be enough to get it going until I earn first bitcoins myself :-)
 
 Note: This way you may get 10% of your own money back in bitcoins. This may be an easy way how to get some bitcoins if you are considering buying TotalFinder anyway and wanted to try bitcoin out.
 

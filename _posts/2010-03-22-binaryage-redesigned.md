@@ -6,17 +6,17 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="/shared/img/icons/binaryage-badge-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/binaryage-badge-128.png" class="intro-icon"/>
 
 **I'm happy to announce that BinaryAge just got a new design!<br/>Big kudos to <a href="http://raist.cz">Raist</a> who redesigned [the site](http://binaryage.com) for me.**
 
 #### How do you like it?
 
-<img class="clear blog-image-full-border" src="/images/binaryage-redesign.png" title="New smooth design with many javascript bells and whistles">
+<img class="clear blog-image" src="/images/binaryage-redesign.png" title="New smooth design with many javascript bells and whistles">
 
 #### For historical comparison here is the old homepage design:
 
-<img class="clear blog-image-full-border" src="/images/binaryage-old-design.png" title="Old coder's design for internet archeologists.">
+<img class="clear blog-image" src="/images/binaryage-old-design.png" title="Old coder's design for internet archeologists.">
 
 #### Who is that magician Raist?
 

@@ -6,11 +6,11 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="/shared/img/icons/totalspaces-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/totalspaces-128.png" class="intro-icon"/>
 
 ** I'm excited to announce a new product from BinaryAge. TotalSpaces is a productivity tool for Mac. You guess right, it taps into the system and improves Spaces experience. **
 
-<img class="clear blog-image-full-border" src="/images/totalspaces-overview-grid.png" title="Grid overview in TotalSpaces">
+<img class="clear blog-image" src="/images/totalspaces-overview-grid.png" title="Grid overview in TotalSpaces">
 
 **[TotalSpaces](http://totalspaces.binaryage.com)** provides several handy features for heavy Spaces users. In a way it brings back the old grid-based Spaces behavior we loved in Snow Leopard. It offers custom transitions when switching Spaces. For example featuring the famous Cube transition. And of course you may customize hotkeys, hotcorners and the way circulation through the grid works. Sounds good? Look into [the documentation](http://totalspaces.binaryage.com/documentation) to get more info on individual features in the current version.
 
@@ -28,4 +28,4 @@ Hope you will give it a shot!
 
 ---
 
-<div style="font-size: 8pt; color: #666">You don't have to be worried about the future of TotalFinder. I still focus primarily on TotalFinder development. Stephen will work exclusively on TotalSpaces. And together we will share user support burden and technicalities of running an online business. This should earn us both more time for real development.</div>
+<div class="footnote">You don't have to be worried about the future of TotalFinder. I still focus primarily on TotalFinder development. Stephen will work exclusively on TotalSpaces. And together we will share user support burden and technicalities of running an online business. This should earn us both more time for real development.</div>

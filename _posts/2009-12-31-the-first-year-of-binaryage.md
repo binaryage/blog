@@ -6,7 +6,7 @@ author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-<img src="/shared/img/icons/binaryage-badge-64.png" class="intro-icon"/>
+<img src="/shared/img/icons/binaryage-badge-128.png" class="intro-icon"/>
 
 **I'm just sitting in the train on the way back to Prague. This gives me precious few hours to look back and think about the last year...**
 
@@ -54,4 +54,4 @@ I think the trend is promising. 2008 was pretty bad for me personally. 2009 was 
 
 Thanks for your support and wish you all the best in the new year.
 
-<div style="font-size: 8pt; color: #666">I'd like to also thank my family, friends and all contributors who helped to make this real.</div>
+<div class="footnote">I'd like to also thank my family, friends and all contributors who helped to make this real.</div>

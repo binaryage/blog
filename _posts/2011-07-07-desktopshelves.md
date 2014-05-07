@@ -3,7 +3,7 @@ layout: post
 title: If you have too many files on your desktop...
 tags: [guest]
 author_name: Rico
-author_uri: http://hildebrand.cz
+author_uri: http://kitestack.com
 ---
 **This is a guest post from my friend Rico, another Indie Mac developer
 over at Kitestack Software who has just released version 1.0 of his app DesktopShelves.**

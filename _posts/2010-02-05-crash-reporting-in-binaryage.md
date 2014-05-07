@@ -10,7 +10,7 @@ author_uri: http://hildebrand.cz
 
 #### Is it possible to build decent crash reporting system during Saturday?
 
-<img class="blog-image-full-border" src="/images/crash-development.png" title="Commit logs as seen in GitX">
+<img class="blog-image" src="/images/crash-development.png" title="Commit logs as seen in GitX">
 <div class="small" style="text-align:right">image taken from <a href="http://gitx.frim.nl/"><b>GitX - free OSX git client</b></a></div>
 
 As you can see, the answer is YES, even if you wake up at 1pm.
@@ -20,7 +20,7 @@ The trick is to take existing tools and make them play together. I took Google's
 #### Google already runs realtime crash reporting system, it's called Gmail
 
 This is how my crash reporting system looks for me as a developer.
-<img class="blog-image-full-border" src="/images/gmail-based-crash-reporting.png" title="The filtered crash reports in gmail">
+<img class="blog-image" src="/images/gmail-based-crash-reporting.png" title="The filtered crash reports in gmail">
 The best part is I didn't have to learn anything new and I can use all Gmail goodness for managing my crash reports. 
 The killer feature is that I can communicate the crash directly with the reporting user just by doing a reply.
 I could imagine many "serious" crash reporting systems really suck at it.
@@ -28,16 +28,16 @@ I could imagine many "serious" crash reporting systems really suck at it.
 #### User gets a pre-generated email
 
 When TotalFinder crashes the user a gets custom dialog with explanations:
-<img class="blog-image" src="/images/crash-dialog1.png" width="310" style="float:left" title="The crash reporting dialog - generating">
-<img class="blog-image" src="/images/crash-dialog2.png" width="310" style="float:left" title="The crash reporting dialog - send report ...">
+<img class="blog-image no-shadow" style="width:300px" src="/images/crash-dialog1.png" width="310" style="float:left" title="The crash reporting dialog - generating">
+<img class="blog-image no-shadow" style="width:300px" src="/images/crash-dialog2.png" width="310" style="float:left" title="The crash reporting dialog - send report ...">
 <br clear="all">
 
 When clicking "Send Report ..." I upload the crash report anonymously to Gist and open pre-generated email with a link:
 
-<img src="/images/crash-reporting-mail.png" class="blog-image-full" title="The crash report email template">
+<img src="/images/crash-reporting-mail.png" class="blog-image no-shadow" title="The crash report email template">
 
 User can check the link if there is no confidential information. It's exactly the standard Apple's crash report you would find in their dialog:
-<img src="/images/crash-reporting-gist.png" class="blog-image-full" title="The crash report uploaded to gist.github.com">
+<img src="/images/crash-reporting-gist.png" class="blog-image no-shadow" title="The crash report uploaded to gist.github.com">
 
 This is no rocket social engineering surgery. This is just a system I would like to use as a user. 
 There is a pretty good chance the user is able and willing to send an email.
@@ -77,4 +77,4 @@ The web has won again. And that is the end of my story.
 
 As you can see I'm getting 2 crash reports per hour on average. I didn't have time to analyze them in more detail. But it looks like most of them are related to patching filesystem APIs for a .DS_Store hack early after TotalFinder starts. I can imagine that during startup many threads are doing heavy filesystem work and I confuse them by doing some dirty job of redirecting filesystem calls. Will definitely look into this soon.
 
-<div class="small">I'd like to thank all people who have been so kind and sent me their reports. This will definitely help me make TotalFinder better.</div>
+<div class="footnote">I'd like to thank all people who have been so kind and sent me their reports. This will definitely help me make TotalFinder better.</div>
