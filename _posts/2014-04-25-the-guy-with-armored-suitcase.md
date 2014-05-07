@@ -1,20 +1,18 @@
 ---
 layout: post
-title: "The guy with armored suitcase"
+title: "The guy with an armored suitcase"
 tags: [thoughts]
 author_name: Antonin Hildebrand
 author_uri: http://hildebrand.cz
 ---
 
-#### Yes, that's me!
+#### That's how people see me...
 
 [Peter Fabor](https://twitter.com/faborio) from [The Surf Office](http://www.thesurfoffice.com) recently made an interview with me.
 
-Photos of my armored briefcase are secret, but I've described my unique portable uber-cool multi-display setup:
+The photos of my armored briefcase are top secret, but I've described my unique portable multi-display setup:
 
 <img src="/images/multi-display.jpg" class="blog-image"/>
-
-
 
 #### Read it at The Surf Office's blog:
 
