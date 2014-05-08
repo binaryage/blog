@@ -8,7 +8,7 @@ author_uri: http://hildebrand.cz
 
 <img src="/shared/img/icons/binaryage-badge-128.png" class="intro-icon"/>
 
-** I got quite disracted at the end of the year 2013. Short answer: Mavericks release and Bitcoin fever. I didn't write my usual yearly summary of BinaryAge story at the time. But here I am now and we should continue the tradition. Last year I wrote about [the fourth year of BinaryAge](http://blog.binaryage.com/the-fourth-year-of-binaryage).**
+** I got quite distracted at the end of the year 2013. Short answer: Mavericks release and Bitcoin fever. I didn't write my usual yearly summary of BinaryAge story at the time. But here I am now and we should continue the tradition. Last year I wrote about [the fourth year of BinaryAge](http://blog.binaryage.com/the-fourth-year-of-binaryage).**
 
 #### Mavericks and tabs in Finder
 
