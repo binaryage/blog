@@ -21,7 +21,7 @@ I'm glad that existing TotalFinder users don't have to switch workflows.
 
 #### TotalSpaces2
 
-With the release of Mavericks, TotalSpaces required a substantial re-write to support the new "displays have separate spaces" mode. TotalSpaces2 was born.
+With the release of Mavericks, TotalSpaces required a substantial re-write to support the new "displays have separate spaces" mode. [TotalSpaces2](http://blog.binaryage.com/totalspaces2-better-spaces-in-mavericks/) was born.
 
 <img src="/images/mavericks-ts2.png" class="blog-image"/>
 
