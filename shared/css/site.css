@@ -7569,8 +7569,7 @@ ol.statuses .hentry a.fav{visibility:visible}
 .changelogx h4 a{padding:0 6px 0 6px;text-decoration:none}
 .changelogx h4 a:before{padding-right:6px;display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;content:"\f019"}
 .changelogx h4 span{padding:0 6px 0 32px}
-.changelogx h5{margin:0;font-size:11px;color:#888;line-height:11px;font-weight:normal;padding-left:14px;float:left;padding-top:20px}
-.changelogx .blog-post-pointer{background-color:#fcffea;font-size:11px;padding:0 3px;margin-left:93px;margin-top:-44px;position:absolute;-webkit-border-radius:2px;border-radius:2px}
+.changelogx h5{margin:0;font-size:11px;color:#888;line-height:11px;font-weight:normal;padding-left:16px;float:left;padding-top:20px}
 .changelogx .sticker{float:left;width:80px;display:block;text-align:right;background:none}
 .changelogx .sticker b{color:#fff;font-weight:bold;padding:2px 6px 2px 6px;-webkit-border-radius:3px;border-radius:3px;font-size:10px;position:relative;text-transform:uppercase;top:-1px}
 .changelogx .fixed b{background-color:#00a825}
@@ -7579,9 +7578,10 @@ ol.statuses .hentry a.fav{visibility:visible}
 .changelogx .improved b{background-color:#0486bc}
 .changelogx .note b{background-color:#aeaeae}
 .changelogx .known_bug b{background-color:#f98d02}
-.changelogx .info{display:table;padding-left:16px}
+.changelogx .info{display:table-cell;padding-left:16px}
 .changelogx .changes i{color:#999;font-style:normal;font-size:10px}
 .changelogx .changes em{font-style:normal;background-color:#fcffdd;padding:0 2px;border:1px solid #ccc;color:#999;-webkit-border-radius:2px;border-radius:2px}
+.changelogx .announce{padding:2px 6px;background-color:#fcffdd;border:1px solid #ccc;-webkit-border-radius:4px;border-radius:4px;display:inline-block;margin-bottom:8px;margin-left:9px}
 .price-tag{position:relative;left:30px;padding:2px 6px;color:#fff;font-size:18px;text-shadow:#350000 0 1px 1px;background:#ce0000;border-left:1px solid #ce0000;border-bottom:1px solid #ce0000;-webkit-border-radius:4px;border-radius:4px;-webkit-box-shadow:1px 1px 2px #999;box-shadow:1px 1px 2px #999}
 .price-tag:after{left:-4px;top:11px;content:" ";height:5px;width:5px;-webkit-border-radius:2px;border-radius:2px;background-color:#680000;position:absolute;pointer-events:none}
 .price-tag:before{right:100%;top:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none}
