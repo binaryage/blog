@@ -34,4 +34,4 @@ As always, here is the full changelog: [http://totalfinder.binaryage.com/changes
 
 #### It is time to say goodbye to Lion
 
-At this point I'm also officially dropping support for OS X 10.7. The last supported Lion version is 1.5.38.
+At this point I'm also officially dropping support for OS X 10.7. The last supported Lion version is [1.5.38](http://totalfinder.binaryage.com/beta-changes#1.5.38).

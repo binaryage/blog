@@ -39,9 +39,9 @@ As [I wrote](http://blog.binaryage.com/the-fourth-year-of-binaryage) I have comm
 
   * San Francisco, U.S.A. in April - July
   * Talinn, Estonia in August - September
-  * Las Palmas, Gran Canaria in October - December
+  * Las Palmas de Gran Canaria, Spain in October - December
 
-Las Palmas was the best. I stayed in [The Surf Office](http://www.thesurfoffice.com). Stephen came to visit - we had a great time surfing together.
+Las Palmas was the best thanks to [The Surf Office](http://www.thesurfoffice.com). Stephen came to visit - we had a great time surfing together.
 
 <img src="/images/tony-and-stephen.jpeg" class="blog-image"/>
 
@@ -52,6 +52,6 @@ As of traveling, the plan is move to Bahamas and Panama for a few months. And th
 
 TotalFinder is still generating a lot interest and support requests. As you can imagine I spend quite good chunk of my day helpinhg out on [binaryage forums](http://discuss.binaryage.com) and in our support email. I want to keep TotalFinder development on track and maybe introduce some new features if time allows.
 
-Also I'm still very much into Bitcoin, so I'm going to attend various conferences and hopefully I meet like-minded people and build something new with them.
+Also I'm still very much into Bitcoin, so I'm going to attend various conferences and hopefully I meet like-minded people and build something relevant.
 
 <div class="footnote">This post was written on May 7th, 2014 in Panama City. I promise the next report will be delivered on time :-)</div>
