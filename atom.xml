@@ -3,8 +3,50 @@
     <title>The ideas from BinaryAge</title>
     <link href="http://blog.binaryage.com/atom.xml" rel="self"/>
     <link href="http://blog.binaryage.com"/>
-    <updated>2014-08-04T20:34:38+00:00</updated>
+    <updated>2015-06-16T18:19:48+00:00</updated>
     <id>http://blog.binaryage.com/</id>
+    
+    <entry>
+        <title><![CDATA[On System Integrity Protection in El Capitan, OSX 10.11]]></title>
+        
+        <link href="http://blog.binaryage.com//on-el-capitan"/>
+        <updated>2015-06-16T00:00:00+00:00</updated>
+        <id>jduff.github.com:/on-el-capitan</id>
+        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/22a2dc99_shared_img_icons_totalfinder-128.png" class="intro-icon"/><img src="http://static.binaryage.com/f59893b8_shared_img_icons_totalspaces2-128.png" class="intro-icon"/></p>
+
+<p><strong> There is a significant risk that TotalFinder and TotalSpaces2 will not run on El Capitan. </strong></p>
+
+<h4>System Integrity Protection</h4>
+
+<h5>The bad news</h5>
+
+<p>In the WWDC keynote last week Apple announced a feature called <strong>System Integrity Protection</strong> for OSX 10.11. This feature protects the system software against modification both on disk, and in memory.</p>
+
+<p>Both TotalFinder and TotalSpaces2 work by injecting code into running system apps (Finder.app in the case of TotalFinder, and Dock.app in the case of TotalSpaces2). If Apple follow through with this measure, it is <strong>game over</strong> for these apps as consumer products. They simply won't be able to run on your computer.</p>
+
+<p>For us, and our many users this would be a great disappointment. But Apple's goal is for greater system integrity, and that means blocking all modifications, whether from good and bad actors. We cannot blame them, but we wish there were some way of keeping our apps working, whether through new APIs or some additional verification, or whatever.</p>
+
+<h5>The good news</h5>
+
+<p>Firstly, the latest betas of both TotalFinder and TotalSpaces2 can be run on the first beta of OSX 10.11 El Capitan. They are not, at least for now, blocked.</p>
+
+<p>Secondly, there will be a way to turn off System Integrity Protection. This possibility is aimed at developers. It involves booting your machine into recovery mode, and changing the setting there. Clearly it's designed to not be something you would normally do, and we could not reasonably ask customers to turn off security protections. But if the worst comes to pass, you will likely be able to run our apps using this method. We will try to support those of you who wish to do this.</p>
+
+<h4>The bottom line</h4>
+
+<p>While the situation is unclear at the moment, <strong>there is a strong possibility that neither TotalFinder or TotalSpaces2 will work on a normally configured Mac running OSX 10.11 El Capitan</strong>. We think it's fair to warn you now.</p>
+
+<h4>Discussion</h4>
+
+<p>For download links for the latest betas, and further discussion see the posts in our forum for <a href="http://discuss.binaryage.com/t/totalfinder-status-under-os-x-10-11-el-capitan/3858">TotalFinder</a> and <a href="http://discuss.binaryage.com/t/totalspaces2-status-under-os-x-10-11-el-capitan/3828">TotalSpaces2</a>.</p>
+
+<p>Finally, note that <a href="http://totalterminal.binaryage.com">TotalTerminal</a> will very likely be affected too.</p>
+]]></content>
+        <author>
+            <name>Stephen Sykes</name>
+            <uri>http://about.me/sdsykes</uri>
+        </author>
+    </entry>
     
     <entry>
         <title><![CDATA[TotalFinder 1.6 with Colored Labels]]></title>
