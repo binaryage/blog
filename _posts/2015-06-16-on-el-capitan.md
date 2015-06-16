@@ -28,3 +28,9 @@ Secondly, there will be a way to turn off System Integrity Protection. This poss
 #### The bottom line
 
 While the situation is unclear at the moment, __there is a strong possibility that neither TotalFinder or TotalSpaces2 will work on a normally configured Mac running OSX 10.11 El Capitan__. We think it's fair to warn you now.
+
+#### Discussion
+
+For download links for the latest betas, and further discussion see the posts in our forum for [TotalFinder](http://discuss.binaryage.com/t/totalfinder-status-under-os-x-10-11-el-capitan/3858) and [TotalSpaces2](http://discuss.binaryage.com/t/totalspaces2-status-under-os-x-10-11-el-capitan/3828).
+
+Finally, note that [TotalTerminal](http://totalterminal.binaryage.com) will very likely be affected too.
