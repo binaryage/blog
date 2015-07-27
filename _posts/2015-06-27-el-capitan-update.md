@@ -56,4 +56,4 @@ While we are disappointed, we aren't defeated - we will find other projects, and
 
 For download links for the latest betas, and further discussion see the posts in our forum for [TotalFinder](http://discuss.binaryage.com/t/totalfinder-status-under-os-x-10-11-el-capitan/3858) and [TotalSpaces2](http://discuss.binaryage.com/t/totalspaces2-status-under-os-x-10-11-el-capitan/3828).
 
-Finally, note that [TotalTerminal](http://totalterminal.binaryage.com) is not currently affected by System Integrity Protection.
+<strike>Finally, note that [TotalTerminal](http://totalterminal.binaryage.com) is not currently affected by System Integrity Protection.</strike>
