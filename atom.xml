@@ -3,7 +3,7 @@
     <title>The ideas from BinaryAge</title>
     <link href="http://blog.binaryage.com/atom.xml" rel="self"/>
     <link href="http://blog.binaryage.com"/>
-    <updated>2015-06-28T15:55:47+00:00</updated>
+    <updated>2015-07-27T12:52:39+00:00</updated>
     <id>http://blog.binaryage.com/</id>
     
     <entry>
@@ -63,7 +63,7 @@
 
 <p>For download links for the latest betas, and further discussion see the posts in our forum for <a href="http://discuss.binaryage.com/t/totalfinder-status-under-os-x-10-11-el-capitan/3858">TotalFinder</a> and <a href="http://discuss.binaryage.com/t/totalspaces2-status-under-os-x-10-11-el-capitan/3828">TotalSpaces2</a>.</p>
 
-<p>Finally, note that <a href="http://totalterminal.binaryage.com">TotalTerminal</a> is not currently affected by System Integrity Protection.</p>
+<p><strike>Finally, note that <a href="http://totalterminal.binaryage.com">TotalTerminal</a> is not currently affected by System Integrity Protection.</strike></p>
 ]]></content>
         <author>
             <name>Stephen Sykes</name>
