@@ -3,7 +3,7 @@
     <title>The ideas from BinaryAge</title>
     <link href="http://blog.binaryage.com/atom.xml" rel="self"/>
     <link href="http://blog.binaryage.com"/>
-    <updated>2015-07-27T12:52:39+00:00</updated>
+    <updated>2015-09-17T10:43:21+00:00</updated>
     <id>http://blog.binaryage.com/</id>
     
     <entry>
@@ -52,10 +52,7 @@
 
 <h4>Turning off System Integrity Protection</h4>
 
-<p>If you choose to change the System Integrity Protection setting, this feature is turned on or off by rebooting into recovery mode (hold CMD and R when rebooting), and then choosing Utilities -> Security Configuration and unchecking the Enforce System Integrity Protection checkbox.</p>
-
-<p><img class="clear blog-image" src="http://static.binaryage.com/1fa53da6_images_recovery-mode.png" title="Recovery mode">
-<img class="clear blog-image" src="http://static.binaryage.com/38a041ef_images_security-configuration.png" title="Security configuration"></p>
+<p>If you choose to change the System Integrity Protection setting, this feature is turned on or off by rebooting into recovery mode (hold CMD and R when rebooting), <del>and then choosing Utilities -> Security Configuration and unchecking the Enforce System Integrity Protection checkbox.</del> <a href="http://totalspaces.binaryage.com/elcapitan">See new instructions here.</a></p>
 
 <h4>Discussion</h4>
 
