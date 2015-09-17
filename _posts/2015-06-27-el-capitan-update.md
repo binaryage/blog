@@ -45,10 +45,7 @@ With System Integrity Protection turned off, the latest build of TotalSpaces2 wo
 
 #### Turning off System Integrity Protection
 
-If you choose to change the System Integrity Protection setting, this feature is turned on or off by rebooting into recovery mode (hold CMD and R when rebooting), and then choosing Utilities -> Security Configuration and unchecking the Enforce System Integrity Protection checkbox.
-
-<img class="clear blog-image" src="/images/recovery-mode.png" title="Recovery mode">
-<img class="clear blog-image" src="/images/security-configuration.png" title="Security configuration">
+If you choose to change the System Integrity Protection setting, this feature is turned on or off by rebooting into recovery mode (hold CMD and R when rebooting), ~~and then choosing Utilities -> Security Configuration and unchecking the Enforce System Integrity Protection checkbox.~~ [See new instructions here.](http://totalspaces.binaryage.com/elcapitan)
 
 #### Discussion
 
