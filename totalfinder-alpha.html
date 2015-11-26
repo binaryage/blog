@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en"
+    xmlns:og="http://opengraphprotocol.org/schema/"
+    xmlns:fb="http://developers.facebook.com/schema/"
+    class="ba totalfinder-alpha"
+>
+  <head>
+    <title>TotalFinder - alpha call for testing!</title>
+    
+<link rel="canonical" href="http://blog.binaryage.com/totalfinder-alpha">
+
+
+
+    <link rel="shortcut icon" href="http://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon">
+<link rel="icon" href="http://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon">
+
+
+    <link rel="stylesheet" href="http://static.binaryage.com/3716ce81_shared_css_site.css" type="text/css">
+
+
+
+
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+
+    
+
+
+
+<meta name="google-site-verification" content="N_xzdr6ymSUQFhAEvQg7f-sp1JAeJCdW2JuaRg-da0w" />
+<meta property="fb:admins" content="antonin.hildebrand" />
+
+
+    <link href="http://feeds.feedburner.com/binaryage-blog" type="application/atom+xml" rel="alternate" title="Ideas from BinaryAge" />
+
+
+    
+
+
+    <script type="text/javascript" charset="utf-8">
+  // parseUri 1.2.2
+  // (c) Steven Levithan <stevenlevithan.com>
+  // MIT License
+
+  function parseUri (str) {
+    var o   = parseUri.options,
+      m   = o.parser[o.strictMode ? "strict" : "loose"].exec(str),
+      uri = {},
+      i   = 14;
+
+    while (i--) uri[o.key[i]] = m[i] || "";
+
+    uri[o.q.name] = {};
+    uri[o.key[12]].replace(o.q.parser, function ($0, $1, $2) {
+      if ($1) uri[o.q.name][$1] = $2;
+    });
+
+    return uri;
+  };
+
+  parseUri.options = {
+    strictMode: false,
+    key: ["source","protocol","authority","userInfo","user","password","host","port","relative","path","directory","file","query","anchor"],
+    q:   {
+      name:   "queryKey",
+      parser: /(?:^|&)([^&=]*)=?([^&]*)/g
+    },
+    parser: {
+      strict: /^(?:([^:\/?#]+):)?(?:\/\/((?:(([^:@]*)(?::([^:@]*))?)?@)?([^:\/?#]*)(?::(\d*))?))?((((?:[^?#\/]*\/)*)([^?#]*))(?:\?([^#]*))?(?:#(.*))?)/,
+      loose:  /^(?:(?![^:@]+:[^:@\/]*@)([^:\/?#.]+):)?(?:\/\/)?((?:(([^:@]*)(?::([^:@]*))?)?@)?([^:\/?#]*)(?::(\d*))?)(((\/(?:[^?#](?![^?#\/]*\.[^?#\/.]+(?:[?#]|$)))*\/?)?([^?#\/]*))(?:\?([^#]*))?(?:#(.*))?)/
+    }
+  };
+</script>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: [ 
+        'Play:400,700:latin'
+      ]
+    }
+  });
+</script>
+
+
+    <script src="http://static.binaryage.com/cd89ca2f_shared_js_code.js"></script>
+
+
+    <script type="text/javascript">
+    window['ga'] = function() {};
+</script>
+
+
+<script>
+  window['ga'] = undefined;
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 
+  ga('create',
+     'UA-8404259-1',
+     'auto', { // auto means track user on all subdomains as well
+       'allowLinker': true // allows overriding ga cookie from url parameters
+     }
+  );
+  ga('send', 'pageview');
+ 
+  
+
+  // auto linker is responsible to pass ga cookie when user jumps between fastspring.com and binaryage.com
+  // https://developers.google.com/analytics/devguides/collection/analyticsjs/cross-domain
+  ga('require', 'linker');
+  
+  ga('linker:autoLink', ['fastspring.com'], true);
+  
+</script>
+
+
+
+
+    
+
+
+    
+  </head>
+  <body id="page-blog-totalfinder-alpha">
+    
+
+
+
+
+
+
+
+<div id="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+
+<div class="relativize">
+  <a href="http://www.binaryage.com" title="BinaryAge Software">
+    <div class="binaryage-logo">
+  <svg class="logo">
+    <g class="logo-badge">
+      <rect class="logo-badge-background" x="0" y="0" rx="4" ry="4" width="60" height="54"/>
+      <path class="logo-letter-b" d="
+        M6,47 L6,17 12,17 12,25 29,25 29,47 Z 
+        M12,42 L12,30 23,30 23,42 Z" 
+      />
+      <path class="logo-letter-a" d="
+        M32,47 L32,34 49,34 49,30 32,30 32,25 54,25 54,47 Z 
+        M37,42 L37,39 49,39 49,42 Z" 
+      />
+    </g>
+    <g class="logo-label" transform="translate(71, 22)">
+      <g class="logo-word-binary">
+        <path class="logo-label-letter-b" transform="translate(0, 0)" d="
+          M0,25 L0,0 5,0 5,7 20,7 20,25 Z 
+          M5,21 L5,11 15,11 15,21 Z" 
+        />
+        <path class="logo-label-letter-i" transform="translate(22, 0)" d="
+          M0,25 L0,7 5,7 5,25 Z 
+          M0,3 L5,3 5,0 0,0 Z" 
+        />
+        <path class="logo-label-letter-n" transform="translate(29, 0)" d="
+          M0,25 L0,7 20,7 20,25 15,25 15,11 5,11 5,25 Z" 
+        />
+        <path class="logo-label-letter-a" transform="translate(51, 0)" d="
+          M0,25 L0,14 15,14 15,11 0,11 0,7 20,7 20,25 Z 
+          M5,21 L5,18 15,18 15,21 Z" 
+        />
+        <path class="logo-label-letter-r" transform="translate(73, 0)" d="
+          M0,25 L0,7 20,7 20,11 5,11 5,25 Z" 
+        />
+        <path class="logo-label-letter-y" transform="translate(95, 0)" d="
+          M0,25 L0,7 5,7 5,21 15,21 15,7 20,7 20,32 0,32 0,28 15,28 15,25 Z" 
+        />
+      </g>
+      <g class="logo-word-age" transform="translate(118, 0)">
+        <path class="logo-label-letter-a" transform="translate(0, 0)" d="
+          M0,25 L0,14 15,14 15,11 0,11 0,7 20,7 20,25 Z 
+          M5,21 L5,18 15,18 15,21 Z" 
+        />
+        <path class="logo-label-letter-g" transform="translate(22, 0)" d="
+          M0,25 L0,7 20,7 20,32 0,32 0,28 15,28 15,25 Z
+          M5,21 L5,11 15,11 15,21 Z" 
+        />
+        <path class="logo-label-letter-e" transform="translate(44, 0)" d="
+          M0,25 L0,7 20,7 20,18 5,18 5,21 20,21 20,25 Z 
+          M5,14 L5,11 15,11 15,14 Z" 
+        />
+      </g>
+    </g>
+  </svg>  
+</div>
+
+  </a>
+</div>
+
+
+        
+
+<div class="relativize">
+  <ul class="header-menu menu-selected-">
+    <li class="menu-item-store"><a href="http://www.binaryage.com/store"><i class="fa fa-shopping-cart"></i><span>store</span></a></li>
+    <li class="menu-item-products"><a href="http://www.binaryage.com"><i class="fa fa-star"></i><span>products</span></a></li>
+    <li class="menu-item-blog"><a href="http://blog.binaryage.com"><i class="fa fa-bullhorn"></i><span>blog</span></a></li>
+    <li class="menu-item-support"><a href="http://discuss.binaryage.com"><i class="fa fa-comments"></i><span>support</span></a></li>
+  </ul>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+<div id="main" class="cf">
+  
+  <div id="blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="blog-content">
+          <div class="row">
+  <div class="col-md-2">
+    <div class="blog-leftbar">
+      <a class="back-button" href="/"></a>
+    </div>
+    <div class="content-leftbar">
+      <div class="article-info">
+        <span class="article-posted">published</span>
+        <span class="article-date">on November 29, 2009</span>
+        <span class="article-author">by <a href="http://hildebrand.cz">Antonin Hildebrand</a></span>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-10">
+    <div id="post">
+      <div class="post-titlebar">
+        <span class="post-title">TotalFinder - alpha call for testing!</span>
+      </div>
+      <div class="generic-separator"></div>
+      <div class="post-content">
+        <p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+
+<p><strong><a href="http://totalfinder.binaryage.com">TotalFinder</a> is my attempt to make Finder.app better for programmers and Mac power users. I want it better for myself!</strong></p>
+
+<h4>The Story</h4>
+
+<p>I use Finder as my primary file manager and I have many small ideas how could I make it better. But my ultimate goal is quite ambitious. The goal is to extend Finder to support dual-panel mode like Total Commander. People around me are leaving Windows for Macs and asking for a Total Commander replacement. Need to hurry! :-)</p>
+
+<p>Do you know <a href="http://visor.binaryage.com">Visor</a>? TotalFinder is also implemented as a <a href="http://en.wikipedia.org/wiki/SIMBL">SIMBL</a> plugin which extends Finder.app functionality. TotalFinder works in Snow Leopard only. The reason is that Finder.app has been rewritten into Cocoa in Snow Leopard which finally made this hacking possible.</p>
+
+<h4>TotalFinder 0.2 ALPHA</h4>
+
+<div class="blog-download">
+    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.2.1.dmg"><img src="http://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.2.1.dmg</div></a>
+    <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
+</div>
+
+
+<p>It was tested on my MacBook Pro 17" with 10.6.2 OSX running 32-bit kernel.</p>
+
+<p>Before you install it, open terminal and prepare this command:</p>
+
+<p><code>rm -rf "/Library/Application Support/SIMBL/Plugins/TotalFinder.bundle"</code></p>
+
+<p>There is a chance that during startup TotalFinder crashes and brings down whole Finder.app. The problem is that there is a process continuously starting Finder.app if it is not running somewhere in OSX. So it ends as an infinite loop of Finder.app starts and crashes until you remove TotalFinder SIMBL.</p>
+
+<p>You were warned! Stay sharp!</p>
+
+<p>Note: The bug should be fixed in 0.2.1</p>
+
+<h4>Features</h4>
+
+<p>OK, let's see some screenshots:</p>
+
+<p><img src="http://static.binaryage.com/40f296aa_images_tf02-features.png" style="float:left; width: 49%" title="Preferences panel with Visor feature">
+<img src="http://static.binaryage.com/fd06c0c5_images_tf02-dsstore.png" style="float:left; width: 49%" title="Preferences panel with .DS_Store redirection options">
+<img src="http://static.binaryage.com/7fa592bc_images_tf02-tweaks.png" style="float:left; width: 49%" title="Preferences panel with various tweaks">
+<img src="http://static.binaryage.com/26579ab8_images_tf02-purchase.png" style="float:left; width: 49%" title="Preferences panel with info/purchase screen"></p>
+
+<div class="clear"> </div>
+
+
+<p>As you can grasp from the images this version implements two main features:</p>
+
+<ul>
+<li>Visor-like system-wide Finder window available via a hot-key</li>
+<li>Prevention of littering .DS_Store files all over the place</li>
+</ul>
+
+
+<p>And you can also see that I'm planning to start selling this at some point in the future when the thing gets more stable.</p>
+
+<h4>How does .DS_Store redirection work?</h4>
+
+<p>I'm pretty excited about solving the problem which has been bugging me for more than two years since the day I switched to Macintosh. Every single day!</p>
+
+<p>Look, I use Finder.app with enabled hidden files and I'm also pretty heavy Terminal.app user. The .DS_Store litter makes me cry! If you ever happened to google for a solution, you could find just some simple scripts for deleting .DS_Store files (futile!). Or maybe there is some commercial app which is capable of watching filesystem and deleting them after creation. But this is not good enough for me! I'm using folder colors in Finder ;)</p>
+
+<p>Here is what I did in TotalFinder:</p>
+
+<ul>
+<li>I've redirected low-level filesystem calls which Finder.app does:
+
+<ul>
+<li>Anytime Finder.app is asking to open <code>/some/folder/.DS_Store</code> file, I open it as <code>/usr/local/.dscache/some/folder/_DS_Store</code></li>
+<li>This way Finder thinks files are at original places but they are being physically created in prefix folder, effectively sandboxing them</li>
+<li>The only exception is the prefix folder itself, when you go and see it in the Finder, no redirection is applied</li>
+</ul>
+</li>
+<li>I've implemented kernel extension Echelon, which monitors folder renames (and deletes) and sends them to TotalFinder
+
+<ul>
+<li>You see why. This is important to keep DS_Store folder structure in prefix directory mirroring actual structure on the disk</li>
+</ul>
+</li>
+</ul>
+
+
+<p>Yeah, kernel extension sounds scary. But I didn't find a better solution in user-space. FSEvents are not precise enough (it just reports "something was changed"). BSD kqueues must be registered on per-file basis, so it is not usable in this scenario. At the end of the day that kernel extension turned out to be a really light-weight solution. I use KAUTH API to monitor kernel filesystem events. I do it only if TotalFinder is connected and only for renames and deletes. Testing is a simple C-string comparison and sending notification via socket.</p>
+
+<p>I've been using TotalFinder with this redirection enabled for a while and it works pretty well. I've noticed only two drawbacks so far:</p>
+
+<ul>
+<li>.DS_Store file is created on Desktop during OSX restart, Finder crash or TotalFinder reinstallation
+The reason is that SIMBL plugin gets injected too late and Finder manages to write this .DS_Store file</li>
+<li>.DS_Store file is created when you modify Spotlight comment on a file
+This is caused by mdworker process and has no direct relation to Finder.app process.
+It seems like Apple engineers scattered DS_Store functionality into more applications.
+I'm still investigating this. Temporary workaround is not using these Spotlight comments. Which is my case anyway.</li>
+</ul>
+
+
+<p>I hope this is enough info for you to get started playing with TotalFinder. Your <a href="http://getsatisfaction.com/binaryage/products/binaryage_totalfinder">feedback</a> is appreciated!</p>
+
+<p>I've fixed tons of <a href="http://visor.binaryage.com">Visor</a> bugs and made it possible under Snow Leopard. Now it is your turn to help me roll this out :-) Thanks!</p>
+
+      </div>
+    </div>
+    <div class="generic-separator"></div>
+    <div id="comments">
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_shortname = 'binaryage'; // required: replace example with your forum shortname
+        var disqus_url = "http://blog.binaryage.com/totalfinder-alpha/";
+        (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>    
+  </div>
+</div>
+
+<script>
+(function() {
+  $(".blog-image").wrap(function() {
+    return $("<a class='wrapped-blog-image' data-fancybox-group='blog'></div>")
+      .attr('href', $(this).attr('src'))
+      .attr('title', $(this).attr('title'))
+      ;
+  });
+  $(".wrapped-blog-image").fancybox();
+})();
+</script>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="blog-side">
+          <div class="blog-side-box blog-side-follow">
+            <a href="http://twitter.com/binaryage" class="twitter-follow-button" data-show-count="true">Follow @binaryage</a>
+            <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+          </div>
+          <div class="blog-side-box blog-side-subscribe">
+            <a href="http://feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml"><div class="blog-side-icon blog-rss-icon"/></div></a>
+            <a href="http://feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml">Subscribe</a>
+            <div class="subscribe-button">
+              <a href="http://feeds.feedburner.com/binaryage-blog"><img src="http://feeds.feedburner.com/~fc/binaryage-blog?bg=dddddd&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a>
+            </div>
+          </div>
+          <div class="blog-side-box blog-side-products">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<p></div></p>
+
+
+    
+
+
+
+
+
+<div id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        
+      </div>
+      <div class="col-md-4">
+        
+
+<div class="footer-box-right">
+  <div class="footer-copyright">
+    <div class="footer-license">
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="http://static.binaryage.com/69a4ba35_shared_img_byccnd.png" /></a>
+    </div>
+    <a href="http://www.binaryage.com/about">BinaryAge Limited</a>
+  </div>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+    
+
+
+
+    
+
+    <script type="text/javascript" charset="utf-8">
+  if (window.jQuery) {
+    $(function() {
+      // trigger page states
+      setTimeout(function() { // give other code some time to init
+        var hash = location.hash.substring(1);
+        if (hash.substring(0,2)=="o-") {
+          $('#'+hash).trigger('click');
+        }
+      }, 500);
+    });
+  }
+</script>
+
+
+    
+
+    
+<script type="text/javascript">
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    
+    t.setAttribute('data-site-id', '4f10d65d844d52139500000b');
+    
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+
+
+
+    
+
+  </body>
+</html>
