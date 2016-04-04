@@ -3,8 +3,43 @@
     <title>The ideas from BinaryAge</title>
     <link href="http://blog.binaryage.com/atom.xml" rel="self"/>
     <link href="http://blog.binaryage.com"/>
-    <updated>2016-04-04T12:20:44+00:00</updated>
+    <updated>2016-04-04T12:41:28+00:00</updated>
     <id>http://blog.binaryage.com/</id>
+    
+    <entry>
+        <title><![CDATA[Meet Steve, the new lead of TotalFinder and TotalSpaces]]></title>
+        
+        <link href="http://blog.binaryage.com//meet-steve-the-new-lead"/>
+        <updated>2016-04-04T00:00:00+00:00</updated>
+        <id>jduff.github.com:/meet-steve-the-new-lead</id>
+        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon" style="clear: both" /></p>
+
+<p>We have some exciting news! Steve Audette has joined BinaryAge to lead development of TotalFinder and TotalSpaces. Don't worry, Antonin and Stephen are still involved to make the transition as smooth as possible.</p>
+
+<p>Help us celebrate and <a href="http://discuss.binaryage.com/t/meet-steve-whats-next-for-totalfinder-and-totalspaces">join the discussion</a> to welcome Steve and share your thoughts.</p>
+
+<h4>Who &amp; What</h4>
+
+<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon" style="clear: both" />
+As longtime fans and users may know, BinaryAge launched <a href="http://totalfinder.binaryage.com">TotalFinder</a> in 2010 under the leadership of <strong>Antonin Hildebrand</strong>.  Today, TotalFinder adds a cornucopia of features to Finder including tabs, colored labels, folders on top, dual mode, cut &amp; paste of files, Visor functionality, and much more</p>
+
+<p><img src="http://static.binaryage.com/f59893b8_shared_img_icons_totalspaces2-128.png" class="intro-icon" style="clear: both" />
+BinaryAge's second product released in 2012 when <strong>Stephen Sykes</strong> teamed with BinaryAge to bring <a href="http://totalspaces.binaryage.com">TotalSpaces</a> to market.  TotalSpaces restores the original grid-based Spaces layout that was removed in Mac OS X 10.7 <em>Lion</em>. TotalSpaces also gives a large degree of control and customization to your Spaces (a.k.a. Mission Control) experience, including custom transitions and timing, user-configurable gestures, hotkeys, and hotcorners, app assignments, grid circulation behaviors, and more.</p>
+
+<p><img src="http://static.binaryage.com/bde4e90e_images_irradiated-logo-512.png" class="intro-icon" style="clear: both" />
+Going forward, development of TotalFinder and TotalSpaces will be in the capable hands of <strong>Steve Audette</strong>.  Steve is the founder and principal developer behind <a href="http://www.irradiatedsoftware.com">Irradiated Software</a>.  Founded in 2008, Irradiated Software has a broad portfolio of products ranging from OS X clipboard and window managers like <a href="http://www.irradiatedsoftware.com/iclip">iClip</a> and <a href="http://www.irradiatedsoftware.com/sizeup">SizeUp</a> (respectively) to iOS apps like <a href="http://www.irradiatedsoftware.com/dropvox">DropVox</a>, an Accessible voice-recorder for the blind and vision impaired.</p>
+
+<h4>Bright Future</h4>
+
+<p>Over the years, Antonin and Stephen have poured their hearts into these apps.  Stephen comments that it will be hard to let our "babies" go, but "we have seen Steve's work and are confident he will give TotalFinder and TotalSpaces the care and attention they deserve."</p>
+
+<p><a href="http://discuss.binaryage.com/t/meet-steve-whats-next-for-totalfinder-and-totalspaces">Join the discussion</a> to learn Steve's plan for TotalFinder and TotalSpaces and to share your comments. Thanks.</p>
+]]></content>
+        <author>
+            <name>Steve Audette</name>
+            <uri>mailto:steve@binaryage.com</uri>
+        </author>
+    </entry>
     
     <entry>
         <title><![CDATA[Update on System Integrity Protection in El Capitan, OSX 10.11]]></title>
