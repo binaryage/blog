@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en"
+    xmlns:og="http://opengraphprotocol.org/schema/"
+    xmlns:fb="http://developers.facebook.com/schema/"
+    class="ba rebug-record-the-bug-and-replay-it-later"
+>
+  <head>
+    <title>REBUG - Record the bug and replay it later</title>
+    
+<link rel="canonical" href="http://blog.binaryage.com/rebug-record-the-bug-and-replay-it-later/">
+
+
+
+    <link rel="shortcut icon" href="http://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon">
+<link rel="icon" href="http://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon">
+
+
+    <link rel="stylesheet" href="http://static.binaryage.com/b39cd94e_shared_css_site.css" type="text/css">
+
+
+
+
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+
+    
+
+
+
+<meta name="google-site-verification" content="N_xzdr6ymSUQFhAEvQg7f-sp1JAeJCdW2JuaRg-da0w" />
+<meta property="fb:admins" content="antonin.hildebrand" />
+
+
+    <link href="http://feeds.feedburner.com/binaryage-blog" type="application/atom+xml" rel="alternate" title="Ideas from BinaryAge" />
+
+
+    
+
+
+    <script type="text/javascript" charset="utf-8">
+  // parseUri 1.2.2
+  // (c) Steven Levithan <stevenlevithan.com>
+  // MIT License
+
+  function parseUri (str) {
+    var o   = parseUri.options,
+      m   = o.parser[o.strictMode ? "strict" : "loose"].exec(str),
+      uri = {},
+      i   = 14;
+
+    while (i--) uri[o.key[i]] = m[i] || "";
+
+    uri[o.q.name] = {};
+    uri[o.key[12]].replace(o.q.parser, function ($0, $1, $2) {
+      if ($1) uri[o.q.name][$1] = $2;
+    });
+
+    return uri;
+  };
+
+  parseUri.options = {
+    strictMode: false,
+    key: ["source","protocol","authority","userInfo","user","password","host","port","relative","path","directory","file","query","anchor"],
+    q:   {
+      name:   "queryKey",
+      parser: /(?:^|&)([^&=]*)=?([^&]*)/g
+    },
+    parser: {
+      strict: /^(?:([^:\/?#]+):)?(?:\/\/((?:(([^:@]*)(?::([^:@]*))?)?@)?([^:\/?#]*)(?::(\d*))?))?((((?:[^?#\/]*\/)*)([^?#]*))(?:\?([^#]*))?(?:#(.*))?)/,
+      loose:  /^(?:(?![^:@]+:[^:@\/]*@)([^:\/?#.]+):)?(?:\/\/)?((?:(([^:@]*)(?::([^:@]*))?)?@)?([^:\/?#]*)(?::(\d*))?)(((\/(?:[^?#](?![^?#\/]*\.[^?#\/.]+(?:[?#]|$)))*\/?)?([^?#\/]*))(?:\?([^#]*))?(?:#(.*))?)/
+    }
+  };
+</script>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: [ 
+        'Play:400,700:latin'
+      ]
+    }
+  });
+</script>
+
+
+    <script src="http://static.binaryage.com/3e4de0bb_shared_js_code.js"></script>
+
+
+    <script type="text/javascript">
+    window['ga'] = function() {};
+</script>
+
+
+<script>
+  window['ga'] = undefined;
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 
+  ga('create',
+     'UA-8404259-1',
+     'auto', { // auto means track user on all subdomains as well
+       'allowLinker': true // allows overriding ga cookie from url parameters
+     }
+  );
+  ga('send', 'pageview');
+ 
+  
+
+  // auto linker is responsible to pass ga cookie when user jumps between fastspring.com and binaryage.com
+  // https://developers.google.com/analytics/devguides/collection/analyticsjs/cross-domain
+  ga('require', 'linker');
+  
+  ga('linker:autoLink', ['fastspring.com'], true);
+  
+</script>
+
+
+
+
+    
+
+
+    
+  </head>
+  <body id="page-blog-rebug-record-the-bug-and-replay-it-later">
+    
+
+
+
+
+
+
+
+<div id="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+
+<div class="relativize">
+  <a href="http://www.binaryage.com" title="BinaryAge Software">
+    <div class="binaryage-logo">
+  <svg class="logo">
+    <g class="logo-badge">
+      <rect class="logo-badge-background" x="0" y="0" rx="4" ry="4" width="60" height="54"/>
+      <path class="logo-letter-b" d="
+        M6,47 L6,17 12,17 12,25 29,25 29,47 Z 
+        M12,42 L12,30 23,30 23,42 Z" 
+      />
+      <path class="logo-letter-a" d="
+        M32,47 L32,34 49,34 49,30 32,30 32,25 54,25 54,47 Z 
+        M37,42 L37,39 49,39 49,42 Z" 
+      />
+    </g>
+    <g class="logo-label" transform="translate(71, 22)">
+      <g class="logo-word-binary">
+        <path class="logo-label-letter-b" transform="translate(0, 0)" d="
+          M0,25 L0,0 5,0 5,7 20,7 20,25 Z 
+          M5,21 L5,11 15,11 15,21 Z" 
+        />
+        <path class="logo-label-letter-i" transform="translate(22, 0)" d="
+          M0,25 L0,7 5,7 5,25 Z 
+          M0,3 L5,3 5,0 0,0 Z" 
+        />
+        <path class="logo-label-letter-n" transform="translate(29, 0)" d="
+          M0,25 L0,7 20,7 20,25 15,25 15,11 5,11 5,25 Z" 
+        />
+        <path class="logo-label-letter-a" transform="translate(51, 0)" d="
+          M0,25 L0,14 15,14 15,11 0,11 0,7 20,7 20,25 Z 
+          M5,21 L5,18 15,18 15,21 Z" 
+        />
+        <path class="logo-label-letter-r" transform="translate(73, 0)" d="
+          M0,25 L0,7 20,7 20,11 5,11 5,25 Z" 
+        />
+        <path class="logo-label-letter-y" transform="translate(95, 0)" d="
+          M0,25 L0,7 5,7 5,21 15,21 15,7 20,7 20,32 0,32 0,28 15,28 15,25 Z" 
+        />
+      </g>
+      <g class="logo-word-age" transform="translate(118, 0)">
+        <path class="logo-label-letter-a" transform="translate(0, 0)" d="
+          M0,25 L0,14 15,14 15,11 0,11 0,7 20,7 20,25 Z 
+          M5,21 L5,18 15,18 15,21 Z" 
+        />
+        <path class="logo-label-letter-g" transform="translate(22, 0)" d="
+          M0,25 L0,7 20,7 20,32 0,32 0,28 15,28 15,25 Z
+          M5,21 L5,11 15,11 15,21 Z" 
+        />
+        <path class="logo-label-letter-e" transform="translate(44, 0)" d="
+          M0,25 L0,7 20,7 20,18 5,18 5,21 20,21 20,25 Z 
+          M5,14 L5,11 15,11 15,14 Z" 
+        />
+      </g>
+    </g>
+  </svg>  
+</div>
+
+  </a>
+</div>
+
+
+        
+
+<div class="relativize">
+  <ul class="header-menu menu-selected-">
+    <li class="menu-item-store"><a href="http://www.binaryage.com/store"><i class="fa fa-shopping-cart"></i><span>store</span></a></li>
+    <li class="menu-item-products"><a href="http://www.binaryage.com"><i class="fa fa-star"></i><span>products</span></a></li>
+    <li class="menu-item-blog"><a href="http://blog.binaryage.com"><i class="fa fa-bullhorn"></i><span>blog</span></a></li>
+    <li class="menu-item-support"><a href="http://discuss.binaryage.com"><i class="fa fa-comments"></i><span>support</span></a></li>
+  </ul>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+<div id="main" class="cf">
+  
+  <div id="blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="blog-content">
+          <div class="row">
+  <div class="col-md-2">
+    <div class="blog-leftbar">
+      <a class="back-button" href="/">« back to articles</a>
+    </div>
+    <div class="content-leftbar">
+      <div class="article-info">
+        <span class="article-posted">published</span>
+        <span class="article-date">on October 27, 2009</span>
+        <span class="article-author">by <a href="http://hildebrand.cz">Antonin Hildebrand</a></span>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-10">
+    <div id="post">
+      <div class="post-titlebar">
+        <span class="post-title">REBUG - Record the bug and replay it later</span>
+      </div>
+      <div class="generic-separator"></div>
+      <div class="post-content">
+        <blockquote><p>What if you could travel back in time?</p></blockquote>
+
+<p>I want to share with you an idea for a new tool I've had during my work for <a href="http://transpond.com">Transpond</a>.
+In a nutshell, Transpond is building web-based tool for making Facebook applications. Sound exciting?</p>
+
+<p>Have you developed anything for Facebook before? A Facebook application is a piece of code living on your own server but heavily talking to Facebook APIs.
+And Facebook is unfortunately something you cannot take home and run it on your own local server for debugging purposes.
+You need to develop and debug your application against the live site (or the sandbox they provide).</p>
+
+<p>And here is the problem. There is a class of bugs caused by Facebook (i.e. they break something during updates)
+and a class caused by specific data (e.g. encoding problems because a user entered text with diacritics). These bugs are tricky to reproduce.
+The first type is reported by QA but gets fixed before the developer sees it. The second type is hard because the
+developer may be not able to reproduce exactly the same state (for example a newsfeed causing the bug is already replaced with newer content which is not exposing the bug, or the developer is logged in under different account than QA tester).</p>
+
+<p>Many times these bugs are really trivial. I can look at the Net panel in Firebug or javascript console and the cause is obvious.
+But this information is not available when reading a bugreport in Bugzilla. Sometimes I would a give fortune for a link moving me back in time and in front of the browser with the bug exposed...</p>
+
+<h4>Meet Rebug</h4>
+
+<blockquote><p>A tool which is able to reproduce browser state for debugging purposes</p></blockquote>
+
+<p>Example usage scenario (heavy AJAX web app with many requests to the cloud)</p>
+
+<p><strong>A Tester's session:</strong></p>
+
+<ul>
+<li>Tester installs browser extension "Rebug"</li>
+<li>Tester does QA work and if she encounters a bug:
+
+<ul>
+<li>she clicks "REBUG" button</span></li>
+<li>this will serialize the browser state onto remote server and put a URL into the clipboard</li>
+<li>tester opens an issue in her favorite issue tracker (as she would normally do) and pastes the generated link along with description for later inspection by a developer</li>
+</ul>
+</li>
+</ul>
+
+
+<p><strong>A Developer's session:</strong></p>
+
+<ul>
+<li>Developer installs browser extension "Rebug"</li>
+<li>Developer opens the issue and clicks the rebug link
+
+<ul>
+<li>Developer sees realtime replay of tester's session</li>
+<li>Browser ends in the same state as when rebug button was pressed by the tester</li>
+</ul>
+</li>
+</ul>
+
+
+<h4>What real-world problem does it solve?</h4>
+
+<ul>
+<li>Debugging complex, javascript-heavy AJAXy apps is hard. Especially when the app operates in the cloud by communicating with various APIs and services.&nbsp;</li>
+<li>QA people will get a no-brainer tool to store "crash dump" of their browser session after the fact. Programmers will get an easy tool to restore a broken session in their development environment (Firefox+Firebug in the first phase).</li>
+<li>Better dev-team productivity.</li>
+</ul>
+
+
+<h4>The Implementation</h4>
+
+<p>The Implementation consists of two fundamental parts:</p>
+
+<ul>
+<li>proxy server (provided as a service)</li>
+<li>macro recorder (browser extension)</li>
+</ul>
+
+
+<p><strong>Proxy server</strong></p>
+
+<ul>
+<li>During tester's session the proxy server is recording all HTTP traffic. When the Rebug button is clicked, a new record is created by "zipping" all traffic data into one package and giving it a unique session ID.</li>
+<li>During developer's session every request is served back from zip file (effectively mocking "internet" at the time the session was recorded).</li>
+</ul>
+
+
+<p><strong>Macro recorder</strong></p>
+
+<ul>
+<li>During tester's session macro recorder is recording all the user's actions and generating reproducible script.</li>
+<li>During developer's session recorded script is played back.</li>
+</ul>
+
+
+<p>The technology of macro recorders was already developed by extensions like iMacros or Selenium. I've also made one attempt for <a href="http://xrefresh.binaryage.com">XRefresh extension</a> in the past (a very challenging problem).</p>
+
+<h4>Possible setups:</h4>
+
+<p><strong>Fully hosted solution:</strong>
+<img class="blog-image no-shadow" src="http://static.binaryage.com/a529976d_images_drawing_sV0QB63mkDgRXGUKF-UyLZg_153.png" title="Fully hosted solution"></p>
+
+<p><strong>Serviced solution:</strong>
+<img class="blog-image no-shadow" src="http://static.binaryage.com/990dbf69_images_drawing_sY_p-Pz7WbcM4w8OOXKaI3Q_51.png" title="Serviced solution"></p>
+
+<p><strong>Near proxy solution:</strong>
+<img class="blog-image no-shadow" src="http://static.binaryage.com/7a5b3227_images_drawing_sPkzVArT9_K6tqbFWjwCWIg_48.png" title="Near proxy solution"></p>
+
+<p><strong>Decentralized solution:</strong>
+<img class="blog-image no-shadow" src="http://static.binaryage.com/a7f3bd1c_images_drawing_s53VQRbszouhzGpRAnSMJ-g_119.png" title="Decentralized solution"></p>
+
+<p><strong>Single machine setup:</strong>
+<img class="blog-image no-shadow" src="http://static.binaryage.com/49bdff6d_images_drawing_sarVlC_ISonwxJB-Df3SmhQ_18.png" title="Single machine solution"></p>
+
+<h4>Implementation notes</h4>
+
+<ul>
+<li>decouple reading proxy from saving proxy</li>
+<li>decouple session storage from proxies</li>
+<li>multi-platform proxy implementation</li>
+<li>recorded script should be applicable to different browsers</li>
+<li>recorded session should be editable ...
+
+<ul>
+<li>test-case creation?</li>
+<li>mapping requests to filesystem?</li>
+<li>session storage as git repo?</li>
+</ul>
+</li>
+<li>developer session should run bypassing all caches</li>
+</ul>
+
+
+<p>External browser inputs should be simulated as closely as possible (browser version, platform, date/time, screen size?, etc.) and the developer should be unobtrusively notified about differences between his setup and the user's setup - but it is not expected the developer will have exactly the same setup as testing user (for example developer has the Firebug extension which may not be the case of tester).</p>
+
+<h4>Future direction</h4>
+
+<p>REBUG can be used as a mockup server for automated testing infrastructure. Browser sessions can be generated synthetically and consumed by defined test suites. Recording and hand-making approaches can be mixed. Thanks to storage being a git repo, it can be edited independently on the saving proxy. Reading proxy then can be used by automated tests runner.</p>
+
+<p>Note: Recent <a href="http://www.softwareishard.com/blog/firebug/http-archive-specification/">HTTP Archive initiative</a> is a move in a good direction. Look forward to seeing more tools tackling this problem.</p>
+
+      </div>
+    </div>
+    <div class="generic-separator"></div>
+    <div id="comments">
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_shortname = 'binaryage'; // required: replace example with your forum shortname
+        var disqus_url = "http://blog.binaryage.com/rebug-record-the-bug-and-replay-it-later//";
+        (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>    
+  </div>
+</div>
+
+<script>
+(function() {
+  $(".blog-image").wrap(function() {
+    return $("<a class='wrapped-blog-image' data-fancybox-group='blog'></div>")
+      .attr('href', $(this).attr('src'))
+      .attr('title', $(this).attr('title'))
+      ;
+  });
+  $(".wrapped-blog-image").fancybox();
+})();
+</script>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="blog-side">
+          <div class="blog-side-box blog-side-follow">
+            <a href="http://twitter.com/binaryage" class="twitter-follow-button" data-show-count="true">Follow @binaryage</a>
+            <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+          </div>
+          <div class="blog-side-box blog-side-subscribe">
+            <a href="http://feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml"><div class="blog-side-icon blog-rss-icon"/></div></a>
+            <a href="http://feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml">Subscribe</a>
+            <div class="subscribe-button">
+              <a href="http://feeds.feedburner.com/binaryage-blog"><img src="http://feeds.feedburner.com/~fc/binaryage-blog?bg=dddddd&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a>
+            </div>
+          </div>
+          <div class="blog-side-box blog-side-products">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<p></div></p>
+
+
+    
+
+
+
+
+
+<div id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        
+      </div>
+      <div class="col-md-4">
+        
+
+<div class="footer-box-right">
+  <div class="footer-copyright">
+    <div class="footer-license">
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="http://static.binaryage.com/69a4ba35_shared_img_byccnd.png" /></a>
+    </div>
+    <a href="http://www.binaryage.com/about">BinaryAge Limited</a>
+  </div>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+    
+
+
+
+    
+
+    <script type="text/javascript" charset="utf-8">
+  if (window.jQuery) {
+    $(function() {
+      // trigger page states
+      setTimeout(function() { // give other code some time to init
+        var hash = location.hash.substring(1);
+        if (hash.substring(0,2)=="o-") {
+          $('#'+hash).trigger('click');
+        }
+      }, 500);
+    });
+  }
+</script>
+
+
+    
+
+    
+<script type="text/javascript">
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    
+    t.setAttribute('data-site-id', '4f10d65d844d52139500000b');
+    
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+
+
+
+    
+
+  </body>
+</html>
