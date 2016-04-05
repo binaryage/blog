@@ -9,7 +9,7 @@ author_uri: http://about.me/sdsykes
 
 ** TotalFinder and TotalSpaces2 will not run on El Capitan in its default configuration. **
 
-In our [previous post](http://blog.binaryage.com/on-el-capitan/) we explained that the new security features of the forthcoming release of OSX may affect our apps.
+In our [previous post](http://blog.binaryage.com/on-el-capitan) we explained that the new security features of the forthcoming release of OSX may affect our apps.
 
 #### The end of system modifications and tweaks
 
