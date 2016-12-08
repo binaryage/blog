@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>The ideas from BinaryAge</title>
-    <link href="http://blog.binaryage.com/atom.xml" rel="self"/>
-    <link href="http://blog.binaryage.com"/>
-    <updated>2016-04-05T17:41:36+00:00</updated>
+    <link href="https://blog.binaryage.com/atom.xml" rel="self"/>
+    <link href="https://blog.binaryage.com"/>
+    <updated>2016-12-08T03:43:33+00:00</updated>
     <id>http://blog.binaryage.com/</id>
     
     <entry>
         <title><![CDATA[Meet Steve, the new lead of TotalFinder and TotalSpaces]]></title>
         
-        <link href="http://blog.binaryage.com//meet-steve-the-new-lead/"/>
+        <link href="https://blog.binaryage.com//meet-steve-the-new-lead/"/>
         <updated>2016-04-04T00:00:00+00:00</updated>
         <id>jduff.github.com:/meet-steve-the-new-lead</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon" style="clear: both" /></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon" style="clear: both" /></p>
 
 <p>We have some exciting news! Steve Audette has joined BinaryAge to lead development of TotalFinder and TotalSpaces. Don't worry, Antonin and Stephen are still involved to make the transition as smooth as possible.</p>
 
@@ -20,13 +20,13 @@
 
 <h4>Who &amp; What</h4>
 
-<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon" style="clear: both" />
+<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon" style="clear: both" />
 As longtime fans and users may know, BinaryAge launched <a href="http://totalfinder.binaryage.com">TotalFinder</a> in 2010 under the leadership of <strong>Antonin Hildebrand</strong>.  Today, TotalFinder adds a cornucopia of features to Finder including tabs, colored labels, folders on top, dual mode, cut &amp; paste of files, Visor functionality, and much more</p>
 
-<p><img src="http://static.binaryage.com/f59893b8_shared_img_icons_totalspaces2-128.png" class="intro-icon" style="clear: both" />
+<p><img src="https://static.binaryage.com/f59893b8_shared_img_icons_totalspaces2-128.png" class="intro-icon" style="clear: both" />
 BinaryAge's second product released in 2012 when <strong>Stephen Sykes</strong> teamed with BinaryAge to bring <a href="http://totalspaces.binaryage.com">TotalSpaces</a> to market.  TotalSpaces restores the original grid-based Spaces layout that was removed in Mac OS X 10.7 <em>Lion</em>. TotalSpaces also gives a large degree of control and customization to your Spaces (a.k.a. Mission Control) experience, including custom transitions and timing, user-configurable gestures, hotkeys, and hotcorners, app assignments, grid circulation behaviors, and more.</p>
 
-<p><img src="http://static.binaryage.com/bde4e90e_images_irradiated-logo-512.png" class="intro-icon" style="clear: both" />
+<p><img src="https://static.binaryage.com/bde4e90e_images_irradiated-logo-512.png" class="intro-icon" style="clear: both" />
 Going forward, development of TotalFinder and TotalSpaces will be in the capable hands of <strong>Steve Audette</strong>.  Steve is the founder and principal developer behind <a href="http://www.irradiatedsoftware.com">Irradiated Software</a>.  Founded in 2008, Irradiated Software has a broad portfolio of products ranging from OS X clipboard and window managers like <a href="http://www.irradiatedsoftware.com/iclip">iClip</a> and <a href="http://www.irradiatedsoftware.com/sizeup">SizeUp</a> (respectively) to iOS apps like <a href="http://www.irradiatedsoftware.com/dropvox">DropVox</a>, an Accessible voice-recorder for the blind and vision impaired.</p>
 
 <h4>Bright Future</h4>
@@ -44,10 +44,10 @@ Going forward, development of TotalFinder and TotalSpaces will be in the capable
     <entry>
         <title><![CDATA[Update on System Integrity Protection in El Capitan, OSX 10.11]]></title>
         
-        <link href="http://blog.binaryage.com//el-capitan-update/"/>
+        <link href="https://blog.binaryage.com//el-capitan-update/"/>
         <updated>2015-06-27T00:00:00+00:00</updated>
         <id>jduff.github.com:/el-capitan-update</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/><img src="http://static.binaryage.com/f59893b8_shared_img_icons_totalspaces2-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/><img src="https://static.binaryage.com/f59893b8_shared_img_icons_totalspaces2-128.png" class="intro-icon"/></p>
 
 <p><strong> TotalFinder and TotalSpaces2 will not run on El Capitan in its default configuration. </strong></p>
 
@@ -106,10 +106,10 @@ Going forward, development of TotalFinder and TotalSpaces will be in the capable
     <entry>
         <title><![CDATA[On System Integrity Protection in El Capitan, OSX 10.11]]></title>
         
-        <link href="http://blog.binaryage.com//on-el-capitan/"/>
+        <link href="https://blog.binaryage.com//on-el-capitan/"/>
         <updated>2015-06-16T00:00:00+00:00</updated>
         <id>jduff.github.com:/on-el-capitan</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/><img src="http://static.binaryage.com/f59893b8_shared_img_icons_totalspaces2-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/><img src="https://static.binaryage.com/f59893b8_shared_img_icons_totalspaces2-128.png" class="intro-icon"/></p>
 
 <p><strong> There is a significant risk that TotalFinder and TotalSpaces2 will not run on El Capitan. </strong></p>
 
@@ -148,10 +148,10 @@ Going forward, development of TotalFinder and TotalSpaces will be in the capable
     <entry>
         <title><![CDATA[TotalFinder 1.6 with Colored Labels]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-with-colored-labels/"/>
+        <link href="https://blog.binaryage.com//totalfinder-with-colored-labels/"/>
         <updated>2014-05-08T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-with-colored-labels</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong> Great news! Over last few months I've made great progress on TotalFinder. Today I'm happy to announce <a href="http://totalfinder.binaryage.com/changes#1.6">TotalFinder 1.6</a> with <a href="http://totalfinder.binaryage.com/colored-labels">Colored Labels</a>. </strong></p>
 
@@ -161,7 +161,7 @@ Going forward, development of TotalFinder and TotalSpaces will be in the capable
 
 <p>TotalFinder 1.6 offers you an option to render full-row color background using the color of the last tag applied to an item. If you keep this rule in mind, you can use tags in a way which emulates color labels in older OS versions.</p>
 
-<p><img src="http://static.binaryage.com/6185487a_images_full-clabels.png" class="blog-image"/></p>
+<p><img src="https://static.binaryage.com/6185487a_images_full-clabels.png" class="blog-image"/></p>
 
 <p>The implementation is solid and I'm really happy about the final outcome. Read more in <strong><a href="http://totalfinder.binaryage.com/colored-labels">the documentation</a></strong>.</p>
 
@@ -193,7 +193,7 @@ Going forward, development of TotalFinder and TotalSpaces will be in the capable
     <entry>
         <title><![CDATA[The guy with an armored suitcase]]></title>
         
-        <link href="http://blog.binaryage.com//the-guy-with-armored-suitcase/"/>
+        <link href="https://blog.binaryage.com//the-guy-with-armored-suitcase/"/>
         <updated>2014-04-25T00:00:00+00:00</updated>
         <id>jduff.github.com:/the-guy-with-armored-suitcase</id>
         <content type="html"><![CDATA[<h4>That's how people see me...</h4>
@@ -202,7 +202,7 @@ Going forward, development of TotalFinder and TotalSpaces will be in the capable
 
 <p>The photos of my armored briefcase are top secret, but I've described my unique portable multi-display setup:</p>
 
-<p><img src="http://static.binaryage.com/f1f50102_images_multi-display.jpg" class="blog-image"/></p>
+<p><img src="https://static.binaryage.com/f1f50102_images_multi-display.jpg" class="blog-image"/></p>
 
 <h4>Read it at The Surf Office's blog:</h4>
 
@@ -217,10 +217,10 @@ Going forward, development of TotalFinder and TotalSpaces will be in the capable
     <entry>
         <title><![CDATA[The fifth year of BinaryAge: Rationalization]]></title>
         
-        <link href="http://blog.binaryage.com//the-fifth-year-of-binaryage/"/>
+        <link href="https://blog.binaryage.com//the-fifth-year-of-binaryage/"/>
         <updated>2013-12-31T00:00:00+00:00</updated>
         <id>jduff.github.com:/the-fifth-year-of-binaryage</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
 
 <p><strong> I got quite distracted at the end of the year 2013. Short answer: Mavericks release and Bitcoin fever. I didn't write my usual yearly summary of BinaryAge story at the time. But here I am now and we should continue the tradition. Last year I wrote about <a href="http://blog.binaryage.com/the-fourth-year-of-binaryage">the fourth year of BinaryAge</a>.</strong></p>
 
@@ -228,7 +228,7 @@ Going forward, development of TotalFinder and TotalSpaces will be in the capable
 
 <p>As you already know Apple has released OS X 10.9 with a new version of Finder introducing Safari-style tabs.</p>
 
-<p><img src="http://static.binaryage.com/d00cdb5b_images_mavericks-finder-tabs.png" class="blog-image"/></p>
+<p><img src="https://static.binaryage.com/d00cdb5b_images_mavericks-finder-tabs.png" class="blog-image"/></p>
 
 <p>The bad news was that in effect the TotalFinder sales dropped to 1/3 of previous numbers. It could have been worse. The good new is that TotalFinder still works well under Mavericks and still delivers other improvements (folders on top, dual mode, visor, etc).
 I'm glad that existing TotalFinder users don't have to switch workflows.</p>
@@ -237,7 +237,7 @@ I'm glad that existing TotalFinder users don't have to switch workflows.</p>
 
 <p>With the release of Mavericks, TotalSpaces required a substantial re-write to support the new "displays have separate spaces" mode. <a href="http://blog.binaryage.com/totalspaces2-better-spaces-in-mavericks/">TotalSpaces2</a> was born.</p>
 
-<p><img src="http://static.binaryage.com/866a5fbc_images_mavericks-ts2.png" class="blog-image"/></p>
+<p><img src="https://static.binaryage.com/866a5fbc_images_mavericks-ts2.png" class="blog-image"/></p>
 
 <p>Together with other features and improvements, TotalSpaces2 for Mavericks was released just in time for the public release of OS X 10.9. I was surprised how quickly our users upgraded, Mavericks was clearly an instant hit.</p>
 
@@ -260,7 +260,7 @@ I'm glad that existing TotalFinder users don't have to switch workflows.</p>
 
 <p>Las Palmas was the best thanks to <a href="http://www.thesurfoffice.com">The Surf Office</a>. Stephen came to visit - we had a great time surfing together.</p>
 
-<p><img src="http://static.binaryage.com/eb0c5102_images_tony-and-stephen.jpeg" class="blog-image"/></p>
+<p><img src="https://static.binaryage.com/eb0c5102_images_tony-and-stephen.jpeg" class="blog-image"/></p>
 
 <h4>What's next in 2014?</h4>
 
@@ -282,10 +282,10 @@ I'm glad that existing TotalFinder users don't have to switch workflows.</p>
     <entry>
         <title><![CDATA[TotalSpaces2 - better spaces in Mavericks]]></title>
         
-        <link href="http://blog.binaryage.com//totalspaces2-better-spaces-in-mavericks/"/>
+        <link href="https://blog.binaryage.com//totalspaces2-better-spaces-in-mavericks/"/>
         <updated>2013-10-22T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalspaces2-better-spaces-in-mavericks</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/f59893b8_shared_img_icons_totalspaces2-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/f59893b8_shared_img_icons_totalspaces2-128.png" class="intro-icon"/></p>
 
 <p><strong> OSX Mavericks public release is almost upon us. What of TotalSpaces? </strong></p>
 
@@ -335,10 +335,10 @@ When OSX Mavericks was announced, Apple had done a great thing - they made it po
     <entry>
         <title><![CDATA[Surfing the waves of Mavericks]]></title>
         
-        <link href="http://blog.binaryage.com//surfing-mavericks/"/>
+        <link href="https://blog.binaryage.com//surfing-mavericks/"/>
         <updated>2013-10-10T00:00:00+00:00</updated>
         <id>jduff.github.com:/surfing-mavericks</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
 
 <p><strong> Mavericks GM is out and public version will be released later this month. Now is the time to give you an update on our progress. </strong></p>
 
@@ -378,10 +378,10 @@ When OSX Mavericks was announced, Apple had done a great thing - they made it po
     <entry>
         <title><![CDATA[TotalFinder lives on in Mavericks]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-lives/"/>
+        <link href="https://blog.binaryage.com//totalfinder-lives/"/>
         <updated>2013-07-18T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-lives</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/74ef67ee_images_hero_wave.png" class="blog-image" style="width:300px"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/74ef67ee_images_hero_wave.png" class="blog-image" style="width:300px"/></p>
 
 <p>As we mentioned in our <a href="http://totalfinder.binaryage.com/mavericks">Mavericks compatibility page</a>, we are continuing to port TotalFinder to Mavericks.  People are still talking about key features, like the <a href="http://totalfinder.binaryage.com/dual-mode">side-by-side window mode</a>, <a href="http://totalfinder.binaryage.com/folders-on-top">folders on top</a>, and the <a href="http://totalfinder.binaryage.com/browser">automatic resizing</a> of column widths when using column view.</p>
 
@@ -400,10 +400,10 @@ When OSX Mavericks was announced, Apple had done a great thing - they made it po
     <entry>
         <title><![CDATA[Let's meet at WWDC 2013]]></title>
         
-        <link href="http://blog.binaryage.com//wwdc-2013/"/>
+        <link href="https://blog.binaryage.com//wwdc-2013/"/>
         <updated>2013-06-06T00:00:00+00:00</updated>
         <id>jduff.github.com:/wwdc-2013</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
 
 <p><strong> I will be attending WWDC this year. Yes, I'm super excited that I won the ticket lottery this year :-) </strong></p>
 
@@ -428,10 +428,10 @@ When OSX Mavericks was announced, Apple had done a great thing - they made it po
     <entry>
         <title><![CDATA[Bitcoin 2013: The Future of Payments]]></title>
         
-        <link href="http://blog.binaryage.com//bitcoin-future-of-payments/"/>
+        <link href="https://blog.binaryage.com//bitcoin-future-of-payments/"/>
         <updated>2013-05-16T00:00:00+00:00</updated>
         <id>jduff.github.com:/bitcoin-future-of-payments</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
 
 <p><strong> You know, I'm a Bitcoin enthustiast. I will be attending <a href="http://www.bitcoin2013.com">Bitcoin 2013: The Future of Payments</a> in San Jose this weekend. I have a talk about <a href="http://bitcointrezor.com">Trezor</a>, a promising Bitcoin harware wallet being developed by my friends at <a href="http://brmlab.cz">brmlab</a>. </strong></p>
 
@@ -454,10 +454,10 @@ When OSX Mavericks was announced, Apple had done a great thing - they made it po
     <entry>
         <title><![CDATA[TotalFinder 1.4.9 and TotalSpaces 1.2.2]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-and-totalspaces/"/>
+        <link href="https://blog.binaryage.com//totalfinder-and-totalspaces/"/>
         <updated>2013-05-09T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-and-totalspaces</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
 
 <p><strong>In the <a href="http://blog.binaryage.com/meet-brian-and-mike/">last post</a>, I introduced a couple new BinaryAge teammates and hinted that we'd have new TotalFinder and TotalSpaces releases.  <a href="http://totalfinder.binaryage.com">TotalFinder 1.4.9</a> has been in the wild for a month now and has been doing great.  <a href="http://totalspaces.binaryage.com">TotalSpaces 1.2.2</a> was released just last week and added a lot of new features!</strong></p>
 
@@ -509,10 +509,10 @@ When OSX Mavericks was announced, Apple had done a great thing - they made it po
     <entry>
         <title><![CDATA[Meet Brian and Mike]]></title>
         
-        <link href="http://blog.binaryage.com//meet-brian-and-mike/"/>
+        <link href="https://blog.binaryage.com//meet-brian-and-mike/"/>
         <updated>2013-04-24T00:00:00+00:00</updated>
         <id>jduff.github.com:/meet-brian-and-mike</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
 
 <p><strong>In <a href="http://blog.binaryage.com/the-fourth-year-of-binaryage/">last December's blog post</a> I expressed my desire for BinaryAge to become a distributed cloud company. The past few months are proving that to be my new reality.</strong></p>
 
@@ -526,7 +526,7 @@ When OSX Mavericks was announced, Apple had done a great thing - they made it po
 
 <h5>Meet <strong>Brian</strong>, from Dallas</h5>
 
-<p><img src="http://static.binaryage.com/7da4712f_images_brian.jpg" style="width:72px;float:left; margin-top: 0px; margin-right: 10px; padding:2px; border:1px #999 solid;"/> I wanted to hire a new developer to help out with <a href="http://totalfinder.binaryage.com">TotalFinder</a> development. It has been always a challlenge to find skilled and reliable hackers. But communities like <a href="http://github.com">Github</a> make it possible to meet and feel comfortable with like-minded people and that's how I met Brian Garrett. The open-source code he submitted in <a href="http://totalterminal.binaryage.com">TotalTerminal</a> looked great and after reaching out, I realized his personality is great, too.</p>
+<p><img src="https://static.binaryage.com/7da4712f_images_brian.jpg" style="width:72px;float:left; margin-top: 0px; margin-right: 10px; padding:2px; border:1px #999 solid;"/> I wanted to hire a new developer to help out with <a href="http://totalfinder.binaryage.com">TotalFinder</a> development. It has been always a challlenge to find skilled and reliable hackers. But communities like <a href="http://github.com">Github</a> make it possible to meet and feel comfortable with like-minded people and that's how I met Brian Garrett. The open-source code he submitted in <a href="http://totalterminal.binaryage.com">TotalTerminal</a> looked great and after reaching out, I realized his personality is great, too.</p>
 
 <p>Brian's been studying mechanical and energy engineering at the University of North Texas. That's where he found his passion for software development, when he built a command-line tool to reduce the amount of time it took to solve thermodynamic problems. Brian's drawn to the unique creative freedom that coding allows, unlike the physical laws he is limited to in school.</p>
 
@@ -534,7 +534,7 @@ When OSX Mavericks was announced, Apple had done a great thing - they made it po
 
 <p>In the same December post, I asked for a Mac addict to help with building our community. Some of our best features have come from thousands of users in more than two dozen countries around the world.</p>
 
-<p><img src="http://static.binaryage.com/2447cd61_images_mike.jpg" style="width:56px;float:left; margin-top: 2px; margin-right: 10px; padding:2px; border:1px #999 solid;"/> After reading the post, <a href="http://www.michaelmaturo.com/">Mike Maturo</a>, a public relations expert from New York started a conversation with me. His background in computer engineering and computer science from USC gives him a good understanding of our work and his former life as an elected official helps him be empathetic with our users. I'm excited about what we can do together, especially to get onto <a href="http://www.discourse.org">Discourse</a>, a cutting-edge community forum platform!</p>
+<p><img src="https://static.binaryage.com/2447cd61_images_mike.jpg" style="width:56px;float:left; margin-top: 2px; margin-right: 10px; padding:2px; border:1px #999 solid;"/> After reading the post, <a href="http://www.michaelmaturo.com/">Mike Maturo</a>, a public relations expert from New York started a conversation with me. His background in computer engineering and computer science from USC gives him a good understanding of our work and his former life as an elected official helps him be empathetic with our users. I'm excited about what we can do together, especially to get onto <a href="http://www.discourse.org">Discourse</a>, a cutting-edge community forum platform!</p>
 
 <h4>Working as a distributed team</h4>
 
@@ -549,16 +549,16 @@ When OSX Mavericks was announced, Apple had done a great thing - they made it po
     <entry>
         <title><![CDATA[The fourth year of BinaryAge: Incorporation]]></title>
         
-        <link href="http://blog.binaryage.com//the-fourth-year-of-binaryage/"/>
+        <link href="https://blog.binaryage.com//the-fourth-year-of-binaryage/"/>
         <updated>2012-12-31T00:00:00+00:00</updated>
         <id>jduff.github.com:/the-fourth-year-of-binaryage</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
 
 <p><strong> 2012 is over. What a great year! Let's see what was important.<br>This is my traditional summary of past year for people who follow this story.<br>Last year I wrote about <a href="http://blog.binaryage.com/the-third-year-of-binaryage">the third year of BinaryAge</a>.</strong></p>
 
 <h4>Stephen became my business partner</h4>
 
-<p><img src="http://static.binaryage.com/c2f6f1a3_images_stephen.png" style="width:70px;float:left; margin-top: -2px; margin-right: 10px; padding:2px; border:1px #999 solid;"/> <a href="https://twitter.com/sdsykes">Stephen</a> is the developer of <a href="http://totalspaces.binaryage.com">TotalSpaces</a>. We became friends and partners in business. He is a Mac and iOS developer, hacker and radio electronics guru. He is a computer veteran, an englishman living in Finland. I look forward to see what we can achieve together in the years comming.</p>
+<p><img src="https://static.binaryage.com/c2f6f1a3_images_stephen.png" style="width:70px;float:left; margin-top: -2px; margin-right: 10px; padding:2px; border:1px #999 solid;"/> <a href="https://twitter.com/sdsykes">Stephen</a> is the developer of <a href="http://totalspaces.binaryage.com">TotalSpaces</a>. We became friends and partners in business. He is a Mac and iOS developer, hacker and radio electronics guru. He is a computer veteran, an englishman living in Finland. I look forward to see what we can achieve together in the years comming.</p>
 
 <h4>BinaryAge Limited incorporated</h4>
 
@@ -570,7 +570,7 @@ When OSX Mavericks was announced, Apple had done a great thing - they made it po
 
 <h4>San Francisco and Mountain Lion</h4>
 
-<p><img style="width:100px; float: left; margin-right: 10px; margin-bottom:20px " class="clear blog-image" src="http://static.binaryage.com/ef044da8_images_vvsf.jpg" title="SF!"></p>
+<p><img style="width:100px; float: left; margin-right: 10px; margin-bottom:20px " class="clear blog-image" src="https://static.binaryage.com/ef044da8_images_vvsf.jpg" title="SF!"></p>
 
 <p>One dream came true. San Francisco is a great place. <a href="">I spent</a> full three months there during spring and early summer. Stephen visited me there too.</p>
 
@@ -615,10 +615,10 @@ When OSX Mavericks was announced, Apple had done a great thing - they made it po
     <entry>
         <title><![CDATA[TotalSpaces finally reaches 1.0]]></title>
         
-        <link href="http://blog.binaryage.com//totalspaces-finally-reaches-1.0/"/>
+        <link href="https://blog.binaryage.com//totalspaces-finally-reaches-1.0/"/>
         <updated>2012-10-19T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalspaces-finally-reaches-1.0</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/71756a34_shared_img_icons_totalspaces-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/71756a34_shared_img_icons_totalspaces-128.png" class="intro-icon"/></p>
 
 <p><strong> <a href="http://totalspaces.binaryage.com">TotalSpaces</a> &mdash; the indispensable utility for managing and navigating your spaces in a grid </strong></p>
 
@@ -632,12 +632,12 @@ When OSX Mavericks was announced, Apple had done a great thing - they made it po
 
 <p>TotalSpaces was born at the end of August 2011 as Change Space App, something I wrote in my spare time to get back my well loved spaces grid. Change Space worked, but it had some deficiencies and I could see that it was going to require a significant change in the way the app worked in order to improve it. I was going to need to write a plugin for the OSX Dock app in order to do everything I wanted.</p>
 
-<p><img src="http://static.binaryage.com/80175ad5_images_totalspaces-overview-grid.png" style="width:200px;float:left; margin: 6px; padding:2px; border:1px #999 solid;" alt="ReSpaceApp overview grid" title="ReSpaceApp overview grid" />
+<p><img src="https://static.binaryage.com/80175ad5_images_totalspaces-overview-grid.png" style="width:200px;float:left; margin: 6px; padding:2px; border:1px #999 solid;" alt="ReSpaceApp overview grid" title="ReSpaceApp overview grid" />
 The first incarnation of this was called ReSpaceApp, which was initially released on 1st February 2012. Development proceeded well, and by April you could pull up an overview grid, with the ability to drag and drop windows between desktops.</p>
 
 <p>At the end of April I teamed up with Antonin, and ReSpaceApp took its place in the <a href="http://binaryage.com">BinaryAge portfolio</a> as TotalSpaces.</p>
 
-<p><img src="http://static.binaryage.com/496ed27e_images_totalspaces-new-overview-grid.png" style="width:200px;float:right; margin: 6px; padding:2px; border:1px #999 solid;" alt="TotalSpaces overview grid" title="TotalSpaces overview grid" />
+<p><img src="https://static.binaryage.com/496ed27e_images_totalspaces-new-overview-grid.png" style="width:200px;float:right; margin: 6px; padding:2px; border:1px #999 solid;" alt="TotalSpaces overview grid" title="TotalSpaces overview grid" />
 June brought a much improved full-screen overview grid, with an exposé type feature to enable you to get a good view of all your windows.</p>
 
 <p>During the summer and autumn we continued to improve and refine the app, whilst adding some of the most requested features.</p>
@@ -679,10 +679,10 @@ June brought a much improved full-screen overview grid, with an exposé type fea
     <entry>
         <title><![CDATA[TotalFinder runs with Mountain Lions]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-runs-with-mountain-lions/"/>
+        <link href="https://blog.binaryage.com//totalfinder-runs-with-mountain-lions/"/>
         <updated>2012-08-02T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-runs-with-mountain-lions</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong> Good news! <a href="http://totalfinder.binaryage.com/changes#1.4">TotalFinder 1.4</a> works fine under new OS X 10.8 - Mountain Lion.<br>And it got even better. </strong></p>
 
@@ -717,20 +717,20 @@ June brought a much improved full-screen overview grid, with an exposé type fea
     <entry>
         <title><![CDATA[TotalSpaces brings back grid Spaces to OS X Lion]]></title>
         
-        <link href="http://blog.binaryage.com//totalspaces-brings-back-grid-spaces/"/>
+        <link href="https://blog.binaryage.com//totalspaces-brings-back-grid-spaces/"/>
         <updated>2012-04-26T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalspaces-brings-back-grid-spaces</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/71756a34_shared_img_icons_totalspaces-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/71756a34_shared_img_icons_totalspaces-128.png" class="intro-icon"/></p>
 
 <p><strong> I'm excited to announce a new product from BinaryAge. TotalSpaces is a productivity tool for Mac. You guess right, it taps into the system and improves Spaces experience. </strong></p>
 
-<p><img class="clear blog-image" src="http://static.binaryage.com/80175ad5_images_totalspaces-overview-grid.png" title="Grid overview in TotalSpaces"></p>
+<p><img class="clear blog-image" src="https://static.binaryage.com/80175ad5_images_totalspaces-overview-grid.png" title="Grid overview in TotalSpaces"></p>
 
 <p><strong><a href="http://totalspaces.binaryage.com">TotalSpaces</a></strong> provides several handy features for heavy Spaces users. In a way it brings back the old grid-based Spaces behavior we loved in Snow Leopard. It offers custom transitions when switching Spaces. For example featuring the famous Cube transition. And of course you may customize hotkeys, hotcorners and the way circulation through the grid works. Sounds good? Look into <a href="http://totalspaces.binaryage.com/documentation">the documentation</a> to get more info on individual features in the current version.</p>
 
 <h4>Meet Stephen from Helsinki</h4>
 
-<p><img src="http://static.binaryage.com/c2f6f1a3_images_stephen.png" style="width:70px;float:left; margin-top: -2px; margin-right: 10px; padding:2px; border:1px #999 solid;"/> TotalSpaces has been developed by <strong><a href="https://twitter.com/sdsykes">Stephen Sykes</a></strong> - a Mac and iOS developer, hacker and radio electronics guru. He is a computer veteran, an englishman living in Finland. TotalSpaces is his idea to improve his daily desktop and window management tasks. He sure is really quick at switchin' Spaces!</p>
+<p><img src="https://static.binaryage.com/c2f6f1a3_images_stephen.png" style="width:70px;float:left; margin-top: -2px; margin-right: 10px; padding:2px; border:1px #999 solid;"/> TotalSpaces has been developed by <strong><a href="https://twitter.com/sdsykes">Stephen Sykes</a></strong> - a Mac and iOS developer, hacker and radio electronics guru. He is a computer veteran, an englishman living in Finland. TotalSpaces is his idea to improve his daily desktop and window management tasks. He sure is really quick at switchin' Spaces!</p>
 
 <h4>The story behind TotalSpaces</h4>
 
@@ -754,12 +754,12 @@ June brought a much improved full-screen overview grid, with an exposé type fea
     <entry>
         <title><![CDATA[Hello San Francisco!]]></title>
         
-        <link href="http://blog.binaryage.com//hello-san-francisco/"/>
+        <link href="https://blog.binaryage.com//hello-san-francisco/"/>
         <updated>2012-04-07T00:00:00+00:00</updated>
         <id>jduff.github.com:/hello-san-francisco</id>
         <content type="html"><![CDATA[<p><strong>I have just moved to San Francisco for few months. Oh boy, it has always been my dream to visit and truly experience the city. Now I'm living it! TotalFinder customers made it possible. Thank you guys!</strong></p>
 
-<p><img class="clear blog-image" src="http://static.binaryage.com/ef044da8_images_vvsf.jpg" title="SF!"></p>
+<p><img class="clear blog-image" src="https://static.binaryage.com/ef044da8_images_vvsf.jpg" title="SF!"></p>
 
 <h4>Looking for an inspiration</h4>
 
@@ -779,7 +779,7 @@ June brought a much improved full-screen overview grid, with an exposé type fea
 
 <p>I'm staying at Oak St with a nice view into Panhandle Park. I see people running in the park from my window all day. It would be a sin not to move my fat ass. This is my 13km route. I belive one of the most beautiful running routes in the city:</p>
 
-<p><img class="clear blog-image" src="http://static.binaryage.com/b5646194_images_runsf.png" title="The best running route in the city!"></p>
+<p><img class="clear blog-image" src="https://static.binaryage.com/b5646194_images_runsf.png" title="The best running route in the city!"></p>
 
 <p>Getting better pretty quickly. Hope I will get into good half-marathon shape by the end of my visit :-)</p>
 
@@ -801,10 +801,10 @@ June brought a much improved full-screen overview grid, with an exposé type fea
     <entry>
         <title><![CDATA[The third year of BinaryAge: Stabilization]]></title>
         
-        <link href="http://blog.binaryage.com//the-third-year-of-binaryage/"/>
+        <link href="https://blog.binaryage.com//the-third-year-of-binaryage/"/>
         <updated>2011-12-31T00:00:00+00:00</updated>
         <id>jduff.github.com:/the-third-year-of-binaryage</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
 
 <p><strong>It was a successful year. BinaryAge has become a serious business in 2011.<br>This is my traditional summary of the year for people who follow this story.<br>Last year I wrote about <a href="http://blog.binaryage.com/the-second-year-of-binaryage">the second year of BinaryAge</a>.</strong></p>
 
@@ -814,7 +814,7 @@ June brought a much improved full-screen overview grid, with an exposé type fea
 
 <p>I'm into analytics and I have been using <a href="http://rescuetime.com">RescueTime</a> to track my behavior. When looking back this gives us good insights how much time did I spend on what.</p>
 
-<p><img class="clear blog-image" src="http://static.binaryage.com/c94430db_images_my-time-in-2011.png" title="Where did my time go?"></p>
+<p><img class="clear blog-image" src="https://static.binaryage.com/c94430db_images_my-time-in-2011.png" title="Where did my time go?"></p>
 
 <p>This graph is plotted by week. Particulary interesting is the purple area, which is real development time.</p>
 
@@ -846,7 +846,7 @@ June brought a much improved full-screen overview grid, with an exposé type fea
 
 <p>Originally I thought I will spend few months in San Francisco by the end of the year. But instead I have joined my best friend and followed him to Russia. We had a lot of fun in Saint Petersburg together. It is a nice historic city with friendly girls and cool bars. Maybe we drank too much vodka there :-)</p>
 
-<p><img class="blog-image" src="http://static.binaryage.com/b05477d1_images_antonin-and-aurora.png" title="Me and Aurora :-)"></p>
+<p><img class="blog-image" src="https://static.binaryage.com/b05477d1_images_antonin-and-aurora.png" title="Me and Aurora :-)"></p>
 
 <h4>What's next in 2012?</h4>
 
@@ -870,10 +870,10 @@ June brought a much improved full-screen overview grid, with an exposé type fea
     <entry>
         <title><![CDATA[XRefresh superseded by LiveReload]]></title>
         
-        <link href="http://blog.binaryage.com//xrefresh-superseded-by-livereload/"/>
+        <link href="https://blog.binaryage.com//xrefresh-superseded-by-livereload/"/>
         <updated>2011-08-14T00:00:00+00:00</updated>
         <id>jduff.github.com:/xrefresh-superseded-by-livereload</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/08b556aa_shared_img_icons_xrefresh-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/08b556aa_shared_img_icons_xrefresh-128.png" class="intro-icon"/></p>
 
 <p><strong><a href="http://xrefresh.binaryage.com">XRefresh</a> is a productivity tool for web developers.<br>It will continuously refresh a web page in a browser due to a local source file editing.</strong></p>
 
@@ -906,7 +906,7 @@ June brought a much improved full-screen overview grid, with an exposé type fea
     <entry>
         <title><![CDATA[If you have too many files on your desktop...]]></title>
         
-        <link href="http://blog.binaryage.com//desktopshelves/"/>
+        <link href="https://blog.binaryage.com//desktopshelves/"/>
         <updated>2011-07-07T00:00:00+00:00</updated>
         <id>jduff.github.com:/desktopshelves</id>
         <content type="html"><![CDATA[<p><strong>This is a guest post from my friend Rico, another Indie Mac developer
@@ -929,7 +929,7 @@ shelf. In contrast to a shelf made out of metal and wood, a desktop shelf has a
 nice Cover Flow-like effect to zoom in to the file under the cursor to make it easy
 to find the file you are looking for.</p>
 
-<p><a href="http://kitestack.com/desktopshelves/" title="DesktopShelves - Organize your desktop" target="_blank"><img src="http://static.binaryage.com/5d17a1ce_images_desktopshelves.jpg" alt="DesktopShelves screenshot"/></a></p>
+<p><a href="http://kitestack.com/desktopshelves/" title="DesktopShelves - Organize your desktop" target="_blank"><img src="https://static.binaryage.com/5d17a1ce_images_desktopshelves.jpg" alt="DesktopShelves screenshot"/></a></p>
 
 <p>You can open any folder on your Mac as a shelf on the desktop. Let's say you
 are working on a project for a client. In Finder, you can just right-click the
@@ -965,10 +965,10 @@ Rico (Kitestack Software)</p>
     <entry>
         <title><![CDATA[Trade TotalFinder for bitcoins]]></title>
         
-        <link href="http://blog.binaryage.com//trade-totalfinder-bitcoin/"/>
+        <link href="https://blog.binaryage.com//trade-totalfinder-bitcoin/"/>
         <updated>2011-06-09T00:00:00+00:00</updated>
         <id>jduff.github.com:/trade-totalfinder-bitcoin</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong><a href="http://bitcoin.org">Bitcoin</a> is the <a href="http://arstechnica.com/tech-policy/news/2011/06/bitcoin-inside-the-encrypted-peer-to-peer-currency.ars">next big thing</a> and I want to support the emerging economy around this new currency. Today I start offering TotalFinder for bitcoins and let people earn some bitcoins by referring TotalFinder to friends.</strong></p>
 
@@ -1011,10 +1011,10 @@ or any other similar link to my site or FastSpring e-shop
     <entry>
         <title><![CDATA[TotalFinder upgrade for Lion will be at no extra charge]]></title>
         
-        <link href="http://blog.binaryage.com//free-totalfinder-lion-upgrade/"/>
+        <link href="https://blog.binaryage.com//free-totalfinder-lion-upgrade/"/>
         <updated>2011-05-30T00:00:00+00:00</updated>
         <id>jduff.github.com:/free-totalfinder-lion-upgrade</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong>Good news! I'm happy to announce that all existing users will get TotalFinder Lion upgrade for free. On the other hand I will increase TotalFinder price for new customers the same day Apple releases Lion. Please read the details below.</strong></p>
 
@@ -1090,10 +1090,10 @@ or any other similar link to my site or FastSpring e-shop
     <entry>
         <title><![CDATA[MacGems == MacHeist meets open-source charity]]></title>
         
-        <link href="http://blog.binaryage.com//macgems-macheist-charity/"/>
+        <link href="https://blog.binaryage.com//macgems-macheist-charity/"/>
         <updated>2011-04-01T00:00:00+00:00</updated>
         <id>jduff.github.com:/macgems-macheist-charity</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
 
 <p><strong>I was lucky. TotalFinder is a pretty hot deal. I'm getting quite some emails from promo sites and bundle creators with offers to include TotalFinder. Thank you, maybe later.</strong></p>
 
@@ -1101,7 +1101,7 @@ or any other similar link to my site or FastSpring e-shop
 
 <p>... I should launch yet another promo site called MacGems.org</p>
 
-<p><img class="clear blog-image" src="http://static.binaryage.com/1074eb75_images_macgems-mockup.png" title="Weekly deals on popular Mac software"></p>
+<p><img class="clear blog-image" src="https://static.binaryage.com/1074eb75_images_macgems-mockup.png" title="Weekly deals on popular Mac software"></p>
 
 <p>Ok, for customers the only warm difference is that all profits would go to open-source projects. But I believe this should resonate with the developers who should pay this all and be super-happy about it :-)</p>
 
@@ -1142,10 +1142,10 @@ or any other similar link to my site or FastSpring e-shop
     <entry>
         <title><![CDATA[IPO48 - a view from the trenches]]></title>
         
-        <link href="http://blog.binaryage.com//ipo48-from-trenches/"/>
+        <link href="https://blog.binaryage.com//ipo48-from-trenches/"/>
         <updated>2011-02-18T00:00:00+00:00</updated>
         <id>jduff.github.com:/ipo48-from-trenches</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
 
 <p><strong>I have been a bit silent recently because of my preparations for <a href="http://ipo48.org">IPO48</a>. IPO48 is a weekend event that's a cross between a startup bootcamp and a hackathon.</strong></p>
 
@@ -1158,7 +1158,7 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
 
 <p>The goal was to assemble a team and present a viable product to judges at the end of the day.</p>
 
-<p><img class="clear blog-image" src="http://static.binaryage.com/4ce4544c_images_presenting-sixthsense.jpg" title="Me pitching the SixthSense project"></p>
+<p><img class="clear blog-image" src="https://static.binaryage.com/4ce4544c_images_presenting-sixthsense.jpg" title="Me pitching the SixthSense project"></p>
 
 <p>I've had quite a bit of experience with similar events. Back in the day I was active on <a href="http://en.wikipedia.org/wiki/Demoscene">demoscene</a> which is famous for its "demoparties". The structure of the event is similar but instead of building products or services, the teams build demos (graphical visualizations) and present them on the big screen to the audience. Or as another example, two weeks ago I was at a hackathon called <a href="http://www.gamejamprague.org">GameJam Prague</a>. The goal was to build a computer <a href="http://www.gamejamprague.org/hry">game in 48 hours</a>.</p>
 
@@ -1192,7 +1192,7 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
 </ul>
 
 
-<p><img class="clear blog-image" src="http://static.binaryage.com/033fb105_images_sixthsense-early-prototype.png" title="Animated traffic flow on binaryage.com - you should experience a mental orgasm right now if you are a web analyst"></p>
+<p><img class="clear blog-image" src="https://static.binaryage.com/033fb105_images_sixthsense-early-prototype.png" title="Animated traffic flow on binaryage.com - you should experience a mental orgasm right now if you are a web analyst"></p>
 
 <h4>The project 21Days</h4>
 
@@ -1208,9 +1208,9 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
 </ul>
 
 
-<p><img class="clear blog-image" src="http://static.binaryage.com/3720f343_images_21days-landing-page.png" title="Set better habits and stick with them!"></p>
+<p><img class="clear blog-image" src="https://static.binaryage.com/3720f343_images_21days-landing-page.png" title="Set better habits and stick with them!"></p>
 
-<p>I did a prototype of the front-end and took it as an opportunity to try some new technologies (yes I broke my own rule of not trying to learn new technologies at competitions like this). I've learned <a href="http://documentcloud.github.com/backbone">backbone.js</a>, bits of <a href="http://documentcloud.github.com/underscore">underscore.js</a> and <a href="http://couchdb.apache.org">CouchDB</a>. Zdenek started working on an iPhone app and other <a href="http://twitter.com/#!/21dayshabit">@21dayshabit guys</a> were busy working on other parts of the project. We started the code from scratch. Yes, it is far from complete, but the good news is that they are going to continue on it. Btw, they are looking for a javascript guy to pickup on my part, <a href="mailto:tomas@21dayshabit.com">give them a hand</a> if you find this interesting.</p>
+<p>I did a prototype of the front-end and took it as an opportunity to try some new technologies (yes I broke my own rule of not trying to learn new technologies at competitions like this). I've learned <a href="http://backbonejs.org">backbone.js</a>, bits of <a href="http://documentcloud.github.com/underscore">underscore.js</a> and <a href="http://couchdb.apache.org">CouchDB</a>. Zdenek started working on an iPhone app and other <a href="http://twitter.com/#!/21dayshabit">@21dayshabit guys</a> were busy working on other parts of the project. We started the code from scratch. Yes, it is far from complete, but the good news is that they are going to continue on it. Btw, they are looking for a javascript guy to pickup on my part, <a href="mailto:tomas@21dayshabit.com">give them a hand</a> if you find this interesting.</p>
 
 <h4>No one starts a marathon with a sprint</h4>
 
@@ -1229,10 +1229,10 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
     <entry>
         <title><![CDATA[I've just set up myself 20% time]]></title>
         
-        <link href="http://blog.binaryage.com//20-percent-time/"/>
+        <link href="https://blog.binaryage.com//20-percent-time/"/>
         <updated>2011-02-01T00:00:00+00:00</updated>
         <id>jduff.github.com:/20-percent-time</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
 
 <p><strong>This is a bit of a schizophrenic situation, but I just agreed with myself to spend 20% time on projects which are not related to TotalFinder. Yes, inspired by <a href="http://lifehacker.com/5497057/set-up-your-own-google+style-20+percent-time-to-try-new-projects">Google's idea</a>.</strong></p>
 
@@ -1265,7 +1265,7 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
 
 
 <p><a href="http://pw2.hildebrand.cz"><img src="http://pw2.hildebrand.cz/shots100/shot12.gif" width="260"></a>
-<a href="http://www.codeproject.com/KB/silverlight/sstunts.aspx"><img src="http://static.binaryage.com/9d3320d2_images_silverstunts-editor.png" width="324"></a></p>
+<a href="http://www.codeproject.com/KB/silverlight/sstunts.aspx"><img src="https://static.binaryage.com/9d3320d2_images_silverstunts-editor.png" width="324"></a></p>
 
 <h4>Interested in javascript games?</h4>
 
@@ -1282,10 +1282,10 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
     <entry>
         <title><![CDATA[The second year of BinaryAge: Independence]]></title>
         
-        <link href="http://blog.binaryage.com//the-second-year-of-binaryage/"/>
+        <link href="https://blog.binaryage.com//the-second-year-of-binaryage/"/>
         <updated>2010-12-31T00:00:00+00:00</updated>
         <id>jduff.github.com:/the-second-year-of-binaryage</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
 
 <p><strong>It was a wonderfully busy year. Today I had a few moments to sit down and look back.<br>Prior to reading you may want to read about <a href="http://blog.binaryage.com/the-first-year-of-binaryage">the first year of BinaryAge</a>.</strong></p>
 
@@ -1293,13 +1293,13 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
 
 <p>I found out that really <strong>the tabs</strong> is what people want. And later I realized they are also willing to pay for it. This is my site's traffic after publishing the article <a href="http://blog.binaryage.com/totalfinder-with-tabs">TotalFinder with Tabs</a> on Jan 11:</p>
 
-<p><img class="clear blog-image" src="http://static.binaryage.com/5ec8b086_images_tabs-announcement-traffic.png" title="The traffic generated by tabs announcement on Jan 11"></p>
+<p><img class="clear blog-image" src="https://static.binaryage.com/5ec8b086_images_tabs-announcement-traffic.png" title="The traffic generated by tabs announcement on Jan 11"></p>
 
 <h4>Transpond acquired by Webtrends</h4>
 
 <p>Maybe you remember I was working on TotalFinder on the side. My day-job was a web-development for Transpond. We were building "The Wizard" product which allows non-programmers to create applications from pre-defined templates and publish them on Facebook, microsites or mobile devices.</p>
 
-<p><a href="http://transpond.com"><img class="clear blog-image-clear" src="http://static.binaryage.com/ab7ba862_images_webtrends-apps-banner.png" title="Transpond's DYI builder for Facebook Apps acquired by Webtrends"></a></p>
+<p><a href="http://transpond.com"><img class="clear blog-image-clear" src="https://static.binaryage.com/ab7ba862_images_webtrends-apps-banner.png" title="Transpond's DYI builder for Facebook Apps acquired by Webtrends"></a></p>
 
 <p>Transpond was a VC-backed startup based in San Francisco. Luckily enough we <a href="http://www.readwriteweb.com/archives/facebook_app_developer_shortage_webtrends_apps.php">were acquired</a> by great folks at <a href="http://webtrends.com">Webtrends</a> in August 2010. It was a nice validation of the concept of a web-based app builder, but for me it was the right time to leave and start working in <a href="http://www.binaryage.com">BinaryAge</a> fulltime.</p>
 
@@ -1307,7 +1307,7 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
 
 <p>During September I prepared version 1.0 and <a href="http://blog.binaryage.com/totalfinder-birthday-launch">launched it</a> on September 27th. It was a huge success. I wish every product to have such a great revenue curve during the launch. See the shape:</p>
 
-<p><img class="clear blog-image" src="http://static.binaryage.com/908e6f8d_images_perfect-launch.png" title="This is what the revenue curve should look like!"></p>
+<p><img class="clear blog-image" src="https://static.binaryage.com/908e6f8d_images_perfect-launch.png" title="This is what the revenue curve should look like!"></p>
 
 <p>I couldn't have wished for a better launch. People love the product and most prior beta users purchased a license on day #1 or shortly after.</p>
 
@@ -1361,10 +1361,10 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
     <entry>
         <title><![CDATA[TotalFinder 1.1 with Cut&Paste]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-with-cut-and-paste/"/>
+        <link href="https://blog.binaryage.com//totalfinder-with-cut-and-paste/"/>
         <updated>2010-12-06T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-with-cut-and-paste</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/45870e81_shared_img_totalfinder-icon.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/45870e81_shared_img_totalfinder-icon.png" class="intro-icon"/></p>
 
 <p><strong> Today, I'm happy to announce a new major release of TotalFinder. The new version <a href="http://totalfinder.binaryage.com/changes">includes Cut&amp;Paste and many small improvements and fixes</a>. You may grab TotalFinder 1.1 today <a href="http://mupromo.com/TotalFinder">for just $9 via MacUpdate Promo</a>. </strong></p>
 
@@ -1401,10 +1401,10 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
     <entry>
         <title><![CDATA[TotalFinder discount for friends]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-discount-coupon-with-friends/"/>
+        <link href="https://blog.binaryage.com//totalfinder-discount-coupon-with-friends/"/>
         <updated>2010-10-06T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-discount-coupon-with-friends</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/45870e81_shared_img_totalfinder-icon.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/45870e81_shared_img_totalfinder-icon.png" class="intro-icon"/></p>
 
 <p><strong> I have been giving <a href="http://totalfinder.binaryage.com/free-licenses">free licenses</a> to people who contributed their time to TotalFinder.<br>As a side effect I've also had tons of emails from students <a href="http://getsatisfaction.com/binaryage/topics/student_discount-457pf">asking for a free license or discount</a>. Their reason is mostly "because I'm poor" or something similar. </strong></p>
 
@@ -1416,13 +1416,13 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
 
 <p>You can help me sell more TotalFinder licenses and earn a $5 discount for yourself and 2 other friends.<br>You have some friends, right? Doing something for your friends for free is always a good idea.</p>
 
-<p><img src="http://static.binaryage.com/d46fe6ee_images_totalfinder-discount-for-friends.gif" style="border:1px solid #888;"></p>
+<p><img src="https://static.binaryage.com/d46fe6ee_images_totalfinder-discount-for-friends.gif" style="border:1px solid #888;"></p>
 
 <p>You may want to <a href="http://totalfinder.binaryage.com/licenses-for-friends">visit this page</a> which will help you send a message to your friends.</p>
 
 <h4>How does it work?</h4>
 
-<p><img src="http://static.binaryage.com/052e21b5_images_totalfinder-buy-30.png"></p>
+<p><img src="https://static.binaryage.com/052e21b5_images_totalfinder-buy-30.png"></p>
 
 <p>You buy <a href="https://sites.fastspring.com/binaryage/instant/totalfinder-friends">TotalFinder Friends</a> for $30 and I will send you a classic license plus two coupons as URLs. You can then send the coupon links to your friends. Either as a gift or they can give you $10 back.</p>
 
@@ -1445,10 +1445,10 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
     <entry>
         <title><![CDATA[TotalFinder in Enterprise!]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-enterprise-office-licensing/"/>
+        <link href="https://blog.binaryage.com//totalfinder-enterprise-office-licensing/"/>
         <updated>2010-09-30T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-enterprise-office-licensing</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/6c5c59f9_shared_img_totalfinder-icon-lock.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/6c5c59f9_shared_img_totalfinder-icon-lock.png" class="intro-icon"/></p>
 
 <div class="blog-update">UPDATE: Two months after I started selling TotalFinder I've decided to remove this option. This experiment had zero traction. I would rather simplify licensing and instead focus more on making the product awesome. If you have any special licensing needs, please contact me at <a href="mailto:antonin@binaryage.com">antonin@binaryage.com</a>. Thanks!</div>
 
@@ -1479,10 +1479,10 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
     <entry>
         <title><![CDATA[The Crash Reports Lottery - grab your free licenses]]></title>
         
-        <link href="http://blog.binaryage.com//winners-crash-reports-lottery/"/>
+        <link href="https://blog.binaryage.com//winners-crash-reports-lottery/"/>
         <updated>2010-09-27T00:00:00+00:00</updated>
         <id>jduff.github.com:/winners-crash-reports-lottery</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong> <a href="/totalfinder-birthday-launch">I promised some fun here</a> and here is the announcement of the lottery winners.<br>I have here almost $1000 worth of licenses for lucky crash reporters. </strong></p>
 
@@ -1498,7 +1498,7 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
 
 <p><a href="http://twitter.com/blubalu/status/25711610348">@blubalu</a> was the fastest random notary in <a href="http://twitter.com/binaryage">@binaryage</a>. Note that he uses TweetDeck :-)</p>
 
-<p><a href="http://twitter.com/blubalu/status/25711610348"><img src="http://static.binaryage.com/a07e1231_images_randseed-lottery-1.png"/></a></p>
+<p><a href="http://twitter.com/blubalu/status/25711610348"><img src="https://static.binaryage.com/a07e1231_images_randseed-lottery-1.png"/></a></p>
 
 <h4>And the winners are...</h4>
 
@@ -1582,15 +1582,15 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
     <entry>
         <title><![CDATA[Happy birthday, TotalFinder!]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-birthday-launch/"/>
+        <link href="https://blog.binaryage.com//totalfinder-birthday-launch/"/>
         <updated>2010-09-27T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-birthday-launch</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong> Today is one year since I <a href="http://blog.binaryage.org/totalfinder-launch-date">started hacking on TotalFinder</a>. And today is the first day you can buy a license if you want to support the next years of development. </strong></p>
 
 <div class="blog-download">
-  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-1.0.dmg"><img src="http://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-1.0.dmg</div></a>
+  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-1.0.dmg"><img src="https://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-1.0.dmg</div></a>
   <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changes">http://totalfinder.binaryage.com/changes</a></div>
 </div>
 
@@ -1627,10 +1627,10 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
     <entry>
         <title><![CDATA[TotalFinder will launch commercially on Sep 27]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-launch-date/"/>
+        <link href="https://blog.binaryage.com//totalfinder-launch-date/"/>
         <updated>2010-09-01T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-launch-date</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong> I'm in <a href="/totalfinder-has-fulltime-developer">better control of my time</a> now, so I can set the launch date to Sep 27, 2010.<br>I have almost a whole month to polish the product, write docs and open the store. </strong></p>
 
@@ -1638,7 +1638,7 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
 
 <p>Please don't miss the event. TotalFinder will turn one year since the very first commit.</p>
 
-<p><img class="clear blog-image no-shadow" src="http://static.binaryage.com/d7203711_images_totalfinder-first-commit.png" title="Holy cow! It worked!"></p>
+<p><img class="clear blog-image no-shadow" src="https://static.binaryage.com/d7203711_images_totalfinder-first-commit.png" title="Holy cow! It worked!"></p>
 
 <p>It is quite interesting to look back at how it started. In the mid of September 2009 I was tinkering with <a href="http://visor.binaryage.com">Terminal.app's Visor</a> code and ported it to Snow Leopard. And then when I was playing with the awesome <a href="http://www.fscript.org">F-Script</a> and inspecting random apps I discovered by accident that Finder.app is in fact a Cocoa app. This was new in Snow Leopard so I ran a <a href="http://www.codethecode.com/projects/class-dump">class dump</a> on it and ... Holy cow! This might be something really interesting I've just discovered here!</p>
 
@@ -1669,15 +1669,15 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
     <entry>
         <title><![CDATA[Aargh, broken auto-updater]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-broken-updater/"/>
+        <link href="https://blog.binaryage.com//totalfinder-broken-updater/"/>
         <updated>2010-08-31T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-broken-updater</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong> New TotalFinder 0.9.9 is out. Nothing exciting here.<br>Just embarrassment that I managed to break auto-updater. </strong></p>
 
 <div class="blog-download">
-  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.9.9.dmg"><img src="http://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.9.9.dmg</div></a>
+  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.9.9.dmg"><img src="https://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.9.9.dmg</div></a>
   <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changes">http://totalfinder.binaryage.com/changes</a></div>
 </div>
 
@@ -1686,13 +1686,13 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
 
 <p>I didn't notice it, but I broke the Sparkle updater in previous releases.<br>The <code>relaunch</code> script is missing in 0.9.7 and 0.9.8.</p>
 
-<p><img class="clear blog-image no-shadow" style="width:300px" src="http://static.binaryage.com/fb4ec424_images_dont-click-that-button.png" title="Don't click that button!"></p>
+<p><img class="clear blog-image no-shadow" style="width:300px" src="https://static.binaryage.com/fb4ec424_images_dont-click-that-button.png" title="Don't click that button!"></p>
 
 <p>Instead of clicking 'Install Update', please directly download <a href="http://downloads.binaryage.com/TotalFinder-0.9.9.dmg"><strong>TotalFinder 0.9.9</strong></a> and install it manually from the DMG archive.</p>
 
 <p>To prevent something like this in the future I have created small script which is able to extract DMG plus all pkg files inside and tell me the difference between releases. This enables me to do a final check of what is going to be included in the new releases. The build process is too complicated to trust (XCode4 is alpha).</p>
 
-<p><img class="clear blog-image no-shadow" src="http://static.binaryage.com/ec82e935_images_totalfinder-dmg-diff.png" title="Diffing DMG between releases (the diff app is p4merge for Mac)"></p>
+<p><img class="clear blog-image no-shadow" src="https://static.binaryage.com/ec82e935_images_totalfinder-dmg-diff.png" title="Diffing DMG between releases (the diff app is p4merge for Mac)"></p>
 
 <p>This way I can spot unwanted file inclusions/exclusions or unexpected file size changes in future releases.</p>
 
@@ -1706,7 +1706,7 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
 </ul>
 
 
-<p><img class="clear blog-image no-shadow" style="width: 300px" src="http://static.binaryage.com/eb7e7316_images_pick-beta-channel.png" title="You may switch between stable and beta channel"></p>
+<p><img class="clear blog-image no-shadow" style="width: 300px" src="https://static.binaryage.com/eb7e7316_images_pick-beta-channel.png" title="You may switch between stable and beta channel"></p>
 
 <p>I expect you, readers of this blog, to switch to the BETA channel and stay on the cutting-edge TotalFinder version to help me catch any possible problems before launching to a wider audience. Also this enables me to be much more agile in releasing new versions. Thanks!</p>
 
@@ -1723,10 +1723,10 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
     <entry>
         <title><![CDATA[TotalFinder just got a full-time developer]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-has-fulltime-developer/"/>
+        <link href="https://blog.binaryage.com//totalfinder-has-fulltime-developer/"/>
         <updated>2010-08-28T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-has-fulltime-developer</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong> I have been overwhelmed by the positive reactions and growing user count.<br/>So I decided to quit my job and start working on TotalFinder full time. </strong></p>
 
@@ -1766,15 +1766,15 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
     <entry>
         <title><![CDATA[TotalFinder summer update]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-summer-update/"/>
+        <link href="https://blog.binaryage.com//totalfinder-summer-update/"/>
         <updated>2010-08-17T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-summer-update</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong> Hey, TotalFinder 0.9.8 is out. Unfortunately nothing much new. Just fighting fires. </strong></p>
 
 <div class="blog-download">
-  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.9.8.dmg"><img src="http://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.9.8.dmg</div></a>
+  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.9.8.dmg"><img src="https://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.9.8.dmg</div></a>
   <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
@@ -1791,19 +1791,19 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
 
 <p>I've updated the tabs-rendering code from latest Chromium sources. Kudos to Google's guys.</p>
 
-<p><img class="clear blog-image" src="http://static.binaryage.com/0f01a999_images_new-chrome-tabs.png" title="Updated tabs rendering to match latest Chrome"></p>
+<p><img class="clear blog-image" src="https://static.binaryage.com/0f01a999_images_new-chrome-tabs.png" title="Updated tabs rendering to match latest Chrome"></p>
 
 <h4>TotalFinder still runs after expiration</h4>
 
 <p>I've added small a reminder that this software will become paid software soon. I'm pretty sure you know this already. But over the internets I saw some discussions of people who don't read or who expect to stick with an alpha forever. So I wanted to make it clear this way. You can dismiss that small gray sticker in the top-right corner by clicking on it. I quite like this solution. This may be my future way how to communicate important things to all TotalFinder users.</p>
 
-<p><img class="clear blog-image" src="http://static.binaryage.com/c8373c21_images_totalfinder-alpha-reminder.png" title="Alpha Reminder"></p>
+<p><img class="clear blog-image" src="https://static.binaryage.com/c8373c21_images_totalfinder-alpha-reminder.png" title="Alpha Reminder"></p>
 
 <p>That crashing lesson was a terrible experience and I want to prevent something like it in the future. I decided to run the same code path after expiration. This way I don't need to test the expiration state intensively prior to every release.</p>
 
 <p>To force people to upgrade I've added a little annoyance. Every 10 tab switches a dialog pops up which reminds you that you should update to the latest version.</p>
 
-<p><img class="clear blog-image" src="http://static.binaryage.com/60b4b014_images_totalfinder-expired.png" title="Expired version has annoying limitation"></p>
+<p><img class="clear blog-image" src="https://static.binaryage.com/60b4b014_images_totalfinder-expired.png" title="Expired version has annoying limitation"></p>
 
 <h4>Spent some time on mastering XCode4</h4>
 
@@ -1818,10 +1818,10 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
     <entry>
         <title><![CDATA[Localized TotalFinder keeps crashing after expiration]]></title>
         
-        <link href="http://blog.binaryage.com//localized-totalfinder-keeps-crashing/"/>
+        <link href="https://blog.binaryage.com//localized-totalfinder-keeps-crashing/"/>
         <updated>2010-07-28T00:00:00+00:00</updated>
         <id>jduff.github.com:/localized-totalfinder-keeps-crashing</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong>My mom always told me: "write automated tests, my boy"<br>But you know... I had always better things to do.</strong></p>
 
@@ -1834,7 +1834,7 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
 <h4>The rescue: Please upgrade to TotalFinder 0.9.9 manually</h4>
 
 <div class="blog-download">
-  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.9.9.dmg"><img src="http://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.9.9.dmg</div></a>
+  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.9.9.dmg"><img src="https://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.9.9.dmg</div></a>
   <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
@@ -1850,22 +1850,22 @@ First let me thank <a href="http://ipo48.org/Team">the organizers</a> for IPO48.
     <entry>
         <title><![CDATA[Toolbar Pill Button strikes back]]></title>
         
-        <link href="http://blog.binaryage.com//toolbar-pill-button-strikes-back/"/>
+        <link href="https://blog.binaryage.com//toolbar-pill-button-strikes-back/"/>
         <updated>2010-07-26T00:00:00+00:00</updated>
         <id>jduff.github.com:/toolbar-pill-button-strikes-back</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong>It's finally here, TotalFinder 0.9.6 adds the toolbar pill button and also got bunch of fresh new localizations.</strong></p>
 
 <div class="blog-download">
-  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.9.6.dmg"><img src="http://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.9.6.dmg</div></a>
+  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.9.6.dmg"><img src="https://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.9.6.dmg</div></a>
   <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
 
 <h4>Toolbar Pill Button</h4>
 
-<p><img class="clear blog-image" style="width:300px" src="http://static.binaryage.com/8118a602_images_totalfinder-toolbar-pill-button.png" title="Toolbar Pill Button"></p>
+<p><img class="clear blog-image" style="width:300px" src="https://static.binaryage.com/8118a602_images_totalfinder-toolbar-pill-button.png" title="Toolbar Pill Button"></p>
 
 <p>Toolbar Pill Button was one of the top <a href="http://getsatisfaction.com/binaryage/topics/toolbar_pill_button_missing">requested features</a>. It wasn't as easy to implement as it looks, but I've finally cracked it. I had to disable the original animations, because they looked really jerky. I've also improved how Finder's sidebar and toolbar are managed under TotalFinder's reign.</p>
 
@@ -1895,15 +1895,15 @@ And I've found a real gem. A podcast for people like me who are trying to launch
     <entry>
         <title><![CDATA[TotalFinder opened for localization]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-localization/"/>
+        <link href="https://blog.binaryage.com//totalfinder-localization/"/>
         <updated>2010-06-30T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-localization</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong>TotalFinder 0.9.5 is here. This release added localization support and a few fixes.</strong></p>
 
 <div class="blog-download">
-  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.9.5.dmg"><img src="http://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.9.5.dmg</div></a>
+  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.9.5.dmg"><img src="https://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.9.5.dmg</div></a>
   <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
@@ -1917,7 +1917,7 @@ And I've found a real gem. A podcast for people like me who are trying to launch
 <p>Ehmm, all right, I'm a big believer in the <a href="http://github.com/binaryage">GitHub</a> concept. The transparency it offers when looking at versioning and collaboration is breath-taking. I didn't even announce localization support here on the blog and some folks already 'got it' and <a href="http://github.com/binaryage/totalfinder-i18n/network/members">have forked my repo</a>. I understand that not everyone is familiar with git and other tools I'm forcing you into, but if you are a techie I guarantee you <a href="http://progit.org">learning git</a> and GitHub is damn well invested time. Take it as a good opportunity to learn something new. Now you have a reason and my full support.</p>
 
 <p>For your information, this is my experience when collecting localizations, easy as pie! :-)
-<img class="clear blog-image" src="http://static.binaryage.com/2b0a2c69_images_github-totalfinder-localization-fork-queue.png" title="GitHub fork queue"></p>
+<img class="clear blog-image" src="https://static.binaryage.com/2b0a2c69_images_github-totalfinder-localization-fork-queue.png" title="GitHub fork queue"></p>
 
 <p>Please look at this repo and read the instructions:
 <a href="http://github.com/binaryage/totalfinder-i18n">http://github.com/binaryage/totalfinder-i18n</a></p>
@@ -1939,7 +1939,7 @@ several <a href="http://github.com/binaryage/totalfinder-i18n/blob/master/plugin
 
 <p>Other news is that Google is (probably!) planning <a href="http://blog.chromium.org/2010/06/fresh-coat-of-chrome.html">a slightly different tab look</a> in an upcoming version. It looks gorgeous in my opinion. TotalFinder will definitely keep up and I want to know every pixel by name.</p>
 
-<p><img class="clear blog-image" src="http://static.binaryage.com/41c43a7f_images_new-chrome-tabs-mockup.png" title="Upcoming Chrome tabs?"></p>
+<p><img class="clear blog-image" src="https://static.binaryage.com/41c43a7f_images_new-chrome-tabs-mockup.png" title="Upcoming Chrome tabs?"></p>
 
 <p>Also one of the most requested features is <a href="http://getsatisfaction.com/binaryage/topics/allow_safari_style_tabs_or_unique_a_style_chrome_tabs_me_not_like">Safari-style tabs</a>. I hear you! I will put these newly acquired skills towards this ultimate goal (sometime after the 1.0 release).</p>
 ]]></content>
@@ -1952,15 +1952,15 @@ several <a href="http://github.com/binaryage/totalfinder-i18n/blob/master/plugin
     <entry>
         <title><![CDATA[TotalFinder with customizable shortcuts]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-with-customizable-shortcuts/"/>
+        <link href="https://blog.binaryage.com//totalfinder-with-customizable-shortcuts/"/>
         <updated>2010-06-08T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-with-customizable-shortcuts</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong>TotalFinder 0.9.3 is out with a few more features. This release has customizable shortcuts.</strong></p>
 
 <div class="blog-download">
-  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.9.3.dmg"><img src="http://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.9.3.dmg</div></a>
+  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.9.3.dmg"><img src="https://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.9.3.dmg</div></a>
   <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
@@ -1969,7 +1969,7 @@ several <a href="http://github.com/binaryage/totalfinder-i18n/blob/master/plugin
 
 <p>People with AZERTY keyboards had problem with my choice of keyboard shortcuts in 0.9.1. I decided to solve the problem once for all. You can now define your own shortcuts in case the default one conflicts with your custom keyboard layout.</p>
 
-<p><img class="clear blog-image no-shadow" style="width:300px" src="http://static.binaryage.com/c61fcd2e_images_totalfinder-customizable-keyboard-shortcuts.png" title="TotalFinder provides distinct features which may be enabled at once"></p>
+<p><img class="clear blog-image no-shadow" style="width:300px" src="https://static.binaryage.com/c61fcd2e_images_totalfinder-customizable-keyboard-shortcuts.png" title="TotalFinder provides distinct features which may be enabled at once"></p>
 
 <h4>Fixed installer and Asepsis initialization bugs</h4>
 
@@ -1996,15 +1996,15 @@ several <a href="http://github.com/binaryage/totalfinder-i18n/blob/master/plugin
     <entry>
         <title><![CDATA[TotalFinder almost gold]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-almost-gold/"/>
+        <link href="https://blog.binaryage.com//totalfinder-almost-gold/"/>
         <updated>2010-05-17T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-almost-gold</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong>TotalFinder 0.9.1 is out with many improvements and some stability fixes.<br/>Maybe I should start calling it a beta?! What do you think? :-)</strong></p>
 
 <div class="blog-download">
-  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.9.1.dmg"><img src="http://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.9.1.dmg</div></a>
+  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.9.1.dmg"><img src="https://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.9.1.dmg</div></a>
   <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
@@ -2018,7 +2018,7 @@ Don't worry, I'm also evaluating your ideas from <a href="http://getsatisfaction
 
 <p>For example some people are not that interested in .DS_Store redirection, while for others it is an essential feature. By the way, I renamed this feature "Asepsis" which is kind of a cool name for real system surgeons ;-)</p>
 
-<p><img class="clear blog-image no-shadow" style="width:300px" src="http://static.binaryage.com/8646b855_images_new-preferences-panel.png" title="TotalFinder provides distinct features which may be enabled at once"></p>
+<p><img class="clear blog-image no-shadow" style="width:300px" src="https://static.binaryage.com/8646b855_images_new-preferences-panel.png" title="TotalFinder provides distinct features which may be enabled at once"></p>
 
 <p>This is the new look of TotalFinder preferences. New mini tab buttons give more room for new feature panels in the future :-)</p>
 
@@ -2041,7 +2041,7 @@ Don't worry, I'm also evaluating your ideas from <a href="http://getsatisfaction
 
 <p>I've replaced the Visor close button with pin button. The Visor window may be also pinned by pressing the keyboard shortcut <code>CMD+SHIFT+P</code>. You can also drag the tabs bar to resize Visor vertically. Sweet!</p>
 
-<p><img class="clear blog-image" style="width:300px" src="http://static.binaryage.com/0ab0bfed_images_totalfinder-pinned-visor-window.png" title="The Visor window may be also pinned by pressing the keyboard shortcut `CMD+SHIFT+P`"></p>
+<p><img class="clear blog-image" style="width:300px" src="https://static.binaryage.com/0ab0bfed_images_totalfinder-pinned-visor-window.png" title="The Visor window may be also pinned by pressing the keyboard shortcut `CMD+SHIFT+P`"></p>
 
 <p>I've also improved the free-form mode of the Visor window and implemented seamless switching between these modes.</p>
 
@@ -2049,7 +2049,7 @@ Don't worry, I'm also evaluating your ideas from <a href="http://getsatisfaction
 
 <p>This is just the cherry on the top. It was easy enough so I decided to make some folks with small screens happy. You have a keyboard shortcut for this too: <code>CMD+SHIFT+B</code>.</p>
 
-<p><img class="clear blog-image" src="http://static.binaryage.com/e48d7994_images_totalfinder-narrow-tabs-bar.png" title="Narrow Tabs Bar"></p>
+<p><img class="clear blog-image" src="https://static.binaryage.com/e48d7994_images_totalfinder-narrow-tabs-bar.png" title="Narrow Tabs Bar"></p>
 
 <h4>Display hidden files without restarting Finder!</h4>
 
@@ -2059,7 +2059,7 @@ Don't worry, I'm also evaluating your ideas from <a href="http://getsatisfaction
 
 <p>As of the 0.9.1 release, this feature works for Finder 10.6.3 and 10.6.4. Apple is probably going to release Finder 10.6.5 soon, so I will release a TotalFinder update for it shortly. If you encounter the future compatibility warning you will lose this functionality for a while (a Finder restart will always work, of course).</p>
 
-<p><img class="clear blog-image no-shadow" style="width:300px" src="http://static.binaryage.com/d332e4a4_images_totalfinder-future-compatibility-check.png" title="TotalFinder warns you when running with unknown Finder version (from the future)"></p>
+<p><img class="clear blog-image no-shadow" style="width:300px" src="https://static.binaryage.com/d332e4a4_images_totalfinder-future-compatibility-check.png" title="TotalFinder warns you when running with unknown Finder version (from the future)"></p>
 
 <p>Note: Finder's minor version number is advanced by +1 compared to the OS X system update numbering.</p>
 
@@ -2088,15 +2088,15 @@ Don't worry, I'm also evaluating your ideas from <a href="http://getsatisfaction
     <entry>
         <title><![CDATA[TotalFinder now works without SIMBL]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-without-simbl/"/>
+        <link href="https://blog.binaryage.com//totalfinder-without-simbl/"/>
         <updated>2010-04-26T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-without-simbl</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong>TotalFinder 0.8.3 does not rely on SIMBL anymore. It plugs into Finder.app on its own.</strong></p>
 
 <div class="blog-download">
-  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.8.3.dmg"><img src="http://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.8.3.dmg</div></a>
+  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.8.3.dmg"><img src="https://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.8.3.dmg</div></a>
   <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
@@ -2109,7 +2109,7 @@ Don't worry, I'm also evaluating your ideas from <a href="http://getsatisfaction
 
 <p>There are also some technical questions. Is it really worth it to replace SIMBL with my own homebrew solution?</p>
 
-<p><img class="clear blog-image" style="width:300px" src="http://static.binaryage.com/f46a245e_images_simbl-replacement-questioning.png" title="Good question, Shane. It is worth it to make my own SIMBL?"></p>
+<p><img class="clear blog-image" style="width:300px" src="https://static.binaryage.com/f46a245e_images_simbl-replacement-questioning.png" title="Good question, Shane. It is worth it to make my own SIMBL?"></p>
 
 <p>Good question, Shane. Here are my reasons:</p>
 
@@ -2123,7 +2123,7 @@ Don't worry, I'm also evaluating your ideas from <a href="http://getsatisfaction
 
 <p>So I decided to roll my own solution. It does not need Agent and it is Snow Leopard only, so it turned out to be really easy (the <a href="http://github.com/binaryage/totalfinder-osax/blob/master/TotalFinderInjector.m">plugin injector</a> has less than 100LOC). I was able to implement a future Finder version check like this:</p>
 
-<p><img class="clear blog-image no-shadow" style="width:300px" src="http://static.binaryage.com/d332e4a4_images_totalfinder-future-compatibility-check.png" title="TotalFinder warns you when running with an unknown Finder version (from the future)"></p>
+<p><img class="clear blog-image no-shadow" style="width:300px" src="https://static.binaryage.com/d332e4a4_images_totalfinder-future-compatibility-check.png" title="TotalFinder warns you when running with an unknown Finder version (from the future)"></p>
 
 <p>Ok, to wrap it up. TotalFinder.bundle is still a SIMBL plugin and you can run it with SIMBL if you want to play with <code>Info.plist</code>. But I'm using my own OSAX to do the Finder injection by default. Don't worry, I will open-source my solution in a few days <a href="http://github.com/binaryage/totalfinder-osax">on GitHub</a>. Of course I will be glad to get some feedback/code reviews on this.</p>
 
@@ -2158,15 +2158,15 @@ Don't worry, I'm also evaluating your ideas from <a href="http://getsatisfaction
     <entry>
         <title><![CDATA[TotalFinder plays nice with TimeMachine]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-timemachine/"/>
+        <link href="https://blog.binaryage.com//totalfinder-timemachine/"/>
         <updated>2010-04-04T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-timemachine</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong>TotalFinder 0.8.2 is another stability release. Just fixing bloody bugs.<br/>We need to get solid base for new exciting features, agreed?</strong></p>
 
 <div class="blog-download">
-  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.8.2.dmg"><img src="http://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.8.2.dmg</div></a>
+  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.8.2.dmg"><img src="https://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.8.2.dmg</div></a>
   <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
@@ -2200,14 +2200,14 @@ Don't worry, I'm also evaluating your ideas from <a href="http://getsatisfaction
     <entry>
         <title><![CDATA[TotalFinder 1.0 - a sneak peek]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-sneak-peek/"/>
+        <link href="https://blog.binaryage.com//totalfinder-sneak-peek/"/>
         <updated>2010-04-01T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-sneak-peek</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong>I'm working hard on the TotalFinder 1.0 release. Today I want to show you an exclusive screenshot from the upcoming version.</strong></p>
 
-<p><img class="clear blog-image no-shadow" src="http://static.binaryage.com/06f559f6_images_totalfinder-sneak-peek-10.png" title="BinaryAge is dedicated to bringing the Windows experience to the Mac."></p>
+<p><img class="clear blog-image no-shadow" src="https://static.binaryage.com/06f559f6_images_totalfinder-sneak-peek-10.png" title="BinaryAge is dedicated to bringing the Windows experience to the Mac."></p>
 
 <h4>Pricing</h4>
 
@@ -2235,24 +2235,24 @@ Don't worry, I'm also evaluating your ideas from <a href="http://getsatisfaction
     <entry>
         <title><![CDATA[TotalFinder has a new icon!]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-new-icon/"/>
+        <link href="https://blog.binaryage.com//totalfinder-new-icon/"/>
         <updated>2010-03-29T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-new-icon</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong>Real quick today. I want to show you a new icon for TotalFinder. I want to roll it into the next release.</strong></p>
 
-<p><img class="clear blog-image no-shadow" src="http://static.binaryage.com/b4738527_images_dock-with-totalfinder-icon.png" title="The Dock with the new TotalFinder icon."></p>
+<p><img class="clear blog-image no-shadow" src="https://static.binaryage.com/b4738527_images_dock-with-totalfinder-icon.png" title="The Dock with the new TotalFinder icon."></p>
 
 <p>TotalFinder is slowly growing from a hacker-style geek guy into a very nice and friendly Mac citizen. I think it's the time to take off the shades! I believe the new icon reflects this perfectly. Again credit goes to <a href="http://raist.cz">Raist</a> who created it. Thanks!</p>
 
 <h4>How do you like it?</h4>
 
-<p><img class="clear blog-image no-shadow" style="width:300px" src="http://static.binaryage.com/9fd4543e_images_totalfinder-icon-new.png" title="The shiny new icon"></p>
+<p><img class="clear blog-image no-shadow" style="width:300px" src="https://static.binaryage.com/9fd4543e_images_totalfinder-icon-new.png" title="The shiny new icon"></p>
 
 <h4>Here's the old icon for comparison</h4>
 
-<p><img class="clear blog-image no-shadow" style="width:300px" src="http://static.binaryage.com/5b2b8280_images_totalfinder-icon-old.png" title="Old hacker-style icon with shades."></p>
+<p><img class="clear blog-image no-shadow" style="width:300px" src="https://static.binaryage.com/5b2b8280_images_totalfinder-icon-old.png" title="Old hacker-style icon with shades."></p>
 
 <h4>Also modified blog part of the site</h4>
 
@@ -2267,20 +2267,20 @@ Don't worry, I'm also evaluating your ideas from <a href="http://getsatisfaction
     <entry>
         <title><![CDATA[Awesome products deserve an awesome website]]></title>
         
-        <link href="http://blog.binaryage.com//binaryage-redesigned/"/>
+        <link href="https://blog.binaryage.com//binaryage-redesigned/"/>
         <updated>2010-03-22T00:00:00+00:00</updated>
         <id>jduff.github.com:/binaryage-redesigned</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
 
 <p><strong>I'm happy to announce that BinaryAge just got a new design!<br/>Big kudos to <a href="http://raist.cz">Raist</a> who redesigned <a href="http://binaryage.com">the site</a> for me.</strong></p>
 
 <h4>How do you like it?</h4>
 
-<p><img class="clear blog-image" src="http://static.binaryage.com/58e86027_images_binaryage-redesign.png" title="New smooth design with many javascript bells and whistles"></p>
+<p><img class="clear blog-image" src="https://static.binaryage.com/58e86027_images_binaryage-redesign.png" title="New smooth design with many javascript bells and whistles"></p>
 
 <h4>For historical comparison here is the old homepage design:</h4>
 
-<p><img class="clear blog-image" src="http://static.binaryage.com/e16ffc65_images_binaryage-old-design.png" title="Old coder's design for internet archeologists."></p>
+<p><img class="clear blog-image" src="https://static.binaryage.com/e16ffc65_images_binaryage-old-design.png" title="Old coder's design for internet archeologists."></p>
 
 <h4>Who is that magician Raist?</h4>
 
@@ -2331,22 +2331,22 @@ Don't worry, I'm also evaluating your ideas from <a href="http://getsatisfaction
     <entry>
         <title><![CDATA[Bugfixing afternoon]]></title>
         
-        <link href="http://blog.binaryage.com//bugfixing-afternoon/"/>
+        <link href="https://blog.binaryage.com//bugfixing-afternoon/"/>
         <updated>2010-03-11T00:00:00+00:00</updated>
         <id>jduff.github.com:/bugfixing-afternoon</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong>I've just released TotalFinder 0.8.1. I don't have any new exciting features for you today. This is a pure bugfix release.</strong></p>
 
 <div class="blog-download">
-  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.8.1.dmg"><img src="http://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.8.1.dmg</div></a>
+  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.8.1.dmg"><img src="https://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.8.1.dmg</div></a>
   <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
 
 <h4>Interested in bugs' colors?</h4>
 
-<p><img class="blog-image" src="http://static.binaryage.com/18b22811_images_totalfinder-bugs-in-08.png" title="The crash situation here"></p>
+<p><img class="blog-image" src="https://static.binaryage.com/18b22811_images_totalfinder-bugs-in-08.png" title="The crash situation here"></p>
 
 <p>This is a list of crashes I got during the last 48 hours. I'm happy to announce I have just squashed [@askForNewFileBrowser], [@NumberOfDualTabs] and [@TabStripController dealloc].</p>
 
@@ -2363,22 +2363,22 @@ Don't worry, I'm also evaluating your ideas from <a href="http://getsatisfaction
     <entry>
         <title><![CDATA[Drag me on tabs!]]></title>
         
-        <link href="http://blog.binaryage.com//drag-me-on-tabs/"/>
+        <link href="https://blog.binaryage.com//drag-me-on-tabs/"/>
         <updated>2010-03-06T00:00:00+00:00</updated>
         <id>jduff.github.com:/drag-me-on-tabs</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong>TotalFinder 0.8 is out and it makes you better again.</strong></p>
 
 <div class="blog-download">
-  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.8.dmg"><img src="http://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.8.dmg</div></a>
+  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.8.dmg"><img src="https://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.8.dmg</div></a>
   <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
 
 <p>You can drag and drop files on tabs. Tabs get spring loaded after hovering. You can even drag folders out into new tabs. I've also fixed many crashes and quirks. Enjoy this release!</p>
 
-<p><img class="blog-image" src="http://static.binaryage.com/4ba497dc_images_totalfinder-dragontab.png" title="You may drag files and folders onto tabs!"></p>
+<p><img class="blog-image" src="https://static.binaryage.com/4ba497dc_images_totalfinder-dragontab.png" title="You may drag files and folders onto tabs!"></p>
 ]]></content>
         <author>
             <name>Antonin Hildebrand</name>
@@ -2389,15 +2389,15 @@ Don't worry, I'm also evaluating your ideas from <a href="http://getsatisfaction
     <entry>
         <title><![CDATA[Towards stable TotalFinder]]></title>
         
-        <link href="http://blog.binaryage.com//towards-stable-totalfinder/"/>
+        <link href="https://blog.binaryage.com//towards-stable-totalfinder/"/>
         <updated>2010-02-10T00:00:00+00:00</updated>
         <id>jduff.github.com:/towards-stable-totalfinder</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong>TotalFinder 0.7.1 update is ready for download.</strong></p>
 
 <div class="blog-download">
-  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.7.1.dmg"><img src="http://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.7.1.dmg</div></a>
+  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.7.1.dmg"><img src="https://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.7.1.dmg</div></a>
   <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
@@ -2422,7 +2422,7 @@ Don't worry, I'm also evaluating your ideas from <a href="http://getsatisfaction
 
 <p>I've solved @DSStore, @RestoreFocus, @placeWindow and @AEOverride crashes in 0.7.1. As you can see, this should reduce crash rate by 90% or so.</p>
 
-<p><img class="blog-image" src="http://static.binaryage.com/05dba4d0_images_crash-distribution.png" title="The distribution of crash reports"></p>
+<p><img class="blog-image" src="https://static.binaryage.com/05dba4d0_images_crash-distribution.png" title="The distribution of crash reports"></p>
 ]]></content>
         <author>
             <name>Antonin Hildebrand</name>
@@ -2433,14 +2433,14 @@ Don't worry, I'm also evaluating your ideas from <a href="http://getsatisfaction
     <entry>
         <title><![CDATA[Crash Reporting in binary age]]></title>
         
-        <link href="http://blog.binaryage.com//crash-reporting-in-binaryage/"/>
+        <link href="https://blog.binaryage.com//crash-reporting-in-binaryage/"/>
         <updated>2010-02-05T00:00:00+00:00</updated>
         <id>jduff.github.com:/crash-reporting-in-binaryage</id>
         <content type="html"><![CDATA[<p><strong>I decided to share some of my development stories. It looks like some folks enjoy this technical reading.</strong></p>
 
 <h4>Is it possible to build decent crash reporting system during Saturday?</h4>
 
-<p><img class="blog-image" src="http://static.binaryage.com/52caa2c4_images_crash-development.png" title="Commit logs as seen in GitX"></p>
+<p><img class="blog-image" src="https://static.binaryage.com/52caa2c4_images_crash-development.png" title="Commit logs as seen in GitX"></p>
 
 <div class="small" style="text-align:right">image taken from <a href="http://gitx.frim.nl/"><b>GitX - free OSX git client</b></a></div>
 
@@ -2452,7 +2452,7 @@ Don't worry, I'm also evaluating your ideas from <a href="http://getsatisfaction
 <h4>Google already runs realtime crash reporting system, it's called Gmail</h4>
 
 <p>This is how my crash reporting system looks for me as a developer.
-<img class="blog-image" src="http://static.binaryage.com/30d36aab_images_gmail-based-crash-reporting.png" title="The filtered crash reports in gmail">
+<img class="blog-image" src="https://static.binaryage.com/30d36aab_images_gmail-based-crash-reporting.png" title="The filtered crash reports in gmail">
 The best part is I didn't have to learn anything new and I can use all Gmail goodness for managing my crash reports.
 The killer feature is that I can communicate the crash directly with the reporting user just by doing a reply.
 I could imagine many "serious" crash reporting systems really suck at it.</p>
@@ -2460,16 +2460,16 @@ I could imagine many "serious" crash reporting systems really suck at it.</p>
 <h4>User gets a pre-generated email</h4>
 
 <p>When TotalFinder crashes the user a gets custom dialog with explanations:
-<img class="blog-image no-shadow" style="width:300px" src="http://static.binaryage.com/b9616535_images_crash-dialog1.png" width="310" style="float:left" title="The crash reporting dialog - generating">
-<img class="blog-image no-shadow" style="width:300px" src="http://static.binaryage.com/d3a14132_images_crash-dialog2.png" width="310" style="float:left" title="The crash reporting dialog - send report ...">
+<img class="blog-image no-shadow" style="width:300px" src="https://static.binaryage.com/b9616535_images_crash-dialog1.png" width="310" style="float:left" title="The crash reporting dialog - generating">
+<img class="blog-image no-shadow" style="width:300px" src="https://static.binaryage.com/d3a14132_images_crash-dialog2.png" width="310" style="float:left" title="The crash reporting dialog - send report ...">
 <br clear="all"></p>
 
 <p>When clicking "Send Report ..." I upload the crash report anonymously to Gist and open pre-generated email with a link:</p>
 
-<p><img src="http://static.binaryage.com/370c905e_images_crash-reporting-mail.png" class="blog-image no-shadow" title="The crash report email template"></p>
+<p><img src="https://static.binaryage.com/370c905e_images_crash-reporting-mail.png" class="blog-image no-shadow" title="The crash report email template"></p>
 
 <p>User can check the link if there is no confidential information. It's exactly the standard Apple's crash report you would find in their dialog:
-<img src="http://static.binaryage.com/f68964ec_images_crash-reporting-gist.png" class="blog-image no-shadow" title="The crash report uploaded to gist.github.com"></p>
+<img src="https://static.binaryage.com/f68964ec_images_crash-reporting-gist.png" class="blog-image no-shadow" title="The crash report uploaded to gist.github.com"></p>
 
 <p>This is no rocket social engineering surgery. This is just a system I would like to use as a user.
 There is a pretty good chance the user is able and willing to send an email.
@@ -2521,15 +2521,15 @@ All information is pure text so they can check it before sending. I didn't want 
     <entry>
         <title><![CDATA[TotalFinder with dual mode!]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-with-dual-mode/"/>
+        <link href="https://blog.binaryage.com//totalfinder-with-dual-mode/"/>
         <updated>2010-02-03T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-with-dual-mode</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong>TotalFinder 0.7 is finally out! Grab it while it's hot.</strong></p>
 
 <div class="blog-download">
-  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.7.dmg"><img src="http://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.7.dmg</div></a>
+  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.7.dmg"><img src="https://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.7.dmg</div></a>
   <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
@@ -2540,7 +2540,7 @@ All information is pure text so they can check it before sending. I didn't want 
 
 <p>You may activate dual panels by <strong>double-clicking tab</strong> or pressing <strong>CMD+U</strong>. It simply glues the currently selected tab with the next one (or the previous one). Clicking again makes them separate again. Easy and unobtrusive!</p>
 
-<p><img class="blog-image" src="http://static.binaryage.com/5d032c94_images_totalfinder-dual-pane-mode.png" title="Dual mode applied to two left-most tabs"></p>
+<p><img class="blog-image" src="https://static.binaryage.com/5d032c94_images_totalfinder-dual-pane-mode.png" title="Dual mode applied to two left-most tabs"></p>
 
 <p>As you can see I've decided to use the power of tabs to implement this feature. This way you may organize your dual-tabs with the same ease as dealing with ordinary tabs. I've already been using it for few days and I'm really happy with this solution. We just need to agree on some keyboard shortcuts for copying/moving files between panels.</p>
 
@@ -2552,13 +2552,13 @@ All information is pure text so they can check it before sending. I didn't want 
 
 <p>Maybe you remember my early screenshot of dual pane prototype back from October. I've used there the technique of <a href="http://blog.binaryage.com/totalfinder-with-tabs">relocating NSViews from hidden Finder window</a> for right-side list view. The solution was very fragile and unstable. I've never managed to make it fully working. I would probably need to pull much more of my hair out to get it into good shape. I'm really glad I've followed the tabs-path instead.</p>
 
-<p><img class="blog-image no-shadow" src="http://static.binaryage.com/8d666bec_images_totalfinder-old-dual-approach.png" title="The original dual mode approach"></p>
+<p><img class="blog-image no-shadow" src="https://static.binaryage.com/8d666bec_images_totalfinder-old-dual-approach.png" title="The original dual mode approach"></p>
 
 <h4>Custom crash reporting</h4>
 
 <p>You will get a chance to upload crash report as a gist and send me an email. Hope you will never have to see this dialog :-)</p>
 
-<p><img class="blog-image no-shadow" style="width:300px" src="http://static.binaryage.com/a25b07e6_images_new-crash-report-dialog.png" width="400" title="The crash reporting dialog"></p>
+<p><img class="blog-image no-shadow" style="width:300px" src="https://static.binaryage.com/a25b07e6_images_new-crash-report-dialog.png" width="400" title="The crash reporting dialog"></p>
 
 <h4>Locked dock? "killall Finder" for rescue</h4>
 
@@ -2594,15 +2594,15 @@ All information is pure text so they can check it before sending. I didn't want 
     <entry>
         <title><![CDATA[TotalFinder status]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-status/"/>
+        <link href="https://blog.binaryage.com//totalfinder-status/"/>
         <updated>2010-01-25T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-status</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong>I've just released TotalFinder 0.6.7 which is identical to 0.6.6. It has just the expiration date set to February 8, 2010. </strong></p>
 
 <div class="blog-download">
-  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.6.7.dmg"><img src="http://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.6.7.dmg</div></a>
+  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.6.7.dmg"><img src="https://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.6.7.dmg</div></a>
   <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
@@ -2617,7 +2617,7 @@ All information is pure text so they can check it before sending. I didn't want 
 
 <p>zAnd by the way, I've implemented a custom crash report dialog. Hope you will not see it very often:</p>
 
-<p><img class="blog-image no-shadow" style="width:300px" src="http://static.binaryage.com/a25b07e6_images_new-crash-report-dialog.png" width="400" title="The crash reporting dialog"></p>
+<p><img class="blog-image no-shadow" style="width:300px" src="https://static.binaryage.com/a25b07e6_images_new-crash-report-dialog.png" width="400" title="The crash reporting dialog"></p>
 
 <h4>Overwhelmed with great responses</h4>
 
@@ -2651,10 +2651,10 @@ All information is pure text so they can check it before sending. I didn't want 
     <entry>
         <title><![CDATA[Firebug 1.5 updates]]></title>
         
-        <link href="http://blog.binaryage.com//firebug15-updates/"/>
+        <link href="https://blog.binaryage.com//firebug15-updates/"/>
         <updated>2010-01-20T00:00:00+00:00</updated>
         <id>jduff.github.com:/firebug15-updates</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/db472466_shared_img_icons_firequery-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/db472466_shared_img_icons_firequery-128.png" class="intro-icon"/></p>
 
 <p><strong><a href="http://blog.getfirebug.com/2010/01/19/please-update-firebug-extensions-with-1-5-0">Firebug 1.5 is out</a> and I've just updated most of my Firebug extensions to play nice with this release.</strong></p>
 
@@ -2696,20 +2696,20 @@ of going through their approval process for my addons. This is the first one I c
     <entry>
         <title><![CDATA[TotalFinder with tabs!]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-with-tabs/"/>
+        <link href="https://blog.binaryage.com//totalfinder-with-tabs/"/>
         <updated>2010-01-11T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-with-tabs</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong>I'm proud to announce a new version of <a href="http://totalfinder.binaryage.com">TotalFinder</a> which introduces the tabs feature.</strong></p>
 
 <div class="blog-download">
-  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.6.dmg"><img src="http://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.6.dmg</div></a>
+  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.6.dmg"><img src="https://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.6.dmg</div></a>
   <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
 
-<p><img class="blog-image no-shadow" src="http://static.binaryage.com/5a934ccd_shared_img_totalfinder-mainshot.png" title="TotalFinder has Chromium tabs!"></p>
+<p><img class="blog-image no-shadow" src="https://static.binaryage.com/5a934ccd_shared_img_totalfinder-mainshot.png" title="TotalFinder has Chromium tabs!"></p>
 
 <p>The next expiration date is set to January 25, 2010 and it will be probably maintenance release to iron out all problems introduced in this ground breaking update.</p>
 
@@ -2752,10 +2752,10 @@ of going through their approval process for my addons. This is the first one I c
     <entry>
         <title><![CDATA[The first year of BinaryAge: Inception]]></title>
         
-        <link href="http://blog.binaryage.com//the-first-year-of-binaryage/"/>
+        <link href="https://blog.binaryage.com//the-first-year-of-binaryage/"/>
         <updated>2009-12-31T00:00:00+00:00</updated>
         <id>jduff.github.com:/the-first-year-of-binaryage</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
 
 <p><strong>I'm just sitting in the train on the way back to Prague. This gives me precious few hours to look back and think about the last year...</strong></p>
 
@@ -2815,15 +2815,15 @@ of going through their approval process for my addons. This is the first one I c
     <entry>
         <title><![CDATA[TotalFinder polishing]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-polishing/"/>
+        <link href="https://blog.binaryage.com//totalfinder-polishing/"/>
         <updated>2009-12-18T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-polishing</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong>This is just a maintenance release of <a href="http://totalfinder.binaryage.com">TotalFinder</a>. Christmas time is busy and I really didn't manage to save a few evenings to dig deeper into Finder internals.</strong></p>
 
 <div class="blog-download">
-    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.5.dmg"><img src="http://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.5.dmg</div></a>
+    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.5.dmg"><img src="https://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.5.dmg</div></a>
     <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
@@ -2852,7 +2852,7 @@ and slide up instead. But these are details I will work out during next month(s)
 
 <p>Do you remember tabs in a title bar from Safari 4 beta?</p>
 
-<p><img class="blog-image" src="http://static.binaryage.com/5c3c74da_images_safari-beta-tabs.jpg" title="Safari 4 (beta) tabs - removed in final version"></p>
+<p><img class="blog-image" src="https://static.binaryage.com/5c3c74da_images_safari-beta-tabs.jpg" title="Safari 4 (beta) tabs - removed in final version"></p>
 
 <p>I know it is against usability, but Visor and TotalFinder are special case apps. These are system-wide windows sliding from "nowhere".
 So they couldn't be treated as apps following usability guidelines anyway.
@@ -2876,10 +2876,10 @@ Mac version of Chrome browser has nice tabs and does some kind of custom window 
     <entry>
         <title><![CDATA[FireQuery 0.4 with Firebug 1.5 support]]></title>
         
-        <link href="http://blog.binaryage.com//firequery-with-firebug-15-support/"/>
+        <link href="https://blog.binaryage.com//firequery-with-firebug-15-support/"/>
         <updated>2009-12-13T00:00:00+00:00</updated>
         <id>jduff.github.com:/firequery-with-firebug-15-support</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/db472466_shared_img_icons_firequery-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/db472466_shared_img_icons_firequery-128.png" class="intro-icon"/></p>
 
 <p><strong>Did not do much real work during the weekend because of pre-christmas drinking with friends :-) But I've at least released a new version of <a href="http://firequery.binaryage.com">FireQuery</a> which finally supports <a href="http://getfirebug.com">Firebug 1.5</a> (in beta right now).</strong></p>
 
@@ -2891,7 +2891,7 @@ Mac version of Chrome browser has nice tabs and does some kind of custom window 
 
 <p>You may specify alternative jQuery version by typing <code>about:config</code> into browser URL:</p>
 
-<p><img src="http://static.binaryage.com/55327a3f_images_about-config-jquery-url.png" class="blog-image no-shadow" style="width:600px" title="advanced FireQuery configuration via about:config"></p>
+<p><img src="https://static.binaryage.com/55327a3f_images_about-config-jquery-url.png" class="blog-image no-shadow" style="width:600px" title="advanced FireQuery configuration via about:config"></p>
 
 <p>Search for <code>extensions.firebug.firequery.jQueryURL</code> key and change it to fit your needs. For example you may specify one of Google-hosted <a href="http://code.google.com/apis/ajaxlibs/documentation/index.html#jquery">jQuery versions</a>.</p>
 ]]></content>
@@ -2904,15 +2904,15 @@ Mac version of Chrome browser has nice tabs and does some kind of custom window 
     <entry>
         <title><![CDATA[I can haz folders on top]]></title>
         
-        <link href="http://blog.binaryage.com//i-can-haz-folders-on-top/"/>
+        <link href="https://blog.binaryage.com//i-can-haz-folders-on-top/"/>
         <updated>2009-12-09T00:00:00+00:00</updated>
         <id>jduff.github.com:/i-can-haz-folders-on-top</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong>Yes, the new version of <a href="http://totalfinder.binaryage.com">TotalFinder</a> supports <a href="http://getsatisfaction.com/binaryage/topics/show_folders_always_on_top">Folders on Top feature</a>.</strong></p>
 
 <div class="blog-download">
-  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.4.dmg"><img src="http://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.4.dmg</div></a>
+  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.4.dmg"><img src="https://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.4.dmg</div></a>
   <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
@@ -2921,7 +2921,7 @@ Mac version of Chrome browser has nice tabs and does some kind of custom window 
 
 <p>Go to Tweaks section in TotalFinder preferences.</p>
 
-<p><img class="blog-image no-shadow" style="width:300px" src="http://static.binaryage.com/ad91edf6_images_folders-on-top.png" title="'Folders on Top' preferences"></p>
+<p><img class="blog-image no-shadow" style="width:300px" src="https://static.binaryage.com/ad91edf6_images_folders-on-top.png" title="'Folders on Top' preferences"></p>
 
 <h4>Toggling hidden files</h4>
 
@@ -2942,15 +2942,15 @@ Mac version of Chrome browser has nice tabs and does some kind of custom window 
     <entry>
         <title><![CDATA[TotalFinder with Sparkle (v0.3)]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-with-sparkle/"/>
+        <link href="https://blog.binaryage.com//totalfinder-with-sparkle/"/>
         <updated>2009-12-06T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-with-sparkle</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong>I have made some progress on <a href="http://totalfinder.binaryage.com">TotalFinder</a> during the weekend. This is mostly a maintenance release.</strong></p>
 
 <div class="blog-download">
-  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.3.dmg"><img src="http://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.3.dmg</div></a>
+  <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.3.dmg"><img src="https://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.3.dmg</div></a>
   <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
@@ -2973,7 +2973,7 @@ Mac version of Chrome browser has nice tabs and does some kind of custom window 
 
 <p>The Finder is being automatically restarted after a crash by the launchd process. This is usually a good thing. The user is not confused that her Finder is missing.</p>
 
-<p><img class="blog-image" style="width:300px" src="http://static.binaryage.com/ff2f30b6_images_sad-red-face.png" title="Sad red face in status menu area"></p>
+<p><img class="blog-image" style="width:300px" src="https://static.binaryage.com/ff2f30b6_images_sad-red-face.png" title="Sad red face in status menu area"></p>
 
 <p>The problem with TotalFinder is that it may be unstable and crash on some machines during Finder startup. This would lead to infinite cycle of restarts and crashes. I've implemented sad red face, which appears as menu item if Finder crashes during the first ten seconds after launch. If you feel lucky, you may try to re-launch it again. Anyway, don't forget to "send me":mailto:antonin@hildebrand.cz your crash report.</p>
 
@@ -3000,10 +3000,10 @@ Mac version of Chrome browser has nice tabs and does some kind of custom window 
     <entry>
         <title><![CDATA[TotalFinder - alpha call for testing!]]></title>
         
-        <link href="http://blog.binaryage.com//totalfinder-alpha/"/>
+        <link href="https://blog.binaryage.com//totalfinder-alpha/"/>
         <updated>2009-11-29T00:00:00+00:00</updated>
         <id>jduff.github.com:/totalfinder-alpha</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
 
 <p><strong><a href="http://totalfinder.binaryage.com">TotalFinder</a> is my attempt to make Finder.app better for programmers and Mac power users. I want it better for myself!</strong></p>
 
@@ -3016,7 +3016,7 @@ Mac version of Chrome browser has nice tabs and does some kind of custom window 
 <h4>TotalFinder 0.2 ALPHA</h4>
 
 <div class="blog-download">
-    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.2.1.dmg"><img src="http://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.2.1.dmg</div></a>
+    <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.2.1.dmg"><img src="https://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.2.1.dmg</div></a>
     <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
 </div>
 
@@ -3037,10 +3037,10 @@ Mac version of Chrome browser has nice tabs and does some kind of custom window 
 
 <p>OK, let's see some screenshots:</p>
 
-<p><img src="http://static.binaryage.com/40f296aa_images_tf02-features.png" style="float:left; width: 49%" title="Preferences panel with Visor feature">
-<img src="http://static.binaryage.com/fd06c0c5_images_tf02-dsstore.png" style="float:left; width: 49%" title="Preferences panel with .DS_Store redirection options">
-<img src="http://static.binaryage.com/7fa592bc_images_tf02-tweaks.png" style="float:left; width: 49%" title="Preferences panel with various tweaks">
-<img src="http://static.binaryage.com/26579ab8_images_tf02-purchase.png" style="float:left; width: 49%" title="Preferences panel with info/purchase screen"></p>
+<p><img src="https://static.binaryage.com/40f296aa_images_tf02-features.png" style="float:left; width: 49%" title="Preferences panel with Visor feature">
+<img src="https://static.binaryage.com/fd06c0c5_images_tf02-dsstore.png" style="float:left; width: 49%" title="Preferences panel with .DS_Store redirection options">
+<img src="https://static.binaryage.com/7fa592bc_images_tf02-tweaks.png" style="float:left; width: 49%" title="Preferences panel with various tweaks">
+<img src="https://static.binaryage.com/26579ab8_images_tf02-purchase.png" style="float:left; width: 49%" title="Preferences panel with info/purchase screen"></p>
 
 <div class="clear"> </div>
 
@@ -3108,10 +3108,10 @@ I'm still investigating this. Temporary workaround is not using these Spotlight 
     <entry>
         <title><![CDATA[Future direction of XRefresh]]></title>
         
-        <link href="http://blog.binaryage.com//xrefresh-future-direction/"/>
+        <link href="https://blog.binaryage.com//xrefresh-future-direction/"/>
         <updated>2009-11-15T00:00:00+00:00</updated>
         <id>jduff.github.com:/xrefresh-future-direction</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/08b556aa_shared_img_icons_xrefresh-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/08b556aa_shared_img_icons_xrefresh-128.png" class="intro-icon"/></p>
 
 <p><strong><a href="http://xrefresh.binaryage.com">XRefresh</a> is a simple tool which is able to refresh a web page in the browser in reaction to a file modification.</strong></p>
 
@@ -3222,10 +3222,10 @@ watcher implementation server-side)</li>
     <entry>
         <title><![CDATA[DryDrop Lighting Talk at Google Developer Day Prague]]></title>
         
-        <link href="http://blog.binaryage.com//drydrop-lighting-talk-at-gdd-prague/"/>
+        <link href="https://blog.binaryage.com//drydrop-lighting-talk-at-gdd-prague/"/>
         <updated>2009-11-07T00:00:00+00:00</updated>
         <id>jduff.github.com:/drydrop-lighting-talk-at-gdd-prague</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/357ea2c9_shared_img_icons_drydrop-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/357ea2c9_shared_img_icons_drydrop-128.png" class="intro-icon"/></p>
 
 <p><strong>Yesterday I attended Google Developer Day in Prague. It was a great occasion to meet Googlers, Google fans and other fellow developers. I had a great time there.</strong></p>
 
@@ -3264,7 +3264,7 @@ watcher implementation server-side)</li>
     <entry>
         <title><![CDATA[REBUG - Record the bug and replay it later]]></title>
         
-        <link href="http://blog.binaryage.com//rebug-record-the-bug-and-replay-it-later/"/>
+        <link href="https://blog.binaryage.com//rebug-record-the-bug-and-replay-it-later/"/>
         <updated>2009-10-27T00:00:00+00:00</updated>
         <id>jduff.github.com:/rebug-record-the-bug-and-replay-it-later</id>
         <content type="html"><![CDATA[<blockquote><p>What if you could travel back in time?</p></blockquote>
@@ -3359,19 +3359,19 @@ But this information is not available when reading a bugreport in Bugzilla. Some
 <h4>Possible setups:</h4>
 
 <p><strong>Fully hosted solution:</strong>
-<img class="blog-image no-shadow" src="http://static.binaryage.com/a529976d_images_drawing_sV0QB63mkDgRXGUKF-UyLZg_153.png" title="Fully hosted solution"></p>
+<img class="blog-image no-shadow" src="https://static.binaryage.com/a529976d_images_drawing_sV0QB63mkDgRXGUKF-UyLZg_153.png" title="Fully hosted solution"></p>
 
 <p><strong>Serviced solution:</strong>
-<img class="blog-image no-shadow" src="http://static.binaryage.com/990dbf69_images_drawing_sY_p-Pz7WbcM4w8OOXKaI3Q_51.png" title="Serviced solution"></p>
+<img class="blog-image no-shadow" src="https://static.binaryage.com/990dbf69_images_drawing_sY_p-Pz7WbcM4w8OOXKaI3Q_51.png" title="Serviced solution"></p>
 
 <p><strong>Near proxy solution:</strong>
-<img class="blog-image no-shadow" src="http://static.binaryage.com/7a5b3227_images_drawing_sPkzVArT9_K6tqbFWjwCWIg_48.png" title="Near proxy solution"></p>
+<img class="blog-image no-shadow" src="https://static.binaryage.com/7a5b3227_images_drawing_sPkzVArT9_K6tqbFWjwCWIg_48.png" title="Near proxy solution"></p>
 
 <p><strong>Decentralized solution:</strong>
-<img class="blog-image no-shadow" src="http://static.binaryage.com/a7f3bd1c_images_drawing_s53VQRbszouhzGpRAnSMJ-g_119.png" title="Decentralized solution"></p>
+<img class="blog-image no-shadow" src="https://static.binaryage.com/a7f3bd1c_images_drawing_s53VQRbszouhzGpRAnSMJ-g_119.png" title="Decentralized solution"></p>
 
 <p><strong>Single machine setup:</strong>
-<img class="blog-image no-shadow" src="http://static.binaryage.com/49bdff6d_images_drawing_sarVlC_ISonwxJB-Df3SmhQ_18.png" title="Single machine solution"></p>
+<img class="blog-image no-shadow" src="https://static.binaryage.com/49bdff6d_images_drawing_sarVlC_ISonwxJB-Df3SmhQ_18.png" title="Single machine solution"></p>
 
 <h4>Implementation notes</h4>
 
@@ -3409,10 +3409,10 @@ But this information is not available when reading a bugreport in Bugzilla. Some
     <entry>
         <title><![CDATA[Welcome to BinaryAge]]></title>
         
-        <link href="http://blog.binaryage.com//welcome-to-binaryage/"/>
+        <link href="https://blog.binaryage.com//welcome-to-binaryage/"/>
         <updated>2009-10-25T00:00:00+00:00</updated>
         <id>jduff.github.com:/welcome-to-binaryage</id>
-        <content type="html"><![CDATA[<p><img src="http://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
 
 <p><strong>Hello! I'm <a href="http://hildebrand.cz">Darwin</a> from BinaryAge<br/>and you are probably a software developer interested in some of <a href="http://binaryage.com">my tools</a>.</strong></p>
 
