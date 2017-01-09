@@ -22,7 +22,7 @@ With TotalFinder providing desirable features to Finder such as chrome style tab
 And we think that TotalSpaces2 allows great control of your spaces experience, including custom transitions and timing, user-configurable gestures, hotkeys, and hotcorners, app assignments and multi monitor support. We ourselves rely on it _totally_.
 
 #### 2017
-Although we didn't make as much progress as we'd hoped in 2016, there is [a 2.5 release of TotalSpaces2 in the works](https://totalspaces.binaryage.com/changes-beta) that has a bunch of new features, and [TotalFinder 1.8.2 has just been released](https://totalfinder.binaryage.com/changes) with some fixes and improvements. More are comping, and we intend to support MacOS 10.13 when it is released. We also hope to make some improvements in the installation and update processes.
+Although we didn't make as much progress as we'd hoped in 2016, there is [a 2.5 release of TotalSpaces2 in the works](https://totalspaces.binaryage.com/changes-beta) that has a bunch of new features, and [TotalFinder 1.8.2 has just been released](https://totalfinder.binaryage.com/changes) with some fixes and improvements. More are coming, and we intend to support MacOS 10.13 when it is released. We also hope to make some improvements in the installation and update processes.
 
 So stay with us, and watch out for new releases. Happy 2017!
 
