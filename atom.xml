@@ -3,8 +3,46 @@
     <title>The ideas from BinaryAge</title>
     <link href="https://blog.binaryage.com/atom.xml" rel="self"/>
     <link href="https://blog.binaryage.com"/>
-    <updated>2017-01-06T16:37:57+00:00</updated>
+    <updated>2017-01-10T18:01:56+00:00</updated>
     <id>https://blog.binaryage.com/</id>
+    
+    <entry>
+        <title><![CDATA[BinaryAge moves ahead in 2017]]></title>
+        
+        <link href="https://blog.binaryage.com//binaryage-moves-ahead/"/>
+        <updated>2017-01-10T00:00:00+00:00</updated>
+        <id>jduff.github.com:/binaryage-moves-ahead</id>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon" style="clear: both" /></p>
+
+<p>In 2016 <a href="/meet-steve-the-new-lead/">Steve joined the efforts on TotalFinder and TotalSpaces</a>. Alas Steve has now moved on to other projects, so Antonin and Stephen are returning to lead <a href="https://totalfinder.binaryage.com">TotalFinder</a> and <a href="https://totalspaces.binaryage.com">TotalSpaces2</a> respectively. Thanks to Steve for his efforts!</p>
+
+<h4>The future</h4>
+
+<p>Although Apple implemented <a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">System Integrity Protection</a> making it difficult to install apps like TotalFinder and TotalSpaces, we have found that there is still a market for tools that improve the workflow and usability of your system.</p>
+
+<p>It's true that we don't have as many users as earlier, but there are plenty of people who love what we do. So, as long as it is possible and makes sense to do so, we intend to support these apps.</p>
+
+<p><br style="clear: both"/></p>
+
+<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon" style="clear: both" />
+With <a href="https://totalfinder.binaryage.com">TotalFinder</a> providing desirable features to Finder such as chrome style tabs, colored labels, folders on top, dual mode, cut &amp; paste of files, and Visor functionality, there are still many good reasons to use it.</p>
+
+<p><br style="clear: both"/></p>
+
+<p><img src="https://static.binaryage.com/f59893b8_shared_img_icons_totalspaces2-128.png" class="intro-icon" style="clear: both" />
+And we think that <a href="https://totalspaces.binaryage.com">TotalSpaces2</a> allows great control of your spaces experience, including custom transitions and timing, user-configurable gestures, hotkeys, and hotcorners, app assignments and multi monitor support. We ourselves rely on it <em>totally</em>.</p>
+
+<h4>2017</h4>
+
+<p>Although we didn't make as much progress as we'd hoped in 2016, there is <a href="https://totalspaces.binaryage.com/changes-beta">a 2.5 release of TotalSpaces2 in the works</a> that has a bunch of new features, and <a href="https://totalfinder.binaryage.com/changes#1.8.2">TotalFinder 1.8.2 has just been released</a> with some fixes and improvements. More are coming, and we intend to support macOS 10.13 when it is released. We also hope to make some improvements in the installation and update processes.</p>
+
+<p>So stay with us, and watch out for new releases. Happy 2017!</p>
+]]></content>
+        <author>
+            <name>Stephen Sykes</name>
+            <uri>mailto:stephen@binaryage.com</uri>
+        </author>
+    </entry>
     
     <entry>
         <title><![CDATA[Meet Steve, the new lead of TotalFinder and TotalSpaces]]></title>
