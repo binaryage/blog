@@ -3,8 +3,75 @@
     <title>The ideas from BinaryAge</title>
     <link href="https://blog.binaryage.com/atom.xml" rel="self"/>
     <link href="https://blog.binaryage.com"/>
-    <updated>2017-01-10T18:01:56+00:00</updated>
+    <updated>2017-03-20T22:04:55+00:00</updated>
     <id>https://blog.binaryage.com/</id>
+    
+    <entry>
+        <title><![CDATA[SIP and installing BinaryAge apps]]></title>
+        
+        <link href="https://blog.binaryage.com//sip-and-installing-total-apps/"/>
+        <updated>2017-03-19T00:00:00+00:00</updated>
+        <id>jduff.github.com:/sip-and-installing-total-apps</id>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/><img src="https://static.binaryage.com/f59893b8_shared_img_icons_totalspaces2-128.png" class="intro-icon"/></p>
+
+<h4>From El Capitan to here</h4>
+
+<p>In 2015 we realised that System Integrity Protection would stop TotalFinder and TotalSpaces2 working on normally configured Macs. At the time, we felt that this would <a href="https://blog.binaryage.com/el-capitan-update/">mean the end of those products as general consumer products</a>.</p>
+
+<p>However, it is clear that although we don't see the sales we used to have, there is still strong support for these products. There remains a market for tools that improve the workflow and usability of your system.</p>
+
+<h4>A chink of light</h4>
+
+<p>One request we often hear is to allow TotalFinder and TotalSpaces2 to be installed so that they can run with System Integrity Protection (SIP) turned on. And in fact we discovered that this is possibe - we have earlier advised anyone who asked to go through a complex process to <a href="https://totalfinder.binaryage.com/system-osax">install our plugin component in a special system location</a> so that the apps could run on a normally configured Mac.</p>
+
+<p>Having realised we could do this, we wanted to give this option to everyone. We have made it simpler, and in fact, from now on it will be the default method of installation.</p>
+
+<h4>TotalFinder and TotalSpaces2 with SIP turned on</h4>
+
+<p>The installation process for our apps will be as follows:</p>
+
+<ol>
+<li>Reboot into recovery mode (hold cmd-R during reboot).</li>
+<li>Go to utilities->terminal, type csrutil disable, and reboot.</li>
+<li>Install TotalSpaces2 and/or TotalFinder and run the app(s),</li>
+<li>(Optional) Reboot into recovery mode (hold cmd-R during reboot).</li>
+<li>(Optional) Go to utilities->terminal, type csrutil enable, and reboot.</li>
+</ol>
+
+
+<p>So before installing our apps, turn SIP off, Then once the apps are installed you are free to turn SIP back on.</p>
+
+<p>This new installtion method is supported from TotalFinder v1.x.x and TotalSpaces2 v2.5.4.</p>
+
+<p>If you are upgrading from a previous version, everything will continue to work normally. But in order to turn SIP fully on, you must go through the above process.</p>
+
+<p>You can find more information <a href="https://totalfinder.binaryage.com/sip">here for TotalFinder</a>, and <a href="https://totalspaces.binaryage.com/sipsettings">here for TotalSpaces2.</a></p>
+
+<h4>Technical details</h4>
+
+<p>Both TotalFinder and TotalSpaces2 have a plugin component that lives in /Library/ScriptingAdditions. As a normal user you can allow writing that component there if you allow adminstrator access.</p>
+
+<p>However, plugins in that location cannot be loaded by OSX/MacOS with System Integrity Protection fully turned on.</p>
+
+<p>It turns out there is another location, /System/Library/ScriptingAdditions from where the system <em>will</em> load plugins even with SIP turned on. However, SIP must be turned off in order to be able to write the plugin there in the first place.</p>
+
+<p>We are changing to using this system location as our primary pluign location. So, for installation, turn SIP off, install and run the apps, then you may freely turn SIP back on.</p>
+
+<h4>Risks</h4>
+
+<p>Apple "own" the system locations in your file system, and it is entirely possible that they could remove our plugin components during a software update. If this happens, you would need to turn SIP off again in order for the plugin to be re-installed. We don't think this will happen, but you never know.</p>
+
+<p>If we have to update our plugin component, this would also require SIP changes, but we are aiming to keep the component stable across many releases.</p>
+
+<h4>Final words</h4>
+
+<p>Both <a href="https://totalfinder.binaryage.com/beta-changes">TotalFinder</a> and <a href="https://totalspaces.binaryage.com/changes-beta">TotalSpaces2</a> have a number of other improvements in this release, so it should be worth upgrading. We are pushing the new binaries out to our pre-release testers today, and to all users if everything seems fine. Let us know if you have any problems!</p>
+]]></content>
+        <author>
+            <name>Stephen Sykes</name>
+            <uri>mailto:stephen@binaryage.com</uri>
+        </author>
+    </entry>
     
     <entry>
         <title><![CDATA[BinaryAge moves ahead in 2017]]></title>
