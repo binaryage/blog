@@ -3,7 +3,7 @@
     <title>The ideas from BinaryAge</title>
     <link href="https://blog.binaryage.com/atom.xml" rel="self"/>
     <link href="https://blog.binaryage.com"/>
-    <updated>2017-03-20T22:04:55+00:00</updated>
+    <updated>2017-03-20T22:10:39+00:00</updated>
     <id>https://blog.binaryage.com/</id>
     
     <entry>
@@ -41,7 +41,7 @@
 
 <p>So before installing our apps, turn SIP off, Then once the apps are installed you are free to turn SIP back on.</p>
 
-<p>This new installtion method is supported from TotalFinder v1.x.x and TotalSpaces2 v2.5.4.</p>
+<p>This new installation method is supported from TotalFinder v1.9.0 and TotalSpaces2 v2.5.4.</p>
 
 <p>If you are upgrading from a previous version, everything will continue to work normally. But in order to turn SIP fully on, you must go through the above process.</p>
 
