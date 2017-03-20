@@ -31,7 +31,7 @@ The installation process for our apps will be as follows:
 
 So before installing our apps, turn SIP off, Then once the apps are installed you are free to turn SIP back on.
 
-This new installtion method is supported from TotalFinder v1.x.x and TotalSpaces2 v2.5.4.
+This new installation method is supported from TotalFinder v1.9.0 and TotalSpaces2 v2.5.4.
 
 If you are upgrading from a previous version, everything will continue to work normally. But in order to turn SIP fully on, you must go through the above process.
 
