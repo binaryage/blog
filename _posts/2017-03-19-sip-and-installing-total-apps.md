@@ -31,7 +31,7 @@ The installation process for our apps will be as follows:
 
 So before installing our apps, turn SIP off, Then once the apps are installed you are free to turn SIP back on.
 
-This new installation method is supported from TotalFinder v1.9.0 and TotalSpaces2 v2.5.4.
+This new installation method is supported from [TotalFinder v1.9.0](https://totalfinder.binaryage.com/beta-changes) and [TotalSpaces2 v2.5.4](https://totalspaces.binaryage.com/changes-beta).
 
 If you are upgrading from a previous version, everything will continue to work normally. But in order to turn SIP fully on, you must go through the above process.
 
@@ -55,7 +55,7 @@ If we have to update our plugin component, this would also require SIP changes, 
 
 #### Final words
 
-Both [TotalFinder](https://totalfinder.binaryage.com/beta-changes) and [TotalSpaces2](https://totalspaces.binaryage.com/changes-beta) have a number of other improvements in this release, so it should be worth upgrading. We are pushing the new binaries out to our pre-release testers today, and to all users if everything seems fine. Let us know if you have any problems!
+Both [TotalFinder](https://totalfinder.binaryage.com/beta-changes) and [TotalSpaces2](https://totalspaces.binaryage.com/changes-beta) have a number of other improvements in this release, so it should be worth upgrading. **We are pushing the new binaries out to our pre-release testers today**, and to all users soon if everything seems fine. Let us know if you have any problems!
 
 [Discuss]: http://discuss.binaryage.com/
 [TotalFinder]: http://totalfinder.binaryage.com
