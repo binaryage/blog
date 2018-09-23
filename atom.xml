@@ -3,8 +3,55 @@
     <title>The ideas from BinaryAge</title>
     <link href="https://blog.binaryage.com/atom.xml" rel="self"/>
     <link href="https://blog.binaryage.com"/>
-    <updated>2017-03-20T22:14:00+00:00</updated>
+    <updated>2018-09-23T20:25:45+00:00</updated>
     <id>https://blog.binaryage.com/</id>
+    
+    <entry>
+        <title><![CDATA[Running TotalFinder and TotalSpaces2 on Mojave]]></title>
+        
+        <link href="https://blog.binaryage.com//sip-and-mojave/"/>
+        <updated>2018-09-23T00:00:00+00:00</updated>
+        <id>jduff.github.com:/sip-and-mojave</id>
+        <content type="html"><![CDATA[<p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/><img src="https://static.binaryage.com/f59893b8_shared_img_icons_totalspaces2-128.png" class="intro-icon"/></p>
+
+<h4>From Sierra and High Sierra to Mojave</h4>
+
+<p>In <a href="https://blog.binaryage.com/sip-and-installing-total-apps/">this post from 2017</a> we talked about how we found a way to run our apps TotalFinder and TotalSpaces2 with System Integrity Protection (SIP) turned on. This was possible because the installation process would install our plugin components in trusted locations whilst SIP was turned off, allowing the user to turn SIP back on again after installation.</p>
+
+<p>Unfortunately, with macOS 10.14 Mojave this is no longer the case - Apple have changed their verification code so that our plugin cannot possibly work with SIP turned on even if it is installed in the trusted locations that worked before.</p>
+
+<p><strong>This means that in order to run our apps on macOS Mojave you have to keep SIP turned off.</strong></p>
+
+<p>We know this is disappointing, and that some people will not want to do this.</p>
+
+<p><strong>Your machine may be less secure when System Integrity Protection is not running. It is entirely your decision to modify or temporarily modify the settings.</strong></p>
+
+<p>If you want more information about SIP, <a href="https://en.wikipedia.org/wiki/System_Integrity_Protection">see wikipedia</a>. Apple also provided <a href="https://developer.apple.com/library/archive/documentation/Security/Conceptual/System_Integrity_Protection_Guide/Introduction/Introduction.html">some information here</a>.</p>
+
+<p>We provide updated instructions on how to install <a href="https://totalfinder.binaryage.com/sip">TotalFinder here</a> and <a href="https://totalspaces.binaryage.com/installing-mojave">TotalSpaces2 here</a>.</p>
+
+<h4>Technical details</h4>
+
+<p>In Mojave Apple added additional signature checks for injected code. This means that our plugins won't load unless we can sign them with an Apple certificate, and as we aren't Apple we don't have that certificate. There isn't really any way around this, and we can only tell you how to get around the protection by disabling SIP.</p>
+
+<p>In fact, TotalFinder and TotalSpaces2 can work with only the debug and file system protections turned off, and advanced users may want to use this command in the terminal in recovery mode:</p>
+
+<pre><code>csrutil enable --without debug --without fs
+</code></pre>
+
+<p>The system will complain that this is an unsupported configuration though, and we cannot know if a future update will break it.</p>
+
+<h4>What next?</h4>
+
+<p>TotalFinder and TotalSpaces2 have had a good run, but it is certainly becoming more difficult to support these products. This is due to the additional protections Apple are adding, the changing technology (particularly increasing use of Swift which is harder to integrate with than Objective C), and more generally the lack of Apple provided APIs to do the kind of system modifications that our customers want.</p>
+
+<p>We will keep supporting both products for the lifetime of macOS 10.14 Mojave, but there may well be a future release - perhaps 10.15 next year, perhaps later - that we cannot work with at all. But for now, if you wish to run TotalFinder or TotalSpaces2, we will do our best to make things work for you.</p>
+]]></content>
+        <author>
+            <name>Stephen Sykes</name>
+            <uri>mailto:stephen@binaryage.com</uri>
+        </author>
+    </entry>
     
     <entry>
         <title><![CDATA[SIP and installing BinaryAge apps]]></title>
