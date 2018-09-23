@@ -27,7 +27,7 @@ We provide updated instructions on how to install [TotalFinder here](https://tot
 
 In Mojave Apple added additional signature checks for injected code. This means that our plugins won't load unless we can sign them with an Apple certificate, and as we aren't Apple we don't have that certificate. There isn't really any way around this, and we can only tell you how to get around the protection by disabling SIP.
 
-In fact, TotalFinder and TotalSpaces2 can work with only the debug and file system protections turned off, and advanced users may want to use this command
+In fact, TotalFinder and TotalSpaces2 can work with only the debug and file system protections turned off, and advanced users may want to use this command in the terminal in recovery mode:
 
     csrutil enable --without debug --without fs
 
