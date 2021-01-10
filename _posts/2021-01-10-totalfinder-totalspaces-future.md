@@ -23,7 +23,7 @@ Also notable was that Apple to some extent "Sherlocked" TotalFinder by implement
 
 At the end of [this post from 2018](https://blog.binaryage.com/sip-and-mojave/) we noted that TotalFinder and TotalSpaces2 have had a good run, but it is certainly becoming more difficult to support these products. This is due to the additional protections Apple are adding, the changing technology, and more generally the lack of Apple provided APIs to do the kind of system modifications that our customers want.
 
-At that time we promised to support the products during the lifetime Mojave. As it happens, we did better - we continued to make releases in 2019 and 2020, bringing support to Catalina and now to Big Sur.
+At that time we promised to support the products during the lifetime of Mojave. As it happened, we did better - we continued to make releases in 2019 and 2020, bringing support to Catalina and now to Big Sur.
 
 However, the support in Big Sur is imperfect, and we are not able to support Apple Silicon macs at all.
 
