@@ -11,7 +11,7 @@ author_uri: mailto:stephen@binaryage.com
 
 An early version of TotalFinder was first released in November 2009 during the golden days of Snow Leopard. Although many still remember that operating system with fondness, the Finder implementation of the time was ripe for improvement. We think that TotalFinder was able to really make a difference in the usability of Finder, and we found there was a great deal of support for it.
 
-In April 2012 we released TotalSpaces for OSX Lion, since the grid spaces functionality that we absolutely loved was removed by Apple after the Snow Leopard release. We were able to replace that functionality, and add some configurability and improvements of our own.
+In April 2012 we released TotalSpaces for macOS Lion, since the grid spaces functionality that we absolutely loved was removed by Apple after the Snow Leopard release. We were able to replace that functionality, and add some configurability and improvements of our own.
 
 As time went by, we continued to develop these products and support them. Amazingly, TotalFinder has been available for over 11 years, and TotalSpaces for almost 9 years.
 
@@ -27,7 +27,7 @@ At that time we promised to support the products during the lifetime of Mojave. 
 
 However, the support in Big Sur is imperfect, and we are not able to support Apple Silicon macs at all.
 
-So we have to admit that it's the end of the road for TotalFinder and TotalSpaces2. **We will not work on making TotalFinder or TotalSpaces2 work with the next version of MacOS, and they will not be ported to Apple Silicon macs.**
+So we have to admit that it's the end of the road for TotalFinder and TotalSpaces2. **We will not work on making TotalFinder or TotalSpaces2 work with the next version of macOS, and they will not be ported to Apple Silicon macs.**
 
 We will continue to provide limited support TotalFinder and TotalSpaces2 until the end of 2021. We will cease selling new licenses in the summer.
 
@@ -46,7 +46,7 @@ It is intended for Apple Silicon macs only (at this time), and is currently in p
 
 ### 11 years of BinaryAge
 
-We like to think that we have achieved much during the lifetime of BinaryAge, including the release of various free utilities as well as our paid apps, we have found ways around all kinds of MacOS technical roadblocks, and we hope we have helped with the productivity of our users.
+We like to think that we have achieved much during the lifetime of BinaryAge, including the release of various free utilities as well as our paid apps, we have found ways around all kinds of macOS technical roadblocks, and we hope we have helped with the productivity of our users.
 
 BinaryAge is not going anywhere. TotalSpaces3 is coming, and we may continue release new products and utilities in the future.
 
