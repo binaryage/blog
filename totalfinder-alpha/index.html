@@ -13,7 +13,7 @@
     <meta name="google-site-verification" content="N_xzdr6ymSUQFhAEvQg7f-sp1JAeJCdW2JuaRg-da0w"/>
     <meta property="fb:admins" content="antonin.hildebrand"/>
     <link href="https://feeds.feedburner.com/binaryage-blog" type="application/atom+xml" rel="alternate" title="Ideas from BinaryAge"/>
-    <script>function defer$(e){if(window.jQuery){e()}else{setTimeout(function(){defer$(e)},50)}}</script>
+    <script>function defer$(e){window.jQuery?e():setTimeout(function(){defer$(e)},50)}</script>
   </head>
   <body id="page-blog-totalfinder-alpha">
     <div id="header">
@@ -88,22 +88,22 @@
                       <div class="post-content">
                         <p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
                         <p><strong><a href="http://totalfinder.binaryage.com">TotalFinder</a> is my attempt to make Finder.app better for programmers and Mac power users. I want it better for myself!</strong></p>
-                        <h4>The Story</h4>
+                        <h4 id="the-story">The Story</h4>
                         <p>I use Finder as my primary file manager and I have many small ideas how could I make it better. But my ultimate goal is quite ambitious. The goal is to extend Finder to support dual-panel mode like Total Commander. People around me are leaving Windows for Macs and asking for a Total Commander replacement. Need to hurry! :-)</p>
                         <p>Do you know <a href="http://visor.binaryage.com">Visor</a>? TotalFinder is also implemented as a <a href="http://en.wikipedia.org/wiki/SIMBL">SIMBL</a> plugin which extends Finder.app functionality. TotalFinder works in Snow Leopard only. The reason is that Finder.app has been rewritten into Cocoa in Snow Leopard which finally made this hacking possible.</p>
-                        <h4>TotalFinder 0.2 ALPHA</h4>
+                        <h4 id="totalfinder-02-alpha">TotalFinder 0.2 ALPHA</h4>
                         <div class="blog-download">
                           <a class="download-link" href="http://downloads.binaryage.com/TotalFinder-0.2.1.dmg"><img src="https://static.binaryage.com/2b5c08d4_shared_img_small-download-button.png"/><div>http://downloads.binaryage.com/TotalFinder-0.2.1.dmg</div></a>
                           <div class="download-note">The full changelog: <a href="http://totalfinder.binaryage.com/changelog.html">http://totalfinder.binaryage.com/changelog.html</a></div>
                         </div>
-                        <p>It was tested on my MacBook Pro 17" with 10.6.2 OSX running 32-bit kernel.</p>
+                        <p>It was tested on my MacBook Pro 17” with 10.6.2 OSX running 32-bit kernel.</p>
                         <p>Before you install it, open terminal and prepare this command:</p>
-                        <p><code>rm -rf "/Library/Application Support/SIMBL/Plugins/TotalFinder.bundle"</code></p>
+                        <p><code class="language-plaintext highlighter-rouge">rm -rf "/Library/Application Support/SIMBL/Plugins/TotalFinder.bundle"</code></p>
                         <p>There is a chance that during startup TotalFinder crashes and brings down whole Finder.app. The problem is that there is a process continuously starting Finder.app if it is not running somewhere in OSX. So it ends as an infinite loop of Finder.app starts and crashes until you remove TotalFinder SIMBL.</p>
                         <p>You were warned! Stay sharp!</p>
                         <p>Note: The bug should be fixed in 0.2.1</p>
-                        <h4>Features</h4>
-                        <p>OK, let's see some screenshots:</p>
+                        <h4 id="features">Features</h4>
+                        <p>OK, let’s see some screenshots:</p>
                         <p><img src="https://static.binaryage.com/40f296aa_images_tf02-features.png" style="float:left; width: 49%" title="Preferences panel with Visor feature"/>
                           <img src="https://static.binaryage.com/fd06c0c5_images_tf02-dsstore.png" style="float:left; width: 49%" title="Preferences panel with .DS_Store redirection options"/>
                           <img src="https://static.binaryage.com/7fa592bc_images_tf02-tweaks.png" style="float:left; width: 49%" title="Preferences panel with various tweaks"/>
@@ -114,49 +114,49 @@
                           <li>Visor-like system-wide Finder window available via a hot-key</li>
                           <li>Prevention of littering .DS_Store files all over the place</li>
                         </ul>
-                        <p>And you can also see that I'm planning to start selling this at some point in the future when the thing gets more stable.</p>
-                        <h4>How does .DS_Store redirection work?</h4>
-                        <p>I'm pretty excited about solving the problem which has been bugging me for more than two years since the day I switched to Macintosh. Every single day!</p>
-                        <p>Look, I use Finder.app with enabled hidden files and I'm also pretty heavy Terminal.app user. The .DS_Store litter makes me cry! If you ever happened to google for a solution, you could find just some simple scripts for deleting .DS_Store files (futile!). Or maybe there is some commercial app which is capable of watching filesystem and deleting them after creation. But this is not good enough for me! I'm using folder colors in Finder ;)</p>
+                        <p>And you can also see that I’m planning to start selling this at some point in the future when the thing gets more stable.</p>
+                        <h4 id="how-does-ds_store-redirection-work">How does .DS_Store redirection work?</h4>
+                        <p>I’m pretty excited about solving the problem which has been bugging me for more than two years since the day I switched to Macintosh. Every single day!</p>
+                        <p>Look, I use Finder.app with enabled hidden files and I’m also pretty heavy Terminal.app user. The .DS_Store litter makes me cry! If you ever happened to google for a solution, you could find just some simple scripts for deleting .DS_Store files (futile!). Or maybe there is some commercial app which is capable of watching filesystem and deleting them after creation. But this is not good enough for me! I’m using folder colors in Finder ;)</p>
                         <p>Here is what I did in TotalFinder:</p>
                         <ul>
-                          <li>I've redirected low-level filesystem calls which Finder.app does:
+                          <li>I’ve redirected low-level filesystem calls which Finder.app does:
                             <ul>
-                              <li>Anytime Finder.app is asking to open <code>/some/folder/.DS_Store</code> file, I open it as <code>/usr/local/.dscache/some/folder/_DS_Store</code></li>
+                              <li>Anytime Finder.app is asking to open <code class="language-plaintext highlighter-rouge">/some/folder/.DS_Store</code> file, I open it as <code class="language-plaintext highlighter-rouge">/usr/local/.dscache/some/folder/_DS_Store</code></li>
                               <li>This way Finder thinks files are at original places but they are being physically created in prefix folder, effectively sandboxing them</li>
                               <li>The only exception is the prefix folder itself, when you go and see it in the Finder, no redirection is applied</li>
                             </ul>
                           </li>
-                          <li>I've implemented kernel extension Echelon, which monitors folder renames (and deletes) and sends them to TotalFinder
+                          <li>I’ve implemented kernel extension Echelon, which monitors folder renames (and deletes) and sends them to TotalFinder
                             <ul>
                               <li>You see why. This is important to keep DS_Store folder structure in prefix directory mirroring actual structure on the disk</li>
                             </ul>
                           </li>
                         </ul>
-                        <p>Yeah, kernel extension sounds scary. But I didn't find a better solution in user-space. FSEvents are not precise enough (it just reports "something was changed"). BSD kqueues must be registered on per-file basis, so it is not usable in this scenario. At the end of the day that kernel extension turned out to be a really light-weight solution. I use KAUTH API to monitor kernel filesystem events. I do it only if TotalFinder is connected and only for renames and deletes. Testing is a simple C-string comparison and sending notification via socket.</p>
-                        <p>I've been using TotalFinder with this redirection enabled for a while and it works pretty well. I've noticed only two drawbacks so far:</p>
+                        <p>Yeah, kernel extension sounds scary. But I didn’t find a better solution in user-space. FSEvents are not precise enough (it just reports “something was changed”). BSD kqueues must be registered on per-file basis, so it is not usable in this scenario. At the end of the day that kernel extension turned out to be a really light-weight solution. I use KAUTH API to monitor kernel filesystem events. I do it only if TotalFinder is connected and only for renames and deletes. Testing is a simple C-string comparison and sending notification via socket.</p>
+                        <p>I’ve been using TotalFinder with this redirection enabled for a while and it works pretty well. I’ve noticed only two drawbacks so far:</p>
                         <ul>
                           <li>.DS_Store file is created on Desktop during OSX restart, Finder crash or TotalFinder reinstallation
                           The reason is that SIMBL plugin gets injected too late and Finder manages to write this .DS_Store file</li>
                           <li>.DS_Store file is created when you modify Spotlight comment on a file
                             This is caused by mdworker process and has no direct relation to Finder.app process.
                             It seems like Apple engineers scattered DS_Store functionality into more applications.
-                          I'm still investigating this. Temporary workaround is not using these Spotlight comments. Which is my case anyway.</li>
+                          I’m still investigating this. Temporary workaround is not using these Spotlight comments. Which is my case anyway.</li>
                         </ul>
                         <p>I hope this is enough info for you to get started playing with TotalFinder. Your <a href="http://getsatisfaction.com/binaryage/products/binaryage_totalfinder">feedback</a> is appreciated!</p>
-                        <p>I've fixed tons of <a href="http://visor.binaryage.com">Visor</a> bugs and made it possible under Snow Leopard. Now it is your turn to help me roll this out :-) Thanks!</p>
+                        <p>I’ve fixed tons of <a href="http://visor.binaryage.com">Visor</a> bugs and made it possible under Snow Leopard. Now it is your turn to help me roll this out :-) Thanks!</p>
                       </div>
                     </div>
                     <div class="generic-separator"></div>
                     <div id="comments">
                       <div id="disqus_thread"></div>
-                      <script type="text/javascript">var disqus_shortname="binaryage";var disqus_url="http://blog.binaryage.com/totalfinder-alpha/";(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="//"+disqus_shortname+".disqus.com/embed.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)})()</script>
+                      <script type="text/javascript">var disqus_shortname="binaryage",disqus_url="http://blog.binaryage.com/totalfinder-alpha/";!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="//"+disqus_shortname+".disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)}()</script>
                       <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                       <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
                     </div>
                   </div>
                 </div>
-                <script>defer$(function(){$(".blog-image").wrap(function(){return $("<a class='wrapped-blog-image' data-fancybox-group='blog'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-blog-image").fancybox()})</script>
+                <script>defer$(function(){$(".blog-image").wrap(function(){return $("<a class='wrapped-blog-image' data-fancybox-group='blog'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))}),$(".wrapped-blog-image").fancybox()})</script>
               </div>
             </div>
             <div class="col-md-3">
@@ -166,26 +166,27 @@
                   <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
                 </div>
                 <div class="blog-side-box blog-side-subscribe">
-                  <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml"><div class="blog-side-icon blog-rss-icon"></div></a>
-                  <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml">Subscribe</a>
-                  <div class="subscribe-button">
-                    <a href="//feeds.feedburner.com/binaryage-blog"><img src="//feeds.feedburner.com/~fc/binaryage-blog?bg=dddddd&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt=""/></a>
+                  <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml"><div class="blog-side-icon blog-rss-icon">&lt;/div&gt;</a>
+                    <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml">Subscribe</a>
+                    <div class="subscribe-button">
+                      <a href="//feeds.feedburner.com/binaryage-blog"><img src="//feeds.feedburner.com/~fc/binaryage-blog?bg=dddddd&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt=""/></a>
+                    </div>
                   </div>
-                </div>
-                <div class="blog-side-box blog-side-products">
-                  <div class="blog-side-product">
-                    <a href="https://totalfinder.binaryage.com">
-                      <img src="https://static.binaryage.com/4029a862_shared_img_icons_totalfinder-64.png" width="38" height="38"/>
-                      <span class="title">TotalFinder</span>
-                      <span class="info">Adds tabs to your Finder.app!</span>
-                    </a>
-                  </div>
-                  <div class="blog-side-product">
-                    <a href="https://totalspaces.binaryage.com">
-                      <img src="https://static.binaryage.com/52792a5d_shared_img_icons_totalspaces-64.png" width="38" height="38"/>
-                      <span class="title">TotalSpaces</span>
-                      <span class="info">The ultimate desktop manager</span>
-                    </a>
+                  <div class="blog-side-box blog-side-products">
+                    <div class="blog-side-product">
+                      <a href="https://totalfinder.binaryage.com">
+                        <img src="https://static.binaryage.com/4029a862_shared_img_icons_totalfinder-64.png" width="38" height="38"/>
+                        <span class="title">TotalFinder</span>
+                        <span class="info">Adds tabs to your Finder.app!</span>
+                      </a>
+                    </div>
+                    <div class="blog-side-product">
+                      <a href="https://totalspaces.binaryage.com">
+                        <img src="https://static.binaryage.com/52792a5d_shared_img_icons_totalspaces-64.png" width="38" height="38"/>
+                        <span class="title">TotalSpaces</span>
+                        <span class="info">The ultimate desktop manager</span>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -193,28 +194,27 @@
           </div>
         </div>
       </div>
-    <p></div></p>
-    <div id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-          </div>
-          <div class="col-md-4">
-            <div class="footer-box-right">
-              <div class="footer-copyright">
-                <div class="footer-license">
-                  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="https://static.binaryage.com/69a4ba35_shared_img_byccnd.png"/></a>
+      <div id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+            </div>
+            <div class="col-md-4">
+              <div class="footer-box-right">
+                <div class="footer-copyright">
+                  <div class="footer-license">
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="https://static.binaryage.com/69a4ba35_shared_img_byccnd.png"/></a>
+                  </div>
+                  <a href="https://www.binaryage.com/about">BinaryAge</a>
                 </div>
-                <a href="https://www.binaryage.com/about">BinaryAge</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <script src="https://static.binaryage.com/0518c6ed_shared_js_code.js"></script>
-    <script type="text/javascript">window["ga"]=function(){}</script>
-    <script>window["ga"]=undefined;(function(e,n,a,t,i,o,r){e["GoogleAnalyticsObject"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;o=n.createElement(a),r=n.getElementsByTagName(a)[0];o.async=1;o.src=t;r.parentNode.insertBefore(o,r)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-8404259-1","auto",{allowLinker:true});ga("send","pageview");ga("require","linker");ga("linker:autoLink",["fastspring.com"],true)</script>
-    <script type="text/javascript" charset="utf-8">defer$(function(){$(function(){setTimeout(function(){var i=location.hash.substring(1);if(i.substring(0,2)=="o-"){$("#"+i).trigger("click")}},500)})})</script>
-  </body>
-</html>
+      <script src="https://static.binaryage.com/137f7bdd_shared_js_code.js"></script>
+      <script type="text/javascript">window.ga=function(){}</script>
+      <script>window.ga=undefined,function(e,n,a,t,i,o,c){e.GoogleAnalyticsObject=i,e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date,o=n.createElement(a),c=n.getElementsByTagName(a)[0],o.async=1,o.src=t,c.parentNode.insertBefore(o,c)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-8404259-1","auto",{allowLinker:!0}),ga("send","pageview"),ga("require","linker"),ga("linker:autoLink",["fastspring.com"],!0)</script>
+      <script type="text/javascript" charset="utf-8">defer$(function(){$(function(){setTimeout(function(){var i=location.hash.substring(1);"o-"==i.substring(0,2)&&$("#"+i).trigger("click")},500)})})</script>
+    </body>
+  </html>

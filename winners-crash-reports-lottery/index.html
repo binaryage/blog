@@ -13,7 +13,7 @@
     <meta name="google-site-verification" content="N_xzdr6ymSUQFhAEvQg7f-sp1JAeJCdW2JuaRg-da0w"/>
     <meta property="fb:admins" content="antonin.hildebrand"/>
     <link href="https://feeds.feedburner.com/binaryage-blog" type="application/atom+xml" rel="alternate" title="Ideas from BinaryAge"/>
-    <script>function defer$(e){if(window.jQuery){e()}else{setTimeout(function(){defer$(e)},50)}}</script>
+    <script>function defer$(e){window.jQuery?e():setTimeout(function(){defer$(e)},50)}</script>
   </head>
   <body id="page-blog-winners-crash-reports-lottery">
     <div id="header">
@@ -87,17 +87,17 @@
                       <div class="generic-separator"></div>
                       <div class="post-content">
                         <p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
-                        <p><strong> <a href="/totalfinder-birthday-launch">I promised some fun here</a> and here is the announcement of the lottery winners.<br/>I have here almost $1000 worth of licenses for lucky crash reporters. </strong></p>
-                        <h4>How does the lottery work?</h4>
-                        <p>I've had over 11000 crash reports during this year. That is a scary number. But the big portion of them were infamous crashes of <a href="http://blog.binaryage.com/localized-totalfinder-keeps-crashing">the broken expiration code in 0.9.5</a>. That is fair, everyone had a chance to send a crash report at some point although it caused some sleepless nights to me ;-) Maybe you wonder how I managed to process so many reports. They are just emails and I made a smart decision to <a href="http://blog.binaryage.com/crash-reporting-in-binaryage/">use gmail as a crash-report database</a> because it has the best search on the planet.</p>
-                        <p>I decided to draw 64 unique winners, so nobody can win two or more licenses. Also I decided to honor the number of crash reports you've sent so every email counts as a new ticket in the lottery.</p>
+                        <p>** <a href="/totalfinder-birthday-launch">I promised some fun here</a> and here is the announcement of the lottery winners.<br/>I have here almost $1000 worth of licenses for lucky crash reporters. **</p>
+                        <h4 id="how-does-the-lottery-work">How does the lottery work?</h4>
+                        <p>I’ve had over 11000 crash reports during this year. That is a scary number. But the big portion of them were infamous crashes of <a href="http://blog.binaryage.com/localized-totalfinder-keeps-crashing">the broken expiration code in 0.9.5</a>. That is fair, everyone had a chance to send a crash report at some point although it caused some sleepless nights to me ;-) Maybe you wonder how I managed to process so many reports. They are just emails and I made a smart decision to <a href="http://blog.binaryage.com/crash-reporting-in-binaryage/">use gmail as a crash-report database</a> because it has the best search on the planet.</p>
+                        <p>I decided to draw 64 unique winners, so nobody can win two or more licenses. Also I decided to honor the number of crash reports you’ve sent so every email counts as a new ticket in the lottery.</p>
                         <p>Here is <a href="http://gist.github.com/599631">the script</a> if you are interested.</p>
-                        <h4>But wait, we need a random seed</h4>
+                        <h4 id="but-wait-we-need-a-random-seed">But wait, we need a random seed</h4>
                         <p><a href="http://twitter.com/blubalu/status/25711610348">@blubalu</a> was the fastest random notary in <a href="http://twitter.com/binaryage">@binaryage</a>. Note that he uses TweetDeck :-)</p>
                         <p><a href="http://twitter.com/blubalu/status/25711610348"><img src="https://static.binaryage.com/a07e1231_images_randseed-lottery-1.png"/></a></p>
-                        <h4>And the winners are...</h4>
+                        <h4 id="and-the-winners-are">And the winners are…</h4>
                         <p>These guys should have their email already. <strong>Congratulations!!!</strong></p>
-                        <pre><code>    ruby 1.8.7 (2010-06-23 patchlevel 299) [i686-darwin10]
+                        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    ruby 1.8.7 (2010-06-23 patchlevel 299) [i686-darwin10]
     total 11380 crash reports (Mon Sep 27 19:05:40 UTC 2010)
     -----
     01. #04470 ****@******.us
@@ -164,19 +164,19 @@
     62. #08801 ***********@*******.com
     63. #01210 **********@*****.com
     64. #11244 ****@*************.au
-</code></pre>
+</code></pre></div></div>
                       </div>
                     </div>
                     <div class="generic-separator"></div>
                     <div id="comments">
                       <div id="disqus_thread"></div>
-                      <script type="text/javascript">var disqus_shortname="binaryage";var disqus_url="http://blog.binaryage.com/winners-crash-reports-lottery/";(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="//"+disqus_shortname+".disqus.com/embed.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)})()</script>
+                      <script type="text/javascript">var disqus_shortname="binaryage",disqus_url="http://blog.binaryage.com/winners-crash-reports-lottery/";!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="//"+disqus_shortname+".disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)}()</script>
                       <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                       <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
                     </div>
                   </div>
                 </div>
-                <script>defer$(function(){$(".blog-image").wrap(function(){return $("<a class='wrapped-blog-image' data-fancybox-group='blog'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-blog-image").fancybox()})</script>
+                <script>defer$(function(){$(".blog-image").wrap(function(){return $("<a class='wrapped-blog-image' data-fancybox-group='blog'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))}),$(".wrapped-blog-image").fancybox()})</script>
               </div>
             </div>
             <div class="col-md-3">
@@ -186,26 +186,27 @@
                   <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
                 </div>
                 <div class="blog-side-box blog-side-subscribe">
-                  <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml"><div class="blog-side-icon blog-rss-icon"></div></a>
-                  <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml">Subscribe</a>
-                  <div class="subscribe-button">
-                    <a href="//feeds.feedburner.com/binaryage-blog"><img src="//feeds.feedburner.com/~fc/binaryage-blog?bg=dddddd&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt=""/></a>
+                  <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml"><div class="blog-side-icon blog-rss-icon">&lt;/div&gt;</a>
+                    <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml">Subscribe</a>
+                    <div class="subscribe-button">
+                      <a href="//feeds.feedburner.com/binaryage-blog"><img src="//feeds.feedburner.com/~fc/binaryage-blog?bg=dddddd&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt=""/></a>
+                    </div>
                   </div>
-                </div>
-                <div class="blog-side-box blog-side-products">
-                  <div class="blog-side-product">
-                    <a href="https://totalfinder.binaryage.com">
-                      <img src="https://static.binaryage.com/4029a862_shared_img_icons_totalfinder-64.png" width="38" height="38"/>
-                      <span class="title">TotalFinder</span>
-                      <span class="info">Adds tabs to your Finder.app!</span>
-                    </a>
-                  </div>
-                  <div class="blog-side-product">
-                    <a href="https://totalspaces.binaryage.com">
-                      <img src="https://static.binaryage.com/52792a5d_shared_img_icons_totalspaces-64.png" width="38" height="38"/>
-                      <span class="title">TotalSpaces</span>
-                      <span class="info">The ultimate desktop manager</span>
-                    </a>
+                  <div class="blog-side-box blog-side-products">
+                    <div class="blog-side-product">
+                      <a href="https://totalfinder.binaryage.com">
+                        <img src="https://static.binaryage.com/4029a862_shared_img_icons_totalfinder-64.png" width="38" height="38"/>
+                        <span class="title">TotalFinder</span>
+                        <span class="info">Adds tabs to your Finder.app!</span>
+                      </a>
+                    </div>
+                    <div class="blog-side-product">
+                      <a href="https://totalspaces.binaryage.com">
+                        <img src="https://static.binaryage.com/52792a5d_shared_img_icons_totalspaces-64.png" width="38" height="38"/>
+                        <span class="title">TotalSpaces</span>
+                        <span class="info">The ultimate desktop manager</span>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -213,28 +214,27 @@
           </div>
         </div>
       </div>
-    <p></div></p>
-    <div id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-          </div>
-          <div class="col-md-4">
-            <div class="footer-box-right">
-              <div class="footer-copyright">
-                <div class="footer-license">
-                  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="https://static.binaryage.com/69a4ba35_shared_img_byccnd.png"/></a>
+      <div id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+            </div>
+            <div class="col-md-4">
+              <div class="footer-box-right">
+                <div class="footer-copyright">
+                  <div class="footer-license">
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="https://static.binaryage.com/69a4ba35_shared_img_byccnd.png"/></a>
+                  </div>
+                  <a href="https://www.binaryage.com/about">BinaryAge</a>
                 </div>
-                <a href="https://www.binaryage.com/about">BinaryAge</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <script src="https://static.binaryage.com/0518c6ed_shared_js_code.js"></script>
-    <script type="text/javascript">window["ga"]=function(){}</script>
-    <script>window["ga"]=undefined;(function(e,n,a,t,i,o,r){e["GoogleAnalyticsObject"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;o=n.createElement(a),r=n.getElementsByTagName(a)[0];o.async=1;o.src=t;r.parentNode.insertBefore(o,r)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-8404259-1","auto",{allowLinker:true});ga("send","pageview");ga("require","linker");ga("linker:autoLink",["fastspring.com"],true)</script>
-    <script type="text/javascript" charset="utf-8">defer$(function(){$(function(){setTimeout(function(){var i=location.hash.substring(1);if(i.substring(0,2)=="o-"){$("#"+i).trigger("click")}},500)})})</script>
-  </body>
-</html>
+      <script src="https://static.binaryage.com/137f7bdd_shared_js_code.js"></script>
+      <script type="text/javascript">window.ga=function(){}</script>
+      <script>window.ga=undefined,function(e,n,a,t,i,o,c){e.GoogleAnalyticsObject=i,e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date,o=n.createElement(a),c=n.getElementsByTagName(a)[0],o.async=1,o.src=t,c.parentNode.insertBefore(o,c)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-8404259-1","auto",{allowLinker:!0}),ga("send","pageview"),ga("require","linker"),ga("linker:autoLink",["fastspring.com"],!0)</script>
+      <script type="text/javascript" charset="utf-8">defer$(function(){$(function(){setTimeout(function(){var i=location.hash.substring(1);"o-"==i.substring(0,2)&&$("#"+i).trigger("click")},500)})})</script>
+    </body>
+  </html>

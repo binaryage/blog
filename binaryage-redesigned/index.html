@@ -13,7 +13,7 @@
     <meta name="google-site-verification" content="N_xzdr6ymSUQFhAEvQg7f-sp1JAeJCdW2JuaRg-da0w"/>
     <meta property="fb:admins" content="antonin.hildebrand"/>
     <link href="https://feeds.feedburner.com/binaryage-blog" type="application/atom+xml" rel="alternate" title="Ideas from BinaryAge"/>
-    <script>function defer$(e){if(window.jQuery){e()}else{setTimeout(function(){defer$(e)},50)}}</script>
+    <script>function defer$(e){window.jQuery?e():setTimeout(function(){defer$(e)},50)}</script>
   </head>
   <body id="page-blog-binaryage-redesigned">
     <div id="header">
@@ -87,27 +87,27 @@
                       <div class="generic-separator"></div>
                       <div class="post-content">
                         <p><img src="https://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
-                        <p><strong>I'm happy to announce that BinaryAge just got a new design!<br/>Big kudos to <a href="http://raist.cz">Raist</a> who redesigned <a href="http://binaryage.com">the site</a> for me.</strong></p>
-                        <h4>How do you like it?</h4>
+                        <p><strong>I’m happy to announce that BinaryAge just got a new design!<br/>Big kudos to <a href="http://raist.cz">Raist</a> who redesigned <a href="http://binaryage.com">the site</a> for me.</strong></p>
+                        <h4 id="how-do-you-like-it">How do you like it?</h4>
                         <p><img class="clear blog-image" src="https://static.binaryage.com/58e86027_images_binaryage-redesign.png" title="New smooth design with many javascript bells and whistles"/></p>
-                        <h4>For historical comparison here is the old homepage design:</h4>
+                        <h4 id="for-historical-comparison-here-is-the-old-homepage-design">For historical comparison here is the old homepage design:</h4>
                         <p><img class="clear blog-image" src="https://static.binaryage.com/e16ffc65_images_binaryage-old-design.png" title="Old coder's design for internet archeologists."/></p>
-                        <h4>Who is that magician Raist?</h4>
-                        <p>He has been a very best friend of mine for very long time. Back in old times we did some artistic <a href="http://hildebrand.cz/marshals-web">demoscene work</a> together with other folks from <a href="http://marshals.cz/">marshals.cz</a>. Those times are over but we are still in the computer business. He is a freelance graphics designer and I'm a contract programmer. From time to time we join together to get some job done. Ehmm yes, most of the time I want some work from him :-)</p>
-                        <h4>Meet Cloudia</h4>
+                        <h4 id="who-is-that-magician-raist">Who is that magician Raist?</h4>
+                        <p>He has been a very best friend of mine for very long time. Back in old times we did some artistic <a href="http://hildebrand.cz/marshals-web">demoscene work</a> together with other folks from <a href="http://marshals.cz/">marshals.cz</a>. Those times are over but we are still in the computer business. He is a freelance graphics designer and I’m a contract programmer. From time to time we join together to get some job done. Ehmm yes, most of the time I want some work from him :-)</p>
+                        <h4 id="meet-cloudia">Meet Cloudia</h4>
                         <p><a href="http://raist.cz">Raist</a> has been working with our great friend <a href="http://webaplications.com">Surgi</a> on a new business for a while. The shiny product is called <a href="http://www.cloudia.cz/eng">Cloudia CMS</a> and it is a flexible multi-site CMS with an awesome admin interface built with ExtJS library. See the <a href="http://www.cloudia.cz/eng">screenshots</a>!</p>
                         <p>I have not worked with the system personally, but I can recommend those guys, because I know they are doing a great job. If you are ever looking for a multi-site CMS which is expected to process great amounts of data you should definitely not miss Cloudia!</p>
-                        <h4>Tasty ingredients powering the new site</h4>
+                        <h4 id="tasty-ingredients-powering-the-new-site">Tasty ingredients powering the new site</h4>
                         <ul>
                           <li><a href="http://www.dafont.com/bit-low.font">BitLow Font</a> by <strong>Magnus Högberg</strong> (good job Magnus!)</li>
                           <li><a href="http://github.com/sorccu/cufon">Cufon</a> by <strong>Simo Kinnunen</strong> (pure awesomeness!)</li>
                           <li><a href="http://jquery.com">jQuery</a> by javascript ninja <strong>John Resig</strong> and many contributors</li>
                           <li><a href="http://flowplayer.org/tools/index.html">jQuery Tools</a> by <strong>FlowPlayer folks</strong></li>
-                          <li><a href="http://benalman.com/projects/jquery-hashchange-plugin">jQuery hashchange plugin</a> by <strong>"Cowboy" Ben Alman</strong> (thanks!)</li>
+                          <li><a href="http://benalman.com/projects/jquery-hashchange-plugin">jQuery hashchange plugin</a> by <strong>“Cowboy” Ben Alman</strong> (thanks!)</li>
                           <li><a href="http://github.com/mojombo/jekyll">Jekyll</a> by github guru <strong>Tom Preston-Werner</strong> and many contributors</li>
                           <li><a href="http://www.blueprintcss.org">BluePrint CSS framework</a> by <a href="http://github.com/joshuaclayton/blueprint-css/blob/master/AUTHORS.textile">these css folks</a> (sweet!)</li>
                         </ul>
-                        <h4>Improved XRefresh and Jekyll along the way</h4>
+                        <h4 id="improved-xrefresh-and-jekyll-along-the-way">Improved XRefresh and Jekyll along the way</h4>
                         <p>Of course I do eat my own dog food, so I used XRefresh, FireQuery, Visor and TotalFinder heavily while working on the changes.</p>
                         <p>Actually I did more than that! I even contributed a few fixes to XRefresh and Jekyll:</p>
                         <ul>
@@ -116,19 +116,19 @@
                           <li><a href="http://github.com/darwin/jekyll/tree/site_url_from_cmdline">http://github.com/darwin/jekyll/tree/site_url_from_cmdline</a></li>
                         </ul>
                         <p>The XRefresh improvement especially is sweet. I hope I will manage to find some time for a new XRefresh release soon.</p>
-                        <p><strong>Please report any weird experiences with the new site. Also please note that this site is not optimized for IE. According to Google Analytics, I'm getting less than 2% IE visitors, so it is simply not worth the headache.</strong></p>
+                        <p><strong>Please report any weird experiences with the new site. Also please note that this site is not optimized for IE. According to Google Analytics, I’m getting less than 2% IE visitors, so it is simply not worth the headache.</strong></p>
                       </div>
                     </div>
                     <div class="generic-separator"></div>
                     <div id="comments">
                       <div id="disqus_thread"></div>
-                      <script type="text/javascript">var disqus_shortname="binaryage";var disqus_url="http://blog.binaryage.com/binaryage-redesigned/";(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="//"+disqus_shortname+".disqus.com/embed.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)})()</script>
+                      <script type="text/javascript">var disqus_shortname="binaryage",disqus_url="http://blog.binaryage.com/binaryage-redesigned/";!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="//"+disqus_shortname+".disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)}()</script>
                       <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                       <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
                     </div>
                   </div>
                 </div>
-                <script>defer$(function(){$(".blog-image").wrap(function(){return $("<a class='wrapped-blog-image' data-fancybox-group='blog'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-blog-image").fancybox()})</script>
+                <script>defer$(function(){$(".blog-image").wrap(function(){return $("<a class='wrapped-blog-image' data-fancybox-group='blog'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))}),$(".wrapped-blog-image").fancybox()})</script>
               </div>
             </div>
             <div class="col-md-3">
@@ -138,26 +138,27 @@
                   <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
                 </div>
                 <div class="blog-side-box blog-side-subscribe">
-                  <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml"><div class="blog-side-icon blog-rss-icon"></div></a>
-                  <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml">Subscribe</a>
-                  <div class="subscribe-button">
-                    <a href="//feeds.feedburner.com/binaryage-blog"><img src="//feeds.feedburner.com/~fc/binaryage-blog?bg=dddddd&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt=""/></a>
+                  <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml"><div class="blog-side-icon blog-rss-icon">&lt;/div&gt;</a>
+                    <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml">Subscribe</a>
+                    <div class="subscribe-button">
+                      <a href="//feeds.feedburner.com/binaryage-blog"><img src="//feeds.feedburner.com/~fc/binaryage-blog?bg=dddddd&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt=""/></a>
+                    </div>
                   </div>
-                </div>
-                <div class="blog-side-box blog-side-products">
-                  <div class="blog-side-product">
-                    <a href="https://totalfinder.binaryage.com">
-                      <img src="https://static.binaryage.com/4029a862_shared_img_icons_totalfinder-64.png" width="38" height="38"/>
-                      <span class="title">TotalFinder</span>
-                      <span class="info">Adds tabs to your Finder.app!</span>
-                    </a>
-                  </div>
-                  <div class="blog-side-product">
-                    <a href="https://totalspaces.binaryage.com">
-                      <img src="https://static.binaryage.com/52792a5d_shared_img_icons_totalspaces-64.png" width="38" height="38"/>
-                      <span class="title">TotalSpaces</span>
-                      <span class="info">The ultimate desktop manager</span>
-                    </a>
+                  <div class="blog-side-box blog-side-products">
+                    <div class="blog-side-product">
+                      <a href="https://totalfinder.binaryage.com">
+                        <img src="https://static.binaryage.com/4029a862_shared_img_icons_totalfinder-64.png" width="38" height="38"/>
+                        <span class="title">TotalFinder</span>
+                        <span class="info">Adds tabs to your Finder.app!</span>
+                      </a>
+                    </div>
+                    <div class="blog-side-product">
+                      <a href="https://totalspaces.binaryage.com">
+                        <img src="https://static.binaryage.com/52792a5d_shared_img_icons_totalspaces-64.png" width="38" height="38"/>
+                        <span class="title">TotalSpaces</span>
+                        <span class="info">The ultimate desktop manager</span>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -165,28 +166,27 @@
           </div>
         </div>
       </div>
-    <p></div></p>
-    <div id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-          </div>
-          <div class="col-md-4">
-            <div class="footer-box-right">
-              <div class="footer-copyright">
-                <div class="footer-license">
-                  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="https://static.binaryage.com/69a4ba35_shared_img_byccnd.png"/></a>
+      <div id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+            </div>
+            <div class="col-md-4">
+              <div class="footer-box-right">
+                <div class="footer-copyright">
+                  <div class="footer-license">
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="https://static.binaryage.com/69a4ba35_shared_img_byccnd.png"/></a>
+                  </div>
+                  <a href="https://www.binaryage.com/about">BinaryAge</a>
                 </div>
-                <a href="https://www.binaryage.com/about">BinaryAge</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <script src="https://static.binaryage.com/0518c6ed_shared_js_code.js"></script>
-    <script type="text/javascript">window["ga"]=function(){}</script>
-    <script>window["ga"]=undefined;(function(e,n,a,t,i,o,r){e["GoogleAnalyticsObject"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;o=n.createElement(a),r=n.getElementsByTagName(a)[0];o.async=1;o.src=t;r.parentNode.insertBefore(o,r)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-8404259-1","auto",{allowLinker:true});ga("send","pageview");ga("require","linker");ga("linker:autoLink",["fastspring.com"],true)</script>
-    <script type="text/javascript" charset="utf-8">defer$(function(){$(function(){setTimeout(function(){var i=location.hash.substring(1);if(i.substring(0,2)=="o-"){$("#"+i).trigger("click")}},500)})})</script>
-  </body>
-</html>
+      <script src="https://static.binaryage.com/137f7bdd_shared_js_code.js"></script>
+      <script type="text/javascript">window.ga=function(){}</script>
+      <script>window.ga=undefined,function(e,n,a,t,i,o,c){e.GoogleAnalyticsObject=i,e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date,o=n.createElement(a),c=n.getElementsByTagName(a)[0],o.async=1,o.src=t,c.parentNode.insertBefore(o,c)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-8404259-1","auto",{allowLinker:!0}),ga("send","pageview"),ga("require","linker"),ga("linker:autoLink",["fastspring.com"],!0)</script>
+      <script type="text/javascript" charset="utf-8">defer$(function(){$(function(){setTimeout(function(){var i=location.hash.substring(1);"o-"==i.substring(0,2)&&$("#"+i).trigger("click")},500)})})</script>
+    </body>
+  </html>

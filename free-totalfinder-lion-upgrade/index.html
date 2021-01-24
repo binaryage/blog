@@ -13,7 +13,7 @@
     <meta name="google-site-verification" content="N_xzdr6ymSUQFhAEvQg7f-sp1JAeJCdW2JuaRg-da0w"/>
     <meta property="fb:admins" content="antonin.hildebrand"/>
     <link href="https://feeds.feedburner.com/binaryage-blog" type="application/atom+xml" rel="alternate" title="Ideas from BinaryAge"/>
-    <script>function defer$(e){if(window.jQuery){e()}else{setTimeout(function(){defer$(e)},50)}}</script>
+    <script>function defer$(e){window.jQuery?e():setTimeout(function(){defer$(e)},50)}</script>
   </head>
   <body id="page-blog-free-totalfinder-lion-upgrade">
     <div id="header">
@@ -87,41 +87,43 @@
                       <div class="generic-separator"></div>
                       <div class="post-content">
                         <p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/></p>
-                        <p><strong>Good news! I'm happy to announce that all existing users will get TotalFinder Lion upgrade for free. On the other hand I will increase TotalFinder price for new customers the same day Apple releases Lion. Please read the details below.</strong></p>
-                        <h3>The summary</h3>
+                        <p><strong>Good news! I’m happy to announce that all existing users will get TotalFinder Lion upgrade for free. On the other hand I will increase TotalFinder price for new customers the same day Apple releases Lion. Please read the details below.</strong></p>
+                        <h3 id="the-summary">The summary</h3>
                         <ul>
                           <li>Single TotalFinder binary will work on both Snow Leopard and Lion without restrictions</li>
                           <li>There will be no TotalFinder upgrade fee for Lion</li>
                           <li>When Apple releases Lion, I will increase the price to $18 (currently $15)</li>
-                          <li>For EU customers I won't cover VAT in the price anymore</li>
+                          <li>For EU customers I won’t cover VAT in the price anymore</li>
                         </ul>
-                        <h4>Single TotalFinder executable</h4>
-                        <p>I made some nice progress on <a href="http://totalfinder.binaryage.com/lion">Lion compatibility</a>. I'm pretty confident that I will be able to provide all TotalFinder features under Lion. The bonus is that I was able to implement it in a single binary, so there should be no headaches with maintaing two separate plugins.</p>
-                        <h4>You get a TotalFinder upgrade for free</h4>
+                        <h4 id="single-totalfinder-executable">Single TotalFinder executable</h4>
+                        <p>I made some nice progress on <a href="http://totalfinder.binaryage.com/lion">Lion compatibility</a>. I’m pretty confident that I will be able to provide all TotalFinder features under Lion. The bonus is that I was able to implement it in a single binary, so there should be no headaches with maintaing two separate plugins.</p>
+                        <h4 id="you-get-a-totalfinder-upgrade-for-free">You get a TotalFinder upgrade for free</h4>
                         <p>A quote from TotalFinder <a href="http://totalfinder.binaryage.com/licensing">licensing page</a>:</p>
-                        <blockquote><p>A new major OS release (OS X 10.7) will probably require substantial rewrites and intensive testing. I may charge existing users an upgrade fee for a new OS. I expect it to be 50% of the full price.</p></blockquote>
-                        <p>This time I've decided to give it for free and here are my main reasons:</p>
+                        <blockquote>
+                          <p>A new major OS release (OS X 10.7) will probably require substantial rewrites and intensive testing. I may charge existing users an upgrade fee for a new OS. I expect it to be 50% of the full price.</p>
+                        </blockquote>
+                        <p>This time I’ve decided to give it for free and here are my main reasons:</p>
                         <ol>
-                          <li>all TotalFinder licenses are less than a year old, I don't feel it is fair to charge you twice per year</li>
+                          <li>all TotalFinder licenses are less than a year old, I don’t feel it is fair to charge you twice per year</li>
                           <li>sales are still pretty strong and it covers my development costs [happy face]</li>
                           <li>you supported me in the early days by buying it, you are all early adopters, thank you!</li>
                         </ol>
-                        <h4>TotalFinder price will go up</h4>
-                        <p>TotalFinder is definitely getting better. It is still not perfect, but we are getting there. For example I've <a href="/totalfinder-with-cut-and-paste">added cut&amp;paste</a> which alone added <a href="http://kapeli.com">value of $8</a>. I'm committed to continue. I have some great ideas on the list.</p>
+                        <h4 id="totalfinder-price-will-go-up">TotalFinder price will go up</h4>
+                        <p>TotalFinder is definitely getting better. It is still not perfect, but we are getting there. For example I’ve <a href="/totalfinder-with-cut-and-paste">added cut&amp;paste</a> which alone added <a href="http://kapeli.com">value of $8</a>. I’m committed to continue. I have some great ideas on the list.</p>
                         <p>But I have different arguments why TotalFinder price should go up:</p>
                         <ol>
                           <li>I believe that early adopters should get a better price</li>
                           <li>I have been overwhelmed with user support lately, by increasing the price I get less people jumping in, which gives me more time for real development, instead of sitting in gmail all day long</li>
                           <li>I live in the Czech Republic and <a href="http://www.google.com//finance?chdnp=1&amp;chdd=1&amp;chds=1&amp;chdv=1&amp;chvs=Linear&amp;chdeh=0&amp;chfdeh=0&amp;chdet=1306772121487&amp;chddm=359060&amp;q=CURRENCY:USDCZK&amp;ntsp=0">the dollar lost ~20% against Czech currency during last year</a></li>
                         </ol>
-                        <h4>I will stop paying taxes for EU customers</h4>
-                        <p>Last year when I was opening <a href="http://sites.fastspring.com/binaryage/product/store">the store</a> via <a href="http://fastspring.com">FastSpring</a> I've selected option to hide VAT in the price. The <a href="http://en.wikipedia.org/wiki/Value_added_tax">VAT</a> is similar to sales taxes in the U.S.</p>
-                        <p>Why did I do that? Well, here in Europe, it is common that end-user prices in stores are displayed including VAT and people don't think about it (what a great social hack, isn't it?). I wanted my ordering process to be as seamless as possible and I didn't want to spend time explaining people why they should pay 20% more than is advertised on the homepage.</p>
+                        <h4 id="i-will-stop-paying-taxes-for-eu-customers">I will stop paying taxes for EU customers</h4>
+                        <p>Last year when I was opening <a href="http://sites.fastspring.com/binaryage/product/store">the store</a> via <a href="http://fastspring.com">FastSpring</a> I’ve selected option to hide VAT in the price. The <a href="http://en.wikipedia.org/wiki/Value_added_tax">VAT</a> is similar to sales taxes in the U.S.</p>
+                        <p>Why did I do that? Well, here in Europe, it is common that end-user prices in stores are displayed including VAT and people don’t think about it (what a great social hack, isn’t it?). I wanted my ordering process to be as seamless as possible and I didn’t want to spend time explaining people why they should pay 20% more than is advertised on the homepage.</p>
                         <p>Why it was a mistake? Simply it is not fair. It creates inequality between customers. Some pay more than others. For example from U.S. citizens I get full $15, while for example from German guys I get roughly $12.5. I have to collect the remaining $2.5 for German government (as a VAT).</p>
-                        <p>I'm libertarian by heart and I have to fix this. The day Apple releases Lion I will flip the switch. This will make TotalFinder more expensive for EU customers (according to their country's VAT rate).</p>
-                        <h3>The bottom line</h3>
-                        <p>Ok, those changes won't be popular but I believe they are the right thing to do. Complain to your governments, not me.</p>
-                        <p>If you've already bought your TotalFinder copy you made a good investment. It helps you every day with Finder and the value is increasing over time (hopefully). And I will do my best to keep it that way!</p>
+                        <p>I’m libertarian by heart and I have to fix this. The day Apple releases Lion I will flip the switch. This will make TotalFinder more expensive for EU customers (according to their country’s VAT rate).</p>
+                        <h3 id="the-bottom-line">The bottom line</h3>
+                        <p>Ok, those changes won’t be popular but I believe they are the right thing to do. Complain to your governments, not me.</p>
+                        <p>If you’ve already bought your TotalFinder copy you made a good investment. It helps you every day with Finder and the value is increasing over time (hopefully). And I will do my best to keep it that way!</p>
                         <hr/>
                         <div class="footnote">And for all U.S. folks I wish you have a great Memorial Day 2011.</div>
                       </div>
@@ -129,13 +131,13 @@
                     <div class="generic-separator"></div>
                     <div id="comments">
                       <div id="disqus_thread"></div>
-                      <script type="text/javascript">var disqus_shortname="binaryage";var disqus_url="http://blog.binaryage.com/free-totalfinder-lion-upgrade/";(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="//"+disqus_shortname+".disqus.com/embed.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)})()</script>
+                      <script type="text/javascript">var disqus_shortname="binaryage",disqus_url="http://blog.binaryage.com/free-totalfinder-lion-upgrade/";!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="//"+disqus_shortname+".disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)}()</script>
                       <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                       <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
                     </div>
                   </div>
                 </div>
-                <script>defer$(function(){$(".blog-image").wrap(function(){return $("<a class='wrapped-blog-image' data-fancybox-group='blog'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-blog-image").fancybox()})</script>
+                <script>defer$(function(){$(".blog-image").wrap(function(){return $("<a class='wrapped-blog-image' data-fancybox-group='blog'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))}),$(".wrapped-blog-image").fancybox()})</script>
               </div>
             </div>
             <div class="col-md-3">
@@ -145,26 +147,27 @@
                   <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
                 </div>
                 <div class="blog-side-box blog-side-subscribe">
-                  <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml"><div class="blog-side-icon blog-rss-icon"></div></a>
-                  <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml">Subscribe</a>
-                  <div class="subscribe-button">
-                    <a href="//feeds.feedburner.com/binaryage-blog"><img src="//feeds.feedburner.com/~fc/binaryage-blog?bg=dddddd&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt=""/></a>
+                  <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml"><div class="blog-side-icon blog-rss-icon">&lt;/div&gt;</a>
+                    <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml">Subscribe</a>
+                    <div class="subscribe-button">
+                      <a href="//feeds.feedburner.com/binaryage-blog"><img src="//feeds.feedburner.com/~fc/binaryage-blog?bg=dddddd&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt=""/></a>
+                    </div>
                   </div>
-                </div>
-                <div class="blog-side-box blog-side-products">
-                  <div class="blog-side-product">
-                    <a href="https://totalfinder.binaryage.com">
-                      <img src="https://static.binaryage.com/4029a862_shared_img_icons_totalfinder-64.png" width="38" height="38"/>
-                      <span class="title">TotalFinder</span>
-                      <span class="info">Adds tabs to your Finder.app!</span>
-                    </a>
-                  </div>
-                  <div class="blog-side-product">
-                    <a href="https://totalspaces.binaryage.com">
-                      <img src="https://static.binaryage.com/52792a5d_shared_img_icons_totalspaces-64.png" width="38" height="38"/>
-                      <span class="title">TotalSpaces</span>
-                      <span class="info">The ultimate desktop manager</span>
-                    </a>
+                  <div class="blog-side-box blog-side-products">
+                    <div class="blog-side-product">
+                      <a href="https://totalfinder.binaryage.com">
+                        <img src="https://static.binaryage.com/4029a862_shared_img_icons_totalfinder-64.png" width="38" height="38"/>
+                        <span class="title">TotalFinder</span>
+                        <span class="info">Adds tabs to your Finder.app!</span>
+                      </a>
+                    </div>
+                    <div class="blog-side-product">
+                      <a href="https://totalspaces.binaryage.com">
+                        <img src="https://static.binaryage.com/52792a5d_shared_img_icons_totalspaces-64.png" width="38" height="38"/>
+                        <span class="title">TotalSpaces</span>
+                        <span class="info">The ultimate desktop manager</span>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -172,28 +175,27 @@
           </div>
         </div>
       </div>
-    <p></div></p>
-    <div id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-          </div>
-          <div class="col-md-4">
-            <div class="footer-box-right">
-              <div class="footer-copyright">
-                <div class="footer-license">
-                  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="https://static.binaryage.com/69a4ba35_shared_img_byccnd.png"/></a>
+      <div id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+            </div>
+            <div class="col-md-4">
+              <div class="footer-box-right">
+                <div class="footer-copyright">
+                  <div class="footer-license">
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="https://static.binaryage.com/69a4ba35_shared_img_byccnd.png"/></a>
+                  </div>
+                  <a href="https://www.binaryage.com/about">BinaryAge</a>
                 </div>
-                <a href="https://www.binaryage.com/about">BinaryAge</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <script src="https://static.binaryage.com/0518c6ed_shared_js_code.js"></script>
-    <script type="text/javascript">window["ga"]=function(){}</script>
-    <script>window["ga"]=undefined;(function(e,n,a,t,i,o,r){e["GoogleAnalyticsObject"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;o=n.createElement(a),r=n.getElementsByTagName(a)[0];o.async=1;o.src=t;r.parentNode.insertBefore(o,r)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-8404259-1","auto",{allowLinker:true});ga("send","pageview");ga("require","linker");ga("linker:autoLink",["fastspring.com"],true)</script>
-    <script type="text/javascript" charset="utf-8">defer$(function(){$(function(){setTimeout(function(){var i=location.hash.substring(1);if(i.substring(0,2)=="o-"){$("#"+i).trigger("click")}},500)})})</script>
-  </body>
-</html>
+      <script src="https://static.binaryage.com/137f7bdd_shared_js_code.js"></script>
+      <script type="text/javascript">window.ga=function(){}</script>
+      <script>window.ga=undefined,function(e,n,a,t,i,o,c){e.GoogleAnalyticsObject=i,e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date,o=n.createElement(a),c=n.getElementsByTagName(a)[0],o.async=1,o.src=t,c.parentNode.insertBefore(o,c)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-8404259-1","auto",{allowLinker:!0}),ga("send","pageview"),ga("require","linker"),ga("linker:autoLink",["fastspring.com"],!0)</script>
+      <script type="text/javascript" charset="utf-8">defer$(function(){$(function(){setTimeout(function(){var i=location.hash.substring(1);"o-"==i.substring(0,2)&&$("#"+i).trigger("click")},500)})})</script>
+    </body>
+  </html>

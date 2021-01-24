@@ -13,7 +13,7 @@
     <meta name="google-site-verification" content="N_xzdr6ymSUQFhAEvQg7f-sp1JAeJCdW2JuaRg-da0w"/>
     <meta property="fb:admins" content="antonin.hildebrand"/>
     <link href="https://feeds.feedburner.com/binaryage-blog" type="application/atom+xml" rel="alternate" title="Ideas from BinaryAge"/>
-    <script>function defer$(e){if(window.jQuery){e()}else{setTimeout(function(){defer$(e)},50)}}</script>
+    <script>function defer$(e){window.jQuery?e():setTimeout(function(){defer$(e)},50)}</script>
   </head>
   <body id="page-blog-sip-and-installing-total-apps">
     <div id="header">
@@ -87,47 +87,47 @@
                       <div class="generic-separator"></div>
                       <div class="post-content">
                         <p><img src="https://static.binaryage.com/3bb53768_shared_img_icons_totalfinder-128.png" class="intro-icon"/><img src="https://static.binaryage.com/f59893b8_shared_img_icons_totalspaces2-128.png" class="intro-icon"/></p>
-                        <h4>From El Capitan to here</h4>
+                        <h4 id="from-el-capitan-to-here">From El Capitan to here</h4>
                         <p>In 2015 we realised that System Integrity Protection would stop TotalFinder and TotalSpaces2 working on normally configured Macs. At the time, we felt that this would <a href="https://blog.binaryage.com/el-capitan-update/">mean the end of those products as general consumer products</a>.</p>
-                        <p>However, it is clear that although we don't see the sales we used to have, there is still strong support for these products. There remains a market for tools that improve the workflow and usability of your system.</p>
-                        <h4>A chink of light</h4>
+                        <p>However, it is clear that although we don’t see the sales we used to have, there is still strong support for these products. There remains a market for tools that improve the workflow and usability of your system.</p>
+                        <h4 id="a-chink-of-light">A chink of light</h4>
                         <p>One request we often hear is to allow TotalFinder and TotalSpaces2 to be installed so that they can run with System Integrity Protection (SIP) turned on. And in fact we discovered that this is possibe - we have earlier advised anyone who asked to go through a complex process to <a href="https://totalfinder.binaryage.com/system-osax">install our plugin component in a special system location</a> so that the apps could run on a normally configured Mac.</p>
                         <p>Having realised we could do this, we wanted to give this option to everyone. We have made it simpler, and in fact, from now on it will be the default method of installation.</p>
-                        <h4>TotalFinder and TotalSpaces2 with SIP turned on</h4>
+                        <h4 id="totalfinder-and-totalspaces2-with-sip-turned-on">TotalFinder and TotalSpaces2 with SIP turned on</h4>
                         <p>The installation process for our apps will be as follows:</p>
                         <ol>
                           <li>Reboot into recovery mode (hold cmd-R during reboot).</li>
-                          <li>Go to utilities->terminal, type csrutil disable, and reboot.</li>
+                          <li>Go to utilities-&gt;terminal, type csrutil disable, and reboot.</li>
                           <li>Install TotalSpaces2 and/or TotalFinder and run the app(s),</li>
                           <li>(Optional) Reboot into recovery mode (hold cmd-R during reboot).</li>
-                          <li>(Optional) Go to utilities->terminal, type csrutil enable, and reboot.</li>
+                          <li>(Optional) Go to utilities-&gt;terminal, type csrutil enable, and reboot.</li>
                         </ol>
                         <p>So before installing our apps, turn SIP off, Then once the apps are installed you are free to turn SIP back on.</p>
                         <p>This new installation method is supported from <a href="https://totalfinder.binaryage.com/beta-changes">TotalFinder v1.9.0</a> and <a href="https://totalspaces.binaryage.com/changes-beta">TotalSpaces2 v2.5.4</a>.</p>
                         <p>If you are upgrading from a previous version, everything will continue to work normally. But in order to turn SIP fully on, you must go through the above process.</p>
                         <p>You can find more information <a href="https://totalfinder.binaryage.com/sip">here for TotalFinder</a>, and <a href="https://totalspaces.binaryage.com/sipsettings">here for TotalSpaces2.</a></p>
-                        <h4>Technical details</h4>
+                        <h4 id="technical-details">Technical details</h4>
                         <p>Both TotalFinder and TotalSpaces2 have a plugin component that lives in /Library/ScriptingAdditions. As a normal user you can allow writing that component there if you allow adminstrator access.</p>
                         <p>However, plugins in that location cannot be loaded by OSX/MacOS with System Integrity Protection fully turned on.</p>
                         <p>It turns out there is another location, /System/Library/ScriptingAdditions from where the system <em>will</em> load plugins even with SIP turned on. However, SIP must be turned off in order to be able to write the plugin there in the first place.</p>
                         <p>We are changing to using this system location as our primary pluign location. So, for installation, turn SIP off, install and run the apps, then you may freely turn SIP back on.</p>
-                        <h4>Risks</h4>
-                        <p>Apple "own" the system locations in your file system, and it is entirely possible that they could remove our plugin components during a software update. If this happens, you would need to turn SIP off again in order for the plugin to be re-installed. We don't think this will happen, but you never know.</p>
+                        <h4 id="risks">Risks</h4>
+                        <p>Apple “own” the system locations in your file system, and it is entirely possible that they could remove our plugin components during a software update. If this happens, you would need to turn SIP off again in order for the plugin to be re-installed. We don’t think this will happen, but you never know.</p>
                         <p>If we have to update our plugin component, this would also require SIP changes, but we are aiming to keep the component stable across many releases.</p>
-                        <h4>Final words</h4>
+                        <h4 id="final-words">Final words</h4>
                         <p>Both <a href="https://totalfinder.binaryage.com/beta-changes">TotalFinder</a> and <a href="https://totalspaces.binaryage.com/changes-beta">TotalSpaces2</a> have a number of other improvements in this release, so it should be worth upgrading. <strong>We are pushing the new binaries out to our pre-release testers today</strong>, and to all users soon if everything seems fine. Let us know if you have any problems!</p>
                       </div>
                     </div>
                     <div class="generic-separator"></div>
                     <div id="comments">
                       <div id="disqus_thread"></div>
-                      <script type="text/javascript">var disqus_shortname="binaryage";var disqus_url="http://blog.binaryage.com/sip-and-installing-total-apps/";(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="//"+disqus_shortname+".disqus.com/embed.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)})()</script>
+                      <script type="text/javascript">var disqus_shortname="binaryage",disqus_url="http://blog.binaryage.com/sip-and-installing-total-apps/";!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="//"+disqus_shortname+".disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)}()</script>
                       <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                       <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
                     </div>
                   </div>
                 </div>
-                <script>defer$(function(){$(".blog-image").wrap(function(){return $("<a class='wrapped-blog-image' data-fancybox-group='blog'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-blog-image").fancybox()})</script>
+                <script>defer$(function(){$(".blog-image").wrap(function(){return $("<a class='wrapped-blog-image' data-fancybox-group='blog'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))}),$(".wrapped-blog-image").fancybox()})</script>
               </div>
             </div>
             <div class="col-md-3">
@@ -137,26 +137,27 @@
                   <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
                 </div>
                 <div class="blog-side-box blog-side-subscribe">
-                  <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml"><div class="blog-side-icon blog-rss-icon"></div></a>
-                  <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml">Subscribe</a>
-                  <div class="subscribe-button">
-                    <a href="//feeds.feedburner.com/binaryage-blog"><img src="//feeds.feedburner.com/~fc/binaryage-blog?bg=dddddd&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt=""/></a>
+                  <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml"><div class="blog-side-icon blog-rss-icon">&lt;/div&gt;</a>
+                    <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml">Subscribe</a>
+                    <div class="subscribe-button">
+                      <a href="//feeds.feedburner.com/binaryage-blog"><img src="//feeds.feedburner.com/~fc/binaryage-blog?bg=dddddd&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt=""/></a>
+                    </div>
                   </div>
-                </div>
-                <div class="blog-side-box blog-side-products">
-                  <div class="blog-side-product">
-                    <a href="https://totalfinder.binaryage.com">
-                      <img src="https://static.binaryage.com/4029a862_shared_img_icons_totalfinder-64.png" width="38" height="38"/>
-                      <span class="title">TotalFinder</span>
-                      <span class="info">Adds tabs to your Finder.app!</span>
-                    </a>
-                  </div>
-                  <div class="blog-side-product">
-                    <a href="https://totalspaces.binaryage.com">
-                      <img src="https://static.binaryage.com/52792a5d_shared_img_icons_totalspaces-64.png" width="38" height="38"/>
-                      <span class="title">TotalSpaces</span>
-                      <span class="info">The ultimate desktop manager</span>
-                    </a>
+                  <div class="blog-side-box blog-side-products">
+                    <div class="blog-side-product">
+                      <a href="https://totalfinder.binaryage.com">
+                        <img src="https://static.binaryage.com/4029a862_shared_img_icons_totalfinder-64.png" width="38" height="38"/>
+                        <span class="title">TotalFinder</span>
+                        <span class="info">Adds tabs to your Finder.app!</span>
+                      </a>
+                    </div>
+                    <div class="blog-side-product">
+                      <a href="https://totalspaces.binaryage.com">
+                        <img src="https://static.binaryage.com/52792a5d_shared_img_icons_totalspaces-64.png" width="38" height="38"/>
+                        <span class="title">TotalSpaces</span>
+                        <span class="info">The ultimate desktop manager</span>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -164,28 +165,27 @@
           </div>
         </div>
       </div>
-    <p></div></p>
-    <div id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-          </div>
-          <div class="col-md-4">
-            <div class="footer-box-right">
-              <div class="footer-copyright">
-                <div class="footer-license">
-                  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="https://static.binaryage.com/69a4ba35_shared_img_byccnd.png"/></a>
+      <div id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+            </div>
+            <div class="col-md-4">
+              <div class="footer-box-right">
+                <div class="footer-copyright">
+                  <div class="footer-license">
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="https://static.binaryage.com/69a4ba35_shared_img_byccnd.png"/></a>
+                  </div>
+                  <a href="https://www.binaryage.com/about">BinaryAge</a>
                 </div>
-                <a href="https://www.binaryage.com/about">BinaryAge</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <script src="https://static.binaryage.com/0518c6ed_shared_js_code.js"></script>
-    <script type="text/javascript">window["ga"]=function(){}</script>
-    <script>window["ga"]=undefined;(function(e,n,a,t,i,o,r){e["GoogleAnalyticsObject"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;o=n.createElement(a),r=n.getElementsByTagName(a)[0];o.async=1;o.src=t;r.parentNode.insertBefore(o,r)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-8404259-1","auto",{allowLinker:true});ga("send","pageview");ga("require","linker");ga("linker:autoLink",["fastspring.com"],true)</script>
-    <script type="text/javascript" charset="utf-8">defer$(function(){$(function(){setTimeout(function(){var i=location.hash.substring(1);if(i.substring(0,2)=="o-"){$("#"+i).trigger("click")}},500)})})</script>
-  </body>
-</html>
+      <script src="https://static.binaryage.com/137f7bdd_shared_js_code.js"></script>
+      <script type="text/javascript">window.ga=function(){}</script>
+      <script>window.ga=undefined,function(e,n,a,t,i,o,c){e.GoogleAnalyticsObject=i,e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date,o=n.createElement(a),c=n.getElementsByTagName(a)[0],o.async=1,o.src=t,c.parentNode.insertBefore(o,c)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-8404259-1","auto",{allowLinker:!0}),ga("send","pageview"),ga("require","linker"),ga("linker:autoLink",["fastspring.com"],!0)</script>
+      <script type="text/javascript" charset="utf-8">defer$(function(){$(function(){setTimeout(function(){var i=location.hash.substring(1);"o-"==i.substring(0,2)&&$("#"+i).trigger("click")},500)})})</script>
+    </body>
+  </html>

@@ -13,7 +13,7 @@
     <meta name="google-site-verification" content="N_xzdr6ymSUQFhAEvQg7f-sp1JAeJCdW2JuaRg-da0w"/>
     <meta property="fb:admins" content="antonin.hildebrand"/>
     <link href="https://feeds.feedburner.com/binaryage-blog" type="application/atom+xml" rel="alternate" title="Ideas from BinaryAge"/>
-    <script>function defer$(e){if(window.jQuery){e()}else{setTimeout(function(){defer$(e)},50)}}</script>
+    <script>function defer$(e){window.jQuery?e():setTimeout(function(){defer$(e)},50)}</script>
   </head>
   <body id="page-blog-the-first-year-of-binaryage">
     <div id="header">
@@ -87,27 +87,27 @@
                       <div class="generic-separator"></div>
                       <div class="post-content">
                         <p><img src="https://static.binaryage.com/c6daa020_shared_img_icons_binaryage-badge-128.png" class="intro-icon"/></p>
-                        <p><strong>I'm just sitting in the train on the way back to Prague. This gives me precious few hours to look back and think about the last year...</strong></p>
-                        <h4>Worked on HashPage</h4>
-                        <p>I started the year in a rush working on the <a href="http://hashpage.com">HashPage project</a>. This is a startup idea initiated by my friend Tomas. He proposed to create a web based service which enables people to build "live" personal homepages on top of their social feeds. Imagine it as a <a href="http://friendfeed.com">FriendFeed</a> with a web based site creator, so people can aggregate, customize their web presence and centralize it on one place under their own domain name.</p>
-                        <p>By the start of the January I had been working on this project for almost four months fulltime. You know, I'm a web developer and I clearly saw that for flexible customization we need really powerful tool. Don't forget that I was building it primarily for myself so I put all my programmer's expectations into the final product vision. I turned HashPage into a monster web-based website builder tool with drag&amp;drop visual editor, code editor, components library, skins library, feed aggregator, coding environment, development sandbox, ... crazy stuff, but damn cool.</p>
-                        <p>Tomas was proposing much simpler solution, but doing simple things could not possibly satisfy me. We decided to go apart and I've continued a few more weeks working on the project on my own. After eight months of day-night coding I simply burned out. It wasn't a good time.</p>
-                        <h4>Joined Transpond</h4>
-                        <p>In April I attended Prague's <a href="http://techcrunch.com">TechCrunch</a> party to meet like-minded folks and possibly present the HashPage. For this occasion I registered <a href="http://binaryage.com">binaryage.com</a> and put some basic info there. The truth is that I presented HashPage with almost zero response from the audience, but there is a good side of it: I met Richard there.</p>
-                        <p>Richard is an american guy who has been living in Prague for many years. He has been working for SF-based startup <a href="http://transpond.com">Transpond.com</a> and presented their own product on TC party and gave me an opportunity to join them and help them build their web-based tool for creating Facebook apps. To be honest I didn't come to TC party to get hired, especially not by a Valley startup, so first time I talked to him I was just saying "no way! I have my own cool project. Do you see? I cannot let it die". But then I tested their advanced web based builder at <a href="http://iwidgets.com">iwidgets.com</a> and I decided to get back in touch with him and get on board. It was because they are working on cool stuff. At least from technical point which definitely caught my eye. And as I found out later they are great guys too!</p>
-                        <h4>Applied to join Bespin team</h4>
-                        <p>Yeah, I'm the type of guy who has 300+ technical blogs in his news reader and you can bet on that I have there also personal blogs from Dion and Ben, the <a href="http://ajaxian.com">Ajaxian guys</a>. Sometime by the end of August one of them wrote that Mozilla is looking for another guy to join the <a href="https://bespin.mozilla.com">Bespin</a> team with the link to application form. That evening it sounded like a great challenge for me, I got even so excited that I clicked the link and applied.</p>
-                        <p>Man, I'm such a big Bespin fan that I wanted to join Dion and Ben to work on this cool thingy. And of course I have my own vision how Bespin should work and look like. Mozilla got back to me after month or so and I went through several Skype interviews. Finally I got to Mozilla's headquarters for the final row of interviews. It was during my Transpond visit in SF back in October. Unfortunately I didn't make it, but it was a great time anyway. I've talked to so many great folks I previously knew only from RSS and the web. And I spotted there also Brendan Eich. It was an exciting time!</p>
-                        <p>The irony is that big part of the reason why I wanted to join Bespin was to work directly with Dion and Ben. But in the meantime they left Mozilla and joined Palm to help build their web platform, especially <a href="http://ares.palm.com">Ares - web-based app builder</a>. Yeah, I'm telling you web-builders are hot!</p>
-                        <h4>Shared some open code</h4>
+                        <p><strong>I’m just sitting in the train on the way back to Prague. This gives me precious few hours to look back and think about the last year…</strong></p>
+                        <h4 id="worked-on-hashpage">Worked on HashPage</h4>
+                        <p>I started the year in a rush working on the <a href="http://hashpage.com">HashPage project</a>. This is a startup idea initiated by my friend Tomas. He proposed to create a web based service which enables people to build “live” personal homepages on top of their social feeds. Imagine it as a <a href="http://friendfeed.com">FriendFeed</a> with a web based site creator, so people can aggregate, customize their web presence and centralize it on one place under their own domain name.</p>
+                        <p>By the start of the January I had been working on this project for almost four months fulltime. You know, I’m a web developer and I clearly saw that for flexible customization we need really powerful tool. Don’t forget that I was building it primarily for myself so I put all my programmer’s expectations into the final product vision. I turned HashPage into a monster web-based website builder tool with drag&amp;drop visual editor, code editor, components library, skins library, feed aggregator, coding environment, development sandbox, … crazy stuff, but damn cool.</p>
+                        <p>Tomas was proposing much simpler solution, but doing simple things could not possibly satisfy me. We decided to go apart and I’ve continued a few more weeks working on the project on my own. After eight months of day-night coding I simply burned out. It wasn’t a good time.</p>
+                        <h4 id="joined-transpond">Joined Transpond</h4>
+                        <p>In April I attended Prague’s <a href="http://techcrunch.com">TechCrunch</a> party to meet like-minded folks and possibly present the HashPage. For this occasion I registered <a href="http://binaryage.com">binaryage.com</a> and put some basic info there. The truth is that I presented HashPage with almost zero response from the audience, but there is a good side of it: I met Richard there.</p>
+                        <p>Richard is an american guy who has been living in Prague for many years. He has been working for SF-based startup <a href="http://transpond.com">Transpond.com</a> and presented their own product on TC party and gave me an opportunity to join them and help them build their web-based tool for creating Facebook apps. To be honest I didn’t come to TC party to get hired, especially not by a Valley startup, so first time I talked to him I was just saying “no way! I have my own cool project. Do you see? I cannot let it die”. But then I tested their advanced web based builder at <a href="http://iwidgets.com">iwidgets.com</a> and I decided to get back in touch with him and get on board. It was because they are working on cool stuff. At least from technical point which definitely caught my eye. And as I found out later they are great guys too!</p>
+                        <h4 id="applied-to-join-bespin-team">Applied to join Bespin team</h4>
+                        <p>Yeah, I’m the type of guy who has 300+ technical blogs in his news reader and you can bet on that I have there also personal blogs from Dion and Ben, the <a href="http://ajaxian.com">Ajaxian guys</a>. Sometime by the end of August one of them wrote that Mozilla is looking for another guy to join the <a href="https://bespin.mozilla.com">Bespin</a> team with the link to application form. That evening it sounded like a great challenge for me, I got even so excited that I clicked the link and applied.</p>
+                        <p>Man, I’m such a big Bespin fan that I wanted to join Dion and Ben to work on this cool thingy. And of course I have my own vision how Bespin should work and look like. Mozilla got back to me after month or so and I went through several Skype interviews. Finally I got to Mozilla’s headquarters for the final row of interviews. It was during my Transpond visit in SF back in October. Unfortunately I didn’t make it, but it was a great time anyway. I’ve talked to so many great folks I previously knew only from RSS and the web. And I spotted there also Brendan Eich. It was an exciting time!</p>
+                        <p>The irony is that big part of the reason why I wanted to join Bespin was to work directly with Dion and Ben. But in the meantime they left Mozilla and joined Palm to help build their web platform, especially <a href="http://ares.palm.com">Ares - web-based app builder</a>. Yeah, I’m telling you web-builders are hot!</p>
+                        <h4 id="shared-some-open-code">Shared some open code</h4>
                         <p>I consider myself primarily as a tools maker. I have been creating tools in my demoscene times, during my game development career and the same is true for my web development path. These projects are simply side effects of internal solutions to my own needs I had during my day-work. Fortunately, I was able to take some extra time to package them and share them with fellow developers.</p>
                         <p>During my work with App Engine, I needed a logging solution so I created <a href="http://firelogger.binaryage.com">FireLogger for Python</a>. Later I extended it to work with PHP, so you can get <a href="http://firelogger.binaryage.com/php">FireLogger for PHP</a>. The <a href="http://drydrop.binaryage.com">DryDrop</a> project was my attempt to solve the need of hosting simple static websites right from GitHub for free. I love jQuery and did pretty complex jQuery UI stuff in HashPage. So <a href="http://firequery.binaryage.com">FireQuery</a> was just a logical extension to make my life easier. And I guess it is quite useful for other folks out there.</p>
-                        <p>In February I adopted <a href="http://blacktree.com">Visor by Blacktree</a>. Visor is a great hack. One of those small things which greatly change your productivity workflows. In a good sense, of course! My original motivation was just to fix broken AppleScript support in Visor, because I wanted to automate some server luncher scripts in HashPage, but then I fixed few more serious bugs and the project turned to being adopted as my own baby. Alcor is probably busy doing <a href="http://code.google.com/p/qsb-mac/">other</a> <a href="http://blacktree.com">cool</a> <a href="http://www.google.com/chrome">stuff</a> so I've created <a href="http://github.com/darwin/visor">fork on Github</a>. Later he gave me access to <a href="http://code.google.com/p/blacktree-visor/">Google Code hosted project</a>, thanks a lot!</p>
-                        <h4>Started TotalFinder</h4>
+                        <p>In February I adopted <a href="http://blacktree.com">Visor by Blacktree</a>. Visor is a great hack. One of those small things which greatly change your productivity workflows. In a good sense, of course! My original motivation was just to fix broken AppleScript support in Visor, because I wanted to automate some server luncher scripts in HashPage, but then I fixed few more serious bugs and the project turned to being adopted as my own baby. Alcor is probably busy doing <a href="http://code.google.com/p/qsb-mac/">other</a> <a href="http://blacktree.com">cool</a> <a href="http://www.google.com/chrome">stuff</a> so I’ve created <a href="http://github.com/darwin/visor">fork on Github</a>. Later he gave me access to <a href="http://code.google.com/p/blacktree-visor/">Google Code hosted project</a>, thanks a lot!</p>
+                        <h4 id="started-totalfinder">Started TotalFinder</h4>
                         <p>During September I was messing with Objective-C internals to make Visor work on Snow Leopard. You know reverse-engineering Terminal.app internals for SIMBL hacking and stuff like that. And at that point I figured out that Finder.app is a Cocoa application. I always thought it was an app from Carbon ages!? Did a quick google for it and found confirmation that Apple has silently rewritten Finder into Cocoa in Snow Leopard.</p>
-                        <p>And a crazy idea quite hit my mind. SIMBL? What if? What if I can heal some of Finder's weak points and make it suitable as a programmer's file manager? Wouldn't it be huge? After few evenings of experiments and SIMBL hacking I got a visorized Finder SIMBL plugin workng. Satisfaction! I was feeling so powerful. One man can take Apple's own flag product and extend it to make it better. Later I named this project TotalFinder and you can definitely expect to hear about it more in the next year.</p>
-                        <h4>What's next?</h4>
-                        <p>Well, my problem is that I have so many ideas and experimental projects on my shelf. It's very hard to decide what is more important to work on. Should I make browser extensions? web services? iPhone applications? Mac applications? SIMBL plugins? or is better to do some custom development, save some money and then dedicate fulltime to bootstrap something again? This is still an open question, but whatever I do I cannot afford to fail again.</p>
+                        <p>And a crazy idea quite hit my mind. SIMBL? What if? What if I can heal some of Finder’s weak points and make it suitable as a programmer’s file manager? Wouldn’t it be huge? After few evenings of experiments and SIMBL hacking I got a visorized Finder SIMBL plugin workng. Satisfaction! I was feeling so powerful. One man can take Apple’s own flag product and extend it to make it better. Later I named this project TotalFinder and you can definitely expect to hear about it more in the next year.</p>
+                        <h4 id="whats-next">What’s next?</h4>
+                        <p>Well, my problem is that I have so many ideas and experimental projects on my shelf. It’s very hard to decide what is more important to work on. Should I make browser extensions? web services? iPhone applications? Mac applications? SIMBL plugins? or is better to do some custom development, save some money and then dedicate fulltime to bootstrap something again? This is still an open question, but whatever I do I cannot afford to fail again.</p>
                         <p>I think the trend is promising. 2008 was pretty bad for me personally. 2009 was much better. And 2010 is going to be great. I strongly believe so. My long term goal is to turn BinaryAge into a small indie development company, to work on cool projects, to do some interesting contract work and possibly make a better living from it.</p>
                         <p>Thanks for your support and wish you all the best in the new year.</p>
                         <div class="footnote">I'd like to also thank my family, friends and all contributors who helped to make this real.</div>
@@ -116,13 +116,13 @@
                     <div class="generic-separator"></div>
                     <div id="comments">
                       <div id="disqus_thread"></div>
-                      <script type="text/javascript">var disqus_shortname="binaryage";var disqus_url="http://blog.binaryage.com/the-first-year-of-binaryage/";(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="//"+disqus_shortname+".disqus.com/embed.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)})()</script>
+                      <script type="text/javascript">var disqus_shortname="binaryage",disqus_url="http://blog.binaryage.com/the-first-year-of-binaryage/";!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="//"+disqus_shortname+".disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)}()</script>
                       <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                       <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
                     </div>
                   </div>
                 </div>
-                <script>defer$(function(){$(".blog-image").wrap(function(){return $("<a class='wrapped-blog-image' data-fancybox-group='blog'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))});$(".wrapped-blog-image").fancybox()})</script>
+                <script>defer$(function(){$(".blog-image").wrap(function(){return $("<a class='wrapped-blog-image' data-fancybox-group='blog'></div>").attr("href",$(this).attr("src")).attr("title",$(this).attr("title"))}),$(".wrapped-blog-image").fancybox()})</script>
               </div>
             </div>
             <div class="col-md-3">
@@ -132,26 +132,27 @@
                   <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
                 </div>
                 <div class="blog-side-box blog-side-subscribe">
-                  <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml"><div class="blog-side-icon blog-rss-icon"></div></a>
-                  <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml">Subscribe</a>
-                  <div class="subscribe-button">
-                    <a href="//feeds.feedburner.com/binaryage-blog"><img src="//feeds.feedburner.com/~fc/binaryage-blog?bg=dddddd&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt=""/></a>
+                  <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml"><div class="blog-side-icon blog-rss-icon">&lt;/div&gt;</a>
+                    <a href="//feeds.feedburner.com/binaryage-blog" rel="alternate" type="application/rss+xml">Subscribe</a>
+                    <div class="subscribe-button">
+                      <a href="//feeds.feedburner.com/binaryage-blog"><img src="//feeds.feedburner.com/~fc/binaryage-blog?bg=dddddd&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt=""/></a>
+                    </div>
                   </div>
-                </div>
-                <div class="blog-side-box blog-side-products">
-                  <div class="blog-side-product">
-                    <a href="https://totalfinder.binaryage.com">
-                      <img src="https://static.binaryage.com/4029a862_shared_img_icons_totalfinder-64.png" width="38" height="38"/>
-                      <span class="title">TotalFinder</span>
-                      <span class="info">Adds tabs to your Finder.app!</span>
-                    </a>
-                  </div>
-                  <div class="blog-side-product">
-                    <a href="https://totalspaces.binaryage.com">
-                      <img src="https://static.binaryage.com/52792a5d_shared_img_icons_totalspaces-64.png" width="38" height="38"/>
-                      <span class="title">TotalSpaces</span>
-                      <span class="info">The ultimate desktop manager</span>
-                    </a>
+                  <div class="blog-side-box blog-side-products">
+                    <div class="blog-side-product">
+                      <a href="https://totalfinder.binaryage.com">
+                        <img src="https://static.binaryage.com/4029a862_shared_img_icons_totalfinder-64.png" width="38" height="38"/>
+                        <span class="title">TotalFinder</span>
+                        <span class="info">Adds tabs to your Finder.app!</span>
+                      </a>
+                    </div>
+                    <div class="blog-side-product">
+                      <a href="https://totalspaces.binaryage.com">
+                        <img src="https://static.binaryage.com/52792a5d_shared_img_icons_totalspaces-64.png" width="38" height="38"/>
+                        <span class="title">TotalSpaces</span>
+                        <span class="info">The ultimate desktop manager</span>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -159,28 +160,27 @@
           </div>
         </div>
       </div>
-    <p></div></p>
-    <div id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-          </div>
-          <div class="col-md-4">
-            <div class="footer-box-right">
-              <div class="footer-copyright">
-                <div class="footer-license">
-                  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="https://static.binaryage.com/69a4ba35_shared_img_byccnd.png"/></a>
+      <div id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+            </div>
+            <div class="col-md-4">
+              <div class="footer-box-right">
+                <div class="footer-copyright">
+                  <div class="footer-license">
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="https://static.binaryage.com/69a4ba35_shared_img_byccnd.png"/></a>
+                  </div>
+                  <a href="https://www.binaryage.com/about">BinaryAge</a>
                 </div>
-                <a href="https://www.binaryage.com/about">BinaryAge</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <script src="https://static.binaryage.com/0518c6ed_shared_js_code.js"></script>
-    <script type="text/javascript">window["ga"]=function(){}</script>
-    <script>window["ga"]=undefined;(function(e,n,a,t,i,o,r){e["GoogleAnalyticsObject"]=i;e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date;o=n.createElement(a),r=n.getElementsByTagName(a)[0];o.async=1;o.src=t;r.parentNode.insertBefore(o,r)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-8404259-1","auto",{allowLinker:true});ga("send","pageview");ga("require","linker");ga("linker:autoLink",["fastspring.com"],true)</script>
-    <script type="text/javascript" charset="utf-8">defer$(function(){$(function(){setTimeout(function(){var i=location.hash.substring(1);if(i.substring(0,2)=="o-"){$("#"+i).trigger("click")}},500)})})</script>
-  </body>
-</html>
+      <script src="https://static.binaryage.com/137f7bdd_shared_js_code.js"></script>
+      <script type="text/javascript">window.ga=function(){}</script>
+      <script>window.ga=undefined,function(e,n,a,t,i,o,c){e.GoogleAnalyticsObject=i,e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date,o=n.createElement(a),c=n.getElementsByTagName(a)[0],o.async=1,o.src=t,c.parentNode.insertBefore(o,c)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-8404259-1","auto",{allowLinker:!0}),ga("send","pageview"),ga("require","linker"),ga("linker:autoLink",["fastspring.com"],!0)</script>
+      <script type="text/javascript" charset="utf-8">defer$(function(){$(function(){setTimeout(function(){var i=location.hash.substring(1);"o-"==i.substring(0,2)&&$("#"+i).trigger("click")},500)})})</script>
+    </body>
+  </html>
