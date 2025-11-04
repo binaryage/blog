@@ -3,9 +3,9 @@
   <head>
     <title>Crash Reporting in binary age</title>
     <link rel="canonical" href="https://blog.binaryage.com/crash-reporting-in-binaryage/"/>
-    <link rel="shortcut icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
-    <link rel="icon" href="https://static.binaryage.com/5604bda0_favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="https://static.binaryage.com/493de12c_shared_css_site.css" type="text/css"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="/shared/css/site.css" type="text/css"/>
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
     <script>WebFont.load({google:{families:["Play:400,700:latin"]}})</script>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
@@ -87,25 +87,25 @@
                       <div class="post-content">
                         <p><strong>I decided to share some of my development stories. It looks like some folks enjoy this technical reading.</strong></p>
                         <h4 id="is-it-possible-to-build-decent-crash-reporting-system-during-saturday">Is it possible to build decent crash reporting system during Saturday?</h4>
-                        <p><img class="blog-image" src="https://static.binaryage.com/52caa2c4_images_crash-development.png" title="Commit logs as seen in GitX"/></p>
+                        <p><img class="blog-image" src="/images/crash-development.png" title="Commit logs as seen in GitX"/></p>
                         <div class="small" style="text-align:right">image taken from <a href="http://gitx.frim.nl/"><b>GitX - free OSX git client</b></a></div>
                         <p>As you can see, the answer is YES, even if you wake up at 1pm.</p>
                         <p>The trick is to take existing tools and make them play together. I took Google’s Breakpad, Apple’s OSX crash reporting system, GitHub’s gist, User’s email client and Google’s Gmail. Btw, if you don’t have much imagination try <a href="http://www.cookmateapp.com">CookMate</a>, an iPhone app by Czech folks I’ve met recently.</p>
                         <h4 id="google-already-runs-realtime-crash-reporting-system-its-called-gmail">Google already runs realtime crash reporting system, it’s called Gmail</h4>
                         <p>This is how my crash reporting system looks for me as a developer.
-                          <img class="blog-image" src="https://static.binaryage.com/30d36aab_images_gmail-based-crash-reporting.png" title="The filtered crash reports in gmail"/>
+                          <img class="blog-image" src="/images/gmail-based-crash-reporting.png" title="The filtered crash reports in gmail"/>
                           The best part is I didn’t have to learn anything new and I can use all Gmail goodness for managing my crash reports.
                           The killer feature is that I can communicate the crash directly with the reporting user just by doing a reply.
                         I could imagine many “serious” crash reporting systems really suck at it.</p>
                         <h4 id="user-gets-a-pre-generated-email">User gets a pre-generated email</h4>
                         <p>When TotalFinder crashes the user a gets custom dialog with explanations:
-                          <img class="blog-image no-shadow" style="float:left" src="https://static.binaryage.com/b9616535_images_crash-dialog1.png" width="310" title="The crash reporting dialog - generating"/>
-                          <img class="blog-image no-shadow" style="float:left" src="https://static.binaryage.com/d3a14132_images_crash-dialog2.png" width="310" title="The crash reporting dialog - send report ..."/>
+                          <img class="blog-image no-shadow" style="float:left" src="/images/crash-dialog1.png" width="310" title="The crash reporting dialog - generating"/>
+                          <img class="blog-image no-shadow" style="float:left" src="/images/crash-dialog2.png" width="310" title="The crash reporting dialog - send report ..."/>
                         <br clear="all"/></p>
                         <p>When clicking “Send Report …” I upload the crash report anonymously to Gist and open pre-generated email with a link:</p>
-                        <p><img src="https://static.binaryage.com/370c905e_images_crash-reporting-mail.png" class="blog-image no-shadow" title="The crash report email template"/></p>
+                        <p><img src="/images/crash-reporting-mail.png" class="blog-image no-shadow" title="The crash report email template"/></p>
                         <p>User can check the link if there is no confidential information. It’s exactly the standard Apple’s crash report you would find in their dialog:
-                        <img src="https://static.binaryage.com/f68964ec_images_crash-reporting-gist.png" class="blog-image no-shadow" title="The crash report uploaded to gist.github.com"/></p>
+                        <img src="/images/crash-reporting-gist.png" class="blog-image no-shadow" title="The crash report uploaded to gist.github.com"/></p>
                         <p>This is no rocket social engineering surgery. This is just a system I would like to use as a user.
                           There is a pretty good chance the user is able and willing to send an email.
                           There is also explanatory text which looks like a message they are replying to with personal note that all crashes are being read by the author and not some black hole.
@@ -147,14 +147,14 @@
                 <div class="blog-side-box blog-side-products">
                   <div class="blog-side-product">
                     <a href="https://totalfinder.binaryage.com">
-                      <img src="https://static.binaryage.com/4029a862_shared_img_icons_totalfinder-64.png" width="38" height="38"/>
+                      <img src="/shared/img/icons/totalfinder-64.png" width="38" height="38"/>
                       <span class="title">TotalFinder</span>
                       <span class="info">Adds tabs to your Finder.app!</span>
                     </a>
                   </div>
                   <div class="blog-side-product">
                     <a href="https://totalspaces.binaryage.com">
-                      <img src="https://static.binaryage.com/52792a5d_shared_img_icons_totalspaces-64.png" width="38" height="38"/>
+                      <img src="/shared/img/icons/totalspaces-64.png" width="38" height="38"/>
                       <span class="title">TotalSpaces</span>
                       <span class="info">The ultimate desktop manager</span>
                     </a>
@@ -175,7 +175,7 @@
             <div class="footer-box-right">
               <div class="footer-copyright">
                 <div class="footer-license">
-                  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="https://static.binaryage.com/69a4ba35_shared_img_byccnd.png"/></a>
+                  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0"><img title="the website license" alt="Creative Commons License" style="border-width:0" src="/shared/img/byccnd.png"/></a>
                 </div>
                 <a href="https://www.binaryage.com/about">BinaryAge</a>
               </div>
@@ -184,7 +184,7 @@
         </div>
       </div>
     </div>
-    <script src="https://static.binaryage.com/bb6250cd_shared_js_code.js"></script>
+    <script src="/shared/js/code.js"></script>
     <script type="text/javascript">window.ga=function(){}</script>
     <script>window.ga=undefined,function(e,n,a,t,i,o,c){e.GoogleAnalyticsObject=i,e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},e[i].l=1*new Date,o=n.createElement(a),c=n.getElementsByTagName(a)[0],o.async=1,o.src=t,c.parentNode.insertBefore(o,c)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-8404259-1","auto",{allowLinker:!0}),ga("send","pageview"),ga("require","linker"),ga("linker:autoLink",["fastspring.com"],!0)</script>
     <script type="text/javascript" charset="utf-8">defer$(function(){$(function(){setTimeout(function(){var i=location.hash.substring(1);"o-"==i.substring(0,2)&&$("#"+i).trigger("click")},500)})})</script>
