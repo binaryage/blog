@@ -3,7 +3,7 @@
     <title>The ideas from BinaryAge</title>
     <link href="https://blog.binaryage.com/atom.xml" rel="self"/>
     <link href="https://blog.binaryage.com"/>
-    <updated>2025-11-10T02:39:49+00:00</updated>
+    <updated>2025-12-06T23:22:43+00:00</updated>
     <id>https://blog.binaryage.com/</id>
     
     <entry>
@@ -636,32 +636,6 @@ When OSX Mavericks was announced, Apple had done a great thing - they made it po
     </entry>
     
     <entry>
-        <title><![CDATA[Bitcoin 2013: The Future of Payments]]></title>
-        
-        <link href="https://blog.binaryage.com//bitcoin-future-of-payments/"/>
-        <updated>2013-05-16T00:00:00+00:00</updated>
-        <id>jduff.github.com:/bitcoin-future-of-payments</id>
-        <content type="html"><![CDATA[<p><img src="/shared/img/icons/binaryage-badge-128.png" class="intro-icon" /></p>
-
-<p>** You know, I’m a Bitcoin enthustiast. I will be attending <a href="http://www.bitcoin2013.com">Bitcoin 2013: The Future of Payments</a> in San Jose this weekend. I have a talk about <a href="http://bitcointrezor.com">Trezor</a>, a promising Bitcoin harware wallet being developed by my friends at <a href="http://brmlab.cz">brmlab</a>. **</p>
-
-<h4 id="bitcoin-is-more-than-just-a-currency">Bitcoin is more than just a currency</h4>
-
-<p>I’ve been interested in Bitcoin since 2011 when I first heard about it. I was sold on the idea immediatelly. I even started <a href="http://blog.binaryage.com/trade-totalfinder-bitcoin">trading TotalFinder for Bitcoins</a>.</p>
-
-<p>Bitcoin is a great experiment. It is an opportunity to extend the freedom of the Internet to our financial systems, allowing value (money) to exchange hands with minimal support from middle men (goverments and banking establishments). Most importantly, Bitcoin could dramatically reduce the cost of our global economy.</p>
-
-<p>Dealing with money requires a great deal of responsibility. And securing your computer is not easy. This team of two hackers, with friends in the Bitcoin community, are developing a device that will help you to store bitcoins safely and do secure transactions. I truly believe this is an important step. That is why I’ve been helping the project.</p>
-
-<p>I’m excited and will update you about how BinaryAge is helping to usher in the Bitcoin age.</p>
-]]></content>
-        <author>
-            <name>Antonin Hildebrand</name>
-            <uri>http://hildebrand.cz</uri>
-        </author>
-    </entry>
-    
-    <entry>
         <title><![CDATA[TotalFinder 1.4.9 and TotalSpaces 1.2.2]]></title>
         
         <link href="https://blog.binaryage.com//totalfinder-and-totalspaces/"/>
@@ -804,8 +778,6 @@ When OSX Mavericks was announced, Apple had done a great thing - they made it po
 
 <p>On personal level I’m planning a rather dramatic change: I’m going to sell all my furniture/stuff and move out of my rented aparment in Prague. I will start traveling around the world with just a MacBook Pro. I can tell you that <a href="http://alexmaccaw.com/posts/how_to_travel_around_the_world">Maccman’s post</a> was a great inspiration here, but it won’t be that romantic in my case :) By traveling I mean using <a href="http://airbnb.com">AirBnB</a> to switch a city every three months or so. I want to do some work as well. Any tips what cities are worth visiting first? :)</p>
 
-<p>Also personally I’m going to get involved in the bitcoin community.</p>
-
 <hr />
 
 <p>Thanks for your care and I wish you all the best in the new year.</p>
@@ -911,7 +883,7 @@ June brought a much improved full-screen overview grid, with an exposé type fea
 
 <p>I’m still here and dedicated to TotalFinder development. Right now I have whole TotalFinder source code loaded back in my head. So I hope I will be able to implement some hard but <a href="https://getsatisfaction.com/binaryage/ideas/popular">highly requested features on the list</a>.</p>
 
-<p>Also I have finally broken TotalFinder into separate plugins, eg. Tabs, Visor, CutAndPaste… It is now easier to maintain them and to develop new individual Finder tweaks separately. Reminds SIMBL? Yes! If you are a SIMBL hacker and want to join me hacking on TotalFinder, please drop me an email. Will pay in bitcoins :-)</p>
+<p>Also I have finally broken TotalFinder into separate plugins, eg. Tabs, Visor, CutAndPaste… It is now easier to maintain them and to develop new individual Finder tweaks separately. Reminds SIMBL? Yes! If you are a SIMBL hacker and want to join me hacking on TotalFinder, please drop me an email.</p>
 ]]></content>
         <author>
             <name>Antonin Hildebrand</name>
@@ -1156,51 +1128,6 @@ Rico (Kitestack Software)</p>
         <author>
             <name>Rico</name>
             <uri>http://kitestack.com</uri>
-        </author>
-    </entry>
-    
-    <entry>
-        <title><![CDATA[Trade TotalFinder for bitcoins]]></title>
-        
-        <link href="https://blog.binaryage.com//trade-totalfinder-bitcoin/"/>
-        <updated>2011-06-09T00:00:00+00:00</updated>
-        <id>jduff.github.com:/trade-totalfinder-bitcoin</id>
-        <content type="html"><![CDATA[<p><img src="/shared/img/icons/totalfinder-128.png" class="intro-icon" /></p>
-
-<p><strong><a href="http://bitcoin.org">Bitcoin</a> is the <a href="http://arstechnica.com/tech-policy/news/2011/06/bitcoin-inside-the-encrypted-peer-to-peer-currency.ars">next big thing</a> and I want to support the emerging economy around this new currency. Today I start offering TotalFinder for bitcoins and let people earn some bitcoins by referring TotalFinder to friends.</strong></p>
-
-<h3 id="trade-totalfinder-for-bitcoins-50-price-off">Trade TotalFinder for bitcoins (50% price off)</h3>
-
-<p>Interested? Please send me an <a href="mailto:antonin@binaryage.com?subject=TotalFinder%20for%20bitcoins">email</a>. I will reply with current quote in BTC and my address where I accept your payment. I will send a free license link back when I get 10+ confirmations of the payment.</p>
-
-<p>The price will be 50% of the usual price denominated in BTC &lt;- <a href="http://www.bitcoincharts.com/markets/mtgoxUSD.html">previous close on MtGox exchange</a>.</p>
-
-<h3 id="get-10-from-totalfinder-sales-in-bitcoins">Get 10% from TotalFinder sales in bitcoins</h3>
-
-<p>You may refer people to my site by giving them urls with your bitcoin address as a referrer parameter:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>http://totalfinder.binaryage.com?referrer=BITCOINADDRESS
-http://sites.fastspring.com/binaryage/product/store?referrer=BITCOINADDRESS
-or any other similar link to my site or FastSpring e-shop
-</code></pre></div></div>
-
-<p>Technically that referrer parameter will be <a href="https://github.com/binaryage/layouts/blob/master/default2.html#L511-516">stored in a cookie for 14 days</a> and passed to my e-commerce provider if the user purchases something. Then I will do manual bitcoin transfers (not later than on sunday).</p>
-
-<p>Note: This way you may get 10% of your own money back in bitcoins. This may be an easy way how to get some bitcoins if you are considering buying TotalFinder anyway and wanted to try bitcoin out.</p>
-
-<h3 id="asking-why-am-i-doing-it">Asking why am I doing it?</h3>
-
-<ul>
-  <li>I’m a hacker who is super excited about bitcoin idea and design.</li>
-  <li>I’m a geek and early adopter. I like to try new technology. Also this is a novel marketing experiment.</li>
-  <li>I’m curious and want to support bitcoin economy by offering my products and services on bitcoin market.</li>
-</ul>
-
-<p>Please note that this is an experimental offer. I may discontinue it anytime for any reason.</p>
-]]></content>
-        <author>
-            <name>Antonin Hildebrand</name>
-            <uri>http://hildebrand.cz</uri>
         </author>
     </entry>
     
