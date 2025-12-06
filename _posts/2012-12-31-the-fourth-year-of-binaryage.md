@@ -48,8 +48,6 @@ I want to hire a new developer who would work on TotalFinder. Together with Step
 
 On personal level I'm planning a rather dramatic change: I'm going to sell all my furniture/stuff and move out of my rented aparment in Prague. I will start traveling around the world with just a MacBook Pro. I can tell you that [Maccman's post](http://alexmaccaw.com/posts/how_to_travel_around_the_world) was a great inspiration here, but it won't be that romantic in my case :) By traveling I mean using [AirBnB](http://airbnb.com) to switch a city every three months or so. I want to do some work as well. Any tips what cities are worth visiting first? :)
 
-Also personally I'm going to get involved in the bitcoin community.
-
 ---
 
 Thanks for your care and I wish you all the best in the new year.

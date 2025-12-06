@@ -30,4 +30,4 @@ Hard feelings? [Blame me here](https://getsatisfaction.com/binaryage/topics/snow
 
 I'm still here and dedicated to TotalFinder development. Right now I have whole TotalFinder source code loaded back in my head. So I hope I will be able to implement some hard but [highly requested features on the list](https://getsatisfaction.com/binaryage/ideas/popular). 
 
-Also I have finally broken TotalFinder into separate plugins, eg. Tabs, Visor, CutAndPaste... It is now easier to maintain them and to develop new individual Finder tweaks separately. Reminds SIMBL? Yes! If you are a SIMBL hacker and want to join me hacking on TotalFinder, please drop me an email. Will pay in bitcoins :-)
+Also I have finally broken TotalFinder into separate plugins, eg. Tabs, Visor, CutAndPaste... It is now easier to maintain them and to develop new individual Finder tweaks separately. Reminds SIMBL? Yes! If you are a SIMBL hacker and want to join me hacking on TotalFinder, please drop me an email.
